@@ -5,6 +5,7 @@
 	import type { HTMLAttributes } from 'svelte/elements';
 	import { resolve } from '$app/paths';
 	import { t } from '$lib/i18n.svelte';
+	import Logo from './Logo.svelte';
 
 	type ValidRoute = Parameters<typeof resolve>[0];
 	type ListItemProps = HTMLAttributes<HTMLAnchorElement> & {
@@ -39,11 +40,7 @@
 <NavigationMenu.Root viewport={false} class="hidden md:block">
 	<NavigationMenu.List>
 		<NavigationMenu.Item>
-			<NavigationMenu.Link>
-				{#snippet child()}
-					<a href={resolve('/')} class={navigationMenuTriggerStyle()}>{$t('navigation.home')}</a>
-				{/snippet}
-			</NavigationMenu.Link>
+		    <Logo />
 		</NavigationMenu.Item>
 		<NavigationMenu.Item>
 			<NavigationMenu.Link>

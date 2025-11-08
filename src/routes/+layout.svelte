@@ -16,6 +16,7 @@
 	import * as Sidebar from '$lib/components/ui/sidebar';
 	import AppSidebar from '$lib/components/AppSidebar.svelte';
 	import { resolve } from '$app/paths';
+	import Logo from '$lib/components/Logo.svelte';
 
 	let { data, children }: LayoutProps = $props();
 
@@ -36,8 +37,8 @@
 			<div class="hidden md:flex gap-2">
 			    <LanguageSwitcher />
 			</div>
-			<div class="flex justify-between w-full md:hidden">
-			    <a href={resolve('/')}>{$t('navigation.home')}</a>
+			<div class="flex justify-between items-center w-full md:hidden">
+			    <Logo />
 			    <Sidebar.Trigger />
 			</div>
 		</header>
