@@ -22,7 +22,7 @@
 	{@render panel(
 		$t('disciplines.freestyle.what-is-it.title'),
 		$t('disciplines.freestyle.what-is-it.content'),
-		'text-right'
+		'md:text-right'
 	)}
 	<YouTubePlayer videoId="5B2lwGOmxYs" title="Freestyle Frisbee Demo" />
 </Grid>
@@ -47,7 +47,7 @@
 	{@render panel(
 		$t('disciplines.freestyle.more-than-sport.title'),
 		$t('disciplines.freestyle.more-than-sport.content'),
-		'text-right'
+		'md:text-right'
 	)}
 	<Image src={communityImage} alt="Freestyle Frisbee Community" />
 </Grid>
