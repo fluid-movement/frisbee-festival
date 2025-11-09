@@ -5,13 +5,15 @@
 
 	let {
 		class: className = '',
-		width = 'w-18'
+		width = 'w-18',
+		onclick
 	}: {
 		class?: string;
 		width?: string;
+		onclick?: () => void;
 	} = $props();
 </script>
 
-<a href={resolve('/')} class={cn('inline-block', className)}>
+<a href={resolve('/')} class={cn('inline-block', className)} {onclick}>
 	<img src={logo} alt="Frisbee Festival Munich Logo" class={cn('h-auto', width)} />
 </a>

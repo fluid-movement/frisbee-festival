@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { Component } from 'svelte';
+	import { page } from '$app/stores';
 	import CalendarIcon from '@lucide/svelte/icons/calendar';
 	import HouseIcon from '@lucide/svelte/icons/house';
 	import AwardIcon from '@lucide/svelte/icons/award';
@@ -9,6 +10,10 @@
 	import { t } from '$lib/i18n.svelte';
 	import type { HTMLAttributes } from 'svelte/elements';
 	import LanguageSwitcher from './LanguageSwitcher.svelte';
+	import Logo from './Logo.svelte';
+	import { useSidebar } from '$lib/components/ui/sidebar';
+
+	const sidebar = useSidebar();
 
 	// Menu items.
 	type ValidRoute = Parameters<typeof resolve>[0];
@@ -42,30 +47,35 @@
 			subitem: [
 				{
 					title: 'Freestyle',
-					href: '/disciplines/freestyle',
+					href: '/disciplines/freestyle'
 				},
 				{
 					title: 'Disc Golf',
-					href: '/disciplines/disc-golf',
+					href: '/disciplines/disc-golf'
 				},
 				{
 					title: 'Double Disc Court',
-					href: '/disciplines/double-disc-court',
-				},
+					href: '/disciplines/double-disc-court'
+				}
 			]
 		}
 	]);
 </script>
 
 <Sidebar.Root side="right">
-	<Sidebar.Content class="flex flex-col justify-between">
+	<Sidebar.Content class="flex flex-col justify-between gap-8">
 		<Sidebar.Group>
-			<Sidebar.GroupLabel>{$t('home.title')}</Sidebar.GroupLabel>
 			<Sidebar.GroupContent>
 				<Sidebar.Menu>
+    				<Sidebar.MenuItem>
+    			        <Logo class="float-end" onclick={sidebar.toggle}/>
+    				</Sidebar.MenuItem>
 					{#each items as item (item.title)}
 						<Sidebar.MenuItem>
-							<Sidebar.MenuButton>
+							<Sidebar.MenuButton
+								onclick={sidebar.toggle}
+								isActive={$page.url.pathname === item.href}
+							>
 								{#snippet child({ props })}
 									<a href={resolve(item.href)} {...props}>
 										<item.icon />
@@ -76,7 +86,7 @@
 							{#if item.subitem}
 								{#each item.subitem as subitem (subitem.title)}
 									<Sidebar.MenuSubItem class="ml-12">
-										<Sidebar.MenuSubButton>
+										<Sidebar.MenuSubButton onclick={sidebar.toggle} isActive={$page.url.pathname === subitem.href}>
 											{#snippet child({ props })}
 												<a href={resolve(subitem.href)} {...props}>
 													{subitem.title}
