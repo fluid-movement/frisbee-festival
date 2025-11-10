@@ -94,5 +94,12 @@
 				</ul>
 			</NavigationMenu.Content>
 		</NavigationMenu.Item>
+		<NavigationMenu.Item>
+			<NavigationMenu.Link>
+				{#snippet child()}
+					<a href={resolve('/faq')} class={navigationMenuTriggerStyle()}>FAQ</a>
+				{/snippet}
+			</NavigationMenu.Link>
+		</NavigationMenu.Item>
 	</NavigationMenu.List>
 </NavigationMenu.Root>
