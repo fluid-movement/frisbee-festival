@@ -1,7 +1,7 @@
 {
-  "$schema": "./node_modules/wrangler/config-schema.json",
-  "compatibility_flags": [
-    "nodejs_compat"
-  ],
-  "compatibility_date": "2024-09-23"
+  "$schema": "./node_modules/wrangler/config-schema.json", // Added
+  "name": "svelte-kit-cloudflare",
+  "pages_build_output_dir": ".svelte-kit/cloudflare",
+  "compatibility_flags": ["nodejs_compat"], // Added
+  "compatibility_date": "2025-12-12" // Updated
 }
