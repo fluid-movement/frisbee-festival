@@ -3,12 +3,11 @@
 	import Grid from '$lib/components/Grid.svelte';
 	import ImageWithText from '$lib/components/ImageWithText.svelte';
 	import festivalImage from '$lib/assets/home/festival.jpg';
-	import { t } from '$lib/i18n.svelte';
 </script>
 
 <ImageWithText src={festivalImage} height="h-[60vh]">
 	<div class="text-center text-white">
-		<h1 class="container-custom mb-12">{$t('home.title')}</h1>
+		<h1 class="container-custom mb-12">Willkommen zum Frisbee-Festival</h1>
 		<p>1. - 2. August 2026</p>
 		<p>Sportschule Oberhaching</p>
 	</div>

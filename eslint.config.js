@@ -36,6 +36,10 @@ export default defineConfig(
 				parser: ts.parser,
 				svelteConfig
 			}
+		},
+		rules: {
+			// We use localizedResolve() which wraps resolve() for i18n support
+			'svelte/no-navigation-without-resolve': ['error', { ignoreLinks: true }]
 		}
 	}
 );

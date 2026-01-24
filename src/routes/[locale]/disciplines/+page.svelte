@@ -1,9 +1,7 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
 	import Grid from '$lib/components/Grid.svelte';
-	import { t } from '$lib/i18n.svelte';
-
-	type ValidRoute = Parameters<typeof resolve>[0];
+	import { type ValidRoute } from '$lib/utils';
 </script>
 
 {#snippet card(title: string, href: ValidRoute)}
@@ -16,11 +14,11 @@
 	</a>
 {/snippet}
 
-<h1 class="container-custom mb-12 text-center">{$t('disciplines.title')}</h1>
+<h1 class="container-custom mb-12 text-center">Die Sportarten</h1>
 <Grid>
 	<div class="flex flex-col items-center justify-center">
-		<h2>{$t('disciplines.card.title')}</h2>
-		<p>{$t('disciplines.card.content')}</p>
+		<h2>Wirklich interessanter Text</h2>
+		<p>Frisbee macht spaß</p>
 	</div>
 	{@render card('Freestyle Frisbee', '/disciplines/freestyle')}
 	{@render card('Disc Golf', '/disciplines/disc-golf')}

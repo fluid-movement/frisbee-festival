@@ -3,28 +3,22 @@
 	import '@fontsource/inter/500.css';
 	import '@fontsource/inter/600.css';
 	import '@fontsource/inter/700.css';
-	import '../app.css';
-	import { locale } from '$lib/i18n.svelte';
-	import type { Locale } from '$lib/i18n.svelte';
+	import '../../app.css';
 	import favicon from '$lib/assets/favicon.ico';
 	import LanguageSwitcher from '$lib/components/LanguageSwitcher.svelte';
 	import Navigation from '$lib/components/Navigation.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import { Separator } from '$lib/components/ui/separator';
-	import type { LayoutProps } from './$types';
-
-	import * as Sidebar from '$lib/components/ui/sidebar';
+	import type { LayoutProps } from './../$types';
+	import * as Sidebar from '$lib/components/ui/sidebar/index.js';
 	import AppSidebar from '$lib/components/AppSidebar.svelte';
 	import Logo from '$lib/components/Logo.svelte';
 
-	let { data, children }: LayoutProps = $props();
-
-	// Set locale from server data immediately (no flash)
-	locale.set(data.locale as Locale);
+	let { children }: LayoutProps = $props();
 </script>
 
 <svelte:head>
-	<title>Frisbee Festival Munich</title>
+	<title>Frisbee Festival München</title>
 	<link rel="icon" href={favicon} />
 </svelte:head>
 

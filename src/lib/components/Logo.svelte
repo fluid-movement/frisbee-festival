@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { cn } from '$lib/utils';
 	import logo from '$lib/assets/logo.png';
-	import { resolve } from '$app/paths';
+	import { localizedResolve } from '$lib/locale-resolve';
 
 	let {
 		class: className = '',
@@ -14,6 +14,6 @@
 	} = $props();
 </script>
 
-<a href={resolve('/')} class={cn('inline-block', className)} {onclick}>
-	<img src={logo} alt="Frisbee Festival Munich Logo" class={cn('h-auto', width)} />
+<a href={localizedResolve('/')} class={cn('inline-block', className)} {onclick}>
+	<img src={logo} alt="Frisbee Festival München Logo" class={cn('h-auto', width)} />
 </a>
