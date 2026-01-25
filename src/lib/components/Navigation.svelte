@@ -4,7 +4,8 @@
 	import { cn } from '$lib/utils.ts';
 	import type { HTMLAttributes } from 'svelte/elements';
 	import type { Pathname } from '$app/types';
-	import { localizedResolve } from '$lib/locale-resolve';
+	import { getLocaleForUrl } from '$lib/locale';
+	import { resolve } from '$app/paths';
 
 	type ListItemProps = Omit<HTMLAttributes<HTMLAnchorElement>, 'href'> & {
 		title: string;
@@ -18,7 +19,7 @@
 		<NavigationMenu.Link>
 			{#snippet child()}
 				<a
-					href={localizedResolve(href)}
+					href={resolve(`/[[locale=lang]]${href}`, {locale: getLocaleForUrl()})}
 					class={cn(
 						'block space-y-1 rounded-md p-3 leading-none no-underline transition-colors outline-none select-none hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground',
 						className
@@ -41,7 +42,7 @@
 		<NavigationMenu.Item>
 			<NavigationMenu.Link>
 				{#snippet child()}
-					<a href={localizedResolve('/')} class={navigationMenuTriggerStyle()}> Startseite </a>
+					<a href={resolve('/[[locale=lang]]', {locale: getLocaleForUrl()})} class={navigationMenuTriggerStyle()}> Startseite </a>
 				{/snippet}
 			</NavigationMenu.Link>
 		</NavigationMenu.Item>
@@ -49,7 +50,7 @@
 		<NavigationMenu.Item>
 			<NavigationMenu.Link>
 				{#snippet child()}
-					<a href={localizedResolve('/festival/schedule')} class={navigationMenuTriggerStyle()}>
+					<a href={resolve('/[[locale=lang]]/festival/schedule', {locale: getLocaleForUrl()})} class={navigationMenuTriggerStyle()}>
 						Zuschauen
 					</a>
 				{/snippet}
@@ -59,7 +60,7 @@
 		<NavigationMenu.Item>
 			<NavigationMenu.Link>
 				{#snippet child()}
-					<a href={localizedResolve('/festival/participate')} class={navigationMenuTriggerStyle()}>
+					<a href={resolve('/[[locale=lang]]/festival/participate', {locale: getLocaleForUrl()})} class={navigationMenuTriggerStyle()}>
 						Mitmachen
 					</a>
 				{/snippet}
@@ -76,7 +77,7 @@
 							class="flex h-full w-full flex-col justify-end rounded-md bg-linear-to-b from-muted/50 to-muted p-6 no-underline outline-hidden select-none focus:shadow-md"
 						>
 							{#snippet child({ props })}
-								<a {...props} href={localizedResolve('/disciplines')}>
+								<a {...props} href={resolve('/[[locale=lang]]/disciplines', {locale: getLocaleForUrl()})}>
 									<div class="mt-4 mb-2 text-lg font-medium">Die Sportarten</div>
 									<p class="text-sm leading-tight text-muted-foreground">
 										Entdecke die Welt der Scheibe
@@ -112,7 +113,7 @@
 		<NavigationMenu.Item>
 			<NavigationMenu.Link>
 				{#snippet child()}
-					<a href={localizedResolve('/faq')} class={navigationMenuTriggerStyle()}> FAQ </a>
+					<a href={resolve('/[[locale=lang]]/faq', {locale: getLocaleForUrl()})} class={navigationMenuTriggerStyle()}> FAQ </a>
 				{/snippet}
 			</NavigationMenu.Link>
 		</NavigationMenu.Item>

@@ -1,7 +1,8 @@
 <script lang="ts">
 	import { cn } from '$lib/utils';
 	import logo from '$lib/assets/logo.png';
-	import { localizedResolve } from '$lib/locale-resolve';
+	import { resolve } from '$app/paths';
+	import { getLocaleForUrl } from '$lib/locale';
 
 	let {
 		class: className = '',
@@ -14,6 +15,6 @@
 	} = $props();
 </script>
 
-<a href={localizedResolve('/')} class={cn('inline-block', className)} {onclick}>
+<a href={resolve('/[[locale=lang]]', {locale: getLocaleForUrl()})} class={cn('inline-block', className)} {onclick}>
 	<img src={logo} alt="Frisbee Festival München Logo" class={cn('h-auto', width)} />
 </a>

@@ -2,6 +2,7 @@
 	import { page } from '$app/state';
 	import { resolve } from '$app/paths';
 	import { locales } from '../../locales/data.js';
+	import type { ResolvedPathname } from '$app/types';
 
 	const languages = [
 		{ code: 'de', label: 'Deutsch' },
@@ -43,6 +44,7 @@
 	 * - If URL has no prefix, treat 'de' as active.
 	 */
 	function isActive(lang: string) {
+	  console.log(page.url)
 		const pathname = page.url?.pathname ?? '/';
 		const segments = pathname.split('/').filter(Boolean);
 		const first = segments[0];

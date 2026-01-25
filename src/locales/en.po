@@ -14,21 +14,31 @@ msgstr ""
 "MIME-Version: 1.0\n"
 
 #: src/routes/+layout.svelte
+#: src/routes/[[lang]]/+layout.svelte
+#: src/routes/[[locale=lang]]/+layout.svelte
+#: src/routes/[[locale]]/+layout.svelte
+#: src/routes/[locale=lang]/+layout.svelte
 #: src/routes/[locale]/+layout.svelte
 msgid "Frisbee Festival München"
 msgstr "Frisbee Festival Munich"
 
 #: src/routes/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[locale=lang]/+page.svelte
 #: src/routes/[locale]/+page.svelte
 msgid "Willkommen zum Frisbee-Festival"
 msgstr "Welcome to the Frisbee Festival"
 
 #: src/routes/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[locale=lang]/+page.svelte
 #: src/routes/[locale]/+page.svelte
 msgid "1. - 2. August 2026"
 msgstr "1–2 August 2026"
 
 #: src/routes/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[locale=lang]/+page.svelte
 #: src/routes/[locale]/+page.svelte
 msgid "Sportschule Oberhaching"
 msgstr "Oberhaching Sports School"
@@ -36,6 +46,12 @@ msgstr "Oberhaching Sports School"
 #: src/routes/+page.svelte
 #: src/routes/+page.svelte
 #: src/routes/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[locale=lang]/+page.svelte
+#: src/routes/[locale=lang]/+page.svelte
+#: src/routes/[locale=lang]/+page.svelte
 #: src/routes/[locale]/+page.svelte
 #: src/routes/[locale]/+page.svelte
 #: src/routes/[locale]/+page.svelte
@@ -45,6 +61,21 @@ msgstr "Lorem Ipsum"
 #: src/routes/+page.svelte
 #: src/routes/+page.svelte
 #: src/routes/+page.svelte
+#: src/routes/[[lang]]/festival/participate/+page.svelte
+#: src/routes/[[lang]]/festival/schedule/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+#: src/routes/[[locale=lang]]/festival/participate/+page.svelte
+#: src/routes/[[locale=lang]]/festival/schedule/+page.svelte
+#: src/routes/[[locale]]/festival/schedule/+page.svelte
+#: src/routes/[locale=lang]/+page.svelte
+#: src/routes/[locale=lang]/+page.svelte
+#: src/routes/[locale=lang]/+page.svelte
+#: src/routes/[locale=lang]/faq/+page.svelte
+#: src/routes/[locale=lang]/festival/participate/+page.svelte
+#: src/routes/[locale=lang]/festival/schedule/+page.svelte
 #: src/routes/[locale]/+page.svelte
 #: src/routes/[locale]/+page.svelte
 #: src/routes/[locale]/+page.svelte
@@ -70,6 +101,23 @@ msgstr ""
 #: src/routes/+page.svelte
 #: src/routes/+page.svelte
 #: src/routes/+page.svelte
+#: src/routes/[[lang]]/festival/participate/+page.svelte
+#: src/routes/[[lang]]/festival/schedule/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+#: src/routes/[[locale=lang]]/festival/participate/+page.svelte
+#: src/routes/[[locale=lang]]/festival/schedule/+page.svelte
+#: src/routes/[[locale]]/festival/schedule/+page.svelte
+#: src/routes/[locale=lang]/+page.svelte
+#: src/routes/[locale=lang]/+page.svelte
+#: src/routes/[locale=lang]/+page.svelte
+#: src/routes/[locale=lang]/faq/+page.svelte
+#: src/routes/[locale=lang]/faq/+page.svelte
+#: src/routes/[locale=lang]/festival/participate/+page.svelte
+#: src/routes/[locale=lang]/festival/schedule/+page.svelte
 #: src/routes/[locale]/+page.svelte
 #: src/routes/[locale]/+page.svelte
 #: src/routes/[locale]/+page.svelte
@@ -104,6 +152,9 @@ msgstr "Watch"
 
 #: src/lib/components/AppSidebar.svelte
 #: src/lib/components/Navigation.svelte
+#: src/routes/[[lang]]/festival/participate/+page.svelte
+#: src/routes/[[locale=lang]]/festival/participate/+page.svelte
+#: src/routes/[locale=lang]/festival/participate/+page.svelte
 #: src/routes/[locale]/festival/participate/+page.svelte
 #: src/routes/festival/participate/+page.svelte
 msgid "Mitmachen"
@@ -112,6 +163,8 @@ msgstr "Participate"
 #: src/lib/components/AppSidebar.svelte
 #: src/lib/components/Navigation.svelte
 #: src/lib/components/Navigation.svelte
+#: src/routes/[[locale=lang]]/disciplines/+page.svelte
+#: src/routes/[locale]/disciplines/+page.svelte
 msgid "Die Sportarten"
 msgstr "Disciplines"
 
@@ -122,6 +175,9 @@ msgstr "Freestyle"
 
 #: src/lib/components/AppSidebar.svelte
 #: src/lib/components/Navigation.svelte
+#: src/routes/[[locale=lang]]/disciplines/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/disc-golf/+page.svelte
+#: src/routes/[locale]/disciplines/+page.svelte
 #: src/routes/[locale]/disciplines/disc-golf/+page.svelte
 #: src/routes/disciplines/+page.svelte
 #: src/routes/disciplines/disc-golf/+page.svelte
@@ -130,6 +186,9 @@ msgstr "Disc Golf"
 
 #: src/lib/components/AppSidebar.svelte
 #: src/lib/components/Navigation.svelte
+#: src/routes/[[locale=lang]]/disciplines/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/double-disc-court/+page.svelte
+#: src/routes/[locale]/disciplines/+page.svelte
 #: src/routes/disciplines/+page.svelte
 #: src/routes/disciplines/double-disc-court/+page.svelte
 msgid "Double Disc Court"
@@ -190,16 +249,24 @@ msgstr "FAQ"
 msgid "YouTube video"
 msgstr "YouTube video"
 
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+#: src/routes/[locale=lang]/faq/+page.svelte
 #: src/routes/[locale]/faq/+page.svelte
 #: src/routes/faq/+page.svelte
 msgid "Frequently Asked Questions"
 msgstr "Frequently Asked Questions"
 
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+#: src/routes/[locale=lang]/faq/+page.svelte
 #: src/routes/[locale]/faq/+page.svelte
 #: src/routes/faq/+page.svelte
 msgid "Anfahrt"
 msgstr "Directions"
 
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+#: src/routes/[locale=lang]/faq/+page.svelte
+#: src/routes/[locale=lang]/faq/+page.svelte
 #: src/routes/[locale]/faq/+page.svelte
 #: src/routes/[locale]/faq/+page.svelte
 #: src/routes/faq/+page.svelte
@@ -207,19 +274,29 @@ msgstr "Directions"
 msgid "Sample Image"
 msgstr "Sample Image"
 
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+#: src/routes/[locale=lang]/faq/+page.svelte
 #: src/routes/[locale]/faq/+page.svelte
 #: src/routes/faq/+page.svelte
 msgid "Catering"
 msgstr "Catering"
 
+#: src/routes/[[locale=lang]]/disciplines/+page.svelte
+#: src/routes/[locale]/disciplines/+page.svelte
 #: src/routes/disciplines/+page.svelte
 msgid "Wirklich interessanter Text"
 msgstr "Really interesting text"
 
+#: src/routes/[[locale=lang]]/disciplines/+page.svelte
+#: src/routes/[locale]/disciplines/+page.svelte
 #: src/routes/disciplines/+page.svelte
 msgid "Frisbee macht spaß"
 msgstr "Frisbee is fun"
 
+#: src/routes/[[locale=lang]]/disciplines/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+#: src/routes/[locale]/disciplines/+page.svelte
 #: src/routes/[locale]/disciplines/freestyle/+page.svelte
 #: src/routes/[locale]/disciplines/freestyle/+page.svelte
 #: src/routes/disciplines/+page.svelte
@@ -228,21 +305,25 @@ msgstr "Frisbee is fun"
 msgid "Freestyle Frisbee"
 msgstr "Freestyle Frisbee"
 
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
 #: src/routes/[locale]/disciplines/freestyle/+page.svelte
 #: src/routes/disciplines/freestyle/+page.svelte
 msgid "Was ist Freestyle Frisbee?"
 msgstr "What is Freestyle Frisbee?"
 
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
 #: src/routes/[locale]/disciplines/freestyle/+page.svelte
 #: src/routes/disciplines/freestyle/+page.svelte
 msgid "Freestyle Frisbee ist die künstlerische Disziplin des Frisbeesports, bei der Teams aus zwei bis drei Spielern zu Musik eine choreografierte Routine präsentieren. Anders als bei Ultimate Frisbee oder Disc Golf geht es hier nicht um Punkte oder Tore, sondern um Kreativität, Ästhetik und technische Perfektion. Die Spieler entwickeln spektakuläre Wurf- und Fangtechniken, kombiniert mit akrobatischen Elementen und tänzerischen Bewegungen. Eine typische Routine dauert drei bis fünf Minuten und erzählt oft eine Geschichte durch Bewegung und Musik."
 msgstr "Freestyle Frisbee is the artistic discipline of disc sports in which teams of two to three players present a choreographed routine set to music. Unlike Ultimate Frisbee or Disc Golf, the focus here is not on points or goals but on creativity, aesthetics, and technical perfection. Players develop spectacular throwing and catching techniques, combined with acrobatic elements and dance-like movements. A typical routine lasts three to five minutes and often tells a story through movement and music."
 
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
 #: src/routes/[locale]/disciplines/freestyle/+page.svelte
 #: src/routes/disciplines/freestyle/+page.svelte
 msgid "Freestyle Frisbee Demo"
 msgstr "Freestyle Frisbee Demo"
 
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
 #: src/routes/[locale]/disciplines/freestyle/+page.svelte
 #: src/routes/disciplines/freestyle/+page.svelte
 msgid "Die Kunst der Bewegung"
@@ -252,6 +333,8 @@ msgstr "The Art of Movement"
 msgid "Was Freestyle Frisbee so besonders macht, ist die perfekte Verschmelzung von Sport, Tanz und Artistik. Jeder Wurf, jeder Fang wird zur künstlerischen Ausdrucksform. Die Scheibe wird unter dem Bein hindurch geworfen, hinter dem Rücken gefangen oder mit den Fingernägeln balanciert. Spieler vollführen Sprünge, Rollen und sogar Saltos, während die Frisbee durch die Luft gleitet. Die Synchronisation zwischen den Teammitgliedern muss dabei perfekt  wie bei einem Pas de Deux im Ballett."
 msgstr "What makes Freestyle Frisbee so special is the perfect fusion of sport, dance, and acrobatics. Every throw and catch becomes an artistic expression. The disc is thrown under the leg, caught behind the back, or balanced on the fingernails. Players perform jumps, rolls, and even somersaults while the frisbee glides through the air. Synchronization between team members must be flawless—like a pas de deux in ballet."
 
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
 #: src/routes/[locale]/disciplines/freestyle/+page.svelte
 #: src/routes/[locale]/disciplines/freestyle/+page.svelte
 #: src/routes/disciplines/freestyle/+page.svelte
@@ -259,16 +342,19 @@ msgstr "What makes Freestyle Frisbee so special is the perfect fusion of sport, 
 msgid "Freestyle Frisbee Community"
 msgstr "Freestyle Frisbee Community"
 
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
 #: src/routes/[locale]/disciplines/freestyle/+page.svelte
 #: src/routes/disciplines/freestyle/+page.svelte
 msgid "Teamwork und Kreativität"
 msgstr "Teamwork and Creativity"
 
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
 #: src/routes/[locale]/disciplines/freestyle/+page.svelte
 #: src/routes/disciplines/freestyle/+page.svelte
 msgid "Im Freestyle Frisbee verschmelzen die Spieler zu einer Einheit. Jede Bewegung ist aufeinander abgestimmt, jeder Trick baut auf dem vorherigen auf. Die besten Teams entwickeln ihren eigenen Stil und erfinden ständig neue Kombinationen. Die Kreativität kennt dabei keine Grenzen: Von eleganten, fließenden Bewegungen bis zu explosiven, kraftvollen Tricks ist alles möglich. Diese kreative Freiheit macht Freestyle Frisbee zu einer der individuellsten Sportarten überhaupt."
 msgstr "In Freestyle Frisbee, players merge into a single unit. Every movement is coordinated, and each trick builds upon the previous one. The best teams develop their own style and constantly invent new combinations. Creativity knows no bounds: from elegant, flowing movements to explosive, powerful tricks, everything is possible. This creative freedom makes Freestyle Frisbee one of the most individual sports of all."
 
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
 #: src/routes/[locale]/disciplines/freestyle/+page.svelte
 #: src/routes/disciplines/freestyle/+page.svelte
 msgid "Mehr als nur Sport"
@@ -296,25 +382,56 @@ msgstr "Displays the mobile sidebar."
 msgid "Toggle Sidebar"
 msgstr "Toggle Sidebar"
 
+#: src/routes/[[lang]]/festival/participate/+page.svelte
+#: src/routes/[[locale=lang]]/festival/participate/+page.svelte
+#: src/routes/[locale=lang]/festival/participate/+page.svelte
 #: src/routes/[locale]/festival/participate/+page.svelte
 #: src/routes/festival/participate/+page.svelte
 msgid "Mitmachprogramm"
 msgstr "Participation Program"
 
+#: src/routes/[[lang]]/festival/schedule/+page.svelte
+#: src/routes/[[locale=lang]]/festival/schedule/+page.svelte
+#: src/routes/[[locale]]/festival/schedule/+page.svelte
+#: src/routes/[locale=lang]/festival/schedule/+page.svelte
 #: src/routes/[locale]/festival/schedule/+page.svelte
 #: src/routes/festival/schedule/+page.svelte
 msgid "Ablauf"
 msgstr "Schedule"
 
+#: src/routes/[[lang]]/festival/schedule/+page.svelte
+#: src/routes/[[locale=lang]]/festival/schedule/+page.svelte
+#: src/routes/[[locale]]/festival/schedule/+page.svelte
+#: src/routes/[locale=lang]/festival/schedule/+page.svelte
 #: src/routes/[locale]/festival/schedule/+page.svelte
 #: src/routes/festival/schedule/+page.svelte
 msgid "Ablaufplan"
 msgstr "Schedule"
 
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
 #: src/routes/[locale]/disciplines/freestyle/+page.svelte
 msgid "Was Freestyle Frisbee so besonders macht, ist die perfekte Verschmelzung von Sport, Tanz und Artistik. Jeder Wurf, jeder Fang wird zur künstlerischen Ausdrucksform. Die Scheibe wird unter dem Bein hindurch geworfen, hinter dem Rücken gefangen oder mit den Fingernägeln balanciert. Spieler vollführen Sprünge, Rollen und sogar Saltos, während die Frisbee durch die Luft gleitet. Die Synchronisation zwischen den Teammitgliedern muss dabei perfekt sein – wie bei einem Pas de Deux im Ballett."
 msgstr ""
 
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
 #: src/routes/[locale]/disciplines/freestyle/+page.svelte
 msgid "Freestyle Frisbee ist eine Lebenseinstellung. Die Community ist weltweit vernetzt und teilt die Leidenschaft für diese besondere Kunstform. Bei Wettbewerben und Jams treffen sich Freestyler aus aller Welt, um voneinander zu lernen, neue Tricks auszuprobieren und gemeinsam zu spielen. Was zählt, ist nicht nur die Leistung, sondern auch der Spaß, die Gemeinschaft und die pure Freude an der Bewegung mit der Scheibe."
+msgstr ""
+
+#~ msgid "Das Frisbee Festival München ist ein jährliches Event, das die Begeisterung für den Frisbeesport in der bayerischen Landeshauptstadt fördert."
+#~ msgstr ""
+
+#~ msgid "Das Frisbee Festival München ist ein  Event, das die Begeisterung für den Frisbeesport in der bayerischen Landeshauptstadt fördert."
+#~ msgstr ""
+
+#~ msgid "Das Frisbee Festival München ist ein Event, das die Begeisterung für den Frisbeesport in der bayerischen Landeshauptstadt fördert."
+#~ msgstr ""
+
+#~ msgid "Das Frisbee Festival München ist ein Event, dass die Begeisterung für den Frisbeesport in der bayerischen Landeshauptstadt fördert."
+#~ msgstr ""
+
+#: src/routes/[[lang]]/+layout.svelte
+#: src/routes/[[locale]]/+layout.svelte
+#: src/routes/[locale=lang]/+layout.svelte
+msgid "Das Frisbee Festival München ist ein Event, welches die Begeisterung für den Frisbeesport in der bayerischen Landeshauptstadt fördert."
 msgstr ""

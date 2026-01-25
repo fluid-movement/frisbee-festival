@@ -1,11 +1,12 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
 	import Grid from '$lib/components/Grid.svelte';
+	import { getLocaleForUrl } from '$lib/locale';
 	import { type ValidRoute } from '$lib/utils';
 </script>
 
 {#snippet card(title: string, href: ValidRoute)}
-	<a href={resolve(href)}>
+	<a href={resolve(href, {locale: getLocaleForUrl()})}>
 		<div
 			class="flex min-h-100 items-center justify-center rounded-md bg-stone-200 transition-all duration-500 ease-in-out hover:scale-102 hover:bg-stone-300"
 		>
@@ -20,7 +21,7 @@
 		<h2>Wirklich interessanter Text</h2>
 		<p>Frisbee macht spaß</p>
 	</div>
-	{@render card('Freestyle Frisbee', '/disciplines/freestyle')}
-	{@render card('Disc Golf', '/disciplines/disc-golf')}
-	{@render card('Double Disc Court', '/disciplines/double-disc-court')}
+	{@render card('Freestyle Frisbee', '/[[locale=lang]]/disciplines/freestyle')}
+	{@render card('Disc Golf', '/[[locale=lang]]/disciplines/disc-golf')}
+	{@render card('Double Disc Court', '/[[locale=lang]]/disciplines/double-disc-court')}
 </Grid>
