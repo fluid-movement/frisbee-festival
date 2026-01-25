@@ -6,6 +6,8 @@ import { loadLocale } from 'wuchale/load-utils';
 import '../../locales/main.loader.svelte.js';
 import '../../locales/js.loader.js';
 
+export const prerender = true;
+
 export const load = async ({ params }) => {
 	const locale = params?.locale ?? 'de';
 

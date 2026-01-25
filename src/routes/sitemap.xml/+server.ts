@@ -1,5 +1,7 @@
 import { locales } from '../../locales/data.js';
 
+export const prerender = true;
+
 // Discover all page routes using Vite's import.meta.glob
 const pages = import.meta.glob('/src/routes/**/+page.svelte');
 
@@ -16,13 +18,10 @@ function getRoutes(): string[] {
 		// Exclude sitemap.xml itself
 		if (path.includes('sitemap.xml')) continue;
 
-		// Remove '/src/routes/' prefix and '/+page.svelte' suffix
 		let route = path
 			.replace('/src/routes/', '')
-			.replace('/+page.svelte', '');
-
-		// Remove [[locale=lang]] optional parameter
-		route = route.replace('[[locale=lang]]/', '').replace('[[locale=lang]]', '');
+      .replace('/+page.svelte', '')
+      .replace('[[locale=lang]]', '');
 
 		// Convert empty string to root path
 		if (route === '') {

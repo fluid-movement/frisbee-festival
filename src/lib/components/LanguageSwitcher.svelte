@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/state';
 	import { resolve } from '$app/paths';
+	import { building } from '$app/environment';
 	import { locales } from '../../locales/data.js';
 	import type { ResolvedPathname } from '$app/types';
 
@@ -21,8 +22,9 @@
 		// `page` in this project is a plain object with a `url` property.
 		// Use it directly instead of treating it as a Svelte store.
 		const pathname = page.url?.pathname ?? '/';
-		const search = page.url?.search ?? '';
-		const hash = page.url?.hash ?? '';
+		// During prerendering/building, search and hash are not available
+		const search = building ? '' : (page.url?.search ?? '');
+		const hash = building ? '' : (page.url?.hash ?? '');
 
 		const segments = pathname.split('/').filter(Boolean);
 
