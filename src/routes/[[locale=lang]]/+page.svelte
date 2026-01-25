@@ -8,7 +8,7 @@
 <ImageWithText src={festivalImage} height="h-[60vh]">
 	<div class="text-center text-white">
 		<h1 class="container-custom mb-12">Willkommen zum Frisbee-Festival</h1>
-		<p>1. - 2. August 2026</p>
+		<p>1.-2. August 2026</p>
 		<p>Sportschule Oberhaching</p>
 	</div>
 </ImageWithText>

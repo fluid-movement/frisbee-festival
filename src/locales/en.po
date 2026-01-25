@@ -30,7 +30,6 @@ msgid "Willkommen zum Frisbee-Festival"
 msgstr "Welcome to the Frisbee Festival"
 
 #: src/routes/+page.svelte
-#: src/routes/[[locale=lang]]/+page.svelte
 #: src/routes/[locale=lang]/+page.svelte
 #: src/routes/[locale]/+page.svelte
 msgid "1. - 2. August 2026"
@@ -281,13 +280,11 @@ msgstr "Sample Image"
 msgid "Catering"
 msgstr "Catering"
 
-#: src/routes/[[locale=lang]]/disciplines/+page.svelte
 #: src/routes/[locale]/disciplines/+page.svelte
 #: src/routes/disciplines/+page.svelte
 msgid "Wirklich interessanter Text"
 msgstr "Really interesting text"
 
-#: src/routes/[[locale=lang]]/disciplines/+page.svelte
 #: src/routes/[locale]/disciplines/+page.svelte
 #: src/routes/disciplines/+page.svelte
 msgid "Frisbee macht spaß"
@@ -434,4 +431,31 @@ msgstr ""
 #: src/routes/[[locale]]/+layout.svelte
 #: src/routes/[locale=lang]/+layout.svelte
 msgid "Das Frisbee Festival München ist ein Event, welches die Begeisterung für den Frisbeesport in der bayerischen Landeshauptstadt fördert."
+msgstr ""
+
+#~ msgid "Title"
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/disciplines/+page.svelte
+msgid "Title text"
+msgstr ""
+
+#~ msgid "Das Frisbee Festival München ist ein jährliches Event, das die besten Ultimate Frisbee Teams aus Deutschland und Europa zusammenbringt. Erlebe spannende Spiele, Workshops und Gemeinschaft in einer einzigartigen Atmosphäre."
+#~ msgstr ""
+
+#~ msgid "Frisbee Festival München 2026"
+#~ msgstr ""
+
+#~ msgid "Das Frisbee Festival München ist ein Event welches den Frisbeesport in allen Facetten feiert. Von Ultimate Frisbee über Disc Golf bis hin zu Freestyle und Guts."
+#~ msgstr ""
+
+#~ msgid "Das Frisbee Festival München ist ein Event welches den Frisbeesport in allen Facetten feiert. Von Ultimate Frisbee über Disc Golf bis hin zu Freestyle und R."
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/+layout.svelte
+msgid "Das Frisbee Festival München ist ein Event welches den Frisbeesport in allen Facetten feiert. Von Ultimate Frisbee über Disc Golf bis hin zu Freestyle und Rollstuhl Frisbee."
+msgstr ""
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "1.-2. August 2026"
 msgstr ""

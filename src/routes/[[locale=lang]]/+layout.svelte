@@ -19,6 +19,7 @@
 
 <svelte:head>
 	<title>Frisbee Festival München</title>
+	<meta name="description" content="Das Frisbee Festival München ist ein Event welches den Frisbeesport in allen Facetten feiert. Von Ultimate Frisbee über Disc Golf bis hin zu Freestyle und Rollstuhl Frisbee." />
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
