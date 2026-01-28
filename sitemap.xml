@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<urlset
+	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+	xmlns:xhtml="http://www.w3.org/1999/xhtml"
+	xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
+	xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+	xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+>
+  <url>
+    <loc>https://frisbee-festival-munich.de/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://frisbee-festival-munich.de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://frisbee-festival-munich.de/en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://frisbee-festival-munich.de/"/>
+  </url>
+  <url>
+    <loc>https://frisbee-festival-munich.de/en</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://frisbee-festival-munich.de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://frisbee-festival-munich.de/en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://frisbee-festival-munich.de/"/>
+  </url>
+  <url>
+    <loc>https://frisbee-festival-munich.de/disciplines</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://frisbee-festival-munich.de/disciplines"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://frisbee-festival-munich.de/en/disciplines"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://frisbee-festival-munich.de/disciplines"/>
+  </url>
+  <url>
+    <loc>https://frisbee-festival-munich.de/en/disciplines</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://frisbee-festival-munich.de/disciplines"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://frisbee-festival-munich.de/en/disciplines"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://frisbee-festival-munich.de/disciplines"/>
+  </url>
+  <url>
+    <loc>https://frisbee-festival-munich.de/disciplines/disc-golf</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://frisbee-festival-munich.de/disciplines/disc-golf"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://frisbee-festival-munich.de/en/disciplines/disc-golf"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://frisbee-festival-munich.de/disciplines/disc-golf"/>
+  </url>
+  <url>
+    <loc>https://frisbee-festival-munich.de/en/disciplines/disc-golf</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://frisbee-festival-munich.de/disciplines/disc-golf"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://frisbee-festival-munich.de/en/disciplines/disc-golf"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://frisbee-festival-munich.de/disciplines/disc-golf"/>
+  </url>
+  <url>
+    <loc>https://frisbee-festival-munich.de/disciplines/double-disc-court</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://frisbee-festival-munich.de/disciplines/double-disc-court"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://frisbee-festival-munich.de/en/disciplines/double-disc-court"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://frisbee-festival-munich.de/disciplines/double-disc-court"/>
+  </url>
+  <url>
+    <loc>https://frisbee-festival-munich.de/en/disciplines/double-disc-court</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://frisbee-festival-munich.de/disciplines/double-disc-court"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://frisbee-festival-munich.de/en/disciplines/double-disc-court"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://frisbee-festival-munich.de/disciplines/double-disc-court"/>
+  </url>
+  <url>
+    <loc>https://frisbee-festival-munich.de/disciplines/freestyle</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://frisbee-festival-munich.de/disciplines/freestyle"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://frisbee-festival-munich.de/en/disciplines/freestyle"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://frisbee-festival-munich.de/disciplines/freestyle"/>
+  </url>
+  <url>
+    <loc>https://frisbee-festival-munich.de/en/disciplines/freestyle</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://frisbee-festival-munich.de/disciplines/freestyle"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://frisbee-festival-munich.de/en/disciplines/freestyle"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://frisbee-festival-munich.de/disciplines/freestyle"/>
+  </url>
+  <url>
+    <loc>https://frisbee-festival-munich.de/disciplines/ultimate</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://frisbee-festival-munich.de/disciplines/ultimate"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://frisbee-festival-munich.de/en/disciplines/ultimate"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://frisbee-festival-munich.de/disciplines/ultimate"/>
+  </url>
+  <url>
+    <loc>https://frisbee-festival-munich.de/en/disciplines/ultimate</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://frisbee-festival-munich.de/disciplines/ultimate"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://frisbee-festival-munich.de/en/disciplines/ultimate"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://frisbee-festival-munich.de/disciplines/ultimate"/>
+  </url>
+  <url>
+    <loc>https://frisbee-festival-munich.de/faq</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://frisbee-festival-munich.de/faq"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://frisbee-festival-munich.de/en/faq"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://frisbee-festival-munich.de/faq"/>
+  </url>
+  <url>
+    <loc>https://frisbee-festival-munich.de/en/faq</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://frisbee-festival-munich.de/faq"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://frisbee-festival-munich.de/en/faq"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://frisbee-festival-munich.de/faq"/>
+  </url>
+  <url>
+    <loc>https://frisbee-festival-munich.de/festival/participate</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://frisbee-festival-munich.de/festival/participate"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://frisbee-festival-munich.de/en/festival/participate"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://frisbee-festival-munich.de/festival/participate"/>
+  </url>
+  <url>
+    <loc>https://frisbee-festival-munich.de/en/festival/participate</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://frisbee-festival-munich.de/festival/participate"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://frisbee-festival-munich.de/en/festival/participate"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://frisbee-festival-munich.de/festival/participate"/>
+  </url>
+  <url>
+    <loc>https://frisbee-festival-munich.de/festival/schedule</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://frisbee-festival-munich.de/festival/schedule"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://frisbee-festival-munich.de/en/festival/schedule"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://frisbee-festival-munich.de/festival/schedule"/>
+  </url>
+  <url>
+    <loc>https://frisbee-festival-munich.de/en/festival/schedule</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://frisbee-festival-munich.de/festival/schedule"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://frisbee-festival-munich.de/en/festival/schedule"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://frisbee-festival-munich.de/festival/schedule"/>
+  </url>
+</urlset>
