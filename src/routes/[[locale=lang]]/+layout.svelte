@@ -28,6 +28,7 @@
 	<meta property="og:description" content={meta.description} />
 	<meta property="og:image" content={meta.ogImage} />
 	<meta property="og:url" content={meta.ogUrl} />
+	<meta property="og:logo" content={meta.ogLogo} />
 	<link rel="icon" href={favicon}/>
 </svelte:head>
 

@@ -35,6 +35,7 @@ export const load = async ({ params, url }) => {
 		title: t.title,
 		description: t.description,
 		ogImage: `${PUBLIC_ORIGIN}/festival.jpg`,
+		ogLogo: `${PUBLIC_ORIGIN}/logo.png`,
 		ogUrl: `${PUBLIC_ORIGIN}${url.pathname}`,
 	};
 
