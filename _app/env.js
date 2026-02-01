@@ -1,1 +1,1 @@
-export const env={}
+export const env={"PUBLIC_ORIGIN":"https://frisbee-festival-munich.de"}

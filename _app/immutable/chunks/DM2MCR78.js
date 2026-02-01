@@ -1,1 +1,0 @@
-import{b as r,r as o}from"./DK5ASjdN.js";import{p as t}from"./C0b908Zd.js";import{l as s}from"./BtOrhlxA.js";const a="";function i(...e){return r+a+o(e[0],e[1])}function m(){const e=t.url.pathname.split("/").filter(Boolean);return s.includes(e[0])?e[0]:""}export{m as g,i as r};
