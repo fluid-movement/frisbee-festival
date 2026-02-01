@@ -24,6 +24,8 @@ jobs:
 
       - name: Build static site
         run: npm run build
+        env:
+          PUBLIC_ORIGIN: https://frisbee-festival-munich.de
 
       - name: Deploy to build branch
         uses: peaceiris/actions-gh-pages@v4
