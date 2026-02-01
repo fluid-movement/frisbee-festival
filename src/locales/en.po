@@ -14,6 +14,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 
 #: src/routes/[[locale=lang]]/+layout.svelte
+#: src/routes/[[locale=lang]]/+layout.svelte
 msgid "Frisbee Festival München"
 msgstr "Frisbee Festival Munich"
 
@@ -263,10 +264,17 @@ msgstr ""
 msgid "Title text"
 msgstr ""
 
-#: src/routes/[[locale=lang]]/+layout.svelte
-msgid "Das Frisbee Festival München ist ein Event welches den Frisbeesport in allen Facetten feiert. Von Ultimate Frisbee über Disc Golf bis hin zu Freestyle und Rollstuhl Frisbee."
-msgstr ""
+#~ msgid "Das Frisbee Festival München ist ein Event welches den Frisbeesport in allen Facetten feiert. Von Ultimate Frisbee über Disc Golf bis hin zu Freestyle und Rollstuhl Frisbee."
+#~ msgstr ""
 
 #: src/routes/[[locale=lang]]/+page.svelte
 msgid "1.-2. August 2026"
+msgstr ""
+
+#~ msgid "Das Frisbee Festival München ist ein Event welches den Frisbeesport in allen Facetten feiert. Von Ultimate Frisbee über Disc Golf bis hin zu Freestyle und RollstuhlFrisbee."
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/+layout.svelte
+#: src/routes/[[locale=lang]]/+layout.svelte
+msgid "Das Frisbee Festival München ist ein Event welches den Frisbeesport in allen Facetten feiert. Von Ultimate Frisbee über Disc Golf bis hin zu Freestyle und Rollstuhl-Frisbee."
 msgstr ""

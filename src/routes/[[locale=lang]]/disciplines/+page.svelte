@@ -5,7 +5,7 @@
 	import { getLocaleForUrl } from '$lib/locale';
 </script>
 
-{#snippet card(title: string, href: RouteId)}
+{#snippet card(title: string, href: Extract<RouteId, `/[[locale=lang]]${string}`>)}
 	<a href={resolve(href, {locale: getLocaleForUrl()})}>
 		<div
 			class="flex min-h-100 items-center justify-center rounded-md bg-stone-200 transition-all duration-500 ease-in-out hover:scale-102 hover:bg-stone-300"

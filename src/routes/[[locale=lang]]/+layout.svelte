@@ -5,6 +5,7 @@
 	import '@fontsource/inter/700.css';
 	import '../../app.css';
 	import favicon from '$lib/assets/favicon.ico';
+	import { page } from '$app/state';
 	import LanguageSwitcher from '$lib/components/LanguageSwitcher.svelte';
 	import Navigation from '$lib/components/Navigation.svelte';
 	import Footer from '$lib/components/Footer.svelte';
@@ -19,8 +20,13 @@
 
 <svelte:head>
 	<title>Frisbee Festival München</title>
-	<meta name="description" content="Das Frisbee Festival München ist ein Event welches den Frisbeesport in allen Facetten feiert. Von Ultimate Frisbee über Disc Golf bis hin zu Freestyle und Rollstuhl Frisbee." />
-	<link rel="icon" href={favicon} />
+	<meta name="description" content="Das Frisbee Festival München ist ein Event welches den Frisbeesport in allen Facetten feiert. Von Ultimate Frisbee über Disc Golf bis hin zu Freestyle und Rollstuhl-Frisbee." />
+	<meta property="og:title" content="Frisbee Festival München" />
+	<meta property="og:type" content="website" />
+	<meta property="og:description" content="Das Frisbee Festival München ist ein Event welches den Frisbeesport in allen Facetten feiert. Von Ultimate Frisbee über Disc Golf bis hin zu Freestyle und Rollstuhl-Frisbee." />
+	<meta property="og:image" content={`${page.url.origin}/festival.jpg`} />
+	<meta property="og:url" content={page.url.href} />
+	<link rel="icon" href={favicon}/>
 </svelte:head>
 
 <Sidebar.Provider open={false}>
