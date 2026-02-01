@@ -15,7 +15,7 @@ import { locales } from './locales/data.js';
 export const reroute: Reroute = ({ url }) => {
 	const pathname = url.pathname || '/';
 
-  if (pathname.startsWith('/sitemap.xml')) {
+  if (pathname.startsWith('/sitemap.xml') || pathname.startsWith('/health')) {
     return;
   }
   
