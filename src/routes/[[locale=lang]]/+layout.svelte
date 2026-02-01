@@ -5,7 +5,6 @@
 	import '@fontsource/inter/700.css';
 	import '../../app.css';
 	import favicon from '$lib/assets/favicon.ico';
-	import { page } from '$app/state';
 	import LanguageSwitcher from '$lib/components/LanguageSwitcher.svelte';
 	import Navigation from '$lib/components/Navigation.svelte';
 	import Footer from '$lib/components/Footer.svelte';
@@ -15,17 +14,20 @@
 	import AppSidebar from '$lib/components/AppSidebar.svelte';
 	import Logo from '$lib/components/Logo.svelte';
 
-	let { children }: LayoutProps = $props();
+	let { children, data }: LayoutProps = $props();
+
+	// Use derived to properly track reactive data
+	const meta = $derived(data.meta);
 </script>
 
 <svelte:head>
-	<title>Frisbee Festival München</title>
-	<meta name="description" content="Das Frisbee Festival München ist ein Event welches den Frisbeesport in allen Facetten feiert. Von Ultimate Frisbee über Disc Golf bis hin zu Freestyle und Rollstuhl-Frisbee." />
-	<meta property="og:title" content="Frisbee Festival München" />
+	<title>{meta.title}</title>
+	<meta name="description" content={meta.description} />
+	<meta property="og:title" content={meta.title} />
 	<meta property="og:type" content="website" />
-	<meta property="og:description" content="Das Frisbee Festival München ist ein Event welches den Frisbeesport in allen Facetten feiert. Von Ultimate Frisbee über Disc Golf bis hin zu Freestyle und Rollstuhl-Frisbee." />
-	<meta property="og:image" content={`${page.url.origin}/festival.jpg`} />
-	<meta property="og:url" content={page.url.href} />
+	<meta property="og:description" content={meta.description} />
+	<meta property="og:image" content={meta.ogImage} />
+	<meta property="og:url" content={meta.ogUrl} />
 	<link rel="icon" href={favicon}/>
 </svelte:head>
 
