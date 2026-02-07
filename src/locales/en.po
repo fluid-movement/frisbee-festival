@@ -13,8 +13,10 @@ msgstr ""
 "Source-Language: de\n"
 "MIME-Version: 1.0\n"
 
-#~ msgid "Frisbee Festival München"
-#~ msgstr "Frisbee Festival Munich"
+#: src/routes/[[locale=lang]]/+layout.svelte
+#: src/routes/[[locale=lang]]/+layout.svelte
+msgid "Frisbee Festival München"
+msgstr "Frisbee Festival Munich"
 
 #: src/routes/[[locale=lang]]/+page.svelte
 msgid "Willkommen zum Frisbee-Festival"
@@ -24,15 +26,9 @@ msgstr "Welcome to the Frisbee Festival"
 msgid "Sportschule Oberhaching"
 msgstr "Oberhaching Sports School"
 
-#: src/routes/[[locale=lang]]/+page.svelte
-#: src/routes/[[locale=lang]]/+page.svelte
-#: src/routes/[[locale=lang]]/+page.svelte
-msgid "Lorem Ipsum"
-msgstr "Lorem Ipsum"
+#~ msgid "Lorem Ipsum"
+#~ msgstr "Lorem Ipsum"
 
-#: src/routes/[[locale=lang]]/+page.svelte
-#: src/routes/[[locale=lang]]/+page.svelte
-#: src/routes/[[locale=lang]]/+page.svelte
 #: src/routes/[[locale=lang]]/faq/+page.svelte
 #: src/routes/[[locale=lang]]/festival/participate/+page.svelte
 #: src/routes/[[locale=lang]]/festival/schedule/+page.svelte
@@ -49,9 +45,6 @@ msgstr ""
 "tellus vitae eros placerat condimentum et a erat. Proin aliquet nunc magna, a lacinia libero\n"
 "luctus vel."
 
-#: src/routes/[[locale=lang]]/+page.svelte
-#: src/routes/[[locale=lang]]/+page.svelte
-#: src/routes/[[locale=lang]]/+page.svelte
 #: src/routes/[[locale=lang]]/faq/+page.svelte
 #: src/routes/[[locale=lang]]/faq/+page.svelte
 #: src/routes/[[locale=lang]]/festival/participate/+page.svelte
@@ -92,11 +85,13 @@ msgstr "Disciplines"
 
 #: src/lib/components/AppSidebar.svelte
 #: src/lib/components/Navigation.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
 msgid "Freestyle"
 msgstr "Freestyle"
 
 #: src/lib/components/AppSidebar.svelte
 #: src/lib/components/Navigation.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/disc-golf/+page.svelte
 msgid "Disc Golf"
@@ -104,6 +99,7 @@ msgstr "Disc Golf"
 
 #: src/lib/components/AppSidebar.svelte
 #: src/lib/components/Navigation.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/double-disc-court/+page.svelte
 msgid "Double Disc Court"
@@ -111,6 +107,7 @@ msgstr "Double Disc Court"
 
 #: src/lib/components/AppSidebar.svelte
 #: src/lib/components/Navigation.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/ultimate/+page.svelte
 msgid "Ultimate"
 msgstr "Ultimate"
@@ -119,17 +116,14 @@ msgstr "Ultimate"
 msgid "Sprache"
 msgstr "Language"
 
-#: src/lib/components/LanguageSwitcher.svelte
-msgid "Deutsch"
-msgstr "German"
+#~ msgid "Deutsch"
+#~ msgstr "German"
 
-#: src/lib/components/LanguageSwitcher.svelte
-msgid "English"
-msgstr "English"
+#~ msgid "English"
+#~ msgstr "English"
 
-#: src/lib/components/Image.svelte
-msgid "No Image"
-msgstr "No Image"
+#~ msgid "No Image"
+#~ msgstr "No Image"
 
 #: src/lib/components/Logo.svelte
 msgid "Frisbee Festival München Logo"
@@ -183,42 +177,32 @@ msgstr "Catering"
 
 #: src/routes/[[locale=lang]]/disciplines/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
-#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
 msgid "Freestyle Frisbee"
 msgstr "Freestyle Frisbee"
 
-#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
-msgid "Was ist Freestyle Frisbee?"
-msgstr "What is Freestyle Frisbee?"
+#~ msgid "Was ist Freestyle Frisbee?"
+#~ msgstr "What is Freestyle Frisbee?"
 
-#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
-msgid "Freestyle Frisbee ist die künstlerische Disziplin des Frisbeesports, bei der Teams aus zwei bis drei Spielern zu Musik eine choreografierte Routine präsentieren. Anders als bei Ultimate Frisbee oder Disc Golf geht es hier nicht um Punkte oder Tore, sondern um Kreativität, Ästhetik und technische Perfektion. Die Spieler entwickeln spektakuläre Wurf- und Fangtechniken, kombiniert mit akrobatischen Elementen und tänzerischen Bewegungen. Eine typische Routine dauert drei bis fünf Minuten und erzählt oft eine Geschichte durch Bewegung und Musik."
-msgstr "Freestyle Frisbee is the artistic discipline of disc sports in which teams of two to three players present a choreographed routine set to music. Unlike Ultimate Frisbee or Disc Golf, the focus here is not on points or goals but on creativity, aesthetics, and technical perfection. Players develop spectacular throwing and catching techniques, combined with acrobatic elements and dance-like movements. A typical routine lasts three to five minutes and often tells a story through movement and music."
+#~ msgid "Freestyle Frisbee ist die künstlerische Disziplin des Frisbeesports, bei der Teams aus zwei bis drei Spielern zu Musik eine choreografierte Routine präsentieren. Anders als bei Ultimate Frisbee oder Disc Golf geht es hier nicht um Punkte oder Tore, sondern um Kreativität, Ästhetik und technische Perfektion. Die Spieler entwickeln spektakuläre Wurf- und Fangtechniken, kombiniert mit akrobatischen Elementen und tänzerischen Bewegungen. Eine typische Routine dauert drei bis fünf Minuten und erzählt oft eine Geschichte durch Bewegung und Musik."
+#~ msgstr "Freestyle Frisbee is the artistic discipline of disc sports in which teams of two to three players present a choreographed routine set to music. Unlike Ultimate Frisbee or Disc Golf, the focus here is not on points or goals but on creativity, aesthetics, and technical perfection. Players develop spectacular throwing and catching techniques, combined with acrobatic elements and dance-like movements. A typical routine lasts three to five minutes and often tells a story through movement and music."
 
-#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
-msgid "Freestyle Frisbee Demo"
-msgstr "Freestyle Frisbee Demo"
+#~ msgid "Freestyle Frisbee Demo"
+#~ msgstr "Freestyle Frisbee Demo"
 
-#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
-msgid "Die Kunst der Bewegung"
-msgstr "The Art of Movement"
+#~ msgid "Die Kunst der Bewegung"
+#~ msgstr "The Art of Movement"
 
-#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
-#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
-msgid "Freestyle Frisbee Community"
-msgstr "Freestyle Frisbee Community"
+#~ msgid "Freestyle Frisbee Community"
+#~ msgstr "Freestyle Frisbee Community"
 
-#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
-msgid "Teamwork und Kreativität"
-msgstr "Teamwork and Creativity"
+#~ msgid "Teamwork und Kreativität"
+#~ msgstr "Teamwork and Creativity"
 
-#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
-msgid "Im Freestyle Frisbee verschmelzen die Spieler zu einer Einheit. Jede Bewegung ist aufeinander abgestimmt, jeder Trick baut auf dem vorherigen auf. Die besten Teams entwickeln ihren eigenen Stil und erfinden ständig neue Kombinationen. Die Kreativität kennt dabei keine Grenzen: Von eleganten, fließenden Bewegungen bis zu explosiven, kraftvollen Tricks ist alles möglich. Diese kreative Freiheit macht Freestyle Frisbee zu einer der individuellsten Sportarten überhaupt."
-msgstr "In Freestyle Frisbee, players merge into a single unit. Every movement is coordinated, and each trick builds upon the previous one. The best teams develop their own style and constantly invent new combinations. Creativity knows no bounds: from elegant, flowing movements to explosive, powerful tricks, everything is possible. This creative freedom makes Freestyle Frisbee one of the most individual sports of all."
+#~ msgid "Im Freestyle Frisbee verschmelzen die Spieler zu einer Einheit. Jede Bewegung ist aufeinander abgestimmt, jeder Trick baut auf dem vorherigen auf. Die besten Teams entwickeln ihren eigenen Stil und erfinden ständig neue Kombinationen. Die Kreativität kennt dabei keine Grenzen: Von eleganten, fließenden Bewegungen bis zu explosiven, kraftvollen Tricks ist alles möglich. Diese kreative Freiheit macht Freestyle Frisbee zu einer der individuellsten Sportarten überhaupt."
+#~ msgstr "In Freestyle Frisbee, players merge into a single unit. Every movement is coordinated, and each trick builds upon the previous one. The best teams develop their own style and constantly invent new combinations. Creativity knows no bounds: from elegant, flowing movements to explosive, powerful tricks, everything is possible. This creative freedom makes Freestyle Frisbee one of the most individual sports of all."
 
-#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
-msgid "Mehr als nur Sport"
-msgstr "More Than Just Sport"
+#~ msgid "Mehr als nur Sport"
+#~ msgstr "More Than Just Sport"
 
 #: src/lib/components/ui/sheet/sheet-content.svelte
 msgid "Close"
@@ -250,13 +234,11 @@ msgstr "Schedule"
 msgid "Ablaufplan"
 msgstr "Schedule"
 
-#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
-msgid "Was Freestyle Frisbee so besonders macht, ist die perfekte Verschmelzung von Sport, Tanz und Artistik. Jeder Wurf, jeder Fang wird zur künstlerischen Ausdrucksform. Die Scheibe wird unter dem Bein hindurch geworfen, hinter dem Rücken gefangen oder mit den Fingernägeln balanciert. Spieler vollführen Sprünge, Rollen und sogar Saltos, während die Frisbee durch die Luft gleitet. Die Synchronisation zwischen den Teammitgliedern muss dabei perfekt sein – wie bei einem Pas de Deux im Ballett."
-msgstr ""
+#~ msgid "Was Freestyle Frisbee so besonders macht, ist die perfekte Verschmelzung von Sport, Tanz und Artistik. Jeder Wurf, jeder Fang wird zur künstlerischen Ausdrucksform. Die Scheibe wird unter dem Bein hindurch geworfen, hinter dem Rücken gefangen oder mit den Fingernägeln balanciert. Spieler vollführen Sprünge, Rollen und sogar Saltos, während die Frisbee durch die Luft gleitet. Die Synchronisation zwischen den Teammitgliedern muss dabei perfekt sein – wie bei einem Pas de Deux im Ballett."
+#~ msgstr ""
 
-#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
-msgid "Freestyle Frisbee ist eine Lebenseinstellung. Die Community ist weltweit vernetzt und teilt die Leidenschaft für diese besondere Kunstform. Bei Wettbewerben und Jams treffen sich Freestyler aus aller Welt, um voneinander zu lernen, neue Tricks auszuprobieren und gemeinsam zu spielen. Was zählt, ist nicht nur die Leistung, sondern auch der Spaß, die Gemeinschaft und die pure Freude an der Bewegung mit der Scheibe."
-msgstr ""
+#~ msgid "Freestyle Frisbee ist eine Lebenseinstellung. Die Community ist weltweit vernetzt und teilt die Leidenschaft für diese besondere Kunstform. Bei Wettbewerben und Jams treffen sich Freestyler aus aller Welt, um voneinander zu lernen, neue Tricks auszuprobieren und gemeinsam zu spielen. Was zählt, ist nicht nur die Leistung, sondern auch der Spaß, die Gemeinschaft und die pure Freude an der Bewegung mit der Scheibe."
+#~ msgstr ""
 
 #: src/routes/[[locale=lang]]/disciplines/+page.svelte
 msgid "Title text"
@@ -272,5 +254,238 @@ msgstr ""
 #~ msgid "Das Frisbee Festival München ist ein Event welches den Frisbeesport in allen Facetten feiert. Von Ultimate Frisbee über Disc Golf bis hin zu Freestyle und RollstuhlFrisbee."
 #~ msgstr ""
 
-#~ msgid "Das Frisbee Festival München ist ein Event welches den Frisbeesport in allen Facetten feiert. Von Ultimate Frisbee über Disc Golf bis hin zu Freestyle und Rollstuhl-Frisbee."
+#: src/routes/[[locale=lang]]/+layout.svelte
+#: src/routes/[[locale=lang]]/+layout.svelte
+msgid "Das Frisbee Festival München ist ein Event welches den Frisbeesport in allen Facetten feiert. Von Ultimate Frisbee über Disc Golf bis hin zu Freestyle und Rollstuhl-Frisbee."
+msgstr "The Munich Frisbee Festival is an event celebrating disc sports in all their facets. From Ultimate Frisbee to Disc Golf, Freestyle, and Wheelchair Frisbee."
+
+#~ msgid "Diszipli"
 #~ msgstr ""
+
+#~ msgid "Diesziplinen"
+#~ msgstr ""
+
+#~ msgid "Diesziplinen und Turniere"
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "Disziplinen und Turniere"
+msgstr ""
+
+#~ msgid "test"
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "Wheelchair Ultimate"
+msgstr ""
+
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+msgid ""
+"In hac habitasse platea dictumst. Donec sodales, lectus vitae cursus sollicitudin, arcu risus\n"
+"vulputate tortor, id ullamcorper justo eros at lectus. Nullam et dignissim lectus. Nullam\n"
+"metus lorem, ullamcorper sit amet mattis a, hendrerit et sem."
+msgstr ""
+
+#~ msgid "Saturday 10:00 - 16:00"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In hac habitasse platea dictumst. Donec sodales, lectus vitae cursus sollicitudin,\n"
+#~ "arcu risus vulputate tortor, id ullamcorper justo eros at lectus. Nullam et dignissim\n"
+#~ "lectus. Nullam metus lorem, ullamcorper sit amet mattis a, hendrerit et sem."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In hac habitasse platea dictumst. Donec sodales, lectus vitae cursus sollicitudin,\n"
+#~ "arcu risus vulputate tortor, id ullamcorper justo eros at lectus. Nullam et\n"
+#~ "dignissim lectus. Nullam metus lorem, ullamcorper sit amet mattis a, hendrerit et\n"
+#~ "sem."
+#~ msgstr ""
+
+#~ msgid "<0/> Saturday 10:00 - 16:00"
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "Die Welt der Scheibe"
+msgstr ""
+
+#~ msgid "<0/>Saturday 10:00 - 16:00"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In hac habitasse platea dictumst. Donec sodales, lectus vitae cursus sollicitudin, arcu\n"
+#~ "risus vulputate tortor, id ullamcorper justo eros at lectus. Nullam et dignissim lectus.\n"
+#~ "Nullam metus lorem, ullamcorper sit amet mattis a, hendrerit et sem."
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "Mach mit"
+msgstr ""
+
+#~ msgid "Eine Community"
+#~ msgstr ""
+
+#~ msgid "Eine Community,"
+#~ msgstr ""
+
+#~ msgid "Eine Community, die zusammen Wach"
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "Eine Community, die gemeinsames Wachstum fördert"
+msgstr ""
+
+#~ msgid "Wir glauben an den Aufbau einer unterstützenden Gemeinschaft, in der sich Spieler gegenseitig ermutigen, Wissen teilen und gemeinsam Erfolge feiern. Unser Sport ist mehr als nur ein Spiel – er ist eine Familie."
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid ""
+"Wir glauben an den Aufbau einer unterstützenden Gemeinschaft, in der sich Spieler\n"
+"gegenseitig ermutigen, Wissen teilen und gemeinsam Erfolge feiern. Unser Sport ist mehr\n"
+"als nur ein Spiel – er ist eine Familie."
+msgstr ""
+
+#~ msgid "Mittend"
+#~ msgstr ""
+
+#~ msgid "Mitten drin"
+#~ msgstr ""
+
+#~ msgid "Nehme Teil"
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "Sei Teil des Festivals"
+msgstr ""
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "Community"
+msgstr ""
+
+#~ msgid ""
+#~ "In hac habitasse platea dictumst. Donec sodales, lectus vitae cursus sollicitudin, arcu\n"
+#~ "risus vulputate tortor, id ullamcorper justo eros at lectus. Nullam et dignissim lectus.\n"
+#~ "Nullam metus lorem, ullamcorper sit amet mattis a, hendrerit et sem. <0/>Saturday 10:00 - 16:00"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In hac habitasse platea dictumst. Donec sodales, lectus vitae cursus sollicitudin, arcu\n"
+#~ "risus vulputate tortor, id ullamcorper justo eros at lectus. Nullam et dignissim lectus.\n"
+#~ "Nullam metus lorem, ullamcorper sit amet mattis a, hendrerit et sem. <0/> <1/>Saturday 10:00 - 16:00"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In hac habitasse platea dictumst. Donec sodales, lectus vitae cursus sollicitudin, arcu\n"
+#~ "risus vulputate tortor, id ullamcorper justo eros at lectus. Nullam et dignissim lectus.\n"
+#~ "Nullam metus lorem, ullamcorper sit amet mattis a, hendrerit et sem. <0><0/>Saturday 10:00 - 16:00</0>"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In hac habitasse platea dictumst. Donec sodales, lectus vitae cursus sollicitudin, arcu\n"
+#~ "risus vulputate tortor, id ullamcorper justo eros at lectus. Nullam et dignissim lectus.\n"
+#~ "Nullam metus lorem, ullamcorper sit amet mattis a, hendrerit et sem. <0><0/><1/>Saturday 10:00 - 16:00</0>"
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid ""
+"In hac habitasse platea dictumst. Donec sodales, lectus vitae cursus sollicitudin, arcu\n"
+"risus vulputate tortor, id ullamcorper justo eros at lectus. Nullam et dignissim lectus.\n"
+"Nullam metus lorem, ullamcorper sit amet mattis a, hendrerit et sem. <0>Saturday 10:00 - 16:00</0>"
+msgstr ""
+
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+msgid "Jetzt wirds kreativ"
+msgstr ""
+
+#~ msgid "Freestyle Disc"
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+msgid ""
+"Wir glauben an den Aufbau einer unterstützenden Gemeinschaft, in der sich Spieler gegenseitig\n"
+"ermutigen, Wissen teilen und gemeinsam Erfolge feiern. Unser Sport ist mehr als nur ein Spiel\n"
+"– er ist eine Familie."
+msgstr ""
+
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+msgid "Legend goes here"
+msgstr ""
+
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+msgid "Samstag"
+msgstr "Saturday"
+
+#~ msgid "Friday"
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+msgid "Introduction"
+msgstr "Introduction"
+
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+msgid "Open Pairs"
+msgstr "Open Pairs"
+
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+msgid "Mixed Pairs"
+msgstr "Mixed Pairs"
+
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+msgid "Delay Basics"
+msgstr "Delay Basics"
+
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+msgid "Coop"
+msgstr "Coop"
+
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+msgid "Throw Workshop for everyone"
+msgstr "Throw Workshop for everyone"
+
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+msgid "Woman Pairs"
+msgstr "Woman Pairs"
+
+#~ msgid "Saturday"
+#~ msgstr ""
+
+#~ msgid "Sunday"
+#~ msgstr ""
+
+#~ msgid "Intro"
+#~ msgstr ""
+
+#~ msgid "Werf-Workshop"
+#~ msgstr ""
+
+#~ msgid "Werf-Workshop für alle"
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+msgid "Comunity"
+msgstr ""
+
+#~ msgid "Freitas"
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+msgid "Freitag"
+msgstr "Friday"
+
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+msgid "Sonntag"
+msgstr "Sunday"

@@ -15,20 +15,17 @@
 	import Logo from '$lib/components/Logo.svelte';
 
 	let { children, data }: LayoutProps = $props();
-
-	// Use derived to properly track reactive data
-	const meta = $derived(data.meta);
 </script>
 
 <svelte:head>
-	<title>{meta.title}</title>
-	<meta name="description" content={meta.description} />
-	<meta property="og:title" content={meta.title} />
+	<title>Frisbee Festival München</title>
+	<meta name="description" content="Das Frisbee Festival München ist ein Event welches den Frisbeesport in allen Facetten feiert. Von Ultimate Frisbee über Disc Golf bis hin zu Freestyle und Rollstuhl-Frisbee." />
+	<meta property="og:title" content="Frisbee Festival München" />
 	<meta property="og:type" content="website" />
-	<meta property="og:description" content={meta.description} />
-	<meta property="og:image" content={meta.ogImage} />
-	<meta property="og:url" content={meta.ogUrl} />
-	<meta property="og:logo" content={meta.ogLogo} />
+	<meta property="og:description" content="Das Frisbee Festival München ist ein Event welches den Frisbeesport in allen Facetten feiert. Von Ultimate Frisbee über Disc Golf bis hin zu Freestyle und Rollstuhl-Frisbee." />
+	<meta property="og:image" content={data.ogImage} />
+	<meta property="og:url" content={data.ogUrl} />
+	<meta property="og:logo" content={data.ogLogo} />
 	<link rel="icon" href={favicon}/>
 </svelte:head>
 

@@ -4,10 +4,11 @@
 	import { building } from '$app/environment';
 	import { locales } from '../../locales/data.js';
 	import type { ResolvedPathname } from '$app/types';
+	import { cn } from '$lib/utils.js';
 
 	const languages = [
-		{ code: 'de', label: 'Deutsch' },
-		{ code: 'en', label: 'English' }
+		{ code: 'de', label: 'DE' },
+		{ code: 'en', label: 'EN' }
 	] as const;
 
 	/**
@@ -56,14 +57,15 @@
 	}
 </script>
 
-<div class="flex gap-4">
+<div class="flex gap-2">
 	{#each languages as { code, label } (code)}
+	  {@const active = isActive(code)}
 		<a
 			href={hrefFor(code)}
 			hreflang={code}
-			aria-current={isActive(code) ? 'true' : undefined}
+			aria-current={active ? 'true' : undefined}
 			data-sveltekit-preload-data="off"
-			class="inline-flex items-center rounded-md border px-3 py-1 text-sm"
+			class={cn('inline-flex items-center px-3 py-1 text-sm rounded-md', active ? 'border shadow-sm font-bold' : '')}
 		>
 			{label}
 		</a>

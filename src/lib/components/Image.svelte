@@ -13,9 +13,5 @@
 </script>
 
 {#if src}
-	<img {src} {alt} class={cn('h-full w-full rounded-md object-cover', className)} />
-{:else}
-	<div class={cn('flex h-full w-full items-center justify-center rounded-md bg-gray-200 text-gray-500', className)}>
-		<span>No Image</span>
-	</div>
+	<img {src} {alt} class={cn('h-full w-full rounded-xl object-cover', className)} />
 {/if}
