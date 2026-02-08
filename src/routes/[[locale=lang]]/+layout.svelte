@@ -10,7 +10,7 @@
 	import Footer from '$lib/components/Footer.svelte';
 	import { Separator } from '$lib/components/ui/separator';
 	import type { LayoutProps } from './../$types';
-	import * as Sidebar from '$lib/components/ui/sidebar/index.js';
+	import * as Sidebar from '$lib/components/ui/sidebar';
 	import AppSidebar from '$lib/components/AppSidebar.svelte';
 	import Logo from '$lib/components/Logo.svelte';
 

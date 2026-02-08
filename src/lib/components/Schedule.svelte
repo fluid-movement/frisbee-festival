@@ -1,11 +1,13 @@
 <script lang="ts">
-	import Badge from '$lib/components/ui/badge/badge.svelte';
-	import type { BadgeVariant } from '$lib/components/ui/badge/badge.svelte';
+	import type { ScheduleData } from '$lib/data/types';
 	import Separator from '$lib/components/ui/separator/separator.svelte';
-	import { mergeAllSchedules } from '$lib/data/schedules';
 	import { page } from '$app/state';
 
-	const mergedSchedule = $derived.by(() => { page.url; return mergeAllSchedules(); });
+	interface Props {
+		schedule: ScheduleData;
+	}
+
+	let { schedule }: Props = $props();
 
 	const dayNames: Record<string, string> = $derived.by(() => {
 		page.url;
@@ -14,18 +16,7 @@
 			Sonntag: 'Sonntag'
 		};
 	});
-
-	// Badge variants for visual distinction
-	const disciplineBadges: Record<string, BadgeVariant> = {
-		freestyle: 'default',
-		ultimate: 'secondary',
-		'disc-golf': 'outline',
-		'double-disc-court': 'destructive',
-		'wheelchair-ultimate': 'secondary'
-	};
 </script>
-
-<h1 class="container-custom mb-12 text-center">Ablaufplan</h1>
 
 <div class="container-custom">
 	<ul class="mb-4">
@@ -38,13 +29,12 @@
 			<strong>Workshop</strong>
 		</li>
 	</ul>
-
-	<div class="grid lg:grid-cols-3 gap-8">
-		{#each Object.entries(mergedSchedule) as [day, events] (day)}
+	<div class="grid gap-8 lg:grid-cols-3">
+		{#each Object.entries(schedule) as [day, events] (day)}
 			<div>
 				<h3 class="uppercase">{dayNames[day] ?? day}</h3>
 				<ul class="grid grid-cols-[min-content_1fr] gap-x-4">
-					{#each events as event (event.time + event.discipline)}
+					{#each events as event (event.time)}
 						<li class="contents">
 							<div class="whitespace-nowrap {event.type === 'workshop' ? 'text-primary' : ''}">
 								{event.time}
@@ -56,9 +46,6 @@
 								{#if event.description}
 									<span class="text-sm text-muted-foreground">{event.description}</span>
 								{/if}
-								<Badge variant={disciplineBadges[event.discipline]} class="w-fit text-xs">
-									{event.disciplineName}
-								</Badge>
 							</div>
 							<div class="col-span-2"><Separator /></div>
 						</li>

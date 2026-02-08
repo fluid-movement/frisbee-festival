@@ -7,13 +7,13 @@
 	import { getSchedule } from '$lib/data/schedules';
 	import { page } from '$app/state';
 
-	const scheduleData = $derived.by(() => { page.url; return getSchedule('double-disc-court'); });
+	const scheduleData = $derived.by(() => { page.url; return getSchedule('wheelchair-ultimate'); });
 </script>
 
 <Grid>
 	<article>
-		<Badge variant="outline">Aktion und Reaktion</Badge>
-		<h1 class="uppercase">Double Disc Court</h1>
+		<Badge variant="outline">Inklusion und Action</Badge>
+		<h1 class="uppercase">Rollstuhl Ultimate</h1>
 		<p>
 			In hac habitasse platea dictumst. Donec sodales, lectus vitae cursus sollicitudin, arcu risus
 			vulputate tortor, id ullamcorper justo eros at lectus. Nullam et dignissim lectus. Nullam
@@ -21,8 +21,7 @@
 		</p>
 		<p>
 			Wir glauben an den Aufbau einer unterstützenden Gemeinschaft, in der sich Spieler gegenseitig
-			ermutigen, Wissen teilen und gemeinsam Erfolge feiern. Unser Sport ist mehr als nur ein Spiel
-			– er ist eine Familie.
+			ermutigen, Wissen teilen und gemeinsam Erfolge feiern.
 		</p>
 	</article>
 	<Image src={festivalImage} alt="Comunity" />

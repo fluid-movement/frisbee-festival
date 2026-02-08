@@ -72,7 +72,7 @@
 			<NavigationMenu.Trigger>Die Sportarten</NavigationMenu.Trigger>
 			<NavigationMenu.Content>
 				<ul class="grid gap-2 p-2 md:w-100 lg:w-125 lg:grid-cols-[.75fr_1fr]">
-					<li class="row-span-4">
+					<li class="row-span-5">
 						<NavigationMenu.Link
 							class="flex h-full w-full flex-col justify-end rounded-md bg-linear-to-b from-muted/50 to-muted p-6 no-underline outline-hidden select-none focus:shadow-md"
 						>
@@ -104,6 +104,11 @@
 					{@render ListItem({
 						href: '/disciplines/ultimate',
 						title: 'Ultimate',
+						content: 'Teamwork und Strategie in einem intensiven Frisbee-Mannschaftssport.'
+					})}
+					{@render ListItem({
+						href: '/disciplines/wheelchair-ultimate',
+						title: 'Rollstuhl Ultimate',
 						content: 'Teamwork und Strategie in einem intensiven Frisbee-Mannschaftssport.'
 					})}
 				</ul>

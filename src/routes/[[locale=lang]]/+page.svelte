@@ -3,7 +3,7 @@
 	import Grid from '$lib/components/Grid.svelte';
 	import ImageWithText from '$lib/components/ImageWithText.svelte';
 	import festivalImage from '$lib/assets/home/festival.jpg';
-	import * as Card from '$lib/components/ui/card/index.js';
+	import * as Card from '$lib/components/ui/card';
 	import Badge from '$lib/components/ui/badge/badge.svelte';
 	import Clock from '@lucide/svelte/icons/clock';
 </script>
