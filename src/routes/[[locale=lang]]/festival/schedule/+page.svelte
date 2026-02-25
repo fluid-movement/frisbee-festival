@@ -1,11 +1,16 @@
 <script lang="ts">
-	import Badge from '$lib/components/ui/badge/badge.svelte';
-	import type { BadgeVariant } from '$lib/components/ui/badge/badge.svelte';
-	import Separator from '$lib/components/ui/separator/separator.svelte';
+
 	import { mergeAllSchedules } from '$lib/data/schedules';
 	import { page } from '$app/state';
+	import ScheduleLegend from '$lib/components/ScheduleLegend.svelte';
+	import { DISCIPLINE_IDS } from '$lib/data/types';
+	import type { DisciplineId, MergedScheduleData, MergedScheduleEvent } from '$lib/data/types';
+	import { SvelteSet } from 'svelte/reactivity';
 
-	const mergedSchedule = $derived.by(() => { page.url; return mergeAllSchedules(); });
+	const mergedSchedule = $derived.by(() => {
+		page.url;
+		return mergeAllSchedules();
+	});
 
 	const dayNames: Record<string, string> = $derived.by(() => {
 		page.url;
@@ -15,52 +20,53 @@
 		};
 	});
 
-	// Badge variants for visual distinction
-	const disciplineBadges: Record<string, BadgeVariant> = {
-		freestyle: 'default',
-		ultimate: 'secondary',
-		'disc-golf': 'outline',
-		'double-disc-court': 'destructive',
-		'wheelchair-ultimate': 'secondary'
-	};
+	let selected = new SvelteSet<DisciplineId>();
+
+	function toggle(id: DisciplineId) {
+		selected.has(id) ? selected.delete(id) : selected.add(id);
+	}
+
+	const filteredSchedule: MergedScheduleData = $derived(
+		selected.size === 0
+			? mergedSchedule
+			: (Object.fromEntries(
+					Object.entries(mergedSchedule)
+						.map(([day, events]) => [day, events.filter((e) => selected.has(e.discipline))])
+						.filter(([, events]) => (events as MergedScheduleEvent[]).length > 0)
+				) as MergedScheduleData)
+	);
 </script>
 
 <h1 class="container-custom mb-12 text-center">Ablaufplan</h1>
 
 <div class="container-custom">
-	<ul class="mb-4">
-		<li class="flex items-center gap-2">
-			<span class="flex size-2 rounded-full bg-foreground"></span>
-			<strong>Turnier</strong>
-		</li>
-		<li class="flex items-center gap-2">
-			<span class="flex size-2 rounded-full bg-primary"></span>
-			<strong>Workshop</strong>
-		</li>
-	</ul>
+	<!-- Legend: all disciplines with text labels -->
+	<div class="mb-8 flex flex-wrap gap-2">
+		{#each DISCIPLINE_IDS as disciplineId (disciplineId)}
+			<ScheduleLegend
+				{disciplineId}
+				inactive={selected.size > 0 && !selected.has(disciplineId)}
+				onclick={() => toggle(disciplineId)}
+			/>
+		{/each}
+	</div>
 
-	<div class="grid lg:grid-cols-3 gap-8">
-		{#each Object.entries(mergedSchedule) as [day, events] (day)}
+	<div class="grid gap-8 lg:grid-cols-2">
+		{#each Object.entries(filteredSchedule) as [day, events] (day)}
 			<div>
 				<h3 class="uppercase">{dayNames[day] ?? day}</h3>
-				<ul class="grid grid-cols-[min-content_1fr] gap-x-4">
+				<ul>
 					{#each events as event (event.time + event.discipline)}
-						<li class="contents">
-							<div class="whitespace-nowrap {event.type === 'workshop' ? 'text-primary' : ''}">
-								{event.time}
-							</div>
-							<div class="flex flex-col gap-1">
-								<strong class={event.type === 'workshop' ? 'text-primary' : ''}>
-									{event.label}
-								</strong>
+						<li class="grid grid-cols-[auto_1fr] items-center gap-x-4 border-b py-2">
+							<span class="text-sm text-muted-foreground">{event.time}</span>
+							<span class="text-xs font-semibold uppercase tracking-wide text-orange-500">{event.place}</span>
+							<ScheduleLegend disciplineId={event.discipline} showText={false} />
+							<div class="flex flex-col gap-0.5">
+								<strong>{event.label}</strong>
 								{#if event.description}
 									<span class="text-sm text-muted-foreground">{event.description}</span>
 								{/if}
-								<Badge variant={disciplineBadges[event.discipline]} class="w-fit text-xs">
-									{event.disciplineName}
-								</Badge>
 							</div>
-							<div class="col-span-2"><Separator /></div>
 						</li>
 					{/each}
 				</ul>

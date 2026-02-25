@@ -8,6 +8,7 @@ import type { DisciplineSchedule } from '../types';
 export const getUltimateSchedule = (): DisciplineSchedule => ({
 	discipline: 'ultimate',
 	name: 'Ultimate',
+	defaultPlace: 'Field A',
 	schedule: {
 		Samstag: [
 			{

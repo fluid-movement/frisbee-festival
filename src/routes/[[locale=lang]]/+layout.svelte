@@ -5,6 +5,7 @@
 	import '@fontsource/inter/700.css';
 	import '../../app.css';
 	import favicon from '$lib/assets/favicon.ico';
+	import { page } from '$app/state';
 	import LanguageSwitcher from '$lib/components/LanguageSwitcher.svelte';
 	import Navigation from '$lib/components/Navigation.svelte';
 	import Footer from '$lib/components/Footer.svelte';
@@ -15,6 +16,8 @@
 	import Logo from '$lib/components/Logo.svelte';
 
 	let { children, data }: LayoutProps = $props();
+
+	const isHome = $derived(page.route.id === '/[[locale=lang]]');
 </script>
 
 <svelte:head>
@@ -32,13 +35,15 @@
 <Sidebar.Provider open={false}>
 	<div class="flex min-h-screen w-full flex-col">
 		<AppSidebar />
-		<header class="flex justify-between items-center px-8 py-4">
-		    <Logo />
-			<Navigation />
+		<header class={isHome
+			? 'absolute z-50 flex w-full items-center justify-between px-8 py-4'
+			: 'flex items-center justify-between px-8 py-4'}>
+		    <Logo inverted={isHome} />
+			<Navigation inverted={isHome} />
 			<div class="hidden gap-2 md:flex">
-				<LanguageSwitcher />
+				<LanguageSwitcher inverted={isHome} />
 			</div>
-			<Sidebar.Trigger class="md:hidden"/>
+			<Sidebar.Trigger class={isHome ? 'md:hidden text-white' : 'md:hidden'}/>
 		</header>
 		<main class="flex flex-1 flex-col gap-8 pb-16">
 			{@render children()}

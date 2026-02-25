@@ -6,6 +6,8 @@
 	import type { ResolvedPathname } from '$app/types';
 	import { cn } from '$lib/utils.js';
 
+	let { inverted = false }: { inverted?: boolean } = $props();
+
 	const languages = [
 		{ code: 'de', label: 'DE' },
 		{ code: 'en', label: 'EN' }
@@ -65,7 +67,11 @@
 			hreflang={code}
 			aria-current={active ? 'true' : undefined}
 			data-sveltekit-preload-data="off"
-			class={cn('inline-flex items-center px-3 py-1 text-sm rounded-md', active ? 'border shadow-sm font-bold' : '')}
+			class={cn(
+			'inline-flex items-center px-3 py-1 text-sm rounded-md',
+			active ? 'border shadow-sm font-bold' : '',
+			inverted ? 'text-white border-white/40 hover:bg-white/10' : ''
+		)}
 		>
 			{label}
 		</a>

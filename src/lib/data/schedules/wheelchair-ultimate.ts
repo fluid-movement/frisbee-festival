@@ -8,6 +8,7 @@ import type { DisciplineSchedule } from '../types';
 export const getWheelchairUltimateSchedule = (): DisciplineSchedule => ({
 	discipline: 'wheelchair-ultimate',
 	name: 'Wheelchair Ultimate',
+	defaultPlace: 'Field A',
 	schedule: {
 		Samstag: [
 			{

@@ -8,6 +8,7 @@ import type { DisciplineSchedule } from '../types';
 export const getDiscGolfSchedule = (): DisciplineSchedule => ({
 	discipline: 'disc-golf',
 	name: 'Disc Golf',
+	defaultPlace: 'Field B',
 	schedule: {
 		Samstag: [
 			{

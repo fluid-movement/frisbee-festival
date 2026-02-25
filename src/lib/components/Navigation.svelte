@@ -7,6 +7,13 @@
 	import { getLocaleForUrl } from '$lib/locale';
 	import { resolve } from '$app/paths';
 
+	let { inverted = false }: { inverted?: boolean } = $props();
+
+	const linkClass = $derived(cn(
+		navigationMenuTriggerStyle(),
+		inverted && 'bg-transparent text-white hover:bg-white/10 hover:text-white focus:bg-white/10 focus:text-white'
+	));
+
 	type ListItemProps = Omit<HTMLAttributes<HTMLAnchorElement>, 'href'> & {
 		title: string;
 		href: Pathname;
@@ -42,7 +49,7 @@
 		<NavigationMenu.Item>
 			<NavigationMenu.Link>
 				{#snippet child()}
-					<a href={resolve('/[[locale=lang]]', {locale: getLocaleForUrl()})} class={navigationMenuTriggerStyle()}> Startseite </a>
+					<a href={resolve('/[[locale=lang]]', {locale: getLocaleForUrl()})} class={linkClass}> Startseite </a>
 				{/snippet}
 			</NavigationMenu.Link>
 		</NavigationMenu.Item>
@@ -50,7 +57,7 @@
 		<NavigationMenu.Item>
 			<NavigationMenu.Link>
 				{#snippet child()}
-					<a href={resolve('/[[locale=lang]]/festival/schedule', {locale: getLocaleForUrl()})} class={navigationMenuTriggerStyle()}>
+					<a href={resolve('/[[locale=lang]]/festival/schedule', {locale: getLocaleForUrl()})} class={linkClass}>
 						Zuschauen
 					</a>
 				{/snippet}
@@ -60,7 +67,7 @@
 		<NavigationMenu.Item>
 			<NavigationMenu.Link>
 				{#snippet child()}
-					<a href={resolve('/[[locale=lang]]/festival/participate', {locale: getLocaleForUrl()})} class={navigationMenuTriggerStyle()}>
+					<a href={resolve('/[[locale=lang]]/festival/participate', {locale: getLocaleForUrl()})} class={linkClass}>
 						Mitmachen
 					</a>
 				{/snippet}
@@ -69,7 +76,7 @@
 
 		<!-- Disciplines dropdown -->
 		<NavigationMenu.Item>
-			<NavigationMenu.Trigger>Die Sportarten</NavigationMenu.Trigger>
+			<NavigationMenu.Trigger class={inverted ? 'bg-transparent text-white hover:bg-white/10 hover:text-white focus:bg-white/10 data-[state=open]:bg-white/10' : ''}>Die Sportarten</NavigationMenu.Trigger>
 			<NavigationMenu.Content>
 				<ul class="grid gap-2 p-2 md:w-100 lg:w-125 lg:grid-cols-[.75fr_1fr]">
 					<li class="row-span-5">
@@ -118,7 +125,7 @@
 		<NavigationMenu.Item>
 			<NavigationMenu.Link>
 				{#snippet child()}
-					<a href={resolve('/[[locale=lang]]/faq', {locale: getLocaleForUrl()})} class={navigationMenuTriggerStyle()}> FAQ </a>
+					<a href={resolve('/[[locale=lang]]/faq', {locale: getLocaleForUrl()})} class={linkClass}> FAQ </a>
 				{/snippet}
 			</NavigationMenu.Link>
 		</NavigationMenu.Item>

@@ -57,7 +57,8 @@ export function mergeAllSchedules(): MergedScheduleData {
 					dayEvents.push({
 						...event,
 						discipline: disciplineSchedule.discipline,
-						disciplineName: disciplineSchedule.name
+						disciplineName: disciplineSchedule.name,
+						place: event.place ?? disciplineSchedule.defaultPlace
 					});
 				}
 			}

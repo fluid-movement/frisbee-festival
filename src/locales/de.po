@@ -15,12 +15,12 @@ msgstr ""
 
 #: src/routes/[[locale=lang]]/+layout.svelte
 #: src/routes/[[locale=lang]]/+layout.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
 msgid "Frisbee Festival München"
 msgstr "Frisbee Festival München"
 
-#: src/routes/[[locale=lang]]/+page.svelte
-msgid "Willkommen zum Frisbee-Festival"
-msgstr "Willkommen zum Frisbee-Festival"
+#~ msgid "Willkommen zum Frisbee-Festival"
+#~ msgstr "Willkommen zum Frisbee-Festival"
 
 #: src/routes/[[locale=lang]]/+page.svelte
 msgid "Sportschule Oberhaching"
@@ -51,9 +51,8 @@ msgstr ""
 "Integer id sodales sem, eget congue lorem. Praesent eget felis sit amet lectus lobortis\n"
 "imperdiet."
 
-#: src/lib/components/Footer.svelte
-msgid "footer content"
-msgstr "footer content"
+#~ msgid "footer content"
+#~ msgstr "footer content"
 
 #: src/lib/components/AppSidebar.svelte
 #: src/lib/components/Navigation.svelte
@@ -66,7 +65,9 @@ msgid "Zuschauen"
 msgstr "Zuschauen"
 
 #: src/lib/components/AppSidebar.svelte
+#: src/lib/components/Footer.svelte
 #: src/lib/components/Navigation.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
 #: src/routes/[[locale=lang]]/festival/participate/+page.svelte
 msgid "Mitmachen"
 msgstr "Mitmachen"
@@ -80,6 +81,7 @@ msgstr "Die Sportarten"
 
 #: src/lib/components/AppSidebar.svelte
 #: src/lib/components/Navigation.svelte
+#: src/lib/components/ScheduleLegend.svelte
 #: src/lib/data/schedules/freestyle.ts
 #: src/routes/[[locale=lang]]/+page.svelte
 msgid "Freestyle"
@@ -87,6 +89,7 @@ msgstr "Freestyle"
 
 #: src/lib/components/AppSidebar.svelte
 #: src/lib/components/Navigation.svelte
+#: src/lib/components/ScheduleLegend.svelte
 #: src/lib/data/schedules/disc-golf.ts
 #: src/routes/[[locale=lang]]/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/+page.svelte
@@ -96,6 +99,7 @@ msgstr "Disc Golf"
 
 #: src/lib/components/AppSidebar.svelte
 #: src/lib/components/Navigation.svelte
+#: src/lib/components/ScheduleLegend.svelte
 #: src/lib/data/schedules/double-disc-court.ts
 #: src/routes/[[locale=lang]]/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/+page.svelte
@@ -105,6 +109,7 @@ msgstr "Double Disc Court"
 
 #: src/lib/components/AppSidebar.svelte
 #: src/lib/components/Navigation.svelte
+#: src/lib/components/ScheduleLegend.svelte
 #: src/lib/data/schedules/ultimate.ts
 #: src/routes/[[locale=lang]]/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/+page.svelte
@@ -142,6 +147,7 @@ msgid "Teamwork und Strategie in einem intensiven Frisbee-Mannschaftssport."
 msgstr "Teamwork und Strategie in einem intensiven Frisbee-Mannschaftssport."
 
 #: src/lib/components/AppSidebar.svelte
+#: src/lib/components/Footer.svelte
 #: src/lib/components/Navigation.svelte
 msgid "FAQ"
 msgstr "FAQ"
@@ -198,9 +204,8 @@ msgstr "Mitmachprogramm"
 msgid "Ablaufplan"
 msgstr "Ablaufplan"
 
-#: src/routes/[[locale=lang]]/+page.svelte
-msgid "1.-2. August 2026"
-msgstr "1.-2. August 2026"
+#~ msgid "1.-2. August 2026"
+#~ msgstr "1.-2. August 2026"
 
 #: src/routes/[[locale=lang]]/+layout.svelte
 #: src/routes/[[locale=lang]]/+layout.svelte
@@ -212,7 +217,6 @@ msgid "Disziplinen und Turniere"
 msgstr "Disziplinen und Turniere"
 
 #: src/lib/data/schedules/wheelchair-ultimate.ts
-#: src/routes/[[locale=lang]]/+page.svelte
 msgid "Wheelchair Ultimate"
 msgstr "Wheelchair Ultimate"
 
@@ -260,15 +264,14 @@ msgstr "Sei Teil des Festivals"
 msgid "Community"
 msgstr "Community"
 
-#: src/routes/[[locale=lang]]/+page.svelte
-msgid ""
-"In hac habitasse platea dictumst. Donec sodales, lectus vitae cursus sollicitudin, arcu\n"
-"risus vulputate tortor, id ullamcorper justo eros at lectus. Nullam et dignissim lectus.\n"
-"Nullam metus lorem, ullamcorper sit amet mattis a, hendrerit et sem. <0>Saturday 10:00 - 16:00</0>"
-msgstr ""
-"In hac habitasse platea dictumst. Donec sodales, lectus vitae cursus sollicitudin, arcu\n"
-"risus vulputate tortor, id ullamcorper justo eros at lectus. Nullam et dignissim lectus.\n"
-"Nullam metus lorem, ullamcorper sit amet mattis a, hendrerit et sem. <0>Saturday 10:00 - 16:00</0>"
+#~ msgid ""
+#~ "In hac habitasse platea dictumst. Donec sodales, lectus vitae cursus sollicitudin, arcu\n"
+#~ "risus vulputate tortor, id ullamcorper justo eros at lectus. Nullam et dignissim lectus.\n"
+#~ "Nullam metus lorem, ullamcorper sit amet mattis a, hendrerit et sem. <0>Saturday 10:00 - 16:00</0>"
+#~ msgstr ""
+#~ "In hac habitasse platea dictumst. Donec sodales, lectus vitae cursus sollicitudin, arcu\n"
+#~ "risus vulputate tortor, id ullamcorper justo eros at lectus. Nullam et dignissim lectus.\n"
+#~ "Nullam metus lorem, ullamcorper sit amet mattis a, hendrerit et sem. <0>Saturday 10:00 - 16:00</0>"
 
 #: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
 msgid "Jetzt wirds kreativ"
@@ -324,17 +327,16 @@ msgid "Comunity"
 msgstr "Comunity"
 
 #: src/lib/components/Schedule.svelte
-#: src/routes/[[locale=lang]]/festival/schedule/+page.svelte
 msgid "Turnier"
 msgstr "Turnier"
 
 #: src/lib/components/Schedule.svelte
-#: src/routes/[[locale=lang]]/festival/schedule/+page.svelte
 msgid "Workshop"
 msgstr "Workshop"
 
 #: src/lib/components/AppSidebar.svelte
 #: src/lib/components/Navigation.svelte
+#: src/lib/components/ScheduleLegend.svelte
 #: src/routes/[[locale=lang]]/disciplines/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/wheelchair-ultimate/+page.svelte
 msgid "Rollstuhl Ultimate"
@@ -541,3 +543,207 @@ msgstr "Sonntag"
 #: src/routes/[[locale=lang]]/disciplines/disc-golf/+page.svelte
 msgid "Präzision und Konzentration"
 msgstr "Präzision und Konzentration"
+
+#~ msgid "test"
+#~ msgstr "test"
+
+#~ msgid "<0/>Ultimate"
+#~ msgstr "<0/>Ultimate"
+
+#~ msgid "<0/>Rollstuhl Ultimate"
+#~ msgstr "<0/>Rollstuhl Ultimate"
+
+#~ msgid "<0/>Disc Golf"
+#~ msgstr "<0/>Disc Golf"
+
+#~ msgid "<0/>Freestyle"
+#~ msgstr "<0/>Freestyle"
+
+#~ msgid "<0/>Double Disc Court"
+#~ msgstr "<0/>Double Disc Court"
+
+#: src/lib/data/schedules/ultimate.ts
+#: src/lib/data/schedules/wheelchair-ultimate.ts
+msgid "Field A"
+msgstr "Field A"
+
+#: src/lib/data/schedules/disc-golf.ts
+#: src/lib/data/schedules/double-disc-court.ts
+msgid "Field B"
+msgstr "Field B"
+
+#: src/lib/data/schedules/freestyle.ts
+msgid "Grand Stand"
+msgstr "Grand Stand"
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "WFDF Ultimate Frisbee"
+msgstr "WFDF Ultimate Frisbee"
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "Das schnellste Mannschaftsspiel der Scheibenwelt. Athletisch, fair und faszinierend."
+msgstr "Das schnellste Mannschaftsspiel der Scheibenwelt. Athletisch, fair und faszinierend."
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "PDGA German Open"
+msgstr "PDGA German Open"
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "Golf trifft Frisbee. Präzision und Technik in einem wunderschönen Naturkurs."
+msgstr "Golf trifft Frisbee. Präzision und Technik in einem wunderschönen Naturkurs."
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "FPAW Freestyle Disc"
+msgstr "FPAW Freestyle Disc"
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "Akrobatik, Kreativität und Rhythmus – Freestyle Disc als Kunstform."
+msgstr "Akrobatik, Kreativität und Rhythmus – Freestyle Disc als Kunstform."
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "Zwei Scheiben, zwei Teams, ein Spielfeld – taktischer Teamsport pur."
+msgstr "Zwei Scheiben, zwei Teams, ein Spielfeld – taktischer Teamsport pur."
+
+#~ msgid "August 1. – 2. 2026"
+#~ msgstr "August 1. – 2. 2026"
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "WELCOME TO THE"
+msgstr "WELCOME TO THE"
+
+#~ msgid "FRISBEE<0/>FESTIVAL<1/>MÜNCHEN"
+#~ msgstr "FRISBEE<0/>FESTIVAL<1/>MÜNCHEN"
+
+#~ msgid ""
+#~ "Das größte Frisbee-Event Bayerns. Vier Disziplinen, internationale Spitzensportler und ein\n"
+#~ "Festival für die ganze Familie – an der Sportschule Oberhaching."
+#~ msgstr ""
+#~ "Das größte Frisbee-Event Bayerns. Vier Disziplinen, internationale Spitzensportler und ein\n"
+#~ "Festival für die ganze Familie – an der Sportschule Oberhaching."
+
+#~ msgid "Zum Programm"
+#~ msgstr "Zum Programm"
+
+#~ msgid "Frisbee Festival"
+#~ msgstr "Frisbee Festival"
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "Event Location"
+msgstr "Event Location"
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "SPORTSCHULE OBERHACHING"
+msgstr "SPORTSCHULE OBERHACHING"
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "9:00 – 19:00 Uhr"
+msgstr "9:00 – 19:00 Uhr"
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "Sportschule Oberhaching, 82041 Oberhaching"
+msgstr "Sportschule Oberhaching, 82041 Oberhaching"
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "Mehrere Spielfelder, Zuschauerbereich, Verpflegung, Parkplatz"
+msgstr "Mehrere Spielfelder, Zuschauerbereich, Verpflegung, Parkplatz"
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "Full Schedule →"
+msgstr "Full Schedule →"
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "Strong Partnership"
+msgstr "Strong Partnership"
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "Huge thanks to our sponsors"
+msgstr "Huge thanks to our sponsors"
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid ""
+"Das Frisbee Festival schafft Sichtbarkeit für den Flugsport und bringt die internationale\n"
+"Frisbee-Community nach München. Ermöglicht durch großartige Partnerorganisationen."
+msgstr ""
+"Das Frisbee Festival schafft Sichtbarkeit für den Flugsport und bringt die internationale\n"
+"Frisbee-Community nach München. Ermöglicht durch großartige Partnerorganisationen."
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "Festival"
+msgstr "Festival"
+
+#: src/lib/components/Footer.svelte
+msgid "Discover the world of flying disc"
+msgstr "Discover the world of flying disc"
+
+#: src/lib/components/Footer.svelte
+msgid "Quick Links"
+msgstr "Quick Links"
+
+#: src/lib/components/Footer.svelte
+msgid "Disziplinen"
+msgstr "Disziplinen"
+
+#: src/lib/components/Footer.svelte
+msgid "Programm"
+msgstr "Programm"
+
+#: src/lib/components/Footer.svelte
+msgid "Kontakt"
+msgstr "Kontakt"
+
+#: src/lib/components/Footer.svelte
+msgid "Sportschule Oberhaching<0/>82041 Oberhaching"
+msgstr "Sportschule Oberhaching<0/>82041 Oberhaching"
+
+#: src/lib/components/Footer.svelte
+msgid "info@frisbeefestival.de"
+msgstr "info@frisbeefestival.de"
+
+#: src/lib/components/Footer.svelte
+msgid "Event Info"
+msgstr "Event Info"
+
+#: src/lib/components/Footer.svelte
+msgid "1.–2. August 2026"
+msgstr "1.–2. August 2026"
+
+#: src/lib/components/Footer.svelte
+msgid "9:00–19:00 Uhr"
+msgstr "9:00–19:00 Uhr"
+
+#: src/lib/components/Footer.svelte
+msgid "Oberhaching, Bayern"
+msgstr "Oberhaching, Bayern"
+
+#: src/lib/components/Footer.svelte
+msgid "© 2026 Frisbee Festival München. Alle Rechte vorbehalten."
+msgstr "© 2026 Frisbee Festival München. Alle Rechte vorbehalten."
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "August 1. - 2. 2026"
+msgstr "August 1. - 2. 2026"
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid ""
+"Experience world-class frisbee facilities and training programs designed for athletes of all\n"
+"skill levels at Munich's premier sports destination."
+msgstr ""
+"Experience world-class frisbee facilities and training programs designed for athletes of all\n"
+"skill levels at Munich's premier sports destination."
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "Frisbee player"
+msgstr "Frisbee player"
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "Sa & So, 09:00–18:00"
+msgstr "Sa & So, 09:00–18:00"
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "Sa & So, 09:00–17:00"
+msgstr "Sa & So, 09:00–17:00"
+
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "Sa & So, 10:00–17:00"
+msgstr "Sa & So, 10:00–17:00"

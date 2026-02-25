@@ -8,6 +8,7 @@ import type { DisciplineSchedule } from '../types';
 export const getDDCSchedule = (): DisciplineSchedule => ({
 	discipline: 'double-disc-court',
 	name: 'Double Disc Court',
+	defaultPlace: 'Field B',
 	schedule: {
 		Samstag: [
 			{
