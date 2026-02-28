@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { DisciplineId } from '$lib/data/types';
-	import { Users, Accessibility, Target, Wind } from '@lucide/svelte/icons';
+	import { Users, Accessibility, Target, Wind, Trophy } from '@lucide/svelte/icons';
 	import Button from '$lib/components/ui/button/button.svelte';
 	import { tv } from 'tailwind-variants';
 	import type { Component } from 'svelte';
@@ -33,7 +33,7 @@
 		'wheelchair-ultimate': { label: 'Rollstuhl Ultimate', Icon: Accessibility },
 		'disc-golf': { label: 'Disc Golf', Icon: Target },
 		freestyle: { label: 'Freestyle', Icon: Wind },
-		'double-disc-court': { label: 'Double Disc Court', Icon: Accessibility }
+		'double-disc-court': { label: 'Double Disc Court', Icon: Trophy }
 	};
 </script>
 

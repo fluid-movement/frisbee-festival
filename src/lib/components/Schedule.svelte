@@ -1,6 +1,5 @@
 <script lang="ts">
 	import type { ScheduleData } from '$lib/data/types';
-	import Separator from '$lib/components/ui/separator/separator.svelte';
 	import { page } from '$app/state';
 
 	interface Props {
@@ -22,20 +21,20 @@
 	<ul class="mb-4">
 		<li class="flex items-center gap-2">
 			<span class="flex size-2 rounded-full bg-foreground"></span>
-			<strong>Turnier</strong>
+			<strong>Anschauen</strong>
 		</li>
 		<li class="flex items-center gap-2">
 			<span class="flex size-2 rounded-full bg-primary"></span>
-			<strong>Workshop</strong>
+			<strong>Mitmachen</strong>
 		</li>
 	</ul>
-	<div class="grid gap-8 lg:grid-cols-3">
+	<div class="grid gap-8 lg:grid-cols-2">
 		{#each Object.entries(schedule) as [day, events] (day)}
 			<div>
 				<h3 class="uppercase">{dayNames[day] ?? day}</h3>
-				<ul class="grid grid-cols-[min-content_1fr] gap-x-4">
+				<ul>
 					{#each events as event (event.time)}
-						<li class="contents">
+						<li class="grid grid-cols-[min-content_1fr] gap-x-4 pb-1 mb-1 border-b border-solid last:border-none">
 							<div class="whitespace-nowrap {event.type === 'workshop' ? 'text-primary' : ''}">
 								{event.time}
 							</div>
@@ -47,7 +46,6 @@
 									<span class="text-sm text-muted-foreground">{event.description}</span>
 								{/if}
 							</div>
-							<div class="col-span-2"><Separator /></div>
 						</li>
 					{/each}
 				</ul>

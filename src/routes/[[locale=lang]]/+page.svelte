@@ -1,5 +1,9 @@
 <script>
 	import festivalImage from '$lib/assets/home/festival.jpg';
+	import dfvLogo from '$lib/assets/logo/dfv-logo.jpg';
+	import flbyLogo from '$lib/assets/logo/flby-logo.png';
+	import fpaLogo from '$lib/assets/logo/fpa-logo.png';
+	import wfdfLogo from '$lib/assets/logo/wfdf-logo.png';
 	import heroBg from '$lib/assets/home/hero-bg.svg';
 	import heroLogo from '$lib/assets/home/hero-logo.svg';
 	import heroPerson from '$lib/assets/home/hero-person.png';
@@ -10,12 +14,14 @@
 	import MapPin from '@lucide/svelte/icons/map-pin';
 	import Building2 from '@lucide/svelte/icons/building-2';
 	import Users from '@lucide/svelte/icons/users';
+	import Link from '$lib/components/Link.svelte';
 
 	const disciplines = [
 		{
 			name: 'WFDF Ultimate Frisbee',
 			badge: 'Ultimate',
-			description: 'Das schnellste Mannschaftsspiel der Scheibenwelt. Athletisch, fair und faszinierend.',
+			description:
+				'Das schnellste Mannschaftsspiel der Scheibenwelt. Athletisch, fair und faszinierend.',
 			time: 'Sa & So, 09:00–18:00',
 			image: 'https://www.figma.com/api/mcp/asset/eb023f4b-4a6b-4b72-a3f7-dc6ec7d00263'
 		},
@@ -39,6 +45,14 @@
 			description: 'Zwei Scheiben, zwei Teams, ein Spielfeld – taktischer Teamsport pur.',
 			time: 'Sa & So, 10:00–17:00',
 			image: 'https://www.figma.com/api/mcp/asset/bf0e2a37-04b8-4e7c-83b0-3cf35216694a'
+		},
+		{
+			name: 'Rollstuhl Ultimate',
+			badge: 'Rollstuhl Ultimate',
+			description:
+				'Inklusion in Aktion. Dieser Sport trennt nicht – er verbindet. Wheelchair Ultimate zeigt, wie kreativ, inklusiv und fair Sport sein kann.',
+			time: 'Sa & So, 10:00–17:00',
+			image: 'https://www.figma.com/api/mcp/asset/bf0e2a37-04b8-4e7c-83b0-3cf35216694a'
 		}
 	];
 </script>
@@ -55,20 +69,20 @@
 	/>
 
 	<!-- Date -->
-	<p class="hero-date pointer-events-none absolute z-10 text-xs font-bold text-[#0a0a0a]"
+	<p
+		class="hero-date pointer-events-none absolute z-10 text-xs font-bold text-[#0a0a0a]"
 		style="letter-spacing: 0.07em; font-family: 'Calibri', sans-serif;"
 	>
-		August 1. - 2. 2026
+		1. - 2. August 2026
 	</p>
 
-	<!-- "WELCOME TO THE" -->
-	<p class="hero-welcome pointer-events-none absolute z-10 text-white"
+	<p
+		class="hero-welcome pointer-events-none absolute z-10 text-white uppercase"
 		style="font-family: 'Bebas Neue', sans-serif;"
 	>
-		WELCOME TO THE
+		Willkommen zum
 	</p>
 
-	<!-- Logo wordmark -->
 	<img
 		src={heroLogo}
 		alt="Frisbee Festival München"
@@ -77,11 +91,11 @@
 	/>
 
 	<!-- Description -->
-	<p class="hero-desc pointer-events-none absolute z-10 text-[#ffedd4]"
+	<p
+		class="hero-desc pointer-events-none absolute z-10 text-[#ffedd4]"
 		style="font-family: 'Calibri', sans-serif;"
 	>
-		Experience world-class frisbee facilities and training programs designed for athletes of all
-		skill levels at Munich's premier sports destination.
+		Erlebe erstklassigen Frisbeesport und feiere mit uns die Faszination der Flugscheibe in München.
 	</p>
 
 	<!-- Person image -->
@@ -93,31 +107,31 @@
 	/>
 </section>
 
-<!-- Disciplines Section -->
 <section class="container-custom">
-	<Badge variant="outline" class="mx-auto mb-2 block w-fit">Die Welt der Scheibe</Badge>
-	<h2 class="mb-8 text-center uppercase">Disziplinen und Turniere</h2>
-	<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+	<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+		<div class="flex flex-col items-center justify-center">
+			<Badge variant="outline" class="mx-auto mb-2 block w-fit">Die Welt der Scheibe</Badge>
+			<h2 class="mb-8 text-center uppercase">Disziplinen und Turniere</h2>
+		</div>
 		{#each disciplines as discipline (discipline.name)}
-			<!-- Mobile: split card (image top, content below). Desktop: image overlay card -->
 			<Card.Root class="overflow-hidden p-0 sm:relative sm:min-h-80">
-				<!-- Image — fixed height on mobile, absolute cover on desktop -->
 				<div class="relative h-44 sm:absolute sm:inset-0 sm:h-auto">
-					<img
-						src={discipline.image}
-						alt={discipline.name}
-						class="h-full w-full object-cover"
-					/>
-					<!-- Gradient overlay -->
-					<div class="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent"></div>
-					<Badge class="absolute left-4 top-4 z-10 bg-primary">{discipline.badge}</Badge>
+					<img src={discipline.image} alt={discipline.name} class="h-full w-full object-cover" />
+					<div
+						class="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent"
+					></div>
+					<Badge class="absolute top-4 left-4 z-10 bg-primary">{discipline.badge}</Badge>
 				</div>
 
 				<!-- Mobile content below image -->
 				<div class="p-4 sm:hidden">
 					<div class="mb-1 flex items-center gap-2">
 						<Users class="h-4 w-4 shrink-0 text-primary" />
-						<span class="font-bold uppercase tracking-wide" style="font-family: 'Bebas Neue', sans-serif; font-size: 1.1rem;">{discipline.name}</span>
+						<span
+							class="font-bold tracking-wide uppercase"
+							style="font-family: 'Bebas Neue', sans-serif; font-size: 1.1rem;"
+							>{discipline.name}</span
+						>
 					</div>
 					<p class="mb-2 text-sm leading-relaxed text-muted-foreground">{discipline.description}</p>
 					<div class="flex items-center gap-1.5 text-xs text-muted-foreground">
@@ -139,22 +153,18 @@
 </section>
 
 <!-- Venue Section -->
-<section class="relative h-[500px] overflow-hidden">
+<section class="relative h-125 overflow-hidden">
 	<img
 		src={festivalImage}
 		alt="Sportschule Oberhaching"
 		class="absolute inset-0 h-full w-full object-cover"
 	/>
-	<div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70"></div>
+	<div class="absolute inset-0 bg-linear-to-b from-black/60 via-black/40 to-black/70"></div>
 	<div
 		class="container-custom relative z-10 flex h-full flex-col items-center justify-center gap-4 text-center text-white"
 	>
 		<Badge variant="outline" class="border-white text-white">Event Location</Badge>
-		<h2
-			class="mb-4 font-[family-name:var(--font-display)] text-5xl text-white md:text-7xl"
-		>
-			SPORTSCHULE OBERHACHING
-		</h2>
+		<h2 class="mb-4 font-display text-5xl text-white md:text-7xl">SPORTSCHULE OBERHACHING</h2>
 		<div class="flex flex-col gap-2 text-white/90 sm:flex-row sm:gap-8">
 			<div class="flex items-center gap-2">
 				<Clock class="h-4 w-4 shrink-0" />
@@ -179,9 +189,7 @@
 	<div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
 		<Card.Root class="bg-[#1e2939] p-8 text-white">
 			<Card.Content class="p-0">
-				<div
-					class="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-full bg-primary"
-				>
+				<div class="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-full bg-primary">
 					<svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 						<path
 							stroke-linecap="round"
@@ -200,12 +208,20 @@
 			</Card.Content>
 		</Card.Root>
 		<div class="relative min-h-64 overflow-hidden rounded-xl lg:min-h-0">
-			<img src={festivalImage} alt="Community" class="absolute inset-0 h-full w-full object-cover" />
+			<img
+				src={festivalImage}
+				alt="Community"
+				class="absolute inset-0 h-full w-full object-cover"
+			/>
 		</div>
 	</div>
 	<div class="mt-6 flex flex-wrap justify-center gap-3">
-		<a href="/festival/schedule" class={buttonVariants({ size: 'lg' })}>Full Schedule →</a>
-		<a href="/festival/participate" class={buttonVariants({ size: 'lg' })}>Mitmachen</a>
+		<Link href="/[[locale=lang]]/festival/schedule" class={buttonVariants({ size: 'lg' })}
+			>Full Schedule →</Link
+		>
+		<Link href="/[[locale=lang]]/festival/participate" class={buttonVariants({ size: 'lg' })}
+			>Mitmachen</Link
+		>
 	</div>
 </section>
 
@@ -214,41 +230,23 @@
 	<div class="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
 		<div>
 			<Badge variant="outline" class="mb-2 w-fit">Strong Partnership</Badge>
-			<h2 class="mb-4 font-[family-name:var(--font-display)] text-5xl uppercase">
-				Huge thanks to our sponsors
-			</h2>
-			<p class="text-muted-foreground leading-relaxed">
-				Das Frisbee Festival schafft Sichtbarkeit für den Flugsport und bringt die internationale
+			<h2 class="mb-4 font-display text-5xl uppercase">Huge thanks to our sponsors</h2>
+			<p class="leading-relaxed text-muted-foreground">
+				Das Frisbee Festival schafft Sichtbarkeit für den Frisbeesport und bringt die internationale
 				Frisbee-Community nach München. Ermöglicht durch großartige Partnerorganisationen.
 			</p>
 			<div class="mt-8 flex flex-wrap items-center gap-8">
-				<img
-					src="https://www.figma.com/api/mcp/asset/9de8250e-f18e-46ee-b6a1-8bae7f9776fb"
-					alt="WFDF"
-					class="h-12 object-contain"
-				/>
-				<img
-					src="https://www.figma.com/api/mcp/asset/3b441874-5c0d-41f0-9b3c-a43df90cc737"
-					alt="FPA"
-					class="h-12 object-contain"
-				/>
-				<img
-					src="https://www.figma.com/api/mcp/asset/f69579cf-6081-4c19-b325-b7bbd4ee33b3"
-					alt="DFV"
-					class="h-12 object-contain mix-blend-multiply"
-				/>
-				<img
-					src="https://www.figma.com/api/mcp/asset/a25d7703-4911-44b0-b2fc-d698b5110026"
-					alt="FLBY"
-					class="h-12 object-contain mix-blend-multiply"
-				/>
+				<img src={wfdfLogo} alt="WFDF" class="h-12 object-contain" />
+				<img src={fpaLogo} alt="FPA" class="h-12 object-contain" />
+				<img src={dfvLogo} alt="DFV" class="h-12 object-contain mix-blend-multiply" />
+				<img src={flbyLogo} alt="FLBY" class="h-12 object-contain mix-blend-multiply" />
 			</div>
 		</div>
 		<div class="relative min-h-80 overflow-hidden rounded-2xl">
 			<img
 				src="https://www.figma.com/api/mcp/asset/6b97cebc-42ed-4461-b290-e7e02d0a34ce"
 				alt="Festival"
-				class="absolute inset-0 h-full w-full object-cover"
+				class="absolute inset-0 h-full w-full object-contain"
 			/>
 		</div>
 	</div>
@@ -320,5 +318,4 @@
 			z-index: 5;
 		}
 	}
-
 </style>

@@ -58,7 +58,7 @@
 			<NavigationMenu.Link>
 				{#snippet child()}
 					<a href={resolve('/[[locale=lang]]/festival/schedule', {locale: getLocaleForUrl()})} class={linkClass}>
-						Zuschauen
+					Programm
 					</a>
 				{/snippet}
 			</NavigationMenu.Link>

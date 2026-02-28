@@ -4,7 +4,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-
 :root {
 	--radius: 0.625rem;
 	--background: oklch(0.9758 0.0151 61.35);
@@ -39,10 +38,11 @@
 	--sidebar-border: oklch(0.929 0.013 255.508);
 	--sidebar-ring: oklch(0.704 0.04 256.788);
 	--ultimate: oklch(0.5039 0.1659 37.74);
-	--wheelchair-ultimate: oklch(0.5039 0.1659 37.74);
+	--wheelchair-ultimate: oklch(0.5039 0.1659 323.68);
 	--disc-golf: oklch(0.632 0.14 155.64);
 	--freestyle: oklch(0.7279 0.1533 74.18);
 	--ddc: oklch(0.5466 0.112 242.38);
+	--teal: oklch(0.6811 0.0949 212.41);
 }
 
 @theme inline {
@@ -88,6 +88,7 @@
 	--color-disc-golf: var(--disc-golf);
 	--color-freestyle: var(--freestyle);
 	--color-ddc: var(--ddc);
+	--color-teal: var(--teal);
 }
 
 @layer base {

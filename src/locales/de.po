@@ -26,7 +26,6 @@ msgstr "Frisbee Festival München"
 msgid "Sportschule Oberhaching"
 msgstr "Sportschule Oberhaching"
 
-#: src/routes/[[locale=lang]]/faq/+page.svelte
 #: src/routes/[[locale=lang]]/festival/participate/+page.svelte
 msgid ""
 "In hac habitasse platea dictumst. Donec sodales, lectus vitae cursus sollicitudin, arcu risus\n"
@@ -41,8 +40,6 @@ msgstr ""
 "tellus vitae eros placerat condimentum et a erat. Proin aliquet nunc magna, a lacinia libero\n"
 "luctus vel."
 
-#: src/routes/[[locale=lang]]/faq/+page.svelte
-#: src/routes/[[locale=lang]]/faq/+page.svelte
 #: src/routes/[[locale=lang]]/festival/participate/+page.svelte
 msgid ""
 "Integer id sodales sem, eget congue lorem. Praesent eget felis sit amet lectus lobortis\n"
@@ -60,13 +57,13 @@ msgid "Startseite"
 msgstr "Startseite"
 
 #: src/lib/components/AppSidebar.svelte
-#: src/lib/components/Navigation.svelte
 msgid "Zuschauen"
 msgstr "Zuschauen"
 
 #: src/lib/components/AppSidebar.svelte
 #: src/lib/components/Footer.svelte
 #: src/lib/components/Navigation.svelte
+#: src/lib/components/Schedule.svelte
 #: src/routes/[[locale=lang]]/+page.svelte
 #: src/routes/[[locale=lang]]/festival/participate/+page.svelte
 msgid "Mitmachen"
@@ -92,7 +89,10 @@ msgstr "Freestyle"
 #: src/lib/components/ScheduleLegend.svelte
 #: src/lib/data/schedules/disc-golf.ts
 #: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/disc-golf/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/disc-golf/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/disc-golf/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/disc-golf/+page.svelte
 msgid "Disc Golf"
 msgstr "Disc Golf"
@@ -102,6 +102,13 @@ msgstr "Disc Golf"
 #: src/lib/components/ScheduleLegend.svelte
 #: src/lib/data/schedules/double-disc-court.ts
 #: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/double-disc-court/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/double-disc-court/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/double-disc-court/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/double-disc-court/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/ultimate/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/ultimate/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/ultimate/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/double-disc-court/+page.svelte
 msgid "Double Disc Court"
@@ -147,7 +154,6 @@ msgid "Teamwork und Strategie in einem intensiven Frisbee-Mannschaftssport."
 msgstr "Teamwork und Strategie in einem intensiven Frisbee-Mannschaftssport."
 
 #: src/lib/components/AppSidebar.svelte
-#: src/lib/components/Footer.svelte
 #: src/lib/components/Navigation.svelte
 msgid "FAQ"
 msgstr "FAQ"
@@ -156,23 +162,20 @@ msgstr "FAQ"
 msgid "YouTube video"
 msgstr "YouTube video"
 
-#: src/routes/[[locale=lang]]/faq/+page.svelte
-msgid "Frequently Asked Questions"
-msgstr "Frequently Asked Questions"
+#~ msgid "Frequently Asked Questions"
+#~ msgstr "Frequently Asked Questions"
 
 #: src/routes/[[locale=lang]]/faq/+page.svelte
 msgid "Anfahrt"
 msgstr "Anfahrt"
 
-#: src/routes/[[locale=lang]]/faq/+page.svelte
-#: src/routes/[[locale=lang]]/faq/+page.svelte
-msgid "Sample Image"
-msgstr "Sample Image"
+#~ msgid "Sample Image"
+#~ msgstr "Sample Image"
 
-#: src/routes/[[locale=lang]]/faq/+page.svelte
-msgid "Catering"
-msgstr "Catering"
+#~ msgid "Catering"
+#~ msgstr "Catering"
 
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/freestyle/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
 msgid "Freestyle Frisbee"
@@ -220,11 +223,7 @@ msgstr "Disziplinen und Turniere"
 msgid "Wheelchair Ultimate"
 msgstr "Wheelchair Ultimate"
 
-#: src/routes/[[locale=lang]]/disciplines/disc-golf/+page.svelte
-#: src/routes/[[locale=lang]]/disciplines/double-disc-court/+page.svelte
-#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/ultimate/+page.svelte
-#: src/routes/[[locale=lang]]/disciplines/wheelchair-ultimate/+page.svelte
 msgid ""
 "In hac habitasse platea dictumst. Donec sodales, lectus vitae cursus sollicitudin, arcu risus\n"
 "vulputate tortor, id ullamcorper justo eros at lectus. Nullam et dignissim lectus. Nullam\n"
@@ -273,11 +272,11 @@ msgstr "Community"
 #~ "risus vulputate tortor, id ullamcorper justo eros at lectus. Nullam et dignissim lectus.\n"
 #~ "Nullam metus lorem, ullamcorper sit amet mattis a, hendrerit et sem. <0>Saturday 10:00 - 16:00</0>"
 
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/freestyle/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
 msgid "Jetzt wirds kreativ"
 msgstr "Jetzt wirds kreativ"
 
-#: src/routes/[[locale=lang]]/disciplines/double-disc-court/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/ultimate/+page.svelte
 msgid ""
 "Wir glauben an den Aufbau einer unterstützenden Gemeinschaft, in der sich Spieler gegenseitig\n"
@@ -318,25 +317,26 @@ msgstr "Coop"
 msgid "Woman Pairs"
 msgstr "Woman Pairs"
 
-#: src/routes/[[locale=lang]]/disciplines/disc-golf/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/double-disc-court/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/freestyle/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/double-disc-court/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/ultimate/+page.svelte
-#: src/routes/[[locale=lang]]/disciplines/wheelchair-ultimate/+page.svelte
 msgid "Comunity"
 msgstr "Comunity"
 
-#: src/lib/components/Schedule.svelte
-msgid "Turnier"
-msgstr "Turnier"
+#~ msgid "Turnier"
+#~ msgstr "Turnier"
 
-#: src/lib/components/Schedule.svelte
-msgid "Workshop"
-msgstr "Workshop"
+#~ msgid "Workshop"
+#~ msgstr "Workshop"
 
 #: src/lib/components/AppSidebar.svelte
 #: src/lib/components/Navigation.svelte
 #: src/lib/components/ScheduleLegend.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/wheelchair-ultimate/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/wheelchair-ultimate/+page.svelte
 msgid "Rollstuhl Ultimate"
@@ -345,30 +345,28 @@ msgstr "Rollstuhl Ultimate"
 #~ msgid "Präzision und Natur"
 #~ msgstr "Präzision und Natur"
 
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/wheelchair-ultimate/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/wheelchair-ultimate/+page.svelte
 msgid "Inklusion und Action"
 msgstr "Inklusion und Action"
 
-#: src/routes/[[locale=lang]]/disciplines/+page.svelte
-msgid "Entdecke die Sportarten"
-msgstr "Entdecke die Sportarten"
+#~ msgid "Entdecke die Sportarten"
+#~ msgstr "Entdecke die Sportarten"
 
-#: src/routes/[[locale=lang]]/disciplines/double-disc-court/+page.svelte
-msgid "Schnelligkeit und Koordination"
-msgstr "Schnelligkeit und Koordination"
+#~ msgid "Schnelligkeit und Koordination"
+#~ msgstr "Schnelligkeit und Koordination"
 
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/ultimate/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/ultimate/+page.svelte
 msgid "Teamgeist und Strategie"
 msgstr "Teamgeist und Strategie"
 
-#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
-#: src/routes/[[locale=lang]]/disciplines/wheelchair-ultimate/+page.svelte
-msgid ""
-"Wir glauben an den Aufbau einer unterstützenden Gemeinschaft, in der sich Spieler gegenseitig\n"
-"ermutigen, Wissen teilen und gemeinsam Erfolge feiern."
-msgstr ""
-"Wir glauben an den Aufbau einer unterstützenden Gemeinschaft, in der sich Spieler gegenseitig\n"
-"ermutigen, Wissen teilen und gemeinsam Erfolge feiern."
+#~ msgid ""
+#~ "Wir glauben an den Aufbau einer unterstützenden Gemeinschaft, in der sich Spieler gegenseitig\n"
+#~ "ermutigen, Wissen teilen und gemeinsam Erfolge feiern."
+#~ msgstr ""
+#~ "Wir glauben an den Aufbau einer unterstützenden Gemeinschaft, in der sich Spieler gegenseitig\n"
+#~ "ermutigen, Wissen teilen und gemeinsam Erfolge feiern."
 
 #: src/lib/data/schedules/freestyle.ts
 #: src/lib/data/schedules/freestyle.ts
@@ -540,6 +538,7 @@ msgstr "Samstag"
 msgid "Sonntag"
 msgstr "Sonntag"
 
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/disc-golf/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/disc-golf/+page.svelte
 msgid "Präzision und Konzentration"
 msgstr "Präzision und Konzentration"
@@ -607,9 +606,8 @@ msgstr "Zwei Scheiben, zwei Teams, ein Spielfeld – taktischer Teamsport pur."
 #~ msgid "August 1. – 2. 2026"
 #~ msgstr "August 1. – 2. 2026"
 
-#: src/routes/[[locale=lang]]/+page.svelte
-msgid "WELCOME TO THE"
-msgstr "WELCOME TO THE"
+#~ msgid "WELCOME TO THE"
+#~ msgstr "WELCOME TO THE"
 
 #~ msgid "FRISBEE<0/>FESTIVAL<1/>MÜNCHEN"
 #~ msgstr "FRISBEE<0/>FESTIVAL<1/>MÜNCHEN"
@@ -659,31 +657,29 @@ msgstr "Strong Partnership"
 msgid "Huge thanks to our sponsors"
 msgstr "Huge thanks to our sponsors"
 
-#: src/routes/[[locale=lang]]/+page.svelte
-msgid ""
-"Das Frisbee Festival schafft Sichtbarkeit für den Flugsport und bringt die internationale\n"
-"Frisbee-Community nach München. Ermöglicht durch großartige Partnerorganisationen."
-msgstr ""
-"Das Frisbee Festival schafft Sichtbarkeit für den Flugsport und bringt die internationale\n"
-"Frisbee-Community nach München. Ermöglicht durch großartige Partnerorganisationen."
+#~ msgid ""
+#~ "Das Frisbee Festival schafft Sichtbarkeit für den Flugsport und bringt die internationale\n"
+#~ "Frisbee-Community nach München. Ermöglicht durch großartige Partnerorganisationen."
+#~ msgstr ""
+#~ "Das Frisbee Festival schafft Sichtbarkeit für den Flugsport und bringt die internationale\n"
+#~ "Frisbee-Community nach München. Ermöglicht durch großartige Partnerorganisationen."
 
 #: src/routes/[[locale=lang]]/+page.svelte
 msgid "Festival"
 msgstr "Festival"
 
-#: src/lib/components/Footer.svelte
-msgid "Discover the world of flying disc"
-msgstr "Discover the world of flying disc"
+#~ msgid "Discover the world of flying disc"
+#~ msgstr "Discover the world of flying disc"
 
 #: src/lib/components/Footer.svelte
 msgid "Quick Links"
 msgstr "Quick Links"
 
-#: src/lib/components/Footer.svelte
-msgid "Disziplinen"
-msgstr "Disziplinen"
+#~ msgid "Disziplinen"
+#~ msgstr "Disziplinen"
 
 #: src/lib/components/Footer.svelte
+#: src/lib/components/Navigation.svelte
 msgid "Programm"
 msgstr "Programm"
 
@@ -691,9 +687,8 @@ msgstr "Programm"
 msgid "Kontakt"
 msgstr "Kontakt"
 
-#: src/lib/components/Footer.svelte
-msgid "Sportschule Oberhaching<0/>82041 Oberhaching"
-msgstr "Sportschule Oberhaching<0/>82041 Oberhaching"
+#~ msgid "Sportschule Oberhaching<0/>82041 Oberhaching"
+#~ msgstr "Sportschule Oberhaching<0/>82041 Oberhaching"
 
 #: src/lib/components/Footer.svelte
 msgid "info@frisbeefestival.de"
@@ -711,25 +706,22 @@ msgstr "1.–2. August 2026"
 msgid "9:00–19:00 Uhr"
 msgstr "9:00–19:00 Uhr"
 
-#: src/lib/components/Footer.svelte
-msgid "Oberhaching, Bayern"
-msgstr "Oberhaching, Bayern"
+#~ msgid "Oberhaching, Bayern"
+#~ msgstr "Oberhaching, Bayern"
 
 #: src/lib/components/Footer.svelte
 msgid "© 2026 Frisbee Festival München. Alle Rechte vorbehalten."
 msgstr "© 2026 Frisbee Festival München. Alle Rechte vorbehalten."
 
-#: src/routes/[[locale=lang]]/+page.svelte
-msgid "August 1. - 2. 2026"
-msgstr "August 1. - 2. 2026"
+#~ msgid "August 1. - 2. 2026"
+#~ msgstr "August 1. - 2. 2026"
 
-#: src/routes/[[locale=lang]]/+page.svelte
-msgid ""
-"Experience world-class frisbee facilities and training programs designed for athletes of all\n"
-"skill levels at Munich's premier sports destination."
-msgstr ""
-"Experience world-class frisbee facilities and training programs designed for athletes of all\n"
-"skill levels at Munich's premier sports destination."
+#~ msgid ""
+#~ "Experience world-class frisbee facilities and training programs designed for athletes of all\n"
+#~ "skill levels at Munich's premier sports destination."
+#~ msgstr ""
+#~ "Experience world-class frisbee facilities and training programs designed for athletes of all\n"
+#~ "skill levels at Munich's premier sports destination."
 
 #: src/routes/[[locale=lang]]/+page.svelte
 msgid "Frisbee player"
@@ -745,5 +737,1485 @@ msgstr "Sa & So, 09:00–17:00"
 
 #: src/routes/[[locale=lang]]/+page.svelte
 #: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
 msgid "Sa & So, 10:00–17:00"
 msgstr "Sa & So, 10:00–17:00"
+
+#~ msgid "Product Information"
+#~ msgstr "Product Information"
+
+#~ msgid ""
+#~ "Our flagship product combines cutting-edge technology with sleek design.\n"
+#~ "Built with premium materials, it offers unparalleled performance and\n"
+#~ "reliability."
+#~ msgstr ""
+#~ "Our flagship product combines cutting-edge technology with sleek design.\n"
+#~ "Built with premium materials, it offers unparalleled performance and\n"
+#~ "reliability."
+
+#~ msgid ""
+#~ "Key features include advanced processing capabilities, and an intuitive\n"
+#~ "user interface designed for both beginners and experts."
+#~ msgstr ""
+#~ "Key features include advanced processing capabilities, and an intuitive\n"
+#~ "user interface designed for both beginners and experts."
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid "Shipping Details"
+msgstr "Shipping Details"
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid ""
+"We offer worldwide shipping through trusted courier partners. Standard\n"
+"delivery takes 3-5 business days, while express shipping ensures\n"
+"delivery within 1-2 business days."
+msgstr ""
+"We offer worldwide shipping through trusted courier partners. Standard\n"
+"delivery takes 3-5 business days, while express shipping ensures\n"
+"delivery within 1-2 business days."
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid ""
+"All orders are carefully packaged and fully insured. Track your shipment\n"
+"in real-time through our dedicated tracking portal."
+msgstr ""
+"All orders are carefully packaged and fully insured. Track your shipment\n"
+"in real-time through our dedicated tracking portal."
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid "Return Policy"
+msgstr "Return Policy"
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid ""
+"We stand behind our products with a comprehensive 30-day return policy.\n"
+"If you're not completely satisfied, simply return the item in its\n"
+"original condition."
+msgstr ""
+"We stand behind our products with a comprehensive 30-day return policy.\n"
+"If you're not completely satisfied, simply return the item in its\n"
+"original condition."
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid ""
+"Our hassle-free return process includes free return shipping and full\n"
+"refunds processed within 48 hours of receiving the returned item."
+msgstr ""
+"Our hassle-free return process includes free return shipping and full\n"
+"refunds processed within 48 hours of receiving the returned item."
+
+#~ msgid "Anfahrt per Sbahn"
+#~ msgstr "Anfahrt per Sbahn"
+
+#~ msgid "Die Sportschule"
+#~ msgstr "Die Sportschule"
+
+#~ msgid "Die Sportschule Oberhaching ist einfach"
+#~ msgstr "Die Sportschule Oberhaching ist einfach"
+
+#~ msgid "Die Sportschule Oberhaching ist einfach mit der S-Bahn"
+#~ msgstr "Die Sportschule Oberhaching ist einfach mit der S-Bahn"
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid "Die Sportschule Oberhaching ist einfach mit der S-Bahn erreichbar"
+msgstr "Die Sportschule Oberhaching ist einfach mit der S-Bahn erreichbar"
+
+#~ msgid ""
+#~ "Das Frisbee Festival schafft Sichtbarkeit für den Frisbee  und bringt die internationale\n"
+#~ "Frisbee-Community nach München. Ermöglicht durch großartige Partnerorganisationen."
+#~ msgstr ""
+#~ "Das Frisbee Festival schafft Sichtbarkeit für den Frisbee  und bringt die internationale\n"
+#~ "Frisbee-Community nach München. Ermöglicht durch großartige Partnerorganisationen."
+
+#~ msgid ""
+#~ "Das Frisbee Festival schafft Sichtbarkeit für den Frisbee und bringt die internationale\n"
+#~ "Frisbee-Community nach München. Ermöglicht durch großartige Partnerorganisationen."
+#~ msgstr ""
+#~ "Das Frisbee Festival schafft Sichtbarkeit für den Frisbee und bringt die internationale\n"
+#~ "Frisbee-Community nach München. Ermöglicht durch großartige Partnerorganisationen."
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid ""
+"Das Frisbee Festival schafft Sichtbarkeit für den Frisbeesport und bringt die internationale\n"
+"Frisbee-Community nach München. Ermöglicht durch großartige Partnerorganisationen."
+msgstr ""
+"Das Frisbee Festival schafft Sichtbarkeit für den Frisbeesport und bringt die internationale\n"
+"Frisbee-Community nach München. Ermöglicht durch großartige Partnerorganisationen."
+
+#~ msgid "Inklusion in AktionDieser Sport trennt nicht – er verbindet. Wheelchair Ultimate zeigt, wie kreativ, inklusiv und fair Sport sein kann."
+#~ msgstr "Inklusion in AktionDieser Sport trennt nicht – er verbindet. Wheelchair Ultimate zeigt, wie kreativ, inklusiv und fair Sport sein kann."
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "Inklusion in Aktion. Dieser Sport trennt nicht – er verbindet. Wheelchair Ultimate zeigt, wie kreativ, inklusiv und fair Sport sein kann."
+msgstr "Inklusion in Aktion. Dieser Sport trennt nicht – er verbindet. Wheelchair Ultimate zeigt, wie kreativ, inklusiv und fair Sport sein kann."
+
+#~ msgid ""
+#~ "Wheelchair Ultimate ist eine angepasste Version von Ultimate Frisbee, die für Athleten mit\n"
+#~ "körperlichen Beeinträchtigungen entwickelt wurde. Es bewahrt die Kernwerte des traditionellen\n"
+#~ "Ultimate – wie berührungsfreies Spiel, Selbstschiedsrichterei und den „Spirit of the Game\" –\n"
+#~ "und führt gleichzeitig Anpassungen ein, die speziell auf Rollstuhlfahrer zugeschnitten sind.\n"
+#~ "Das Ergebnis ist ein wirklich inklusiver Sport, der Teamarbeit, Agilität, strategisches Denken\n"
+#~ "und aktive Teilhabe für Menschen mit unterschiedlichsten Mobilitätsniveaus fördert."
+#~ msgstr ""
+#~ "Wheelchair Ultimate ist eine angepasste Version von Ultimate Frisbee, die für Athleten mit\n"
+#~ "körperlichen Beeinträchtigungen entwickelt wurde. Es bewahrt die Kernwerte des traditionellen\n"
+#~ "Ultimate – wie berührungsfreies Spiel, Selbstschiedsrichterei und den „Spirit of the Game\" –\n"
+#~ "und führt gleichzeitig Anpassungen ein, die speziell auf Rollstuhlfahrer zugeschnitten sind.\n"
+#~ "Das Ergebnis ist ein wirklich inklusiver Sport, der Teamarbeit, Agilität, strategisches Denken\n"
+#~ "und aktive Teilhabe für Menschen mit unterschiedlichsten Mobilitätsniveaus fördert."
+
+#~ msgid ""
+#~ "Wheelchair Ultimate ist mehr als nur ein Spiel – es ist ein Erlebnis, das Menschen\n"
+#~ "zusammenbringt. In dem Moment, in dem man über das Spielfeld rollt, die Scheibe fängt und mit\n"
+#~ "seinen Mitspielern zusammenarbeitet, spürt man die Energie und Freude, die diesen Sport\n"
+#~ "ausmachen. Er ist schnell, fair und mitreißend. Erfolg hängt von Aufmerksamkeit, Können und\n"
+#~ "Zusammenarbeit ab – und nicht allein von körperlicher Leistungsfähigkeit – was ihn aufregend\n"
+#~ "und für alle zugänglich macht. Warum jeder es ausprobieren sollte – mit oder ohne Behinderung\n"
+#~ "Wheelchair Ultimate bietet eine neue Perspektive auf sportliche Bewegung und Teamarbeit.\n"
+#~ "Spieler ohne Behinderung entdecken schnell die Herausforderung und den Spaß, einen Rollstuhl\n"
+#~ "zu manövrieren, und gewinnen dabei eine neue Wertschätzung für die Athletik von\n"
+#~ "Rollstuhlfahrern. Gleichzeitig genießen Spieler mit Behinderung einen Rahmen, in dem sie\n"
+#~ "gleichberechtigt teilnehmen und ihre Fähigkeiten voll entfalten können."
+#~ msgstr ""
+#~ "Wheelchair Ultimate ist mehr als nur ein Spiel – es ist ein Erlebnis, das Menschen\n"
+#~ "zusammenbringt. In dem Moment, in dem man über das Spielfeld rollt, die Scheibe fängt und mit\n"
+#~ "seinen Mitspielern zusammenarbeitet, spürt man die Energie und Freude, die diesen Sport\n"
+#~ "ausmachen. Er ist schnell, fair und mitreißend. Erfolg hängt von Aufmerksamkeit, Können und\n"
+#~ "Zusammenarbeit ab – und nicht allein von körperlicher Leistungsfähigkeit – was ihn aufregend\n"
+#~ "und für alle zugänglich macht. Warum jeder es ausprobieren sollte – mit oder ohne Behinderung\n"
+#~ "Wheelchair Ultimate bietet eine neue Perspektive auf sportliche Bewegung und Teamarbeit.\n"
+#~ "Spieler ohne Behinderung entdecken schnell die Herausforderung und den Spaß, einen Rollstuhl\n"
+#~ "zu manövrieren, und gewinnen dabei eine neue Wertschätzung für die Athletik von\n"
+#~ "Rollstuhlfahrern. Gleichzeitig genießen Spieler mit Behinderung einen Rahmen, in dem sie\n"
+#~ "gleichberechtigt teilnehmen und ihre Fähigkeiten voll entfalten können."
+
+#~ msgid ""
+#~ "Dieser Sport trennt nicht – er verbindet. Wheelchair Ultimate zeigt, wie kreativ, inklusiv und\n"
+#~ "fair Sport sein kann, wenn alle gemeinsam spielen. Wer es ausprobiert, entdeckt nicht nur ein\n"
+#~ "mitreißendes Spiel, sondern auch ein neues Gemeinschaftsgefühl. Also: Platz nehmen, Scheibe\n"
+#~ "schnappen und Ultimate aus einer Perspektive erleben, die jeden Spieler nachhaltig\n"
+#~ "beeindruckt."
+#~ msgstr ""
+#~ "Dieser Sport trennt nicht – er verbindet. Wheelchair Ultimate zeigt, wie kreativ, inklusiv und\n"
+#~ "fair Sport sein kann, wenn alle gemeinsam spielen. Wer es ausprobiert, entdeckt nicht nur ein\n"
+#~ "mitreißendes Spiel, sondern auch ein neues Gemeinschaftsgefühl. Also: Platz nehmen, Scheibe\n"
+#~ "schnappen und Ultimate aus einer Perspektive erleben, die jeden Spieler nachhaltig\n"
+#~ "beeindruckt."
+
+#~ msgid ""
+#~ "Rollstuhl Ultimate ist eine angepasste Version von Ultimate Frisbee, die für Athleten mit\n"
+#~ "körperlichen Beeinträchtigungen entwickelt wurde. Es bewahrt die Kernwerte des traditionellen\n"
+#~ "Ultimate – wie berührungsfreies Spiel, Selbstschiedsrichterei und den „Spirit of the Game\" –\n"
+#~ "und führt gleichzeitig Anpassungen ein, die speziell auf Rollstuhlfahrer zugeschnitten sind.\n"
+#~ "Das Ergebnis ist ein wirklich inklusiver Sport, der Teamarbeit, Agilität, strategisches Denken\n"
+#~ "und aktive Teilhabe für Menschen mit unterschiedlichsten Mobilitätsniveaus fördert."
+#~ msgstr ""
+#~ "Rollstuhl Ultimate ist eine angepasste Version von Ultimate Frisbee, die für Athleten mit\n"
+#~ "körperlichen Beeinträchtigungen entwickelt wurde. Es bewahrt die Kernwerte des traditionellen\n"
+#~ "Ultimate – wie berührungsfreies Spiel, Selbstschiedsrichterei und den „Spirit of the Game\" –\n"
+#~ "und führt gleichzeitig Anpassungen ein, die speziell auf Rollstuhlfahrer zugeschnitten sind.\n"
+#~ "Das Ergebnis ist ein wirklich inklusiver Sport, der Teamarbeit, Agilität, strategisches Denken\n"
+#~ "und aktive Teilhabe für Menschen mit unterschiedlichsten Mobilitätsniveaus fördert."
+
+#~ msgid ""
+#~ "Es ist mehr als nur ein Spiel – es ist ein Erlebnis, das Menschen\n"
+#~ "zusammenbringt. In dem Moment, in dem man über das Spielfeld rollt, die Scheibe fängt und mit\n"
+#~ "seinen Mitspielern zusammenarbeitet, spürt man die Energie und Freude, die diesen Sport\n"
+#~ "ausmachen. Er ist schnell, fair und mitreißend. Erfolg hängt von Aufmerksamkeit, Können und\n"
+#~ "Zusammenarbeit ab – und nicht allein von körperlicher Leistungsfähigkeit – was ihn aufregend\n"
+#~ "und für alle zugänglich macht. Warum jeder es ausprobieren sollte – mit oder ohne Behinderung\n"
+#~ "Wheelchair Ultimate bietet eine neue Perspektive auf sportliche Bewegung und Teamarbeit.\n"
+#~ "Spieler ohne Behinderung entdecken schnell die Herausforderung und den Spaß, einen Rollstuhl\n"
+#~ "zu manövrieren, und gewinnen dabei eine neue Wertschätzung für die Athletik von\n"
+#~ "Rollstuhlfahrern. Gleichzeitig genießen Spieler mit Behinderung einen Rahmen, in dem sie\n"
+#~ "gleichberechtigt teilnehmen und ihre Fähigkeiten voll entfalten können."
+#~ msgstr ""
+#~ "Es ist mehr als nur ein Spiel – es ist ein Erlebnis, das Menschen\n"
+#~ "zusammenbringt. In dem Moment, in dem man über das Spielfeld rollt, die Scheibe fängt und mit\n"
+#~ "seinen Mitspielern zusammenarbeitet, spürt man die Energie und Freude, die diesen Sport\n"
+#~ "ausmachen. Er ist schnell, fair und mitreißend. Erfolg hängt von Aufmerksamkeit, Können und\n"
+#~ "Zusammenarbeit ab – und nicht allein von körperlicher Leistungsfähigkeit – was ihn aufregend\n"
+#~ "und für alle zugänglich macht. Warum jeder es ausprobieren sollte – mit oder ohne Behinderung\n"
+#~ "Wheelchair Ultimate bietet eine neue Perspektive auf sportliche Bewegung und Teamarbeit.\n"
+#~ "Spieler ohne Behinderung entdecken schnell die Herausforderung und den Spaß, einen Rollstuhl\n"
+#~ "zu manövrieren, und gewinnen dabei eine neue Wertschätzung für die Athletik von\n"
+#~ "Rollstuhlfahrern. Gleichzeitig genießen Spieler mit Behinderung einen Rahmen, in dem sie\n"
+#~ "gleichberechtigt teilnehmen und ihre Fähigkeiten voll entfalten können."
+
+#~ msgid ""
+#~ "Es ist mehr als nur ein Spiel – es ist ein Erlebnis, das Menschen zusammenbringt. In dem\n"
+#~ "Moment, in dem man über das Spielfeld rollt, die Scheibe fängt und mit seinen Mitspielern\n"
+#~ "zusammenarbeitet, spürt man die Energie und Freude, die diesen Sport ausmachen. Er ist\n"
+#~ "schnell, fair und mitreißend. Erfolg hängt von Aufmerksamkeit, Können und Zusammenarbeit ab –\n"
+#~ "und nicht allein von körperlicher Leistungsfähigkeit – was ihn aufregend und für alle\n"
+#~ "zugänglich macht. Warum jeder es ausprobieren sollte – mit oder ohne Behinderung Wheelchair\n"
+#~ "Ultimate bietet eine neue Perspektive auf sportliche Bewegung und Teamarbeit. Spieler ohne\n"
+#~ "Behinderung entdecken schnell die Herausforderung und den Spaß, einen Rollstuhl zu\n"
+#~ "manövrieren, und gewinnen dabei eine neue Wertschätzung für die Athletik von Rollstuhlfahrern.\n"
+#~ "Gleichzeitig genießen Spieler mit Behinderung einen Rahmen, in dem sie gleichberechtigt\n"
+#~ "teilnehmen und ihre Fähigkeiten voll entfalten können."
+#~ msgstr ""
+#~ "Es ist mehr als nur ein Spiel – es ist ein Erlebnis, das Menschen zusammenbringt. In dem\n"
+#~ "Moment, in dem man über das Spielfeld rollt, die Scheibe fängt und mit seinen Mitspielern\n"
+#~ "zusammenarbeitet, spürt man die Energie und Freude, die diesen Sport ausmachen. Er ist\n"
+#~ "schnell, fair und mitreißend. Erfolg hängt von Aufmerksamkeit, Können und Zusammenarbeit ab –\n"
+#~ "und nicht allein von körperlicher Leistungsfähigkeit – was ihn aufregend und für alle\n"
+#~ "zugänglich macht. Warum jeder es ausprobieren sollte – mit oder ohne Behinderung Wheelchair\n"
+#~ "Ultimate bietet eine neue Perspektive auf sportliche Bewegung und Teamarbeit. Spieler ohne\n"
+#~ "Behinderung entdecken schnell die Herausforderung und den Spaß, einen Rollstuhl zu\n"
+#~ "manövrieren, und gewinnen dabei eine neue Wertschätzung für die Athletik von Rollstuhlfahrern.\n"
+#~ "Gleichzeitig genießen Spieler mit Behinderung einen Rahmen, in dem sie gleichberechtigt\n"
+#~ "teilnehmen und ihre Fähigkeiten voll entfalten können."
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/wheelchair-ultimate/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/wheelchair-ultimate/+page.svelte
+msgid ""
+"Es ist mehr als nur ein Spiel – es ist ein Erlebnis, das Menschen zusammenbringt. In dem\n"
+"Moment, in dem man über das Spielfeld rollt, die Scheibe fängt und mit seinen Mitspielern\n"
+"zusammenarbeitet, spürt man die Energie und Freude, die diesen Sport ausmachen. Er ist\n"
+"schnell, fair und mitreißend. Erfolg hängt von Aufmerksamkeit, Können und Zusammenarbeit ab –\n"
+"und nicht allein von körperlicher Leistungsfähigkeit – was ihn aufregend und für alle\n"
+"zugänglich macht. Warum jeder es ausprobieren sollte – mit oder ohne Behinderung Rollstuhl\n"
+"Ultimate bietet eine neue Perspektive auf sportliche Bewegung und Teamarbeit. Spieler ohne\n"
+"Behinderung entdecken schnell die Herausforderung und den Spaß, einen Rollstuhl zu\n"
+"manövrieren, und gewinnen dabei eine neue Wertschätzung für die Athletik von Rollstuhlfahrern.\n"
+"Gleichzeitig genießen Spieler mit Behinderung einen Rahmen, in dem sie gleichberechtigt\n"
+"teilnehmen und ihre Fähigkeiten voll entfalten können."
+msgstr ""
+"Es ist mehr als nur ein Spiel – es ist ein Erlebnis, das Menschen zusammenbringt. In dem\n"
+"Moment, in dem man über das Spielfeld rollt, die Scheibe fängt und mit seinen Mitspielern\n"
+"zusammenarbeitet, spürt man die Energie und Freude, die diesen Sport ausmachen. Er ist\n"
+"schnell, fair und mitreißend. Erfolg hängt von Aufmerksamkeit, Können und Zusammenarbeit ab –\n"
+"und nicht allein von körperlicher Leistungsfähigkeit – was ihn aufregend und für alle\n"
+"zugänglich macht. Warum jeder es ausprobieren sollte – mit oder ohne Behinderung Rollstuhl\n"
+"Ultimate bietet eine neue Perspektive auf sportliche Bewegung und Teamarbeit. Spieler ohne\n"
+"Behinderung entdecken schnell die Herausforderung und den Spaß, einen Rollstuhl zu\n"
+"manövrieren, und gewinnen dabei eine neue Wertschätzung für die Athletik von Rollstuhlfahrern.\n"
+"Gleichzeitig genießen Spieler mit Behinderung einen Rahmen, in dem sie gleichberechtigt\n"
+"teilnehmen und ihre Fähigkeiten voll entfalten können."
+
+#~ msgid ""
+#~ "Dieser Sport trennt nicht – er verbindet. Rollstuhl Ultimate zeigt, wie kreativ, inklusiv und\n"
+#~ "fair Sport sein kann, wenn alle gemeinsam spielen. Wer es ausprobiert, entdeckt nicht nur ein\n"
+#~ "mitreißendes Spiel, sondern auch ein neues Gemeinschaftsgefühl. Also: Platz nehmen, Scheibe\n"
+#~ "schnappen und Ultimate aus einer Perspektive erleben, die jeden Spieler nachhaltig\n"
+#~ "beeindruckt."
+#~ msgstr ""
+#~ "Dieser Sport trennt nicht – er verbindet. Rollstuhl Ultimate zeigt, wie kreativ, inklusiv und\n"
+#~ "fair Sport sein kann, wenn alle gemeinsam spielen. Wer es ausprobiert, entdeckt nicht nur ein\n"
+#~ "mitreißendes Spiel, sondern auch ein neues Gemeinschaftsgefühl. Also: Platz nehmen, Scheibe\n"
+#~ "schnappen und Ultimate aus einer Perspektive erleben, die jeden Spieler nachhaltig\n"
+#~ "beeindruckt."
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/wheelchair-ultimate/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/wheelchair-ultimate/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/wheelchair-ultimate/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/wheelchair-ultimate/+page.svelte
+msgid "Rollstuhl Frisbee"
+msgstr "Rollstuhl Frisbee"
+
+#~ msgid "Rollstuhl Frisbee players"
+#~ msgstr "Rollstuhl Frisbee players"
+
+#~ msgid ""
+#~ "Rollstuhl Ultimate ist eine angepasste Version von Ultimate Frisbee, die für Athleten mit\n"
+#~ "körperlichen Beeinträchtigungen entwickelt wurde. Es bewahrt die Kernwerte des traditionellen\n"
+#~ "Ultimate – wie berührungsfreies Spiel, Selbstschiedsrichterei und den „Spirit of the Game\" –\n"
+#~ "und führt gleichzeitig Anpassungen ein, die speziell auf Rollstuhlfahrer zugeschnitten sind.\n"
+#~ "Das Ergebnis ist ein wirklich inklusiver Sport, der Teamarbeit, Agilität, strategisches Denken\n"
+#~ "und aktive Teilhabe für Menschen mit unterschiedlichsten Mobilitätsniveaus fördert.\n"
+#~ "Dieser Sport trennt nicht – er verbindet. Rollstuhl Ultimate zeigt, wie kreativ, inklusiv und\n"
+#~ "fair Sport sein kann, wenn alle gemeinsam spielen. Wer es ausprobiert, entdeckt nicht nur ein\n"
+#~ "mitreißendes Spiel, sondern auch ein neues Gemeinschaftsgefühl. Also: Platz nehmen, Scheibe\n"
+#~ "schnappen und Ultimate aus einer Perspektive erleben, die jeden Spieler nachhaltig\n"
+#~ "beeindruckt."
+#~ msgstr ""
+#~ "Rollstuhl Ultimate ist eine angepasste Version von Ultimate Frisbee, die für Athleten mit\n"
+#~ "körperlichen Beeinträchtigungen entwickelt wurde. Es bewahrt die Kernwerte des traditionellen\n"
+#~ "Ultimate – wie berührungsfreies Spiel, Selbstschiedsrichterei und den „Spirit of the Game\" –\n"
+#~ "und führt gleichzeitig Anpassungen ein, die speziell auf Rollstuhlfahrer zugeschnitten sind.\n"
+#~ "Das Ergebnis ist ein wirklich inklusiver Sport, der Teamarbeit, Agilität, strategisches Denken\n"
+#~ "und aktive Teilhabe für Menschen mit unterschiedlichsten Mobilitätsniveaus fördert.\n"
+#~ "Dieser Sport trennt nicht – er verbindet. Rollstuhl Ultimate zeigt, wie kreativ, inklusiv und\n"
+#~ "fair Sport sein kann, wenn alle gemeinsam spielen. Wer es ausprobiert, entdeckt nicht nur ein\n"
+#~ "mitreißendes Spiel, sondern auch ein neues Gemeinschaftsgefühl. Also: Platz nehmen, Scheibe\n"
+#~ "schnappen und Ultimate aus einer Perspektive erleben, die jeden Spieler nachhaltig\n"
+#~ "beeindruckt."
+
+#: src/routes/[[locale=lang]]/disciplines/wheelchair-ultimate/+page.svelte
+msgid ""
+"Rollstuhl Ultimate ist eine angepasste Version von Ultimate Frisbee, die für Athleten mit\n"
+"körperlichen Beeinträchtigungen entwickelt wurde. Es bewahrt die Kernwerte des\n"
+"traditionellen Ultimate – wie berührungsfreies Spiel, Selbstschiedsrichterei und den „Spirit\n"
+"of the Game\" – und führt gleichzeitig Anpassungen ein, die speziell auf Rollstuhlfahrer\n"
+"zugeschnitten sind. Das Ergebnis ist ein wirklich inklusiver Sport, der Teamarbeit,\n"
+"Agilität, strategisches Denken und aktive Teilhabe für Menschen mit unterschiedlichsten\n"
+"Mobilitätsniveaus fördert."
+msgstr ""
+"Rollstuhl Ultimate ist eine angepasste Version von Ultimate Frisbee, die für Athleten mit\n"
+"körperlichen Beeinträchtigungen entwickelt wurde. Es bewahrt die Kernwerte des\n"
+"traditionellen Ultimate – wie berührungsfreies Spiel, Selbstschiedsrichterei und den „Spirit\n"
+"of the Game\" – und führt gleichzeitig Anpassungen ein, die speziell auf Rollstuhlfahrer\n"
+"zugeschnitten sind. Das Ergebnis ist ein wirklich inklusiver Sport, der Teamarbeit,\n"
+"Agilität, strategisches Denken und aktive Teilhabe für Menschen mit unterschiedlichsten\n"
+"Mobilitätsniveaus fördert."
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/wheelchair-ultimate/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/wheelchair-ultimate/+page.svelte
+msgid ""
+"Dieser Sport trennt nicht – er verbindet. Rollstuhl Ultimate zeigt, wie kreativ, inklusiv\n"
+"und fair Sport sein kann, wenn alle gemeinsam spielen. Wer es ausprobiert, entdeckt nicht\n"
+"nur ein mitreißendes Spiel, sondern auch ein neues Gemeinschaftsgefühl. Also: Platz nehmen,\n"
+"Scheibe schnappen und Ultimate aus einer Perspektive erleben, die jeden Spieler nachhaltig\n"
+"beeindruckt."
+msgstr ""
+"Dieser Sport trennt nicht – er verbindet. Rollstuhl Ultimate zeigt, wie kreativ, inklusiv\n"
+"und fair Sport sein kann, wenn alle gemeinsam spielen. Wer es ausprobiert, entdeckt nicht\n"
+"nur ein mitreißendes Spiel, sondern auch ein neues Gemeinschaftsgefühl. Also: Platz nehmen,\n"
+"Scheibe schnappen und Ultimate aus einer Perspektive erleben, die jeden Spieler nachhaltig\n"
+"beeindruckt."
+
+#~ msgid ""
+#~ "Was ist Freestyle Frisbee?\n"
+#~ "Freestyle Frisbee ist die Kunst, mit der Wurfscheibe kreative und artistische Moves zu zeigen. Die zur Musik choreografierten Shows vereinen die Eleganz von Tanz und Gymnastik mit dem Spiel von Werfen und Fangen. Ein spektakuläres, vielseitiges und mitreißendes Erlebnis für Publikum und Teilnehmer gleichermaßen.\n"
+#~ "Kunst der Bewegung\n"
+#~ "Was Freestyle Frisbee so besonders macht, ist die perfekte Verschmelzung von Sport, Tanz und Artistik. Jeder Wurf, jeder Fang wird zur künstlerischen Ausdrucksform. Die Scheibe wird unter dem Bein hindurch geworfen, hinter dem Rücken gefangen oder mit den Fingernägeln balanciert. Spieler vollführen Sprünge, Rollen und sogar Saltos, während die Frisbee durch die Luft gleitet. Die Synchronisation zwischen den Teammitgliedern muss dabei perfekt sein – wie bei einem Pas de Deux im Ballett.\n"
+#~ "\n"
+#~ "Teamwork und Kreativität\n"
+#~ "Im Freestyle Frisbee verschmelzen die Spieler zu einer Einheit. Jede Bewegung ist aufeinander abgestimmt, jeder Trick baut auf dem vorherigen auf. Die besten Teams entwickeln ihren eigenen Stil und erfinden ständig neue Kombinationen. Die Kreativität kennt dabei keine Grenzen: Von eleganten, fließenden Bewegungen bis zu explosiven, kraftvollen Tricks ist alles möglich. Diese kreative Freiheit macht Freestyle Frisbee zu einer der individuellsten Sportarten überhaupt."
+#~ msgstr ""
+#~ "Was ist Freestyle Frisbee?\n"
+#~ "Freestyle Frisbee ist die Kunst, mit der Wurfscheibe kreative und artistische Moves zu zeigen. Die zur Musik choreografierten Shows vereinen die Eleganz von Tanz und Gymnastik mit dem Spiel von Werfen und Fangen. Ein spektakuläres, vielseitiges und mitreißendes Erlebnis für Publikum und Teilnehmer gleichermaßen.\n"
+#~ "Kunst der Bewegung\n"
+#~ "Was Freestyle Frisbee so besonders macht, ist die perfekte Verschmelzung von Sport, Tanz und Artistik. Jeder Wurf, jeder Fang wird zur künstlerischen Ausdrucksform. Die Scheibe wird unter dem Bein hindurch geworfen, hinter dem Rücken gefangen oder mit den Fingernägeln balanciert. Spieler vollführen Sprünge, Rollen und sogar Saltos, während die Frisbee durch die Luft gleitet. Die Synchronisation zwischen den Teammitgliedern muss dabei perfekt sein – wie bei einem Pas de Deux im Ballett.\n"
+#~ "\n"
+#~ "Teamwork und Kreativität\n"
+#~ "Im Freestyle Frisbee verschmelzen die Spieler zu einer Einheit. Jede Bewegung ist aufeinander abgestimmt, jeder Trick baut auf dem vorherigen auf. Die besten Teams entwickeln ihren eigenen Stil und erfinden ständig neue Kombinationen. Die Kreativität kennt dabei keine Grenzen: Von eleganten, fließenden Bewegungen bis zu explosiven, kraftvollen Tricks ist alles möglich. Diese kreative Freiheit macht Freestyle Frisbee zu einer der individuellsten Sportarten überhaupt."
+
+#~ msgid ""
+#~ "Freestyle Frisbee ist die Kunst, mit der Wurfscheibe kreative und artistische Moves zu zeigen. Die zur Musik choreografierten Shows vereinen die Eleganz von Tanz und Gymnastik mit dem Spiel von Werfen und Fangen. Ein spektakuläres, vielseitiges und mitreißendes Erlebnis für Publikum und Teilnehmer gleichermaßen.\n"
+#~ "Kunst der Bewegung\n"
+#~ "Was Freestyle Frisbee so besonders macht, ist die perfekte Verschmelzung von Sport, Tanz und Artistik. Jeder Wurf, jeder Fang wird zur künstlerischen Ausdrucksform. Die Scheibe wird unter dem Bein hindurch geworfen, hinter dem Rücken gefangen oder mit den Fingernägeln balanciert. Spieler vollführen Sprünge, Rollen und sogar Saltos, während die Frisbee durch die Luft gleitet. Die Synchronisation zwischen den Teammitgliedern muss dabei perfekt sein – wie bei einem Pas de Deux im Ballett.\n"
+#~ "\n"
+#~ "Teamwork und Kreativität\n"
+#~ "Im Freestyle Frisbee verschmelzen die Spieler zu einer Einheit. Jede Bewegung ist aufeinander abgestimmt, jeder Trick baut auf dem vorherigen auf. Die besten Teams entwickeln ihren eigenen Stil und erfinden ständig neue Kombinationen. Die Kreativität kennt dabei keine Grenzen: Von eleganten, fließenden Bewegungen bis zu explosiven, kraftvollen Tricks ist alles möglich. Diese kreative Freiheit macht Freestyle Frisbee zu einer der individuellsten Sportarten überhaupt."
+#~ msgstr ""
+#~ "Freestyle Frisbee ist die Kunst, mit der Wurfscheibe kreative und artistische Moves zu zeigen. Die zur Musik choreografierten Shows vereinen die Eleganz von Tanz und Gymnastik mit dem Spiel von Werfen und Fangen. Ein spektakuläres, vielseitiges und mitreißendes Erlebnis für Publikum und Teilnehmer gleichermaßen.\n"
+#~ "Kunst der Bewegung\n"
+#~ "Was Freestyle Frisbee so besonders macht, ist die perfekte Verschmelzung von Sport, Tanz und Artistik. Jeder Wurf, jeder Fang wird zur künstlerischen Ausdrucksform. Die Scheibe wird unter dem Bein hindurch geworfen, hinter dem Rücken gefangen oder mit den Fingernägeln balanciert. Spieler vollführen Sprünge, Rollen und sogar Saltos, während die Frisbee durch die Luft gleitet. Die Synchronisation zwischen den Teammitgliedern muss dabei perfekt sein – wie bei einem Pas de Deux im Ballett.\n"
+#~ "\n"
+#~ "Teamwork und Kreativität\n"
+#~ "Im Freestyle Frisbee verschmelzen die Spieler zu einer Einheit. Jede Bewegung ist aufeinander abgestimmt, jeder Trick baut auf dem vorherigen auf. Die besten Teams entwickeln ihren eigenen Stil und erfinden ständig neue Kombinationen. Die Kreativität kennt dabei keine Grenzen: Von eleganten, fließenden Bewegungen bis zu explosiven, kraftvollen Tricks ist alles möglich. Diese kreative Freiheit macht Freestyle Frisbee zu einer der individuellsten Sportarten überhaupt."
+
+#~ msgid ""
+#~ "Freestyle Frisbee ist die Kunst, mit der Wurfscheibe kreative und artistische Moves zu zeigen. Die zur Musik choreografierten Shows vereinen die Eleganz von Tanz und Gymnastik mit dem Spiel von Werfen und Fangen. Ein spektakuläres, vielseitiges und mitreißendes Erlebnis für Publikum und Teilnehmer gleichermaßen.\n"
+#~ "Kunst der Bewegung\n"
+#~ "Was Freestyle Frisbee so besonders macht, ist die perfekte Verschmelzung von Sport, Tanz und Artistik. Jeder Wurf, jeder Fang wird zur künstlerischen Ausdrucksform. Die Scheibe wird unter dem Bein hindurch geworfen, hinter dem Rücken gefangen oder mit den Fingernägeln balanciert. Spieler vollführen Sprünge, Rollen und sogar Saltos, während die Frisbee durch die Luft gleitet. Die Synchronisation zwischen den Teammitgliedern muss dabei perfekt sein – wie bei einem Pas de Deux im Ballett.\n"
+#~ "\n"
+#~ "\n"
+#~ "Im Freestyle Frisbee verschmelzen die Spieler zu einer Einheit. Jede Bewegung ist aufeinander abgestimmt, jeder Trick baut auf dem vorherigen auf. Die besten Teams entwickeln ihren eigenen Stil und erfinden ständig neue Kombinationen. Die Kreativität kennt dabei keine Grenzen: Von eleganten, fließenden Bewegungen bis zu explosiven, kraftvollen Tricks ist alles möglich. Diese kreative Freiheit macht Freestyle Frisbee zu einer der individuellsten Sportarten überhaupt."
+#~ msgstr ""
+#~ "Freestyle Frisbee ist die Kunst, mit der Wurfscheibe kreative und artistische Moves zu zeigen. Die zur Musik choreografierten Shows vereinen die Eleganz von Tanz und Gymnastik mit dem Spiel von Werfen und Fangen. Ein spektakuläres, vielseitiges und mitreißendes Erlebnis für Publikum und Teilnehmer gleichermaßen.\n"
+#~ "Kunst der Bewegung\n"
+#~ "Was Freestyle Frisbee so besonders macht, ist die perfekte Verschmelzung von Sport, Tanz und Artistik. Jeder Wurf, jeder Fang wird zur künstlerischen Ausdrucksform. Die Scheibe wird unter dem Bein hindurch geworfen, hinter dem Rücken gefangen oder mit den Fingernägeln balanciert. Spieler vollführen Sprünge, Rollen und sogar Saltos, während die Frisbee durch die Luft gleitet. Die Synchronisation zwischen den Teammitgliedern muss dabei perfekt sein – wie bei einem Pas de Deux im Ballett.\n"
+#~ "\n"
+#~ "\n"
+#~ "Im Freestyle Frisbee verschmelzen die Spieler zu einer Einheit. Jede Bewegung ist aufeinander abgestimmt, jeder Trick baut auf dem vorherigen auf. Die besten Teams entwickeln ihren eigenen Stil und erfinden ständig neue Kombinationen. Die Kreativität kennt dabei keine Grenzen: Von eleganten, fließenden Bewegungen bis zu explosiven, kraftvollen Tricks ist alles möglich. Diese kreative Freiheit macht Freestyle Frisbee zu einer der individuellsten Sportarten überhaupt."
+
+#~ msgid ""
+#~ "<0>Jetzt wirds kreativ</0> <1>Freestyle Frisbee</1> <2>Freestyle Frisbee ist die Kunst, mit der Wurfscheibe kreative und artistische Moves zu zeigen. Die zur Musik choreografierten Shows vereinen die Eleganz von Tanz und Gymnastik mit dem Spiel von Werfen und Fangen. Ein spektakuläres, vielseitiges und mitreißendes Erlebnis für Publikum und Teilnehmer gleichermaßen.\n"
+#~ "Kunst der Bewegung\n"
+#~ "Was Freestyle Frisbee so besonders macht, ist die perfekte Verschmelzung von Sport, Tanz und Artistik. Jeder Wurf, jeder Fang wird zur künstlerischen Ausdrucksform. Die Scheibe wird unter dem Bein hindurch geworfen, hinter dem Rücken gefangen oder mit den Fingernägeln balanciert. Spieler vollführen Sprünge, Rollen und sogar Saltos, während die Frisbee durch die Luft gleitet. Die Synchronisation zwischen den Teammitgliedern muss dabei perfekt sein – wie bei einem Pas de Deux im Ballett.</2> Im Freestyle Frisbee verschmelzen die Spieler zu einer Einheit. Jede Bewegung ist aufeinander abgestimmt, jeder Trick baut auf dem vorherigen auf. Die besten Teams entwickeln ihren eigenen Stil und erfinden ständig neue Kombinationen. Die Kreativität kennt dabei keine Grenzen: Von eleganten, fließenden Bewegungen bis zu explosiven, kraftvollen Tricks ist alles möglich. Diese kreative Freiheit macht Freestyle Frisbee zu einer der individuellsten Sportarten überhaupt. <3>Wir glauben an den Aufbau einer unterstützenden Gemeinschaft, in der sich Spieler gegenseitig\n"
+#~ "ermutigen, Wissen teilen und gemeinsam Erfolge feiern.</3>"
+#~ msgstr ""
+#~ "<0>Jetzt wirds kreativ</0> <1>Freestyle Frisbee</1> <2>Freestyle Frisbee ist die Kunst, mit der Wurfscheibe kreative und artistische Moves zu zeigen. Die zur Musik choreografierten Shows vereinen die Eleganz von Tanz und Gymnastik mit dem Spiel von Werfen und Fangen. Ein spektakuläres, vielseitiges und mitreißendes Erlebnis für Publikum und Teilnehmer gleichermaßen.\n"
+#~ "Kunst der Bewegung\n"
+#~ "Was Freestyle Frisbee so besonders macht, ist die perfekte Verschmelzung von Sport, Tanz und Artistik. Jeder Wurf, jeder Fang wird zur künstlerischen Ausdrucksform. Die Scheibe wird unter dem Bein hindurch geworfen, hinter dem Rücken gefangen oder mit den Fingernägeln balanciert. Spieler vollführen Sprünge, Rollen und sogar Saltos, während die Frisbee durch die Luft gleitet. Die Synchronisation zwischen den Teammitgliedern muss dabei perfekt sein – wie bei einem Pas de Deux im Ballett.</2> Im Freestyle Frisbee verschmelzen die Spieler zu einer Einheit. Jede Bewegung ist aufeinander abgestimmt, jeder Trick baut auf dem vorherigen auf. Die besten Teams entwickeln ihren eigenen Stil und erfinden ständig neue Kombinationen. Die Kreativität kennt dabei keine Grenzen: Von eleganten, fließenden Bewegungen bis zu explosiven, kraftvollen Tricks ist alles möglich. Diese kreative Freiheit macht Freestyle Frisbee zu einer der individuellsten Sportarten überhaupt. <3>Wir glauben an den Aufbau einer unterstützenden Gemeinschaft, in der sich Spieler gegenseitig\n"
+#~ "ermutigen, Wissen teilen und gemeinsam Erfolge feiern.</3>"
+
+#~ msgid ""
+#~ "<0>Jetzt wirds kreativ</0> <1>Freestyle Frisbee</1> <2>Freestyle Frisbee ist die Kunst, mit der Wurfscheibe kreative und artistische Moves zu zeigen. Die zur Musik choreografierten Shows vereinen die Eleganz von Tanz und Gymnastik mit dem Spiel von Werfen und Fangen. Ein spektakuläres, vielseitiges und mitreißendes Erlebnis für Publikum und Teilnehmer gleichermaßen.\n"
+#~ "\n"
+#~ "Was Freestyle Frisbee so besonders macht, ist die perfekte Verschmelzung von Sport, Tanz und Artistik. Jeder Wurf, jeder Fang wird zur künstlerischen Ausdrucksform. Die Scheibe wird unter dem Bein hindurch geworfen, hinter dem Rücken gefangen oder mit den Fingernägeln balanciert. Spieler vollführen Sprünge, Rollen und sogar Saltos, während die Frisbee durch die Luft gleitet. Die Synchronisation zwischen den Teammitgliedern muss dabei perfekt sein – wie bei einem Pas de Deux im Ballett.</2> Im Freestyle Frisbee verschmelzen die Spieler zu einer Einheit. Jede Bewegung ist aufeinander abgestimmt, jeder Trick baut auf dem vorherigen auf. Die besten Teams entwickeln ihren eigenen Stil und erfinden ständig neue Kombinationen. Die Kreativität kennt dabei keine Grenzen: Von eleganten, fließenden Bewegungen bis zu explosiven, kraftvollen Tricks ist alles möglich. Diese kreative Freiheit macht Freestyle Frisbee zu einer der individuellsten Sportarten überhaupt. <3>Wir glauben an den Aufbau einer unterstützenden Gemeinschaft, in der sich Spieler gegenseitig\n"
+#~ "ermutigen, Wissen teilen und gemeinsam Erfolge feiern.</3>"
+#~ msgstr ""
+#~ "<0>Jetzt wirds kreativ</0> <1>Freestyle Frisbee</1> <2>Freestyle Frisbee ist die Kunst, mit der Wurfscheibe kreative und artistische Moves zu zeigen. Die zur Musik choreografierten Shows vereinen die Eleganz von Tanz und Gymnastik mit dem Spiel von Werfen und Fangen. Ein spektakuläres, vielseitiges und mitreißendes Erlebnis für Publikum und Teilnehmer gleichermaßen.\n"
+#~ "\n"
+#~ "Was Freestyle Frisbee so besonders macht, ist die perfekte Verschmelzung von Sport, Tanz und Artistik. Jeder Wurf, jeder Fang wird zur künstlerischen Ausdrucksform. Die Scheibe wird unter dem Bein hindurch geworfen, hinter dem Rücken gefangen oder mit den Fingernägeln balanciert. Spieler vollführen Sprünge, Rollen und sogar Saltos, während die Frisbee durch die Luft gleitet. Die Synchronisation zwischen den Teammitgliedern muss dabei perfekt sein – wie bei einem Pas de Deux im Ballett.</2> Im Freestyle Frisbee verschmelzen die Spieler zu einer Einheit. Jede Bewegung ist aufeinander abgestimmt, jeder Trick baut auf dem vorherigen auf. Die besten Teams entwickeln ihren eigenen Stil und erfinden ständig neue Kombinationen. Die Kreativität kennt dabei keine Grenzen: Von eleganten, fließenden Bewegungen bis zu explosiven, kraftvollen Tricks ist alles möglich. Diese kreative Freiheit macht Freestyle Frisbee zu einer der individuellsten Sportarten überhaupt. <3>Wir glauben an den Aufbau einer unterstützenden Gemeinschaft, in der sich Spieler gegenseitig\n"
+#~ "ermutigen, Wissen teilen und gemeinsam Erfolge feiern.</3>"
+
+#~ msgid ""
+#~ "<0>Jetzt wirds kreativ</0> <1>Freestyle Frisbee</1> <2>Freestyle Frisbee ist die Kunst, mit der Wurfscheibe kreative und artistische Moves zu zeigen. Die zur Musik choreografierten Shows vereinen die Eleganz von Tanz und Gymnastik mit dem Spiel von Werfen und Fangen. Ein spektakuläres, vielseitiges und mitreißendes Erlebnis für Publikum und Teilnehmer gleichermaßen.</2> <3>Was Freestyle Frisbee so besonders macht, ist die perfekte Verschmelzung von Sport, Tanz und Artistik. Jeder Wurf, jeder Fang wird zur künstlerischen Ausdrucksform. Die Scheibe wird unter dem Bein hindurch geworfen, hinter dem Rücken gefangen oder mit den Fingernägeln balanciert. Spieler vollführen Sprünge, Rollen und sogar Saltos, während die Frisbee durch die Luft gleitet. Die Synchronisation zwischen den Teammitgliedern muss dabei perfekt sein – wie bei einem Pas de Deux im Ballett.</3> Im Freestyle Frisbee verschmelzen die Spieler zu einer Einheit. Jede Bewegung ist aufeinander abgestimmt, jeder Trick baut auf dem vorherigen auf. Die besten Teams entwickeln ihren eigenen Stil und erfinden ständig neue Kombinationen. Die Kreativität kennt dabei keine Grenzen: Von eleganten, fließenden Bewegungen bis zu explosiven, kraftvollen Tricks ist alles möglich. Diese kreative Freiheit macht Freestyle Frisbee zu einer der individuellsten Sportarten überhaupt. <4>Wir glauben an den Aufbau einer unterstützenden Gemeinschaft, in der sich Spieler gegenseitig\n"
+#~ "ermutigen, Wissen teilen und gemeinsam Erfolge feiern.</4>"
+#~ msgstr ""
+#~ "<0>Jetzt wirds kreativ</0> <1>Freestyle Frisbee</1> <2>Freestyle Frisbee ist die Kunst, mit der Wurfscheibe kreative und artistische Moves zu zeigen. Die zur Musik choreografierten Shows vereinen die Eleganz von Tanz und Gymnastik mit dem Spiel von Werfen und Fangen. Ein spektakuläres, vielseitiges und mitreißendes Erlebnis für Publikum und Teilnehmer gleichermaßen.</2> <3>Was Freestyle Frisbee so besonders macht, ist die perfekte Verschmelzung von Sport, Tanz und Artistik. Jeder Wurf, jeder Fang wird zur künstlerischen Ausdrucksform. Die Scheibe wird unter dem Bein hindurch geworfen, hinter dem Rücken gefangen oder mit den Fingernägeln balanciert. Spieler vollführen Sprünge, Rollen und sogar Saltos, während die Frisbee durch die Luft gleitet. Die Synchronisation zwischen den Teammitgliedern muss dabei perfekt sein – wie bei einem Pas de Deux im Ballett.</3> Im Freestyle Frisbee verschmelzen die Spieler zu einer Einheit. Jede Bewegung ist aufeinander abgestimmt, jeder Trick baut auf dem vorherigen auf. Die besten Teams entwickeln ihren eigenen Stil und erfinden ständig neue Kombinationen. Die Kreativität kennt dabei keine Grenzen: Von eleganten, fließenden Bewegungen bis zu explosiven, kraftvollen Tricks ist alles möglich. Diese kreative Freiheit macht Freestyle Frisbee zu einer der individuellsten Sportarten überhaupt. <4>Wir glauben an den Aufbau einer unterstützenden Gemeinschaft, in der sich Spieler gegenseitig\n"
+#~ "ermutigen, Wissen teilen und gemeinsam Erfolge feiern.</4>"
+
+#~ msgid ""
+#~ "<0>Jetzt wirds kreativ</0> <1>Freestyle Frisbee</1> <2>Freestyle Frisbee ist die Kunst, mit der Wurfscheibe kreative und artistische Moves zu zeigen.\n"
+#~ "Die zur Musik choreografierten Shows vereinen die Eleganz von Tanz und Gymnastik mit dem Spiel\n"
+#~ "von Werfen und Fangen. Ein spektakuläres, vielseitiges und mitreißendes Erlebnis für Publikum\n"
+#~ "und Teilnehmer gleichermaßen.</2> <3>Was Freestyle Frisbee so besonders macht, ist die perfekte Verschmelzung von Sport, Tanz und\n"
+#~ "Artistik. Jeder Wurf, jeder Fang wird zur künstlerischen Ausdrucksform. Die Scheibe wird unter\n"
+#~ "dem Bein hindurch geworfen, hinter dem Rücken gefangen oder mit den Fingernägeln balanciert.\n"
+#~ "Spieler vollführen Sprünge, Rollen und sogar Saltos, während die Frisbee durch die Luft\n"
+#~ "gleitet. Die Synchronisation zwischen den Teammitgliedern muss dabei perfekt sein – wie bei\n"
+#~ "einem Pas de Deux im Ballett.</3> Im Freestyle Frisbee verschmelzen die Spieler zu einer Einheit. Jede Bewegung ist aufeinander\n"
+#~ "abgestimmt, jeder Trick baut auf dem vorherigen auf. Die besten Teams entwickeln ihren eigenen\n"
+#~ "Stil und erfinden ständig neue Kombinationen. Die Kreativität kennt dabei keine Grenzen: Von\n"
+#~ "eleganten, fließenden Bewegungen bis zu explosiven, kraftvollen Tricks ist alles möglich. Diese\n"
+#~ "kreative Freiheit macht Freestyle Frisbee zu einer der individuellsten Sportarten überhaupt. <4>Wir glauben an den Aufbau einer unterstützenden Gemeinschaft, in der sich Spieler gegenseitig\n"
+#~ "ermutigen, Wissen teilen und gemeinsam Erfolge feiern.</4>"
+#~ msgstr ""
+#~ "<0>Jetzt wirds kreativ</0> <1>Freestyle Frisbee</1> <2>Freestyle Frisbee ist die Kunst, mit der Wurfscheibe kreative und artistische Moves zu zeigen.\n"
+#~ "Die zur Musik choreografierten Shows vereinen die Eleganz von Tanz und Gymnastik mit dem Spiel\n"
+#~ "von Werfen und Fangen. Ein spektakuläres, vielseitiges und mitreißendes Erlebnis für Publikum\n"
+#~ "und Teilnehmer gleichermaßen.</2> <3>Was Freestyle Frisbee so besonders macht, ist die perfekte Verschmelzung von Sport, Tanz und\n"
+#~ "Artistik. Jeder Wurf, jeder Fang wird zur künstlerischen Ausdrucksform. Die Scheibe wird unter\n"
+#~ "dem Bein hindurch geworfen, hinter dem Rücken gefangen oder mit den Fingernägeln balanciert.\n"
+#~ "Spieler vollführen Sprünge, Rollen und sogar Saltos, während die Frisbee durch die Luft\n"
+#~ "gleitet. Die Synchronisation zwischen den Teammitgliedern muss dabei perfekt sein – wie bei\n"
+#~ "einem Pas de Deux im Ballett.</3> Im Freestyle Frisbee verschmelzen die Spieler zu einer Einheit. Jede Bewegung ist aufeinander\n"
+#~ "abgestimmt, jeder Trick baut auf dem vorherigen auf. Die besten Teams entwickeln ihren eigenen\n"
+#~ "Stil und erfinden ständig neue Kombinationen. Die Kreativität kennt dabei keine Grenzen: Von\n"
+#~ "eleganten, fließenden Bewegungen bis zu explosiven, kraftvollen Tricks ist alles möglich. Diese\n"
+#~ "kreative Freiheit macht Freestyle Frisbee zu einer der individuellsten Sportarten überhaupt. <4>Wir glauben an den Aufbau einer unterstützenden Gemeinschaft, in der sich Spieler gegenseitig\n"
+#~ "ermutigen, Wissen teilen und gemeinsam Erfolge feiern.</4>"
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/freestyle/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+msgid ""
+"Freestyle Frisbee ist die Kunst, mit der Wurfscheibe kreative und artistische Moves zu zeigen.\n"
+"Die zur Musik choreografierten Shows vereinen die Eleganz von Tanz und Gymnastik mit dem Spiel\n"
+"von Werfen und Fangen. Ein spektakuläres, vielseitiges und mitreißendes Erlebnis für Publikum\n"
+"und Teilnehmer gleichermaßen."
+msgstr ""
+"Freestyle Frisbee ist die Kunst, mit der Wurfscheibe kreative und artistische Moves zu zeigen.\n"
+"Die zur Musik choreografierten Shows vereinen die Eleganz von Tanz und Gymnastik mit dem Spiel\n"
+"von Werfen und Fangen. Ein spektakuläres, vielseitiges und mitreißendes Erlebnis für Publikum\n"
+"und Teilnehmer gleichermaßen."
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/freestyle/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+msgid ""
+"Was Freestyle Frisbee so besonders macht, ist die perfekte Verschmelzung von Sport, Tanz und\n"
+"Artistik. Jeder Wurf, jeder Fang wird zur künstlerischen Ausdrucksform. Die Scheibe wird unter\n"
+"dem Bein hindurch geworfen, hinter dem Rücken gefangen oder mit den Fingernägeln balanciert.\n"
+"Spieler vollführen Sprünge, Rollen und sogar Saltos, während die Frisbee durch die Luft\n"
+"gleitet. Die Synchronisation zwischen den Teammitgliedern muss dabei perfekt sein – wie bei\n"
+"einem Pas de Deux im Ballett."
+msgstr ""
+"Was Freestyle Frisbee so besonders macht, ist die perfekte Verschmelzung von Sport, Tanz und\n"
+"Artistik. Jeder Wurf, jeder Fang wird zur künstlerischen Ausdrucksform. Die Scheibe wird unter\n"
+"dem Bein hindurch geworfen, hinter dem Rücken gefangen oder mit den Fingernägeln balanciert.\n"
+"Spieler vollführen Sprünge, Rollen und sogar Saltos, während die Frisbee durch die Luft\n"
+"gleitet. Die Synchronisation zwischen den Teammitgliedern muss dabei perfekt sein – wie bei\n"
+"einem Pas de Deux im Ballett."
+
+#~ msgid ""
+#~ "Im Freestyle Frisbee verschmelzen die Spieler zu einer Einheit. Jede Bewegung ist aufeinander\n"
+#~ "abgestimmt, jeder Trick baut auf dem vorherigen auf. Die besten Teams entwickeln ihren eigenen\n"
+#~ "Stil und erfinden ständig neue Kombinationen. Die Kreativität kennt dabei keine Grenzen: Von\n"
+#~ "eleganten, fließenden Bewegungen bis zu explosiven, kraftvollen Tricks ist alles möglich. Diese\n"
+#~ "kreative Freiheit macht Freestyle Frisbee zu einer der individuellsten Sportarten überhaupt.\n"
+#~ "\n"
+#~ "Wir glauben an den Aufbau einer unterstützenden Gemeinschaft, in der sich Spieler gegenseitig\n"
+#~ "ermutigen, Wissen teilen und gemeinsam Erfolge feiern."
+#~ msgstr ""
+#~ "Im Freestyle Frisbee verschmelzen die Spieler zu einer Einheit. Jede Bewegung ist aufeinander\n"
+#~ "abgestimmt, jeder Trick baut auf dem vorherigen auf. Die besten Teams entwickeln ihren eigenen\n"
+#~ "Stil und erfinden ständig neue Kombinationen. Die Kreativität kennt dabei keine Grenzen: Von\n"
+#~ "eleganten, fließenden Bewegungen bis zu explosiven, kraftvollen Tricks ist alles möglich. Diese\n"
+#~ "kreative Freiheit macht Freestyle Frisbee zu einer der individuellsten Sportarten überhaupt.\n"
+#~ "\n"
+#~ "Wir glauben an den Aufbau einer unterstützenden Gemeinschaft, in der sich Spieler gegenseitig\n"
+#~ "ermutigen, Wissen teilen und gemeinsam Erfolge feiern."
+
+#~ msgid ""
+#~ "<0>Jetzt wirds kreativ</0> <1>Freestyle Frisbee</1> <2>Freestyle Frisbee ist die Kunst, mit der Wurfscheibe kreative und artistische Moves zu zeigen.\n"
+#~ "Die zur Musik choreografierten Shows vereinen die Eleganz von Tanz und Gymnastik mit dem Spiel\n"
+#~ "von Werfen und Fangen. Ein spektakuläres, vielseitiges und mitreißendes Erlebnis für Publikum\n"
+#~ "und Teilnehmer gleichermaßen.</2> <3>Was Freestyle Frisbee so besonders macht, ist die perfekte Verschmelzung von Sport, Tanz und\n"
+#~ "Artistik. Jeder Wurf, jeder Fang wird zur künstlerischen Ausdrucksform. Die Scheibe wird unter\n"
+#~ "dem Bein hindurch geworfen, hinter dem Rücken gefangen oder mit den Fingernägeln balanciert.\n"
+#~ "Spieler vollführen Sprünge, Rollen und sogar Saltos, während die Frisbee durch die Luft\n"
+#~ "gleitet. Die Synchronisation zwischen den Teammitgliedern muss dabei perfekt sein – wie bei\n"
+#~ "einem Pas de Deux im Ballett.</3> <4>Im Freestyle Frisbee verschmelzen die Spieler zu einer Einheit. Jede Bewegung ist aufeinander\n"
+#~ "abgestimmt, jeder Trick baut auf dem vorherigen auf. Die besten Teams entwickeln ihren eigenen\n"
+#~ "Stil und erfinden ständig neue Kombinationen. Die Kreativität kennt dabei keine Grenzen: Von\n"
+#~ "eleganten, fließenden Bewegungen bis zu explosiven, kraftvollen Tricks ist alles möglich. Diese\n"
+#~ "kreative Freiheit macht Freestyle Frisbee zu einer der individuellsten Sportarten überhaupt.</4> Wir glauben an den Aufbau einer unterstützenden Gemeinschaft, in der sich Spieler gegenseitig\n"
+#~ "ermutigen, Wissen teilen und gemeinsam Erfolge feiern."
+#~ msgstr ""
+#~ "<0>Jetzt wirds kreativ</0> <1>Freestyle Frisbee</1> <2>Freestyle Frisbee ist die Kunst, mit der Wurfscheibe kreative und artistische Moves zu zeigen.\n"
+#~ "Die zur Musik choreografierten Shows vereinen die Eleganz von Tanz und Gymnastik mit dem Spiel\n"
+#~ "von Werfen und Fangen. Ein spektakuläres, vielseitiges und mitreißendes Erlebnis für Publikum\n"
+#~ "und Teilnehmer gleichermaßen.</2> <3>Was Freestyle Frisbee so besonders macht, ist die perfekte Verschmelzung von Sport, Tanz und\n"
+#~ "Artistik. Jeder Wurf, jeder Fang wird zur künstlerischen Ausdrucksform. Die Scheibe wird unter\n"
+#~ "dem Bein hindurch geworfen, hinter dem Rücken gefangen oder mit den Fingernägeln balanciert.\n"
+#~ "Spieler vollführen Sprünge, Rollen und sogar Saltos, während die Frisbee durch die Luft\n"
+#~ "gleitet. Die Synchronisation zwischen den Teammitgliedern muss dabei perfekt sein – wie bei\n"
+#~ "einem Pas de Deux im Ballett.</3> <4>Im Freestyle Frisbee verschmelzen die Spieler zu einer Einheit. Jede Bewegung ist aufeinander\n"
+#~ "abgestimmt, jeder Trick baut auf dem vorherigen auf. Die besten Teams entwickeln ihren eigenen\n"
+#~ "Stil und erfinden ständig neue Kombinationen. Die Kreativität kennt dabei keine Grenzen: Von\n"
+#~ "eleganten, fließenden Bewegungen bis zu explosiven, kraftvollen Tricks ist alles möglich. Diese\n"
+#~ "kreative Freiheit macht Freestyle Frisbee zu einer der individuellsten Sportarten überhaupt.</4> Wir glauben an den Aufbau einer unterstützenden Gemeinschaft, in der sich Spieler gegenseitig\n"
+#~ "ermutigen, Wissen teilen und gemeinsam Erfolge feiern."
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/freestyle/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+msgid ""
+"Im Freestyle Frisbee verschmelzen die Spieler zu einer Einheit. Jede Bewegung ist aufeinander\n"
+"abgestimmt, jeder Trick baut auf dem vorherigen auf. Die besten Teams entwickeln ihren eigenen\n"
+"Stil und erfinden ständig neue Kombinationen. Die Kreativität kennt dabei keine Grenzen: Von\n"
+"eleganten, fließenden Bewegungen bis zu explosiven, kraftvollen Tricks ist alles möglich.\n"
+"Diese kreative Freiheit macht Freestyle Frisbee zu einer der individuellsten Sportarten\n"
+"überhaupt."
+msgstr ""
+"Im Freestyle Frisbee verschmelzen die Spieler zu einer Einheit. Jede Bewegung ist aufeinander\n"
+"abgestimmt, jeder Trick baut auf dem vorherigen auf. Die besten Teams entwickeln ihren eigenen\n"
+"Stil und erfinden ständig neue Kombinationen. Die Kreativität kennt dabei keine Grenzen: Von\n"
+"eleganten, fließenden Bewegungen bis zu explosiven, kraftvollen Tricks ist alles möglich.\n"
+"Diese kreative Freiheit macht Freestyle Frisbee zu einer der individuellsten Sportarten\n"
+"überhaupt."
+
+#~ msgid ""
+#~ "Wie funktioniert Discgolf?\n"
+#~ "\n"
+#~ "Discgolf verbindet die Präzision des Golfsports mit der Dynamik der Frisbee. Statt Ball und Schläger werden spezielle Wurfscheiben verwendet, die mit möglichst wenigen Würfen in ein Ziel – einen Fangkorb – gespielt werden. Dabei gilt es, Technik, Wurfstärke und ein gutes Auge zu kombinieren.\n"
+#~ "\n"
+#~ "Ein Discgolfkurs hat in der Regel 18 Bahnen. Jede Bahn hat einen festgelegten Abwurfpunkt. Nach dem ersten Wurf spielt man von da weiter, wo die Disc liegengeblieben ist. Dies macht man so lange, bis die Disc in dem Fangkorb zur Ruhe gekommen ist.\n"
+#~ "\n"
+#~ "Was für ein Discgolf-Turnier findet beim Frisbee Festival statt?\n"
+#~ "\n"
+#~ "Im Rahmen des Frisbee Festivals organisiert der Disc Golf München e.V. zum dritten Mal ein großes Turnier in der Sportschule Oberhaching. Den Auftakt machten die Bayerischen Disc Golf Meisterschaften 2024, ehe es im letzten Jahr zur Premiere vom Campustreffen kam. Dieses wird nun in seine zweite Ausgabe gehen.\n"
+#~ "\n"
+#~ "Das Campustreffen ist ein Turnier der Serie “German Disc Golf Tour South”. Zu den Teilnehmer*innen gehören einige der besten Spieler*innen Deutschlands. Gespielt wird in acht Altersdivisionen über drei Runden zu je 18 Bahnen. Wer über die drei Tage die wenigsten Würfe benötigt hat, gewinnt.\n"
+#~ "\n"
+#~ "Wo kann ich Discgolf selbst ausprobieren?\n"
+#~ "\n"
+#~ "Hier in der Sportschule! Entweder gleich heute an dem Stand von Disc Golf München e.V., oder das ganze Jahr über auf dem für die Öffentlichkeit zugänglichen Kurs. An der Rezeption bekommst du eine Tageskarte (6€) und Leihscheiben."
+#~ msgstr ""
+#~ "Wie funktioniert Discgolf?\n"
+#~ "\n"
+#~ "Discgolf verbindet die Präzision des Golfsports mit der Dynamik der Frisbee. Statt Ball und Schläger werden spezielle Wurfscheiben verwendet, die mit möglichst wenigen Würfen in ein Ziel – einen Fangkorb – gespielt werden. Dabei gilt es, Technik, Wurfstärke und ein gutes Auge zu kombinieren.\n"
+#~ "\n"
+#~ "Ein Discgolfkurs hat in der Regel 18 Bahnen. Jede Bahn hat einen festgelegten Abwurfpunkt. Nach dem ersten Wurf spielt man von da weiter, wo die Disc liegengeblieben ist. Dies macht man so lange, bis die Disc in dem Fangkorb zur Ruhe gekommen ist.\n"
+#~ "\n"
+#~ "Was für ein Discgolf-Turnier findet beim Frisbee Festival statt?\n"
+#~ "\n"
+#~ "Im Rahmen des Frisbee Festivals organisiert der Disc Golf München e.V. zum dritten Mal ein großes Turnier in der Sportschule Oberhaching. Den Auftakt machten die Bayerischen Disc Golf Meisterschaften 2024, ehe es im letzten Jahr zur Premiere vom Campustreffen kam. Dieses wird nun in seine zweite Ausgabe gehen.\n"
+#~ "\n"
+#~ "Das Campustreffen ist ein Turnier der Serie “German Disc Golf Tour South”. Zu den Teilnehmer*innen gehören einige der besten Spieler*innen Deutschlands. Gespielt wird in acht Altersdivisionen über drei Runden zu je 18 Bahnen. Wer über die drei Tage die wenigsten Würfe benötigt hat, gewinnt.\n"
+#~ "\n"
+#~ "Wo kann ich Discgolf selbst ausprobieren?\n"
+#~ "\n"
+#~ "Hier in der Sportschule! Entweder gleich heute an dem Stand von Disc Golf München e.V., oder das ganze Jahr über auf dem für die Öffentlichkeit zugänglichen Kurs. An der Rezeption bekommst du eine Tageskarte (6€) und Leihscheiben."
+
+#~ msgid ""
+#~ "Wie funktioniert Discgolf? Discgolf verbindet die Präzision des Golfsports mit der Dynamik der\n"
+#~ "Frisbee. Statt Ball und Schläger werden spezielle Wurfscheiben verwendet, die mit möglichst\n"
+#~ "wenigen Würfen in ein Ziel – einen Fangkorb – gespielt werden. Dabei gilt es, Technik,\n"
+#~ "Wurfstärke und ein gutes Auge zu kombinieren. Ein Discgolfkurs hat in der Regel 18 Bahnen.\n"
+#~ "Jede Bahn hat einen festgelegten Abwurfpunkt. Nach dem ersten Wurf spielt man von da weiter,\n"
+#~ "wo die Disc liegengeblieben ist. Dies macht man so lange, bis die Disc in dem Fangkorb zur\n"
+#~ "Ruhe gekommen ist. Was für ein Discgolf-Turnier findet beim Frisbee Festival statt? Im Rahmen\n"
+#~ "des Frisbee Festivals organisiert der Disc Golf München e.V. zum dritten Mal ein großes\n"
+#~ "Turnier in der Sportschule Oberhaching. Den Auftakt machten die Bayerischen Disc Golf\n"
+#~ "Meisterschaften 2024, ehe es im letzten Jahr zur Premiere vom Campustreffen kam. Dieses wird\n"
+#~ "nun in seine zweite Ausgabe gehen. Das Campustreffen ist ein Turnier der Serie “German Disc\n"
+#~ "Golf Tour South”. Zu den Teilnehmer*innen gehören einige der besten Spieler*innen\n"
+#~ "Deutschlands. Gespielt wird in acht Altersdivisionen über drei Runden zu je 18 Bahnen. Wer\n"
+#~ "über die drei Tage die wenigsten Würfe benötigt hat, gewinnt. Wo kann ich Discgolf selbst\n"
+#~ "ausprobieren? Hier in der Sportschule! Entweder gleich heute an dem Stand von Disc Golf\n"
+#~ "München e.V., oder das ganze Jahr über auf dem für die Öffentlichkeit zugänglichen Kurs. An\n"
+#~ "der Rezeption bekommst du eine Tageskarte (6€) und Leihscheiben."
+#~ msgstr ""
+#~ "Wie funktioniert Discgolf? Discgolf verbindet die Präzision des Golfsports mit der Dynamik der\n"
+#~ "Frisbee. Statt Ball und Schläger werden spezielle Wurfscheiben verwendet, die mit möglichst\n"
+#~ "wenigen Würfen in ein Ziel – einen Fangkorb – gespielt werden. Dabei gilt es, Technik,\n"
+#~ "Wurfstärke und ein gutes Auge zu kombinieren. Ein Discgolfkurs hat in der Regel 18 Bahnen.\n"
+#~ "Jede Bahn hat einen festgelegten Abwurfpunkt. Nach dem ersten Wurf spielt man von da weiter,\n"
+#~ "wo die Disc liegengeblieben ist. Dies macht man so lange, bis die Disc in dem Fangkorb zur\n"
+#~ "Ruhe gekommen ist. Was für ein Discgolf-Turnier findet beim Frisbee Festival statt? Im Rahmen\n"
+#~ "des Frisbee Festivals organisiert der Disc Golf München e.V. zum dritten Mal ein großes\n"
+#~ "Turnier in der Sportschule Oberhaching. Den Auftakt machten die Bayerischen Disc Golf\n"
+#~ "Meisterschaften 2024, ehe es im letzten Jahr zur Premiere vom Campustreffen kam. Dieses wird\n"
+#~ "nun in seine zweite Ausgabe gehen. Das Campustreffen ist ein Turnier der Serie “German Disc\n"
+#~ "Golf Tour South”. Zu den Teilnehmer*innen gehören einige der besten Spieler*innen\n"
+#~ "Deutschlands. Gespielt wird in acht Altersdivisionen über drei Runden zu je 18 Bahnen. Wer\n"
+#~ "über die drei Tage die wenigsten Würfe benötigt hat, gewinnt. Wo kann ich Discgolf selbst\n"
+#~ "ausprobieren? Hier in der Sportschule! Entweder gleich heute an dem Stand von Disc Golf\n"
+#~ "München e.V., oder das ganze Jahr über auf dem für die Öffentlichkeit zugänglichen Kurs. An\n"
+#~ "der Rezeption bekommst du eine Tageskarte (6€) und Leihscheiben."
+
+#~ msgid ""
+#~ "Discgolf verbindet die Präzision des Golfsports mit der Dynamik der Frisbee. Statt Ball und Schläger werden spezielle Wurfscheiben verwendet, die mit möglichst wenigen Würfen in ein Ziel – einen Fangkorb – gespielt werden. Dabei gilt es, Technik, Wurfstärke und ein gutes Auge zu kombinieren.\n"
+#~ "\n"
+#~ "Ein Discgolfkurs hat in der Regel 18 Bahnen. Jede Bahn hat einen festgelegten Abwurfpunkt. Nach dem ersten Wurf spielt man von da weiter, wo die Disc liegengeblieben ist. Dies macht man so lange, bis die Disc in dem Fangkorb zur Ruhe gekommen ist.\n"
+#~ "\n"
+#~ "Was für ein Discgolf-Turnier findet beim Frisbee Festival statt?\n"
+#~ "\n"
+#~ "Im Rahmen des Frisbee Festivals organisiert der Disc Golf München e.V. zum dritten Mal ein großes Turnier in der Sportschule Oberhaching. Den Auftakt machten die Bayerischen Disc Golf Meisterschaften 2024, ehe es im letzten Jahr zur Premiere vom Campustreffen kam. Dieses wird nun in seine zweite Ausgabe gehen.\n"
+#~ "\n"
+#~ "Das Campustreffen ist ein Turnier der Serie “German Disc Golf Tour South”. Zu den Teilnehmer*innen gehören einige der besten Spieler*innen Deutschlands. Gespielt wird in acht Altersdivisionen über drei Runden zu je 18 Bahnen. Wer über die drei Tage die wenigsten Würfe benötigt hat, gewinnt.\n"
+#~ "\n"
+#~ "Wo kann ich Discgolf selbst ausprobieren?\n"
+#~ "\n"
+#~ "Hier in der Sportschule! Entweder gleich heute an dem Stand von Disc Golf München e.V., oder das ganze Jahr über auf dem für die Öffentlichkeit zugänglichen Kurs. An der Rezeption bekommst du eine Tageskarte (6€) und Leihscheiben."
+#~ msgstr ""
+#~ "Discgolf verbindet die Präzision des Golfsports mit der Dynamik der Frisbee. Statt Ball und Schläger werden spezielle Wurfscheiben verwendet, die mit möglichst wenigen Würfen in ein Ziel – einen Fangkorb – gespielt werden. Dabei gilt es, Technik, Wurfstärke und ein gutes Auge zu kombinieren.\n"
+#~ "\n"
+#~ "Ein Discgolfkurs hat in der Regel 18 Bahnen. Jede Bahn hat einen festgelegten Abwurfpunkt. Nach dem ersten Wurf spielt man von da weiter, wo die Disc liegengeblieben ist. Dies macht man so lange, bis die Disc in dem Fangkorb zur Ruhe gekommen ist.\n"
+#~ "\n"
+#~ "Was für ein Discgolf-Turnier findet beim Frisbee Festival statt?\n"
+#~ "\n"
+#~ "Im Rahmen des Frisbee Festivals organisiert der Disc Golf München e.V. zum dritten Mal ein großes Turnier in der Sportschule Oberhaching. Den Auftakt machten die Bayerischen Disc Golf Meisterschaften 2024, ehe es im letzten Jahr zur Premiere vom Campustreffen kam. Dieses wird nun in seine zweite Ausgabe gehen.\n"
+#~ "\n"
+#~ "Das Campustreffen ist ein Turnier der Serie “German Disc Golf Tour South”. Zu den Teilnehmer*innen gehören einige der besten Spieler*innen Deutschlands. Gespielt wird in acht Altersdivisionen über drei Runden zu je 18 Bahnen. Wer über die drei Tage die wenigsten Würfe benötigt hat, gewinnt.\n"
+#~ "\n"
+#~ "Wo kann ich Discgolf selbst ausprobieren?\n"
+#~ "\n"
+#~ "Hier in der Sportschule! Entweder gleich heute an dem Stand von Disc Golf München e.V., oder das ganze Jahr über auf dem für die Öffentlichkeit zugänglichen Kurs. An der Rezeption bekommst du eine Tageskarte (6€) und Leihscheiben."
+
+#~ msgid ""
+#~ "Discgolf verbindet die Präzision des Golfsports mit der Dynamik der Frisbee. Statt Ball und Schläger werden spezielle Wurfscheiben verwendet, die mit möglichst wenigen Würfen in ein Ziel – einen Fangkorb – gespielt werden. Dabei gilt es, Technik, Wurfstärke und ein gutes Auge zu kombinieren.\n"
+#~ "\n"
+#~ "Ein Discgolfkurs hat in der Regel 18 Bahnen. Jede Bahn hat einen festgelegten Abwurfpunkt. Nach dem ersten Wurf spielt man von da weiter, wo die Disc liegengeblieben ist. Dies macht man so lange, bis die Disc in dem Fangkorb zur Ruhe gekommen ist."
+#~ msgstr ""
+#~ "Discgolf verbindet die Präzision des Golfsports mit der Dynamik der Frisbee. Statt Ball und Schläger werden spezielle Wurfscheiben verwendet, die mit möglichst wenigen Würfen in ein Ziel – einen Fangkorb – gespielt werden. Dabei gilt es, Technik, Wurfstärke und ein gutes Auge zu kombinieren.\n"
+#~ "\n"
+#~ "Ein Discgolfkurs hat in der Regel 18 Bahnen. Jede Bahn hat einen festgelegten Abwurfpunkt. Nach dem ersten Wurf spielt man von da weiter, wo die Disc liegengeblieben ist. Dies macht man so lange, bis die Disc in dem Fangkorb zur Ruhe gekommen ist."
+
+#~ msgid ""
+#~ "Im Rahmen des Frisbee Festivals organisiert der Disc Golf München e.V. zum dritten Mal ein großes Turnier in der Sportschule Oberhaching. Den Auftakt machten die Bayerischen Disc Golf Meisterschaften 2024, ehe es im letzten Jahr zur Premiere vom Campustreffen kam. Dieses wird nun in seine zweite Ausgabe gehen.\n"
+#~ "\n"
+#~ "Das Campustreffen ist ein Turnier der Serie “German Disc Golf Tour South”. Zu den Teilnehmer*innen gehören einige der besten Spieler*innen Deutschlands. Gespielt wird in acht Altersdivisionen über drei Runden zu je 18 Bahnen. Wer über die drei Tage die wenigsten Würfe benötigt hat, gewinnt.\n"
+#~ "\n"
+#~ "Wo kann ich Discgolf selbst ausprobieren?\n"
+#~ "\n"
+#~ "Hier in der Sportschule! Entweder gleich heute an dem Stand von Disc Golf München e.V., oder das ganze Jahr über auf dem für die Öffentlichkeit zugänglichen Kurs. An der Rezeption bekommst du eine Tageskarte (6€) und Leihscheiben."
+#~ msgstr ""
+#~ "Im Rahmen des Frisbee Festivals organisiert der Disc Golf München e.V. zum dritten Mal ein großes Turnier in der Sportschule Oberhaching. Den Auftakt machten die Bayerischen Disc Golf Meisterschaften 2024, ehe es im letzten Jahr zur Premiere vom Campustreffen kam. Dieses wird nun in seine zweite Ausgabe gehen.\n"
+#~ "\n"
+#~ "Das Campustreffen ist ein Turnier der Serie “German Disc Golf Tour South”. Zu den Teilnehmer*innen gehören einige der besten Spieler*innen Deutschlands. Gespielt wird in acht Altersdivisionen über drei Runden zu je 18 Bahnen. Wer über die drei Tage die wenigsten Würfe benötigt hat, gewinnt.\n"
+#~ "\n"
+#~ "Wo kann ich Discgolf selbst ausprobieren?\n"
+#~ "\n"
+#~ "Hier in der Sportschule! Entweder gleich heute an dem Stand von Disc Golf München e.V., oder das ganze Jahr über auf dem für die Öffentlichkeit zugänglichen Kurs. An der Rezeption bekommst du eine Tageskarte (6€) und Leihscheiben."
+
+#~ msgid ""
+#~ "Im Rahmen des Frisbee Festivals organisiert der Disc Golf München e.V. zum dritten Mal ein großes Turnier in der Sportschule Oberhaching. Den Auftakt machten die Bayerischen Disc Golf Meisterschaften 2024, ehe es im letzten Jahr zur Premiere vom Campustreffen kam. Dieses wird nun in seine zweite Ausgabe gehen.\n"
+#~ "\n"
+#~ "Das Campustreffen ist ein Turnier der Serie “German Disc Golf Tour South”. Zu den Teilnehmer*innen gehören einige der besten Spieler*innen Deutschlands. Gespielt wird in acht Altersdivisionen über drei Runden zu je 18 Bahnen. Wer über die drei Tage die wenigsten Würfe benötigt hat, gewinnt. <0/>Wo kann ich Discgolf selbst ausprobieren?\n"
+#~ "\n"
+#~ "Hier in der Sportschule! Entweder gleich heute an dem Stand von Disc Golf München e.V., oder das ganze Jahr über auf dem für die Öffentlichkeit zugänglichen Kurs. An der Rezeption bekommst du eine Tageskarte (6€) und Leihscheiben."
+#~ msgstr ""
+#~ "Im Rahmen des Frisbee Festivals organisiert der Disc Golf München e.V. zum dritten Mal ein großes Turnier in der Sportschule Oberhaching. Den Auftakt machten die Bayerischen Disc Golf Meisterschaften 2024, ehe es im letzten Jahr zur Premiere vom Campustreffen kam. Dieses wird nun in seine zweite Ausgabe gehen.\n"
+#~ "\n"
+#~ "Das Campustreffen ist ein Turnier der Serie “German Disc Golf Tour South”. Zu den Teilnehmer*innen gehören einige der besten Spieler*innen Deutschlands. Gespielt wird in acht Altersdivisionen über drei Runden zu je 18 Bahnen. Wer über die drei Tage die wenigsten Würfe benötigt hat, gewinnt. <0/>Wo kann ich Discgolf selbst ausprobieren?\n"
+#~ "\n"
+#~ "Hier in der Sportschule! Entweder gleich heute an dem Stand von Disc Golf München e.V., oder das ganze Jahr über auf dem für die Öffentlichkeit zugänglichen Kurs. An der Rezeption bekommst du eine Tageskarte (6€) und Leihscheiben."
+
+#~ msgid ""
+#~ "Im Rahmen des Frisbee Festivals organisiert der Disc Golf München e.V. zum dritten Mal ein großes Turnier in der Sportschule Oberhaching. Den Auftakt machten die Bayerischen Disc Golf Meisterschaften 2024, ehe es im letzten Jahr zur Premiere vom Campustreffen kam. Dieses wird nun in seine zweite Ausgabe gehen.\n"
+#~ "\n"
+#~ "Das Campustreffen ist ein Turnier der Serie “German Disc Golf Tour South”. Zu den Teilnehmer*innen gehören einige der besten Spieler*innen Deutschlands. Gespielt wird in acht Altersdivisionen über drei Runden zu je 18 Bahnen. Wer über die drei Tage die wenigsten Würfe benötigt hat, gewinnt. <0/>Wo kann ich Discgolf selbst ausprobieren?\n"
+#~ "Hier in der Sportschule! Entweder gleich heute an dem Stand von Disc Golf München e.V., oder das ganze Jahr über auf dem für die Öffentlichkeit zugänglichen Kurs. An der Rezeption bekommst du eine Tageskarte (6€) und Leihscheiben."
+#~ msgstr ""
+#~ "Im Rahmen des Frisbee Festivals organisiert der Disc Golf München e.V. zum dritten Mal ein großes Turnier in der Sportschule Oberhaching. Den Auftakt machten die Bayerischen Disc Golf Meisterschaften 2024, ehe es im letzten Jahr zur Premiere vom Campustreffen kam. Dieses wird nun in seine zweite Ausgabe gehen.\n"
+#~ "\n"
+#~ "Das Campustreffen ist ein Turnier der Serie “German Disc Golf Tour South”. Zu den Teilnehmer*innen gehören einige der besten Spieler*innen Deutschlands. Gespielt wird in acht Altersdivisionen über drei Runden zu je 18 Bahnen. Wer über die drei Tage die wenigsten Würfe benötigt hat, gewinnt. <0/>Wo kann ich Discgolf selbst ausprobieren?\n"
+#~ "Hier in der Sportschule! Entweder gleich heute an dem Stand von Disc Golf München e.V., oder das ganze Jahr über auf dem für die Öffentlichkeit zugänglichen Kurs. An der Rezeption bekommst du eine Tageskarte (6€) und Leihscheiben."
+
+#~ msgid ""
+#~ "Im Rahmen des Frisbee Festivals organisiert der Disc Golf München e.V. zum dritten Mal ein großes Turnier in der Sportschule Oberhaching. Den Auftakt machten die Bayerischen Disc Golf Meisterschaften 2024, ehe es im letzten Jahr zur Premiere vom Campustreffen kam. Dieses wird nun in seine zweite Ausgabe gehen.\n"
+#~ "\n"
+#~ "Das Campustreffen ist ein Turnier der Serie “German Disc Golf Tour South”. Zu den Teilnehmer*innen gehören einige der besten Spieler*innen Deutschlands. Gespielt wird in acht Altersdivisionen über drei Runden zu je 18 Bahnen. Wer über die drei Tage die wenigsten Würfe benötigt hat, gewinnt. <0>Wo kann ich Discgolf selbst ausprobieren?\n"
+#~ "Hier in der Sportschule! Entweder gleich heute an dem Stand von Disc Golf München e.V., oder das ganze Jahr über auf dem für die Öffentlichkeit zugänglichen Kurs. An der Rezeption bekommst du eine Tageskarte (6€) und Leihscheiben.</0>"
+#~ msgstr ""
+#~ "Im Rahmen des Frisbee Festivals organisiert der Disc Golf München e.V. zum dritten Mal ein großes Turnier in der Sportschule Oberhaching. Den Auftakt machten die Bayerischen Disc Golf Meisterschaften 2024, ehe es im letzten Jahr zur Premiere vom Campustreffen kam. Dieses wird nun in seine zweite Ausgabe gehen.\n"
+#~ "\n"
+#~ "Das Campustreffen ist ein Turnier der Serie “German Disc Golf Tour South”. Zu den Teilnehmer*innen gehören einige der besten Spieler*innen Deutschlands. Gespielt wird in acht Altersdivisionen über drei Runden zu je 18 Bahnen. Wer über die drei Tage die wenigsten Würfe benötigt hat, gewinnt. <0>Wo kann ich Discgolf selbst ausprobieren?\n"
+#~ "Hier in der Sportschule! Entweder gleich heute an dem Stand von Disc Golf München e.V., oder das ganze Jahr über auf dem für die Öffentlichkeit zugänglichen Kurs. An der Rezeption bekommst du eine Tageskarte (6€) und Leihscheiben.</0>"
+
+#~ msgid ""
+#~ "Im Rahmen des Frisbee Festivals organisiert der Disc Golf München e.V. zum dritten Mal ein großes Turnier in der Sportschule Oberhaching. Den Auftakt machten die Bayerischen Disc Golf Meisterschaften 2024, ehe es im letzten Jahr zur Premiere vom Campustreffen kam. Dieses wird nun in seine zweite Ausgabe gehen.\n"
+#~ "\n"
+#~ "Das Campustreffen ist ein Turnier der Serie “German Disc Golf Tour South”. Zu den Teilnehmer*innen gehören einige der besten Spieler*innen Deutschlands. Gespielt wird in acht Altersdivisionen über drei Runden zu je 18 Bahnen. Wer über die drei Tage die wenigsten Würfe benötigt hat, gewinnt. <0>Wo kann ich Discgolf selbst ausprobieren?</0> Hier in der Sportschule! Entweder gleich heute an dem Stand von Disc Golf München e.V., oder das ganze Jahr über auf dem für die Öffentlichkeit zugänglichen Kurs. An der Rezeption bekommst du eine Tageskarte (6€) und Leihscheiben."
+#~ msgstr ""
+#~ "Im Rahmen des Frisbee Festivals organisiert der Disc Golf München e.V. zum dritten Mal ein großes Turnier in der Sportschule Oberhaching. Den Auftakt machten die Bayerischen Disc Golf Meisterschaften 2024, ehe es im letzten Jahr zur Premiere vom Campustreffen kam. Dieses wird nun in seine zweite Ausgabe gehen.\n"
+#~ "\n"
+#~ "Das Campustreffen ist ein Turnier der Serie “German Disc Golf Tour South”. Zu den Teilnehmer*innen gehören einige der besten Spieler*innen Deutschlands. Gespielt wird in acht Altersdivisionen über drei Runden zu je 18 Bahnen. Wer über die drei Tage die wenigsten Würfe benötigt hat, gewinnt. <0>Wo kann ich Discgolf selbst ausprobieren?</0> Hier in der Sportschule! Entweder gleich heute an dem Stand von Disc Golf München e.V., oder das ganze Jahr über auf dem für die Öffentlichkeit zugänglichen Kurs. An der Rezeption bekommst du eine Tageskarte (6€) und Leihscheiben."
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/disc-golf/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/disc-golf/+page.svelte
+msgid ""
+"Discgolf verbindet die Präzision des Golfsports mit der Dynamik der Frisbee. Statt Ball und\n"
+"Schläger werden spezielle Wurfscheiben verwendet, die mit möglichst wenigen Würfen in ein Ziel\n"
+"– einen Fangkorb – gespielt werden. Dabei gilt es, Technik, Wurfstärke und ein gutes Auge zu\n"
+"kombinieren. Ein Discgolfkurs hat in der Regel 18 Bahnen. Jede Bahn hat einen festgelegten\n"
+"Abwurfpunkt. Nach dem ersten Wurf spielt man von da weiter, wo die Disc liegengeblieben ist.\n"
+"Dies macht man so lange, bis die Disc in dem Fangkorb zur Ruhe gekommen ist."
+msgstr ""
+"Discgolf verbindet die Präzision des Golfsports mit der Dynamik der Frisbee. Statt Ball und\n"
+"Schläger werden spezielle Wurfscheiben verwendet, die mit möglichst wenigen Würfen in ein Ziel\n"
+"– einen Fangkorb – gespielt werden. Dabei gilt es, Technik, Wurfstärke und ein gutes Auge zu\n"
+"kombinieren. Ein Discgolfkurs hat in der Regel 18 Bahnen. Jede Bahn hat einen festgelegten\n"
+"Abwurfpunkt. Nach dem ersten Wurf spielt man von da weiter, wo die Disc liegengeblieben ist.\n"
+"Dies macht man so lange, bis die Disc in dem Fangkorb zur Ruhe gekommen ist."
+
+#~ msgid ""
+#~ "Im Rahmen des Frisbee Festivals organisiert der Disc Golf München e.V. zum dritten Mal ein\n"
+#~ "großes Turnier in der Sportschule Oberhaching. Den Auftakt machten die Bayerischen Disc Golf\n"
+#~ "Meisterschaften 2024, ehe es im letzten Jahr zur Premiere vom Campustreffen kam. Dieses wird\n"
+#~ "nun in seine zweite Ausgabe gehen. Das Campustreffen ist ein Turnier der Serie “German Disc\n"
+#~ "Golf Tour South”. Zu den Teilnehmer*innen gehören einige der besten Spieler*innen\n"
+#~ "Deutschlands. Gespielt wird in acht Altersdivisionen über drei Runden zu je 18 Bahnen. Wer\n"
+#~ "über die drei Tage die wenigsten Würfe benötigt hat, gewinnt. <0>Wo kann ich Discgolf selbst ausprobieren?</0> Hier in der Sportschule! Entweder gleich heute an dem Stand von Disc Golf München e.V., oder das\n"
+#~ "ganze Jahr über auf dem für die Öffentlichkeit zugänglichen Kurs. An der Rezeption bekommst du eine\n"
+#~ "Tageskarte (6€) und Leihscheiben."
+#~ msgstr ""
+#~ "Im Rahmen des Frisbee Festivals organisiert der Disc Golf München e.V. zum dritten Mal ein\n"
+#~ "großes Turnier in der Sportschule Oberhaching. Den Auftakt machten die Bayerischen Disc Golf\n"
+#~ "Meisterschaften 2024, ehe es im letzten Jahr zur Premiere vom Campustreffen kam. Dieses wird\n"
+#~ "nun in seine zweite Ausgabe gehen. Das Campustreffen ist ein Turnier der Serie “German Disc\n"
+#~ "Golf Tour South”. Zu den Teilnehmer*innen gehören einige der besten Spieler*innen\n"
+#~ "Deutschlands. Gespielt wird in acht Altersdivisionen über drei Runden zu je 18 Bahnen. Wer\n"
+#~ "über die drei Tage die wenigsten Würfe benötigt hat, gewinnt. <0>Wo kann ich Discgolf selbst ausprobieren?</0> Hier in der Sportschule! Entweder gleich heute an dem Stand von Disc Golf München e.V., oder das\n"
+#~ "ganze Jahr über auf dem für die Öffentlichkeit zugänglichen Kurs. An der Rezeption bekommst du eine\n"
+#~ "Tageskarte (6€) und Leihscheiben."
+
+#~ msgid ""
+#~ "<0>Präzision und Konzentration</0> <1>Disc Golf</1> <2>Discgolf verbindet die Präzision des Golfsports mit der Dynamik der Frisbee. Statt Ball und\n"
+#~ "Schläger werden spezielle Wurfscheiben verwendet, die mit möglichst wenigen Würfen in ein Ziel\n"
+#~ "– einen Fangkorb – gespielt werden. Dabei gilt es, Technik, Wurfstärke und ein gutes Auge zu\n"
+#~ "kombinieren. Ein Discgolfkurs hat in der Regel 18 Bahnen. Jede Bahn hat einen festgelegten\n"
+#~ "Abwurfpunkt. Nach dem ersten Wurf spielt man von da weiter, wo die Disc liegengeblieben ist.\n"
+#~ "Dies macht man so lange, bis die Disc in dem Fangkorb zur Ruhe gekommen ist.</2> <3>Im Rahmen des Frisbee Festivals organisiert der Disc Golf München e.V. zum dritten Mal ein\n"
+#~ "großes Turnier in der Sportschule Oberhaching. Den Auftakt machten die Bayerischen Disc Golf\n"
+#~ "Meisterschaften 2024, ehe es im letzten Jahr zur Premiere vom Campustreffen kam. Dieses wird\n"
+#~ "nun in seine zweite Ausgabe gehen. Das Campustreffen ist ein Turnier der Serie “German Disc\n"
+#~ "Golf Tour South”. Zu den Teilnehmer*innen gehören einige der besten Spieler*innen\n"
+#~ "Deutschlands. Gespielt wird in acht Altersdivisionen über drei Runden zu je 18 Bahnen. Wer\n"
+#~ "über die drei Tage die wenigsten Würfe benötigt hat, gewinnt.</3> <4>Wo kann ich Discgolf selbst ausprobieren?</4> Hier in der Sportschule! Entweder gleich heute an dem Stand von Disc Golf München e.V., oder das\n"
+#~ "ganze Jahr über auf dem für die Öffentlichkeit zugänglichen Kurs. An der Rezeption bekommst du eine\n"
+#~ "Tageskarte (6€) und Leihscheiben."
+#~ msgstr ""
+#~ "<0>Präzision und Konzentration</0> <1>Disc Golf</1> <2>Discgolf verbindet die Präzision des Golfsports mit der Dynamik der Frisbee. Statt Ball und\n"
+#~ "Schläger werden spezielle Wurfscheiben verwendet, die mit möglichst wenigen Würfen in ein Ziel\n"
+#~ "– einen Fangkorb – gespielt werden. Dabei gilt es, Technik, Wurfstärke und ein gutes Auge zu\n"
+#~ "kombinieren. Ein Discgolfkurs hat in der Regel 18 Bahnen. Jede Bahn hat einen festgelegten\n"
+#~ "Abwurfpunkt. Nach dem ersten Wurf spielt man von da weiter, wo die Disc liegengeblieben ist.\n"
+#~ "Dies macht man so lange, bis die Disc in dem Fangkorb zur Ruhe gekommen ist.</2> <3>Im Rahmen des Frisbee Festivals organisiert der Disc Golf München e.V. zum dritten Mal ein\n"
+#~ "großes Turnier in der Sportschule Oberhaching. Den Auftakt machten die Bayerischen Disc Golf\n"
+#~ "Meisterschaften 2024, ehe es im letzten Jahr zur Premiere vom Campustreffen kam. Dieses wird\n"
+#~ "nun in seine zweite Ausgabe gehen. Das Campustreffen ist ein Turnier der Serie “German Disc\n"
+#~ "Golf Tour South”. Zu den Teilnehmer*innen gehören einige der besten Spieler*innen\n"
+#~ "Deutschlands. Gespielt wird in acht Altersdivisionen über drei Runden zu je 18 Bahnen. Wer\n"
+#~ "über die drei Tage die wenigsten Würfe benötigt hat, gewinnt.</3> <4>Wo kann ich Discgolf selbst ausprobieren?</4> Hier in der Sportschule! Entweder gleich heute an dem Stand von Disc Golf München e.V., oder das\n"
+#~ "ganze Jahr über auf dem für die Öffentlichkeit zugänglichen Kurs. An der Rezeption bekommst du eine\n"
+#~ "Tageskarte (6€) und Leihscheiben."
+
+#~ msgid ""
+#~ "<0>Präzision und Konzentration</0> <1>Disc Golf</1> <2>Discgolf verbindet die Präzision des Golfsports mit der Dynamik der Frisbee. Statt Ball und\n"
+#~ "Schläger werden spezielle Wurfscheiben verwendet, die mit möglichst wenigen Würfen in ein Ziel\n"
+#~ "– einen Fangkorb – gespielt werden. Dabei gilt es, Technik, Wurfstärke und ein gutes Auge zu\n"
+#~ "kombinieren. Ein Discgolfkurs hat in der Regel 18 Bahnen. Jede Bahn hat einen festgelegten\n"
+#~ "Abwurfpunkt. Nach dem ersten Wurf spielt man von da weiter, wo die Disc liegengeblieben ist.\n"
+#~ "Dies macht man so lange, bis die Disc in dem Fangkorb zur Ruhe gekommen ist.</2> <3>Im Rahmen des Frisbee Festivals organisiert der Disc Golf München e.V. zum dritten Mal ein\n"
+#~ "großes Turnier in der Sportschule Oberhaching. Den Auftakt machten die Bayerischen Disc Golf\n"
+#~ "Meisterschaften 2024, ehe es im letzten Jahr zur Premiere vom Campustreffen kam. Dieses wird\n"
+#~ "nun in seine zweite Ausgabe gehen. Das Campustreffen ist ein Turnier der Serie “German Disc\n"
+#~ "Golf Tour South”. Zu den Teilnehmer*innen gehören einige der besten Spieler*innen\n"
+#~ "Deutschlands. Gespielt wird in acht Altersdivisionen über drei Runden zu je 18 Bahnen. Wer\n"
+#~ "über die drei Tage die wenigsten Würfe benötigt hat, gewinnt.</3> <4/> <5>Wo kann ich Discgolf selbst ausprobieren?</5> Hier in der Sportschule! Entweder gleich heute an dem Stand von Disc Golf München e.V., oder das\n"
+#~ "ganze Jahr über auf dem für die Öffentlichkeit zugänglichen Kurs. An der Rezeption bekommst du eine\n"
+#~ "Tageskarte (6€) und Leihscheiben."
+#~ msgstr ""
+#~ "<0>Präzision und Konzentration</0> <1>Disc Golf</1> <2>Discgolf verbindet die Präzision des Golfsports mit der Dynamik der Frisbee. Statt Ball und\n"
+#~ "Schläger werden spezielle Wurfscheiben verwendet, die mit möglichst wenigen Würfen in ein Ziel\n"
+#~ "– einen Fangkorb – gespielt werden. Dabei gilt es, Technik, Wurfstärke und ein gutes Auge zu\n"
+#~ "kombinieren. Ein Discgolfkurs hat in der Regel 18 Bahnen. Jede Bahn hat einen festgelegten\n"
+#~ "Abwurfpunkt. Nach dem ersten Wurf spielt man von da weiter, wo die Disc liegengeblieben ist.\n"
+#~ "Dies macht man so lange, bis die Disc in dem Fangkorb zur Ruhe gekommen ist.</2> <3>Im Rahmen des Frisbee Festivals organisiert der Disc Golf München e.V. zum dritten Mal ein\n"
+#~ "großes Turnier in der Sportschule Oberhaching. Den Auftakt machten die Bayerischen Disc Golf\n"
+#~ "Meisterschaften 2024, ehe es im letzten Jahr zur Premiere vom Campustreffen kam. Dieses wird\n"
+#~ "nun in seine zweite Ausgabe gehen. Das Campustreffen ist ein Turnier der Serie “German Disc\n"
+#~ "Golf Tour South”. Zu den Teilnehmer*innen gehören einige der besten Spieler*innen\n"
+#~ "Deutschlands. Gespielt wird in acht Altersdivisionen über drei Runden zu je 18 Bahnen. Wer\n"
+#~ "über die drei Tage die wenigsten Würfe benötigt hat, gewinnt.</3> <4/> <5>Wo kann ich Discgolf selbst ausprobieren?</5> Hier in der Sportschule! Entweder gleich heute an dem Stand von Disc Golf München e.V., oder das\n"
+#~ "ganze Jahr über auf dem für die Öffentlichkeit zugänglichen Kurs. An der Rezeption bekommst du eine\n"
+#~ "Tageskarte (6€) und Leihscheiben."
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/disc-golf/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/disc-golf/+page.svelte
+msgid ""
+"Im Rahmen des Frisbee Festivals organisiert der Disc Golf München e.V. zum dritten Mal ein\n"
+"großes Turnier in der Sportschule Oberhaching. Den Auftakt machten die Bayerischen Disc Golf\n"
+"Meisterschaften 2024, ehe es im letzten Jahr zur Premiere vom Campustreffen kam. Dieses wird\n"
+"nun in seine zweite Ausgabe gehen. Das Campustreffen ist ein Turnier der Serie “German Disc\n"
+"Golf Tour South”. Zu den Teilnehmer*innen gehören einige der besten Spieler*innen\n"
+"Deutschlands. Gespielt wird in acht Altersdivisionen über drei Runden zu je 18 Bahnen. Wer\n"
+"über die drei Tage die wenigsten Würfe benötigt hat, gewinnt."
+msgstr ""
+"Im Rahmen des Frisbee Festivals organisiert der Disc Golf München e.V. zum dritten Mal ein\n"
+"großes Turnier in der Sportschule Oberhaching. Den Auftakt machten die Bayerischen Disc Golf\n"
+"Meisterschaften 2024, ehe es im letzten Jahr zur Premiere vom Campustreffen kam. Dieses wird\n"
+"nun in seine zweite Ausgabe gehen. Das Campustreffen ist ein Turnier der Serie “German Disc\n"
+"Golf Tour South”. Zu den Teilnehmer*innen gehören einige der besten Spieler*innen\n"
+"Deutschlands. Gespielt wird in acht Altersdivisionen über drei Runden zu je 18 Bahnen. Wer\n"
+"über die drei Tage die wenigsten Würfe benötigt hat, gewinnt."
+
+#~ msgid ""
+#~ "<0>Wo kann ich Discgolf selbst ausprobieren?</0> Hier in der Sportschule! Entweder gleich heute an dem Stand von Disc Golf München e.V., oder das\n"
+#~ "ganze Jahr über auf dem für die Öffentlichkeit zugänglichen Kurs. An der Rezeption bekommst du eine\n"
+#~ "Tageskarte (6€) und Leihscheiben."
+#~ msgstr ""
+#~ "<0>Wo kann ich Discgolf selbst ausprobieren?</0> Hier in der Sportschule! Entweder gleich heute an dem Stand von Disc Golf München e.V., oder das\n"
+#~ "ganze Jahr über auf dem für die Öffentlichkeit zugänglichen Kurs. An der Rezeption bekommst du eine\n"
+#~ "Tageskarte (6€) und Leihscheiben."
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/double-disc-court/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/double-disc-court/+page.svelte
+msgid "Aktion und Reaktion"
+msgstr "Aktion und Reaktion"
+
+#~ msgid ""
+#~ "Double Disc Court - der wohl einzige Sport, bei dem zwei Sportgeräte gleichzeitig im Spiel sind!\n"
+#~ "\n"
+#~ "Double Disc Court (DDC) ist ein rasantes Teamspiel, bei dem zwei Teams mit je zwei Spieler*innen gleichzeitig mit zwei Scheiben gegeneinander antreten. Ziel ist es, die eigene Spielfeldhälfte zu verteidigen und die Gegner durch geschickte Würfe unter Druck zu setzen. Spannung pur ist garantiert, wenn Taktik, Geschwindigkeit und Präzision über Sieg oder Niederlage entscheiden.\n"
+#~ "\n"
+#~ "\n"
+#~ "Das Spielfeld besteht aus zwei Quadraten mit 13 m Seitenlänge, die 17 m Abstand haben. Jedes Feld wird von einem Team aus zwei Spielern verteidigt. Ziel ist es, eine Scheibe im gegnerischen Feld zu platzieren. Und damit es nicht langweilig wird, befinden sich zwei Scheiben im Spiel. Diese werden bei jedem Punkt gleichzeitig angeworfen und dann geht es hin und her, bis ein Punkt (oder zwei) erzielt wird. Einen Punkt bekommt man, wenn es gelingt, die Scheibe so im Feld zu platzieren, dass diese dort liegen bleibt. Ferner erhält man einen Punkt, wenn die vom Gegner geworfene Scheibe das “Aus” berührt. Zwei Punkte bekommt man, wenn beide Scheiben vom gegnerischen Team gleichzeitig berührt werden.\n"
+#~ "\n"
+#~ "Gespielt wird mit den leichtesten und daher windanfälligsten Scheiben. Daher ist dieser Sport nicht nur anspruchsvoll an die Beherrschung des Sportgeräts, sondern fordert ein gutes Stellungsspiel und Reaktion, aber vor allem eine gute Kommunikation im Team, um den gleichzeitigen Kontakt der Scheiben zu verhindern.\n"
+#~ "\n"
+#~ "Wie bei allen Frisbeesportarten gibt es auch beim DDC keine Schiedsrichter. Strittige Situationen werden diskutiert und im Zweifelsfall wiederholt.\n"
+#~ "\n"
+#~ "Als Nischensportart in einer Nischensportart hat DDC eine sehr familiäre Community, die langsam aber stetig wächst."
+#~ msgstr ""
+#~ "Double Disc Court - der wohl einzige Sport, bei dem zwei Sportgeräte gleichzeitig im Spiel sind!\n"
+#~ "\n"
+#~ "Double Disc Court (DDC) ist ein rasantes Teamspiel, bei dem zwei Teams mit je zwei Spieler*innen gleichzeitig mit zwei Scheiben gegeneinander antreten. Ziel ist es, die eigene Spielfeldhälfte zu verteidigen und die Gegner durch geschickte Würfe unter Druck zu setzen. Spannung pur ist garantiert, wenn Taktik, Geschwindigkeit und Präzision über Sieg oder Niederlage entscheiden.\n"
+#~ "\n"
+#~ "\n"
+#~ "Das Spielfeld besteht aus zwei Quadraten mit 13 m Seitenlänge, die 17 m Abstand haben. Jedes Feld wird von einem Team aus zwei Spielern verteidigt. Ziel ist es, eine Scheibe im gegnerischen Feld zu platzieren. Und damit es nicht langweilig wird, befinden sich zwei Scheiben im Spiel. Diese werden bei jedem Punkt gleichzeitig angeworfen und dann geht es hin und her, bis ein Punkt (oder zwei) erzielt wird. Einen Punkt bekommt man, wenn es gelingt, die Scheibe so im Feld zu platzieren, dass diese dort liegen bleibt. Ferner erhält man einen Punkt, wenn die vom Gegner geworfene Scheibe das “Aus” berührt. Zwei Punkte bekommt man, wenn beide Scheiben vom gegnerischen Team gleichzeitig berührt werden.\n"
+#~ "\n"
+#~ "Gespielt wird mit den leichtesten und daher windanfälligsten Scheiben. Daher ist dieser Sport nicht nur anspruchsvoll an die Beherrschung des Sportgeräts, sondern fordert ein gutes Stellungsspiel und Reaktion, aber vor allem eine gute Kommunikation im Team, um den gleichzeitigen Kontakt der Scheiben zu verhindern.\n"
+#~ "\n"
+#~ "Wie bei allen Frisbeesportarten gibt es auch beim DDC keine Schiedsrichter. Strittige Situationen werden diskutiert und im Zweifelsfall wiederholt.\n"
+#~ "\n"
+#~ "Als Nischensportart in einer Nischensportart hat DDC eine sehr familiäre Community, die langsam aber stetig wächst."
+
+#~ msgid ""
+#~ "<0>Aktion und Reaktion</0> <1>Double Disc Court</1> Double Disc Court - der wohl einzige Sport, bei dem zwei Sportgeräte gleichzeitig im Spiel sind! <2>Double Disc Court (DDC) ist ein rasantes Teamspiel, bei dem zwei Teams mit je zwei Spieler*innen gleichzeitig mit zwei Scheiben gegeneinander antreten. Ziel ist es, die eigene Spielfeldhälfte zu verteidigen und die Gegner durch geschickte Würfe unter Druck zu setzen. Spannung pur ist garantiert, wenn Taktik, Geschwindigkeit und Präzision über Sieg oder Niederlage entscheiden.\n"
+#~ "\n"
+#~ "\n"
+#~ "Das Spielfeld besteht aus zwei Quadraten mit 13 m Seitenlänge, die 17 m Abstand haben. Jedes Feld wird von einem Team aus zwei Spielern verteidigt. Ziel ist es, eine Scheibe im gegnerischen Feld zu platzieren. Und damit es nicht langweilig wird, befinden sich zwei Scheiben im Spiel. Diese werden bei jedem Punkt gleichzeitig angeworfen und dann geht es hin und her, bis ein Punkt (oder zwei) erzielt wird. Einen Punkt bekommt man, wenn es gelingt, die Scheibe so im Feld zu platzieren, dass diese dort liegen bleibt. Ferner erhält man einen Punkt, wenn die vom Gegner geworfene Scheibe das “Aus” berührt. Zwei Punkte bekommt man, wenn beide Scheiben vom gegnerischen Team gleichzeitig berührt werden.\n"
+#~ "\n"
+#~ "Gespielt wird mit den leichtesten und daher windanfälligsten Scheiben. Daher ist dieser Sport nicht nur anspruchsvoll an die Beherrschung des Sportgeräts, sondern fordert ein gutes Stellungsspiel und Reaktion, aber vor allem eine gute Kommunikation im Team, um den gleichzeitigen Kontakt der Scheiben zu verhindern.\n"
+#~ "\n"
+#~ "Wie bei allen Frisbeesportarten gibt es auch beim DDC keine Schiedsrichter. Strittige Situationen werden diskutiert und im Zweifelsfall wiederholt.\n"
+#~ "\n"
+#~ "Als Nischensportart in einer Nischensportart hat DDC eine sehr familiäre Community, die langsam aber stetig wächst.</2> <3>Wir glauben an den Aufbau einer unterstützenden Gemeinschaft, in der sich Spieler gegenseitig\n"
+#~ "ermutigen, Wissen teilen und gemeinsam Erfolge feiern. Unser Sport ist mehr als nur ein Spiel\n"
+#~ "– er ist eine Familie.</3>"
+#~ msgstr ""
+#~ "<0>Aktion und Reaktion</0> <1>Double Disc Court</1> Double Disc Court - der wohl einzige Sport, bei dem zwei Sportgeräte gleichzeitig im Spiel sind! <2>Double Disc Court (DDC) ist ein rasantes Teamspiel, bei dem zwei Teams mit je zwei Spieler*innen gleichzeitig mit zwei Scheiben gegeneinander antreten. Ziel ist es, die eigene Spielfeldhälfte zu verteidigen und die Gegner durch geschickte Würfe unter Druck zu setzen. Spannung pur ist garantiert, wenn Taktik, Geschwindigkeit und Präzision über Sieg oder Niederlage entscheiden.\n"
+#~ "\n"
+#~ "\n"
+#~ "Das Spielfeld besteht aus zwei Quadraten mit 13 m Seitenlänge, die 17 m Abstand haben. Jedes Feld wird von einem Team aus zwei Spielern verteidigt. Ziel ist es, eine Scheibe im gegnerischen Feld zu platzieren. Und damit es nicht langweilig wird, befinden sich zwei Scheiben im Spiel. Diese werden bei jedem Punkt gleichzeitig angeworfen und dann geht es hin und her, bis ein Punkt (oder zwei) erzielt wird. Einen Punkt bekommt man, wenn es gelingt, die Scheibe so im Feld zu platzieren, dass diese dort liegen bleibt. Ferner erhält man einen Punkt, wenn die vom Gegner geworfene Scheibe das “Aus” berührt. Zwei Punkte bekommt man, wenn beide Scheiben vom gegnerischen Team gleichzeitig berührt werden.\n"
+#~ "\n"
+#~ "Gespielt wird mit den leichtesten und daher windanfälligsten Scheiben. Daher ist dieser Sport nicht nur anspruchsvoll an die Beherrschung des Sportgeräts, sondern fordert ein gutes Stellungsspiel und Reaktion, aber vor allem eine gute Kommunikation im Team, um den gleichzeitigen Kontakt der Scheiben zu verhindern.\n"
+#~ "\n"
+#~ "Wie bei allen Frisbeesportarten gibt es auch beim DDC keine Schiedsrichter. Strittige Situationen werden diskutiert und im Zweifelsfall wiederholt.\n"
+#~ "\n"
+#~ "Als Nischensportart in einer Nischensportart hat DDC eine sehr familiäre Community, die langsam aber stetig wächst.</2> <3>Wir glauben an den Aufbau einer unterstützenden Gemeinschaft, in der sich Spieler gegenseitig\n"
+#~ "ermutigen, Wissen teilen und gemeinsam Erfolge feiern. Unser Sport ist mehr als nur ein Spiel\n"
+#~ "– er ist eine Familie.</3>"
+
+#~ msgid ""
+#~ "<0>Aktion und Reaktion</0> <1>Double Disc Court</1> <2/>Double Disc Court - der wohl einzige Sport, bei dem zwei Sportgeräte gleichzeitig im Spiel sind! <3>Double Disc Court (DDC) ist ein rasantes Teamspiel, bei dem zwei Teams mit je zwei Spieler*innen gleichzeitig mit zwei Scheiben gegeneinander antreten. Ziel ist es, die eigene Spielfeldhälfte zu verteidigen und die Gegner durch geschickte Würfe unter Druck zu setzen. Spannung pur ist garantiert, wenn Taktik, Geschwindigkeit und Präzision über Sieg oder Niederlage entscheiden.\n"
+#~ "\n"
+#~ "\n"
+#~ "Das Spielfeld besteht aus zwei Quadraten mit 13 m Seitenlänge, die 17 m Abstand haben. Jedes Feld wird von einem Team aus zwei Spielern verteidigt. Ziel ist es, eine Scheibe im gegnerischen Feld zu platzieren. Und damit es nicht langweilig wird, befinden sich zwei Scheiben im Spiel. Diese werden bei jedem Punkt gleichzeitig angeworfen und dann geht es hin und her, bis ein Punkt (oder zwei) erzielt wird. Einen Punkt bekommt man, wenn es gelingt, die Scheibe so im Feld zu platzieren, dass diese dort liegen bleibt. Ferner erhält man einen Punkt, wenn die vom Gegner geworfene Scheibe das “Aus” berührt. Zwei Punkte bekommt man, wenn beide Scheiben vom gegnerischen Team gleichzeitig berührt werden.\n"
+#~ "\n"
+#~ "Gespielt wird mit den leichtesten und daher windanfälligsten Scheiben. Daher ist dieser Sport nicht nur anspruchsvoll an die Beherrschung des Sportgeräts, sondern fordert ein gutes Stellungsspiel und Reaktion, aber vor allem eine gute Kommunikation im Team, um den gleichzeitigen Kontakt der Scheiben zu verhindern.\n"
+#~ "\n"
+#~ "Wie bei allen Frisbeesportarten gibt es auch beim DDC keine Schiedsrichter. Strittige Situationen werden diskutiert und im Zweifelsfall wiederholt.\n"
+#~ "\n"
+#~ "Als Nischensportart in einer Nischensportart hat DDC eine sehr familiäre Community, die langsam aber stetig wächst.</3> <4>Wir glauben an den Aufbau einer unterstützenden Gemeinschaft, in der sich Spieler gegenseitig\n"
+#~ "ermutigen, Wissen teilen und gemeinsam Erfolge feiern. Unser Sport ist mehr als nur ein Spiel\n"
+#~ "– er ist eine Familie.</4>"
+#~ msgstr ""
+#~ "<0>Aktion und Reaktion</0> <1>Double Disc Court</1> <2/>Double Disc Court - der wohl einzige Sport, bei dem zwei Sportgeräte gleichzeitig im Spiel sind! <3>Double Disc Court (DDC) ist ein rasantes Teamspiel, bei dem zwei Teams mit je zwei Spieler*innen gleichzeitig mit zwei Scheiben gegeneinander antreten. Ziel ist es, die eigene Spielfeldhälfte zu verteidigen und die Gegner durch geschickte Würfe unter Druck zu setzen. Spannung pur ist garantiert, wenn Taktik, Geschwindigkeit und Präzision über Sieg oder Niederlage entscheiden.\n"
+#~ "\n"
+#~ "\n"
+#~ "Das Spielfeld besteht aus zwei Quadraten mit 13 m Seitenlänge, die 17 m Abstand haben. Jedes Feld wird von einem Team aus zwei Spielern verteidigt. Ziel ist es, eine Scheibe im gegnerischen Feld zu platzieren. Und damit es nicht langweilig wird, befinden sich zwei Scheiben im Spiel. Diese werden bei jedem Punkt gleichzeitig angeworfen und dann geht es hin und her, bis ein Punkt (oder zwei) erzielt wird. Einen Punkt bekommt man, wenn es gelingt, die Scheibe so im Feld zu platzieren, dass diese dort liegen bleibt. Ferner erhält man einen Punkt, wenn die vom Gegner geworfene Scheibe das “Aus” berührt. Zwei Punkte bekommt man, wenn beide Scheiben vom gegnerischen Team gleichzeitig berührt werden.\n"
+#~ "\n"
+#~ "Gespielt wird mit den leichtesten und daher windanfälligsten Scheiben. Daher ist dieser Sport nicht nur anspruchsvoll an die Beherrschung des Sportgeräts, sondern fordert ein gutes Stellungsspiel und Reaktion, aber vor allem eine gute Kommunikation im Team, um den gleichzeitigen Kontakt der Scheiben zu verhindern.\n"
+#~ "\n"
+#~ "Wie bei allen Frisbeesportarten gibt es auch beim DDC keine Schiedsrichter. Strittige Situationen werden diskutiert und im Zweifelsfall wiederholt.\n"
+#~ "\n"
+#~ "Als Nischensportart in einer Nischensportart hat DDC eine sehr familiäre Community, die langsam aber stetig wächst.</3> <4>Wir glauben an den Aufbau einer unterstützenden Gemeinschaft, in der sich Spieler gegenseitig\n"
+#~ "ermutigen, Wissen teilen und gemeinsam Erfolge feiern. Unser Sport ist mehr als nur ein Spiel\n"
+#~ "– er ist eine Familie.</4>"
+
+#~ msgid ""
+#~ "Double Disc Court - der wohl einzige Sport, bei dem zwei Sportgeräte gleichzeitig im Spiel sind! <0>Double Disc Court (DDC) ist ein rasantes Teamspiel, bei dem zwei Teams mit je zwei Spieler*innen gleichzeitig mit zwei Scheiben gegeneinander antreten. Ziel ist es, die eigene Spielfeldhälfte zu verteidigen und die Gegner durch geschickte Würfe unter Druck zu setzen. Spannung pur ist garantiert, wenn Taktik, Geschwindigkeit und Präzision über Sieg oder Niederlage entscheiden.\n"
+#~ "\n"
+#~ "\n"
+#~ "Das Spielfeld besteht aus zwei Quadraten mit 13 m Seitenlänge, die 17 m Abstand haben. Jedes Feld wird von einem Team aus zwei Spielern verteidigt. Ziel ist es, eine Scheibe im gegnerischen Feld zu platzieren. Und damit es nicht langweilig wird, befinden sich zwei Scheiben im Spiel. Diese werden bei jedem Punkt gleichzeitig angeworfen und dann geht es hin und her, bis ein Punkt (oder zwei) erzielt wird. Einen Punkt bekommt man, wenn es gelingt, die Scheibe so im Feld zu platzieren, dass diese dort liegen bleibt. Ferner erhält man einen Punkt, wenn die vom Gegner geworfene Scheibe das “Aus” berührt. Zwei Punkte bekommt man, wenn beide Scheiben vom gegnerischen Team gleichzeitig berührt werden.\n"
+#~ "\n"
+#~ "Gespielt wird mit den leichtesten und daher windanfälligsten Scheiben. Daher ist dieser Sport nicht nur anspruchsvoll an die Beherrschung des Sportgeräts, sondern fordert ein gutes Stellungsspiel und Reaktion, aber vor allem eine gute Kommunikation im Team, um den gleichzeitigen Kontakt der Scheiben zu verhindern.\n"
+#~ "\n"
+#~ "Wie bei allen Frisbeesportarten gibt es auch beim DDC keine Schiedsrichter. Strittige Situationen werden diskutiert und im Zweifelsfall wiederholt.\n"
+#~ "\n"
+#~ "Als Nischensportart in einer Nischensportart hat DDC eine sehr familiäre Community, die langsam aber stetig wächst.</0> <1>Wir glauben an den Aufbau einer unterstützenden Gemeinschaft, in der sich Spieler gegenseitig\n"
+#~ "ermutigen, Wissen teilen und gemeinsam Erfolge feiern. Unser Sport ist mehr als nur ein Spiel\n"
+#~ "– er ist eine Familie.</1>"
+#~ msgstr ""
+#~ "Double Disc Court - der wohl einzige Sport, bei dem zwei Sportgeräte gleichzeitig im Spiel sind! <0>Double Disc Court (DDC) ist ein rasantes Teamspiel, bei dem zwei Teams mit je zwei Spieler*innen gleichzeitig mit zwei Scheiben gegeneinander antreten. Ziel ist es, die eigene Spielfeldhälfte zu verteidigen und die Gegner durch geschickte Würfe unter Druck zu setzen. Spannung pur ist garantiert, wenn Taktik, Geschwindigkeit und Präzision über Sieg oder Niederlage entscheiden.\n"
+#~ "\n"
+#~ "\n"
+#~ "Das Spielfeld besteht aus zwei Quadraten mit 13 m Seitenlänge, die 17 m Abstand haben. Jedes Feld wird von einem Team aus zwei Spielern verteidigt. Ziel ist es, eine Scheibe im gegnerischen Feld zu platzieren. Und damit es nicht langweilig wird, befinden sich zwei Scheiben im Spiel. Diese werden bei jedem Punkt gleichzeitig angeworfen und dann geht es hin und her, bis ein Punkt (oder zwei) erzielt wird. Einen Punkt bekommt man, wenn es gelingt, die Scheibe so im Feld zu platzieren, dass diese dort liegen bleibt. Ferner erhält man einen Punkt, wenn die vom Gegner geworfene Scheibe das “Aus” berührt. Zwei Punkte bekommt man, wenn beide Scheiben vom gegnerischen Team gleichzeitig berührt werden.\n"
+#~ "\n"
+#~ "Gespielt wird mit den leichtesten und daher windanfälligsten Scheiben. Daher ist dieser Sport nicht nur anspruchsvoll an die Beherrschung des Sportgeräts, sondern fordert ein gutes Stellungsspiel und Reaktion, aber vor allem eine gute Kommunikation im Team, um den gleichzeitigen Kontakt der Scheiben zu verhindern.\n"
+#~ "\n"
+#~ "Wie bei allen Frisbeesportarten gibt es auch beim DDC keine Schiedsrichter. Strittige Situationen werden diskutiert und im Zweifelsfall wiederholt.\n"
+#~ "\n"
+#~ "Als Nischensportart in einer Nischensportart hat DDC eine sehr familiäre Community, die langsam aber stetig wächst.</0> <1>Wir glauben an den Aufbau einer unterstützenden Gemeinschaft, in der sich Spieler gegenseitig\n"
+#~ "ermutigen, Wissen teilen und gemeinsam Erfolge feiern. Unser Sport ist mehr als nur ein Spiel\n"
+#~ "– er ist eine Familie.</1>"
+
+#: src/routes/[[locale=lang]]/disciplines/double-disc-court/+page.svelte
+msgid "Double Disc Court - der wohl einzige Sport, bei dem zwei Sportgeräte gleichzeitig im Spiel sind!"
+msgstr "Double Disc Court - der wohl einzige Sport, bei dem zwei Sportgeräte gleichzeitig im Spiel sind!"
+
+#~ msgid ""
+#~ "Double Disc Court (DDC) ist ein rasantes Teamspiel, bei dem zwei Teams mit je zwei Spieler*innen gleichzeitig mit zwei Scheiben gegeneinander antreten. Ziel ist es, die eigene Spielfeldhälfte zu verteidigen und die Gegner durch geschickte Würfe unter Druck zu setzen. Spannung pur ist garantiert, wenn Taktik, Geschwindigkeit und Präzision über Sieg oder Niederlage entscheiden.\n"
+#~ "\n"
+#~ "\n"
+#~ "Das Spielfeld besteht aus zwei Quadraten mit 13 m Seitenlänge, die 17 m Abstand haben. Jedes Feld wird von einem Team aus zwei Spielern verteidigt. Ziel ist es, eine Scheibe im gegnerischen Feld zu platzieren. Und damit es nicht langweilig wird, befinden sich zwei Scheiben im Spiel. Diese werden bei jedem Punkt gleichzeitig angeworfen und dann geht es hin und her, bis ein Punkt (oder zwei) erzielt wird. Einen Punkt bekommt man, wenn es gelingt, die Scheibe so im Feld zu platzieren, dass diese dort liegen bleibt. Ferner erhält man einen Punkt, wenn die vom Gegner geworfene Scheibe das “Aus” berührt. Zwei Punkte bekommt man, wenn beide Scheiben vom gegnerischen Team gleichzeitig berührt werden.\n"
+#~ "\n"
+#~ "Gespielt wird mit den leichtesten und daher windanfälligsten Scheiben. Daher ist dieser Sport nicht nur anspruchsvoll an die Beherrschung des Sportgeräts, sondern fordert ein gutes Stellungsspiel und Reaktion, aber vor allem eine gute Kommunikation im Team, um den gleichzeitigen Kontakt der Scheiben zu verhindern.\n"
+#~ "\n"
+#~ "Wie bei allen Frisbeesportarten gibt es auch beim DDC keine Schiedsrichter. Strittige Situationen werden diskutiert und im Zweifelsfall wiederholt.\n"
+#~ "\n"
+#~ "Als Nischensportart in einer Nischensportart hat DDC eine sehr familiäre Community, die langsam aber stetig wächst."
+#~ msgstr ""
+#~ "Double Disc Court (DDC) ist ein rasantes Teamspiel, bei dem zwei Teams mit je zwei Spieler*innen gleichzeitig mit zwei Scheiben gegeneinander antreten. Ziel ist es, die eigene Spielfeldhälfte zu verteidigen und die Gegner durch geschickte Würfe unter Druck zu setzen. Spannung pur ist garantiert, wenn Taktik, Geschwindigkeit und Präzision über Sieg oder Niederlage entscheiden.\n"
+#~ "\n"
+#~ "\n"
+#~ "Das Spielfeld besteht aus zwei Quadraten mit 13 m Seitenlänge, die 17 m Abstand haben. Jedes Feld wird von einem Team aus zwei Spielern verteidigt. Ziel ist es, eine Scheibe im gegnerischen Feld zu platzieren. Und damit es nicht langweilig wird, befinden sich zwei Scheiben im Spiel. Diese werden bei jedem Punkt gleichzeitig angeworfen und dann geht es hin und her, bis ein Punkt (oder zwei) erzielt wird. Einen Punkt bekommt man, wenn es gelingt, die Scheibe so im Feld zu platzieren, dass diese dort liegen bleibt. Ferner erhält man einen Punkt, wenn die vom Gegner geworfene Scheibe das “Aus” berührt. Zwei Punkte bekommt man, wenn beide Scheiben vom gegnerischen Team gleichzeitig berührt werden.\n"
+#~ "\n"
+#~ "Gespielt wird mit den leichtesten und daher windanfälligsten Scheiben. Daher ist dieser Sport nicht nur anspruchsvoll an die Beherrschung des Sportgeräts, sondern fordert ein gutes Stellungsspiel und Reaktion, aber vor allem eine gute Kommunikation im Team, um den gleichzeitigen Kontakt der Scheiben zu verhindern.\n"
+#~ "\n"
+#~ "Wie bei allen Frisbeesportarten gibt es auch beim DDC keine Schiedsrichter. Strittige Situationen werden diskutiert und im Zweifelsfall wiederholt.\n"
+#~ "\n"
+#~ "Als Nischensportart in einer Nischensportart hat DDC eine sehr familiäre Community, die langsam aber stetig wächst."
+
+#~ msgid ""
+#~ "Double Disc Court (DDC) ist ein rasantes Teamspiel, bei dem zwei Teams mit je zwei Spieler*innen gleichzeitig mit zwei Scheiben gegeneinander antreten. Ziel ist es, die eigene Spielfeldhälfte zu verteidigen und die Gegner durch geschickte Würfe unter Druck zu setzen. Spannung pur ist garantiert, wenn Taktik, Geschwindigkeit und Präzision über Sieg oder Niederlage entscheiden.\n"
+#~ "\n"
+#~ "\n"
+#~ "Das Spielfeld besteht aus zwei Quadraten mit 13 m Seitenlänge, die 17 m Abstand haben. Jedes Feld wird von einem Team aus zwei Spielern verteidigt. Ziel ist es, eine Scheibe im gegnerischen Feld zu platzieren. Und damit es nicht langweilig wird, befinden sich zwei Scheiben im Spiel. Diese werden bei jedem Punkt gleichzeitig angeworfen und dann geht es hin und her, bis ein Punkt (oder zwei) erzielt wird. Einen Punkt bekommt man, wenn es gelingt, die Scheibe so im Feld zu platzieren, dass diese dort liegen bleibt. Ferner erhält man einen Punkt, wenn die vom Gegner geworfene Scheibe das “Aus” berührt. Zwei Punkte bekommt man, wenn beide Scheiben vom gegnerischen Team gleichzeitig berührt werden.\n"
+#~ "\n"
+#~ "Gespielt wird mit den leichtesten und daher windanfälligsten Scheiben. Daher ist dieser Sport nicht nur anspruchsvoll an die Beherrschung des Sportgeräts, sondern fordert ein gutes Stellungsspiel und Reaktion, aber vor allem eine gute Kommunikation im Team, um den gleichzeitigen Kontakt der Scheiben zu verhindern.\n"
+#~ "\n"
+#~ "Wie bei allen Frisbeesportarten gibt es auch beim DDC keine Schiedsrichter. Strittige Situationen werden diskutiert und im Zweifelsfall wiederholt. Als Nischensportart in einer Nischensportart hat DDC eine sehr familiäre Community, die langsam aber stetig wächst."
+#~ msgstr ""
+#~ "Double Disc Court (DDC) ist ein rasantes Teamspiel, bei dem zwei Teams mit je zwei Spieler*innen gleichzeitig mit zwei Scheiben gegeneinander antreten. Ziel ist es, die eigene Spielfeldhälfte zu verteidigen und die Gegner durch geschickte Würfe unter Druck zu setzen. Spannung pur ist garantiert, wenn Taktik, Geschwindigkeit und Präzision über Sieg oder Niederlage entscheiden.\n"
+#~ "\n"
+#~ "\n"
+#~ "Das Spielfeld besteht aus zwei Quadraten mit 13 m Seitenlänge, die 17 m Abstand haben. Jedes Feld wird von einem Team aus zwei Spielern verteidigt. Ziel ist es, eine Scheibe im gegnerischen Feld zu platzieren. Und damit es nicht langweilig wird, befinden sich zwei Scheiben im Spiel. Diese werden bei jedem Punkt gleichzeitig angeworfen und dann geht es hin und her, bis ein Punkt (oder zwei) erzielt wird. Einen Punkt bekommt man, wenn es gelingt, die Scheibe so im Feld zu platzieren, dass diese dort liegen bleibt. Ferner erhält man einen Punkt, wenn die vom Gegner geworfene Scheibe das “Aus” berührt. Zwei Punkte bekommt man, wenn beide Scheiben vom gegnerischen Team gleichzeitig berührt werden.\n"
+#~ "\n"
+#~ "Gespielt wird mit den leichtesten und daher windanfälligsten Scheiben. Daher ist dieser Sport nicht nur anspruchsvoll an die Beherrschung des Sportgeräts, sondern fordert ein gutes Stellungsspiel und Reaktion, aber vor allem eine gute Kommunikation im Team, um den gleichzeitigen Kontakt der Scheiben zu verhindern.\n"
+#~ "\n"
+#~ "Wie bei allen Frisbeesportarten gibt es auch beim DDC keine Schiedsrichter. Strittige Situationen werden diskutiert und im Zweifelsfall wiederholt. Als Nischensportart in einer Nischensportart hat DDC eine sehr familiäre Community, die langsam aber stetig wächst."
+
+#~ msgid ""
+#~ "Double Disc Court (DDC) ist ein rasantes Teamspiel, bei dem zwei Teams mit je zwei Spieler*innen gleichzeitig mit zwei Scheiben gegeneinander antreten. Ziel ist es, die eigene Spielfeldhälfte zu verteidigen und die Gegner durch geschickte Würfe unter Druck zu setzen. Spannung pur ist garantiert, wenn Taktik, Geschwindigkeit und Präzision über Sieg oder Niederlage entscheiden.\n"
+#~ "\n"
+#~ "\n"
+#~ "Das Spielfeld besteht aus zwei Quadraten mit 13 m Seitenlänge, die 17 m Abstand haben. Jedes Feld wird von einem Team aus zwei Spielern verteidigt. Ziel ist es, eine Scheibe im gegnerischen Feld zu platzieren. Und damit es nicht langweilig wird, befinden sich zwei Scheiben im Spiel. Diese werden bei jedem Punkt gleichzeitig angeworfen und dann geht es hin und her, bis ein Punkt (oder zwei) erzielt wird. Einen Punkt bekommt man, wenn es gelingt, die Scheibe so im Feld zu platzieren, dass diese dort liegen bleibt. Ferner erhält man einen Punkt, wenn die vom Gegner geworfene Scheibe das “Aus” berührt. Zwei Punkte bekommt man, wenn beide Scheiben vom gegnerischen Team gleichzeitig berührt werden.\n"
+#~ "\n"
+#~ "Gespielt wird mit den leichtesten und daher windanfälligsten Scheiben. Daher ist dieser Sport nicht nur anspruchsvoll an die Beherrschung des Sportgeräts, sondern fordert ein gutes Stellungsspiel und Reaktion, aber vor allem eine gute Kommunikation im Team, um den gleichzeitigen Kontakt der Scheiben zu verhindern."
+#~ msgstr ""
+#~ "Double Disc Court (DDC) ist ein rasantes Teamspiel, bei dem zwei Teams mit je zwei Spieler*innen gleichzeitig mit zwei Scheiben gegeneinander antreten. Ziel ist es, die eigene Spielfeldhälfte zu verteidigen und die Gegner durch geschickte Würfe unter Druck zu setzen. Spannung pur ist garantiert, wenn Taktik, Geschwindigkeit und Präzision über Sieg oder Niederlage entscheiden.\n"
+#~ "\n"
+#~ "\n"
+#~ "Das Spielfeld besteht aus zwei Quadraten mit 13 m Seitenlänge, die 17 m Abstand haben. Jedes Feld wird von einem Team aus zwei Spielern verteidigt. Ziel ist es, eine Scheibe im gegnerischen Feld zu platzieren. Und damit es nicht langweilig wird, befinden sich zwei Scheiben im Spiel. Diese werden bei jedem Punkt gleichzeitig angeworfen und dann geht es hin und her, bis ein Punkt (oder zwei) erzielt wird. Einen Punkt bekommt man, wenn es gelingt, die Scheibe so im Feld zu platzieren, dass diese dort liegen bleibt. Ferner erhält man einen Punkt, wenn die vom Gegner geworfene Scheibe das “Aus” berührt. Zwei Punkte bekommt man, wenn beide Scheiben vom gegnerischen Team gleichzeitig berührt werden.\n"
+#~ "\n"
+#~ "Gespielt wird mit den leichtesten und daher windanfälligsten Scheiben. Daher ist dieser Sport nicht nur anspruchsvoll an die Beherrschung des Sportgeräts, sondern fordert ein gutes Stellungsspiel und Reaktion, aber vor allem eine gute Kommunikation im Team, um den gleichzeitigen Kontakt der Scheiben zu verhindern."
+
+#~ msgid "Wie bei allen Frisbeesportarten gibt es auch beim DDC keine Schiedsrichter. Strittige Situationen werden diskutiert und im Zweifelsfall wiederholt. Als Nischensportart in einer Nischensportart hat DDC eine sehr familiäre Community, die langsam aber stetig wächst."
+#~ msgstr "Wie bei allen Frisbeesportarten gibt es auch beim DDC keine Schiedsrichter. Strittige Situationen werden diskutiert und im Zweifelsfall wiederholt. Als Nischensportart in einer Nischensportart hat DDC eine sehr familiäre Community, die langsam aber stetig wächst."
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/double-disc-court/+page.svelte
+msgid ""
+"Double Disc Court - der wohl einzige Sport, bei dem zwei Sportgeräte gleichzeitig im Spiel\n"
+"sind!"
+msgstr ""
+"Double Disc Court - der wohl einzige Sport, bei dem zwei Sportgeräte gleichzeitig im Spiel\n"
+"sind!"
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/double-disc-court/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/double-disc-court/+page.svelte
+msgid ""
+"Double Disc Court (DDC) ist ein rasantes Teamspiel, bei dem zwei Teams mit je zwei\n"
+"Spieler*innen gleichzeitig mit zwei Scheiben gegeneinander antreten. Ziel ist es, die eigene\n"
+"Spielfeldhälfte zu verteidigen und die Gegner durch geschickte Würfe unter Druck zu setzen.\n"
+"Spannung pur ist garantiert, wenn Taktik, Geschwindigkeit und Präzision über Sieg oder\n"
+"Niederlage entscheiden. Das Spielfeld besteht aus zwei Quadraten mit 13 m Seitenlänge, die 17\n"
+"m Abstand haben. Jedes Feld wird von einem Team aus zwei Spielern verteidigt. Ziel ist es,\n"
+"eine Scheibe im gegnerischen Feld zu platzieren. Und damit es nicht langweilig wird, befinden\n"
+"sich zwei Scheiben im Spiel. Diese werden bei jedem Punkt gleichzeitig angeworfen und dann\n"
+"geht es hin und her, bis ein Punkt (oder zwei) erzielt wird. Einen Punkt bekommt man, wenn es\n"
+"gelingt, die Scheibe so im Feld zu platzieren, dass diese dort liegen bleibt. Ferner erhält\n"
+"man einen Punkt, wenn die vom Gegner geworfene Scheibe das “Aus” berührt. Zwei Punkte bekommt\n"
+"man, wenn beide Scheiben vom gegnerischen Team gleichzeitig berührt werden. Gespielt wird mit\n"
+"den leichtesten und daher windanfälligsten Scheiben. Daher ist dieser Sport nicht nur\n"
+"anspruchsvoll an die Beherrschung des Sportgeräts, sondern fordert ein gutes Stellungsspiel\n"
+"und Reaktion, aber vor allem eine gute Kommunikation im Team, um den gleichzeitigen Kontakt\n"
+"der Scheiben zu verhindern."
+msgstr ""
+"Double Disc Court (DDC) ist ein rasantes Teamspiel, bei dem zwei Teams mit je zwei\n"
+"Spieler*innen gleichzeitig mit zwei Scheiben gegeneinander antreten. Ziel ist es, die eigene\n"
+"Spielfeldhälfte zu verteidigen und die Gegner durch geschickte Würfe unter Druck zu setzen.\n"
+"Spannung pur ist garantiert, wenn Taktik, Geschwindigkeit und Präzision über Sieg oder\n"
+"Niederlage entscheiden. Das Spielfeld besteht aus zwei Quadraten mit 13 m Seitenlänge, die 17\n"
+"m Abstand haben. Jedes Feld wird von einem Team aus zwei Spielern verteidigt. Ziel ist es,\n"
+"eine Scheibe im gegnerischen Feld zu platzieren. Und damit es nicht langweilig wird, befinden\n"
+"sich zwei Scheiben im Spiel. Diese werden bei jedem Punkt gleichzeitig angeworfen und dann\n"
+"geht es hin und her, bis ein Punkt (oder zwei) erzielt wird. Einen Punkt bekommt man, wenn es\n"
+"gelingt, die Scheibe so im Feld zu platzieren, dass diese dort liegen bleibt. Ferner erhält\n"
+"man einen Punkt, wenn die vom Gegner geworfene Scheibe das “Aus” berührt. Zwei Punkte bekommt\n"
+"man, wenn beide Scheiben vom gegnerischen Team gleichzeitig berührt werden. Gespielt wird mit\n"
+"den leichtesten und daher windanfälligsten Scheiben. Daher ist dieser Sport nicht nur\n"
+"anspruchsvoll an die Beherrschung des Sportgeräts, sondern fordert ein gutes Stellungsspiel\n"
+"und Reaktion, aber vor allem eine gute Kommunikation im Team, um den gleichzeitigen Kontakt\n"
+"der Scheiben zu verhindern."
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/double-disc-court/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/double-disc-court/+page.svelte
+msgid ""
+"Wie bei allen Frisbeesportarten gibt es auch beim DDC keine Schiedsrichter. Strittige\n"
+"Situationen werden diskutiert und im Zweifelsfall wiederholt. Als Nischensportart in einer\n"
+"Nischensportart hat DDC eine sehr familiäre Community, die langsam aber stetig wächst."
+msgstr ""
+"Wie bei allen Frisbeesportarten gibt es auch beim DDC keine Schiedsrichter. Strittige\n"
+"Situationen werden diskutiert und im Zweifelsfall wiederholt. Als Nischensportart in einer\n"
+"Nischensportart hat DDC eine sehr familiäre Community, die langsam aber stetig wächst."
+
+#~ msgid "<0/> Frisbee"
+#~ msgstr "<0/> Frisbee"
+
+#~ msgid "<0/>Freestyle Frisbee"
+#~ msgstr "<0/>Freestyle Frisbee"
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/disc-golf/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/disc-golf/+page.svelte
+msgid "Wo kann ich Discgolf selbst ausprobieren?"
+msgstr "Wo kann ich Discgolf selbst ausprobieren?"
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/disc-golf/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/disc-golf/+page.svelte
+msgid ""
+"Hier in der Sportschule! Entweder gleich heute an dem Stand von Disc Golf München e.V., oder das\n"
+"ganze Jahr über auf dem für die Öffentlichkeit zugänglichen Kurs. An der Rezeption bekommst du eine\n"
+"Tageskarte (6€) und Leihscheiben."
+msgstr ""
+"Hier in der Sportschule! Entweder gleich heute an dem Stand von Disc Golf München e.V., oder das\n"
+"ganze Jahr über auf dem für die Öffentlichkeit zugänglichen Kurs. An der Rezeption bekommst du eine\n"
+"Tageskarte (6€) und Leihscheiben."
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/freestyle/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+msgid "Kunst der Bewegung"
+msgstr "Kunst der Bewegung"
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/freestyle/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/freestyle/+page.svelte
+msgid "Teamwork und Kreativität"
+msgstr "Teamwork und Kreativität"
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/disc-golf/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/disc-golf/+page.svelte
+msgid "Was für ein Discgolf-Turnier findet beim Frisbee Festival statt?"
+msgstr "Was für ein Discgolf-Turnier findet beim Frisbee Festival statt?"
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/disc-golf/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/disc-golf/+page.svelte
+msgid "Disc Golf Putt"
+msgstr "Disc Golf Putt"
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/disc-golf/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/disc-golf/+page.svelte
+msgid "Disc Golf Community"
+msgstr "Disc Golf Community"
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/disc-golf/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/disc-golf/+page.svelte
+msgid "Disc Golf far throw"
+msgstr "Disc Golf far throw"
+
+#~ msgid "<0/> Zurück zu den Disziplinen"
+#~ msgstr "<0/> Zurück zu den Disziplinen"
+
+#~ msgid "Zurück zu den Disziplinen"
+#~ msgstr "Zurück zu den Disziplinen"
+
+#~ msgid "Zurück zu den Disziplinen <0/>"
+#~ msgstr "Zurück zu den Disziplinen <0/>"
+
+#: src/lib/components/disciplines/BackButton.svelte
+msgid "Zurück zu den Sportarten <0/>"
+msgstr "Zurück zu den Sportarten <0/>"
+
+#~ msgid "Häuf"
+#~ msgstr "Häuf"
+
+#: src/lib/components/Footer.svelte
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid "Häufige Fragen"
+msgstr "Häufige Fragen"
+
+#~ msgid "Ultimate Frisbee – die wohl fairste Teamsportart der Welt"
+#~ msgstr "Ultimate Frisbee – die wohl fairste Teamsportart der Welt"
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/ultimate/+page.svelte
+msgid "Die wohl fairste Teamsportart der Welt"
+msgstr "Die wohl fairste Teamsportart der Welt"
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/ultimate/+page.svelte
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/ultimate/+page.svelte
+msgid "Ultimate Frisbee"
+msgstr "Ultimate Frisbee"
+
+#~ msgid "Ultimate Frisbee, kurz Ultimate, ist die bekannteste Teamsportart im Frisbeesport. In der Regel wird 7-gegen-7 auf einem Outdoor-Rasenfeld gespielt. Das Spielfeld ist dabei etwa so lang wie ein Fußballfeld, jedoch nur etwa halb so breit. Daneben gibt es zahlreiche Varianten und Kombinationen, etwa 2-gegen-2 oder 5-gegen-5 in der Halle oder auf einem Kleinfeld."
+#~ msgstr "Ultimate Frisbee, kurz Ultimate, ist die bekannteste Teamsportart im Frisbeesport. In der Regel wird 7-gegen-7 auf einem Outdoor-Rasenfeld gespielt. Das Spielfeld ist dabei etwa so lang wie ein Fußballfeld, jedoch nur etwa halb so breit. Daneben gibt es zahlreiche Varianten und Kombinationen, etwa 2-gegen-2 oder 5-gegen-5 in der Halle oder auf einem Kleinfeld."
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/ultimate/+page.svelte
+msgid ""
+"Ultimate Frisbee, kurz Ultimate, ist die bekannteste Teamsportart im Frisbeesport. In der\n"
+"Regel wird 7-gegen-7 auf einem Outdoor-Rasenfeld gespielt. Das Spielfeld ist dabei etwa so\n"
+"lang wie ein Fußballfeld, jedoch nur etwa halb so breit. Daneben gibt es zahlreiche Varianten\n"
+"und Kombinationen, etwa 2-gegen-2 oder 5-gegen-5 in der Halle oder auf einem Kleinfeld."
+msgstr ""
+"Ultimate Frisbee, kurz Ultimate, ist die bekannteste Teamsportart im Frisbeesport. In der\n"
+"Regel wird 7-gegen-7 auf einem Outdoor-Rasenfeld gespielt. Das Spielfeld ist dabei etwa so\n"
+"lang wie ein Fußballfeld, jedoch nur etwa halb so breit. Daneben gibt es zahlreiche Varianten\n"
+"und Kombinationen, etwa 2-gegen-2 oder 5-gegen-5 in der Halle oder auf einem Kleinfeld."
+
+#~ msgid "Die Teams müssen dabei nicht aus Spielern desselben Geschlechts bestehen – ganz im Gegenteil. Viele Turniere und auch Trainingsspiele werden im Mixed-Modus ausgetragen. Das bedeutet, dass Frauen und Männer gemeinsam in einem Team spielen."
+#~ msgstr "Die Teams müssen dabei nicht aus Spielern desselben Geschlechts bestehen – ganz im Gegenteil. Viele Turniere und auch Trainingsspiele werden im Mixed-Modus ausgetragen. Das bedeutet, dass Frauen und Männer gemeinsam in einem Team spielen."
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/ultimate/+page.svelte
+msgid ""
+"Die Teams müssen dabei nicht aus Spielern desselben Geschlechts bestehen – ganz im Gegenteil.\n"
+"Viele Turniere und auch Trainingsspiele werden im Mixed-Modus ausgetragen. Das bedeutet, dass\n"
+"Frauen und Männer gemeinsam in einem Team spielen."
+msgstr ""
+"Die Teams müssen dabei nicht aus Spielern desselben Geschlechts bestehen – ganz im Gegenteil.\n"
+"Viele Turniere und auch Trainingsspiele werden im Mixed-Modus ausgetragen. Das bedeutet, dass\n"
+"Frauen und Männer gemeinsam in einem Team spielen."
+
+#~ msgid ""
+#~ "<0>Teamgeist und Strategie</0> <1>Ultimate Frisbee</1> <2>Die wohl fairste Teamsportart der Welt</2> <3>Ultimate Frisbee, kurz Ultimate, ist die bekannteste Teamsportart im Frisbeesport. In der\n"
+#~ "Regel wird 7-gegen-7 auf einem Outdoor-Rasenfeld gespielt. Das Spielfeld ist dabei etwa so\n"
+#~ "lang wie ein Fußballfeld, jedoch nur etwa halb so breit. Daneben gibt es zahlreiche Varianten\n"
+#~ "und Kombinationen, etwa 2-gegen-2 oder 5-gegen-5 in der Halle oder auf einem Kleinfeld.</3> <4>Die Teams müssen dabei nicht aus Spielern desselben Geschlechts bestehen – ganz im Gegenteil.\n"
+#~ "Viele Turniere und auch Trainingsspiele werden im Mixed-Modus ausgetragen. Das bedeutet, dass\n"
+#~ "Frauen und Männer gemeinsam in einem Team spielen.</4> Gefragt sind Schnelligkeit, Präzision und gutes Teamwork. Durch geschicktes Passen der Scheibe an die Mitspieler muss versucht werden, diese in der gegnerischen Endzone zu fangen. Gelingt das, erhält das Team einen Punkt und überlässt die Scheibe zu Beginn des nächsten Punktes dem Gegner.\n"
+#~ "Fällt die Scheibe jedoch zu Boden, wird sie vom Gegner abgefangen oder landet im Aus, wechselt der Scheibenbesitz sofort, und das Spiel geht in die entgegengesetzte Richtung weiter. Körperkontakt ist grundsätzlich verboten. Eine gute Körperbeherrschung ist daher Pflicht, um im sehr schnellen Spiel den Gegner decken zu können, ohne ihn zu berühren.\n"
+#~ "Kommt es dennoch zu einem Kontakt, läuft der Scheibenführende mit der Scheibe oder tritt eine andere Regelverletzung auf, wird das Spiel kurz unterbrochen. Die beteiligten Spieler sprechen die Situation selbstständig durch und kommen gemeinsam zu einer fairen Entscheidung. Einen Schiedsrichter gibt es – auch auf höchstem Niveau – nicht.\n"
+#~ "Genau hier liegt die Besonderheit dieser Sportart: Sportlichkeit und Fairness stehen an oberster Stelle. Erst danach zählt das Ergebnis. Dieser Grundgedanke wird im Fachjargon “Spirit of the Game” genannt. Auf jedem Turnier, selbst auf sogenannten Fun-Turnieren, gibt es daher eine eigene Spirit-Wertung. Die Teams beurteilen sich gegenseitig in Kategorien wie Aufrichtigkeit, Kommunikation und Fair Play. Die Wertung wird bei der Siegerehrung separat bekannt gegeben und häufig mit eigenen Preisen ausgezeichnet – je nach Abschneiden des Teams.\n"
+#~ "Die deutsche Ultimate-Szene wächst hierbei stetig. Aktuell sind im Bundesgebiet rund 200 Teams und Vereine beim Deutschen Frisbeesport-Verband (DFV) registriert – Tendenz steigend. Deutsche Meisterschaften werden bereits seit 1981 ausgetragen.\n"
+#~ "(In der offenen Division (Open/Herren) dominierten in den vergangenen Jahren vor allem Bad Skid aus Heilbronn und Wall City aus Berlin. Bei den Damen wechselten sich jinX aus Berlin und die Woodchicas aus München regelmäßig als Deutsche Meisterinnen ab. In der Mixed-Division waren die Mainzelrenner aus Mainz über viele Jahre die prägende Mannschaft.)\n"
+#~ "Die internationale Ultimate-Szene hat sich in den letzten Jahrzehnten enorm professionalisiert und ist heute sehr dynamisch. Weltmeisterschaften für Nationalteams (WFDF World Ultimate Championships, WUC) finden alle vier Jahre statt. Neben den klassischen Open-, Damen- und Mixed-Divisionen gibt es auch Junioren-(U24) und Masters-Weltmeisterschaften.\n"
+#~ "Deutsche Teams sind zunehmend wettbewerbsfähig auf internationalem Niveau. Bei der WUC 2024 auf der Gold Coast erzielten die deutschen Nationalmannschaften ordentliche Platzierungen: Das Open-Team belegte den 6. Platz, die Damen und die Mixed-Auswahl jeweils Platz 7. Damit ist Deutschland eine der stärksten europäischen Ultimate-Nationen, auch wenn die absolute Weltspitze (z. B. USA, Kolumbien und Japan) meist noch vorne liegt."
+#~ msgstr ""
+#~ "<0>Teamgeist und Strategie</0> <1>Ultimate Frisbee</1> <2>Die wohl fairste Teamsportart der Welt</2> <3>Ultimate Frisbee, kurz Ultimate, ist die bekannteste Teamsportart im Frisbeesport. In der\n"
+#~ "Regel wird 7-gegen-7 auf einem Outdoor-Rasenfeld gespielt. Das Spielfeld ist dabei etwa so\n"
+#~ "lang wie ein Fußballfeld, jedoch nur etwa halb so breit. Daneben gibt es zahlreiche Varianten\n"
+#~ "und Kombinationen, etwa 2-gegen-2 oder 5-gegen-5 in der Halle oder auf einem Kleinfeld.</3> <4>Die Teams müssen dabei nicht aus Spielern desselben Geschlechts bestehen – ganz im Gegenteil.\n"
+#~ "Viele Turniere und auch Trainingsspiele werden im Mixed-Modus ausgetragen. Das bedeutet, dass\n"
+#~ "Frauen und Männer gemeinsam in einem Team spielen.</4> Gefragt sind Schnelligkeit, Präzision und gutes Teamwork. Durch geschicktes Passen der Scheibe an die Mitspieler muss versucht werden, diese in der gegnerischen Endzone zu fangen. Gelingt das, erhält das Team einen Punkt und überlässt die Scheibe zu Beginn des nächsten Punktes dem Gegner.\n"
+#~ "Fällt die Scheibe jedoch zu Boden, wird sie vom Gegner abgefangen oder landet im Aus, wechselt der Scheibenbesitz sofort, und das Spiel geht in die entgegengesetzte Richtung weiter. Körperkontakt ist grundsätzlich verboten. Eine gute Körperbeherrschung ist daher Pflicht, um im sehr schnellen Spiel den Gegner decken zu können, ohne ihn zu berühren.\n"
+#~ "Kommt es dennoch zu einem Kontakt, läuft der Scheibenführende mit der Scheibe oder tritt eine andere Regelverletzung auf, wird das Spiel kurz unterbrochen. Die beteiligten Spieler sprechen die Situation selbstständig durch und kommen gemeinsam zu einer fairen Entscheidung. Einen Schiedsrichter gibt es – auch auf höchstem Niveau – nicht.\n"
+#~ "Genau hier liegt die Besonderheit dieser Sportart: Sportlichkeit und Fairness stehen an oberster Stelle. Erst danach zählt das Ergebnis. Dieser Grundgedanke wird im Fachjargon “Spirit of the Game” genannt. Auf jedem Turnier, selbst auf sogenannten Fun-Turnieren, gibt es daher eine eigene Spirit-Wertung. Die Teams beurteilen sich gegenseitig in Kategorien wie Aufrichtigkeit, Kommunikation und Fair Play. Die Wertung wird bei der Siegerehrung separat bekannt gegeben und häufig mit eigenen Preisen ausgezeichnet – je nach Abschneiden des Teams.\n"
+#~ "Die deutsche Ultimate-Szene wächst hierbei stetig. Aktuell sind im Bundesgebiet rund 200 Teams und Vereine beim Deutschen Frisbeesport-Verband (DFV) registriert – Tendenz steigend. Deutsche Meisterschaften werden bereits seit 1981 ausgetragen.\n"
+#~ "(In der offenen Division (Open/Herren) dominierten in den vergangenen Jahren vor allem Bad Skid aus Heilbronn und Wall City aus Berlin. Bei den Damen wechselten sich jinX aus Berlin und die Woodchicas aus München regelmäßig als Deutsche Meisterinnen ab. In der Mixed-Division waren die Mainzelrenner aus Mainz über viele Jahre die prägende Mannschaft.)\n"
+#~ "Die internationale Ultimate-Szene hat sich in den letzten Jahrzehnten enorm professionalisiert und ist heute sehr dynamisch. Weltmeisterschaften für Nationalteams (WFDF World Ultimate Championships, WUC) finden alle vier Jahre statt. Neben den klassischen Open-, Damen- und Mixed-Divisionen gibt es auch Junioren-(U24) und Masters-Weltmeisterschaften.\n"
+#~ "Deutsche Teams sind zunehmend wettbewerbsfähig auf internationalem Niveau. Bei der WUC 2024 auf der Gold Coast erzielten die deutschen Nationalmannschaften ordentliche Platzierungen: Das Open-Team belegte den 6. Platz, die Damen und die Mixed-Auswahl jeweils Platz 7. Damit ist Deutschland eine der stärksten europäischen Ultimate-Nationen, auch wenn die absolute Weltspitze (z. B. USA, Kolumbien und Japan) meist noch vorne liegt."
+
+#~ msgid "Gefragt sind Schnelligkeit, Präzision und gutes Teamwork. Durch geschicktes Passen der Scheibe an die Mitspieler muss versucht werden, diese in der gegnerischen Endzone zu fangen. Gelingt das, erhält das Team einen Punkt und überlässt die Scheibe zu Beginn des nächsten Punktes dem Gegner."
+#~ msgstr "Gefragt sind Schnelligkeit, Präzision und gutes Teamwork. Durch geschicktes Passen der Scheibe an die Mitspieler muss versucht werden, diese in der gegnerischen Endzone zu fangen. Gelingt das, erhält das Team einen Punkt und überlässt die Scheibe zu Beginn des nächsten Punktes dem Gegner."
+
+#~ msgid "Fällt die Scheibe jedoch zu Boden, wird sie vom Gegner abgefangen oder landet im Aus, wechselt der Scheibenbesitz sofort, und das Spiel geht in die entgegengesetzte Richtung weiter. Körperkontakt ist grundsätzlich verboten. Eine gute Körperbeherrschung ist daher Pflicht, um im sehr schnellen Spiel den Gegner decken zu können, ohne ihn zu berühren."
+#~ msgstr "Fällt die Scheibe jedoch zu Boden, wird sie vom Gegner abgefangen oder landet im Aus, wechselt der Scheibenbesitz sofort, und das Spiel geht in die entgegengesetzte Richtung weiter. Körperkontakt ist grundsätzlich verboten. Eine gute Körperbeherrschung ist daher Pflicht, um im sehr schnellen Spiel den Gegner decken zu können, ohne ihn zu berühren."
+
+#~ msgid "Kommt es dennoch zu einem Kontakt, läuft der Scheibenführende mit der Scheibe oder tritt eine andere Regelverletzung auf, wird das Spiel kurz unterbrochen. Die beteiligten Spieler sprechen die Situation selbstständig durch und kommen gemeinsam zu einer fairen Entscheidung. Einen Schiedsrichter gibt es – auch auf höchstem Niveau – nicht."
+#~ msgstr "Kommt es dennoch zu einem Kontakt, läuft der Scheibenführende mit der Scheibe oder tritt eine andere Regelverletzung auf, wird das Spiel kurz unterbrochen. Die beteiligten Spieler sprechen die Situation selbstständig durch und kommen gemeinsam zu einer fairen Entscheidung. Einen Schiedsrichter gibt es – auch auf höchstem Niveau – nicht."
+
+#~ msgid "Genau hier liegt die Besonderheit dieser Sportart: Sportlichkeit und Fairness stehen an oberster Stelle. Erst danach zählt das Ergebnis. Dieser Grundgedanke wird im Fachjargon “Spirit of the Game” genannt. Auf jedem Turnier, selbst auf sogenannten Fun-Turnieren, gibt es daher eine eigene Spirit-Wertung. Die Teams beurteilen sich gegenseitig in Kategorien wie Aufrichtigkeit, Kommunikation und Fair Play. Die Wertung wird bei der Siegerehrung separat bekannt gegeben und häufig mit eigenen Preisen ausgezeichnet – je nach Abschneiden des Teams."
+#~ msgstr "Genau hier liegt die Besonderheit dieser Sportart: Sportlichkeit und Fairness stehen an oberster Stelle. Erst danach zählt das Ergebnis. Dieser Grundgedanke wird im Fachjargon “Spirit of the Game” genannt. Auf jedem Turnier, selbst auf sogenannten Fun-Turnieren, gibt es daher eine eigene Spirit-Wertung. Die Teams beurteilen sich gegenseitig in Kategorien wie Aufrichtigkeit, Kommunikation und Fair Play. Die Wertung wird bei der Siegerehrung separat bekannt gegeben und häufig mit eigenen Preisen ausgezeichnet – je nach Abschneiden des Teams."
+
+#~ msgid "Die deutsche Ultimate-Szene wächst hierbei stetig. Aktuell sind im Bundesgebiet rund 200 Teams und Vereine beim Deutschen Frisbeesport-Verband (DFV) registriert – Tendenz steigend. Deutsche Meisterschaften werden bereits seit 1981 ausgetragen."
+#~ msgstr "Die deutsche Ultimate-Szene wächst hierbei stetig. Aktuell sind im Bundesgebiet rund 200 Teams und Vereine beim Deutschen Frisbeesport-Verband (DFV) registriert – Tendenz steigend. Deutsche Meisterschaften werden bereits seit 1981 ausgetragen."
+
+#~ msgid "(In der offenen Division (Open/Herren) dominierten in den vergangenen Jahren vor allem Bad Skid aus Heilbronn und Wall City aus Berlin. Bei den Damen wechselten sich jinX aus Berlin und die Woodchicas aus München regelmäßig als Deutsche Meisterinnen ab. In der Mixed-Division waren die Mainzelrenner aus Mainz über viele Jahre die prägende Mannschaft.)"
+#~ msgstr "(In der offenen Division (Open/Herren) dominierten in den vergangenen Jahren vor allem Bad Skid aus Heilbronn und Wall City aus Berlin. Bei den Damen wechselten sich jinX aus Berlin und die Woodchicas aus München regelmäßig als Deutsche Meisterinnen ab. In der Mixed-Division waren die Mainzelrenner aus Mainz über viele Jahre die prägende Mannschaft.)"
+
+#~ msgid "Die internationale Ultimate-Szene hat sich in den letzten Jahrzehnten enorm professionalisiert und ist heute sehr dynamisch. Weltmeisterschaften für Nationalteams (WFDF World Ultimate Championships, WUC) finden alle vier Jahre statt. Neben den klassischen Open-, Damen- und Mixed-Divisionen gibt es auch Junioren-(U24) und Masters-Weltmeisterschaften."
+#~ msgstr "Die internationale Ultimate-Szene hat sich in den letzten Jahrzehnten enorm professionalisiert und ist heute sehr dynamisch. Weltmeisterschaften für Nationalteams (WFDF World Ultimate Championships, WUC) finden alle vier Jahre statt. Neben den klassischen Open-, Damen- und Mixed-Divisionen gibt es auch Junioren-(U24) und Masters-Weltmeisterschaften."
+
+#~ msgid "Deutsche Teams sind zunehmend wettbewerbsfähig auf internationalem Niveau. Bei der WUC 2024 auf der Gold Coast erzielten die deutschen Nationalmannschaften ordentliche Platzierungen: Das Open-Team belegte den 6. Platz, die Damen und die Mixed-Auswahl jeweils Platz 7. Damit ist Deutschland eine der stärksten europäischen Ultimate-Nationen, auch wenn die absolute Weltspitze (z. B. USA, Kolumbien und Japan) meist noch vorne liegt."
+#~ msgstr "Deutsche Teams sind zunehmend wettbewerbsfähig auf internationalem Niveau. Bei der WUC 2024 auf der Gold Coast erzielten die deutschen Nationalmannschaften ordentliche Platzierungen: Das Open-Team belegte den 6. Platz, die Damen und die Mixed-Auswahl jeweils Platz 7. Damit ist Deutschland eine der stärksten europäischen Ultimate-Nationen, auch wenn die absolute Weltspitze (z. B. USA, Kolumbien und Japan) meist noch vorne liegt."
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/ultimate/+page.svelte
+msgid ""
+"Gefragt sind Schnelligkeit, Präzision und gutes Teamwork. Durch geschicktes Passen der Scheibe\n"
+"an die Mitspieler muss versucht werden, diese in der gegnerischen Endzone zu fangen. Gelingt\n"
+"das, erhält das Team einen Punkt und überlässt die Scheibe zu Beginn des nächsten Punktes dem\n"
+"Gegner."
+msgstr ""
+"Gefragt sind Schnelligkeit, Präzision und gutes Teamwork. Durch geschicktes Passen der Scheibe\n"
+"an die Mitspieler muss versucht werden, diese in der gegnerischen Endzone zu fangen. Gelingt\n"
+"das, erhält das Team einen Punkt und überlässt die Scheibe zu Beginn des nächsten Punktes dem\n"
+"Gegner."
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/ultimate/+page.svelte
+msgid ""
+"Fällt die Scheibe jedoch zu Boden, wird sie vom Gegner abgefangen oder landet im Aus, wechselt\n"
+"der Scheibenbesitz sofort, und das Spiel geht in die entgegengesetzte Richtung weiter.\n"
+"Körperkontakt ist grundsätzlich verboten. Eine gute Körperbeherrschung ist daher Pflicht, um\n"
+"im sehr schnellen Spiel den Gegner decken zu können, ohne ihn zu berühren."
+msgstr ""
+"Fällt die Scheibe jedoch zu Boden, wird sie vom Gegner abgefangen oder landet im Aus, wechselt\n"
+"der Scheibenbesitz sofort, und das Spiel geht in die entgegengesetzte Richtung weiter.\n"
+"Körperkontakt ist grundsätzlich verboten. Eine gute Körperbeherrschung ist daher Pflicht, um\n"
+"im sehr schnellen Spiel den Gegner decken zu können, ohne ihn zu berühren."
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/ultimate/+page.svelte
+msgid ""
+"Kommt es dennoch zu einem Kontakt, läuft der Scheibenführende mit der Scheibe oder tritt eine\n"
+"andere Regelverletzung auf, wird das Spiel kurz unterbrochen. Die beteiligten Spieler sprechen\n"
+"die Situation selbstständig durch und kommen gemeinsam zu einer fairen Entscheidung. Einen\n"
+"Schiedsrichter gibt es – auch auf höchstem Niveau – nicht."
+msgstr ""
+"Kommt es dennoch zu einem Kontakt, läuft der Scheibenführende mit der Scheibe oder tritt eine\n"
+"andere Regelverletzung auf, wird das Spiel kurz unterbrochen. Die beteiligten Spieler sprechen\n"
+"die Situation selbstständig durch und kommen gemeinsam zu einer fairen Entscheidung. Einen\n"
+"Schiedsrichter gibt es – auch auf höchstem Niveau – nicht."
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/ultimate/+page.svelte
+msgid ""
+"Genau hier liegt die Besonderheit dieser Sportart: Sportlichkeit und Fairness stehen an\n"
+"oberster Stelle. Erst danach zählt das Ergebnis. Dieser Grundgedanke wird im Fachjargon\n"
+"“Spirit of the Game” genannt. Auf jedem Turnier, selbst auf sogenannten Fun-Turnieren, gibt es\n"
+"daher eine eigene Spirit-Wertung. Die Teams beurteilen sich gegenseitig in Kategorien wie\n"
+"Aufrichtigkeit, Kommunikation und Fair Play. Die Wertung wird bei der Siegerehrung separat\n"
+"bekannt gegeben und häufig mit eigenen Preisen ausgezeichnet – je nach Abschneiden des Teams."
+msgstr ""
+"Genau hier liegt die Besonderheit dieser Sportart: Sportlichkeit und Fairness stehen an\n"
+"oberster Stelle. Erst danach zählt das Ergebnis. Dieser Grundgedanke wird im Fachjargon\n"
+"“Spirit of the Game” genannt. Auf jedem Turnier, selbst auf sogenannten Fun-Turnieren, gibt es\n"
+"daher eine eigene Spirit-Wertung. Die Teams beurteilen sich gegenseitig in Kategorien wie\n"
+"Aufrichtigkeit, Kommunikation und Fair Play. Die Wertung wird bei der Siegerehrung separat\n"
+"bekannt gegeben und häufig mit eigenen Preisen ausgezeichnet – je nach Abschneiden des Teams."
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/ultimate/+page.svelte
+msgid ""
+"Die deutsche Ultimate-Szene wächst hierbei stetig. Aktuell sind im Bundesgebiet rund 200 Teams\n"
+"und Vereine beim Deutschen Frisbeesport-Verband (DFV) registriert – Tendenz steigend. Deutsche\n"
+"Meisterschaften werden bereits seit 1981 ausgetragen."
+msgstr ""
+"Die deutsche Ultimate-Szene wächst hierbei stetig. Aktuell sind im Bundesgebiet rund 200 Teams\n"
+"und Vereine beim Deutschen Frisbeesport-Verband (DFV) registriert – Tendenz steigend. Deutsche\n"
+"Meisterschaften werden bereits seit 1981 ausgetragen."
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/ultimate/+page.svelte
+msgid ""
+"(In der offenen Division (Open/Herren) dominierten in den vergangenen Jahren vor allem Bad\n"
+"Skid aus Heilbronn und Wall City aus Berlin. Bei den Damen wechselten sich jinX aus Berlin und\n"
+"die Woodchicas aus München regelmäßig als Deutsche Meisterinnen ab. In der Mixed-Division\n"
+"waren die Mainzelrenner aus Mainz über viele Jahre die prägende Mannschaft.)"
+msgstr ""
+"(In der offenen Division (Open/Herren) dominierten in den vergangenen Jahren vor allem Bad\n"
+"Skid aus Heilbronn und Wall City aus Berlin. Bei den Damen wechselten sich jinX aus Berlin und\n"
+"die Woodchicas aus München regelmäßig als Deutsche Meisterinnen ab. In der Mixed-Division\n"
+"waren die Mainzelrenner aus Mainz über viele Jahre die prägende Mannschaft.)"
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/ultimate/+page.svelte
+msgid ""
+"Die internationale Ultimate-Szene hat sich in den letzten Jahrzehnten enorm professionalisiert\n"
+"und ist heute sehr dynamisch. Weltmeisterschaften für Nationalteams (WFDF World Ultimate\n"
+"Championships, WUC) finden alle vier Jahre statt. Neben den klassischen Open-, Damen- und\n"
+"Mixed-Divisionen gibt es auch Junioren-(U24) und Masters-Weltmeisterschaften."
+msgstr ""
+"Die internationale Ultimate-Szene hat sich in den letzten Jahrzehnten enorm professionalisiert\n"
+"und ist heute sehr dynamisch. Weltmeisterschaften für Nationalteams (WFDF World Ultimate\n"
+"Championships, WUC) finden alle vier Jahre statt. Neben den klassischen Open-, Damen- und\n"
+"Mixed-Divisionen gibt es auch Junioren-(U24) und Masters-Weltmeisterschaften."
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/ultimate/+page.svelte
+msgid ""
+"Deutsche Teams sind zunehmend wettbewerbsfähig auf internationalem Niveau. Bei der WUC 2024\n"
+"auf der Gold Coast erzielten die deutschen Nationalmannschaften ordentliche Platzierungen: Das\n"
+"Open-Team belegte den 6. Platz, die Damen und die Mixed-Auswahl jeweils Platz 7. Damit ist\n"
+"Deutschland eine der stärksten europäischen Ultimate-Nationen, auch wenn die absolute\n"
+"Weltspitze (z. B. USA, Kolumbien und Japan) meist noch vorne liegt."
+msgstr ""
+"Deutsche Teams sind zunehmend wettbewerbsfähig auf internationalem Niveau. Bei der WUC 2024\n"
+"auf der Gold Coast erzielten die deutschen Nationalmannschaften ordentliche Platzierungen: Das\n"
+"Open-Team belegte den 6. Platz, die Damen und die Mixed-Auswahl jeweils Platz 7. Damit ist\n"
+"Deutschland eine der stärksten europäischen Ultimate-Nationen, auch wenn die absolute\n"
+"Weltspitze (z. B. USA, Kolumbien und Japan) meist noch vorne liegt."
+
+#~ msgid "Ultimate ist die bekannteste Teamsportart mit der Frisbee – schnell, athletisch und fair. Zwei Teams versuchen, die Scheibe durch geschickte Pässe über das Feld zu bewegen und in der Endzone zu fangen, um Punkte zu erzielen. Besonders einzigartig: Ultimate wird ohne Schiedsrichter gespielt, basierend auf dem ‚Spirit of the Game‘, also Fairplay und Respekt. Rasante Spielzüge, spektakuläre Layouts und echte Teamarbeit sorgen für spannende Matches und mitreißende Stimmung."
+#~ msgstr "Ultimate ist die bekannteste Teamsportart mit der Frisbee – schnell, athletisch und fair. Zwei Teams versuchen, die Scheibe durch geschickte Pässe über das Feld zu bewegen und in der Endzone zu fangen, um Punkte zu erzielen. Besonders einzigartig: Ultimate wird ohne Schiedsrichter gespielt, basierend auf dem ‚Spirit of the Game‘, also Fairplay und Respekt. Rasante Spielzüge, spektakuläre Layouts und echte Teamarbeit sorgen für spannende Matches und mitreißende Stimmung."
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/ultimate/+page.svelte
+msgid ""
+"Ultimate ist die bekannteste Teamsportart mit der Frisbee – schnell, athletisch und fair. Zwei\n"
+"Teams versuchen, die Scheibe durch geschickte Pässe über das Feld zu bewegen und in der\n"
+"Endzone zu fangen, um Punkte zu erzielen. Besonders einzigartig: Ultimate wird ohne\n"
+"Schiedsrichter gespielt, basierend auf dem ‚Spirit of the Game‘, also Fairplay und Respekt.\n"
+"Rasante Spielzüge, spektakuläre Layouts und echte Teamarbeit sorgen für spannende Matches und\n"
+"mitreißende Stimmung."
+msgstr ""
+"Ultimate ist die bekannteste Teamsportart mit der Frisbee – schnell, athletisch und fair. Zwei\n"
+"Teams versuchen, die Scheibe durch geschickte Pässe über das Feld zu bewegen und in der\n"
+"Endzone zu fangen, um Punkte zu erzielen. Besonders einzigartig: Ultimate wird ohne\n"
+"Schiedsrichter gespielt, basierend auf dem ‚Spirit of the Game‘, also Fairplay und Respekt.\n"
+"Rasante Spielzüge, spektakuläre Layouts und echte Teamarbeit sorgen für spannende Matches und\n"
+"mitreißende Stimmung."
+
+#: src/routes/[[locale=lang]]/disciplines/(disciplines)/wheelchair-ultimate/+page.svelte
+msgid ""
+"Rollstuhl Ultimate ist eine angepasste Version von Ultimate Frisbee, die für AthletInnen mit\n"
+"körperlichen Beeinträchtigungen entwickelt wurde. Es bewahrt die Kernwerte des\n"
+"traditionellen Ultimate – wie berührungsfreies Spiel, Selbstschiedsrichterei und den „Spirit\n"
+"of the Game\" – und führt gleichzeitig Anpassungen ein, die speziell auf Rollstuhlfahrer\n"
+"zugeschnitten sind. Das Ergebnis ist ein wirklich inklusiver Sport, der Teamarbeit,\n"
+"Agilität, strategisches Denken und aktive Teilhabe für Menschen mit unterschiedlichsten\n"
+"Mobilitätsniveaus fördert."
+msgstr ""
+"Rollstuhl Ultimate ist eine angepasste Version von Ultimate Frisbee, die für AthletInnen mit\n"
+"körperlichen Beeinträchtigungen entwickelt wurde. Es bewahrt die Kernwerte des\n"
+"traditionellen Ultimate – wie berührungsfreies Spiel, Selbstschiedsrichterei und den „Spirit\n"
+"of the Game\" – und führt gleichzeitig Anpassungen ein, die speziell auf Rollstuhlfahrer\n"
+"zugeschnitten sind. Das Ergebnis ist ein wirklich inklusiver Sport, der Teamarbeit,\n"
+"Agilität, strategisches Denken und aktive Teilhabe für Menschen mit unterschiedlichsten\n"
+"Mobilitätsniveaus fördert."
+
+#: src/lib/components/Footer.svelte
+msgid "Entdecke die Welt der Flugscheibe"
+msgstr "Entdecke die Welt der Flugscheibe"
+
+#~ msgid "href={0} <0>Mitmachen</0>"
+#~ msgstr "href={0} <0>Mitmachen</0>"
+
+#~ msgid "<0>Disziplinen</0> <1>Programm</1> <2>Mitmachen</2> href={0} <3>FAQ</3>"
+#~ msgstr "<0>Disziplinen</0> <1>Programm</1> <2>Mitmachen</2> href={0} <3>FAQ</3>"
+
+#~ msgid "D"
+#~ msgstr "D"
+
+#: src/lib/components/Footer.svelte
+msgid "Sportarten"
+msgstr "Sportarten"
+
+#~ msgid "Sportschule Oberhaching<0/>82041 OberhachingOberhaching, Bayern"
+#~ msgstr "Sportschule Oberhaching<0/>82041 OberhachingOberhaching, Bayern"
+
+#: src/lib/components/Footer.svelte
+msgid "Sportschule Oberhaching<0/>82041 Oberhaching<1/>Oberhaching, Bayern"
+msgstr "Sportschule Oberhaching<0/>82041 Oberhaching<1/>Oberhaching, Bayern"
+
+#~ msgid "Über das Festival"
+#~ msgstr "Über das Festival"
+
+#~ msgid "WILL"
+#~ msgstr "WILL"
+
+#~ msgid "Willkomm"
+#~ msgstr "Willkomm"
+
+#~ msgid "Willkommen"
+#~ msgstr "Willkommen"
+
+#~ msgid "Willkommen zum Frisbee Festival München"
+#~ msgstr "Willkommen zum Frisbee Festival München"
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "Willkommen zum"
+msgstr "Willkommen zum"
+
+#~ msgid ""
+#~ "<0/> <1>August 1. - 2. 2026</1> <2>Willkommen zum</2> <3/> <4>Experience world-class frisbee facilities and training programs designed for athletes of all\n"
+#~ "skill levels at Munich's premier sports destination.</4> Erlebe <5/>"
+#~ msgstr ""
+#~ "<0/> <1>August 1. - 2. 2026</1> <2>Willkommen zum</2> <3/> <4>Experience world-class frisbee facilities and training programs designed for athletes of all\n"
+#~ "skill levels at Munich's premier sports destination.</4> Erlebe <5/>"
+
+#~ msgid ""
+#~ "<0/> <1>August 1. - 2. 2026</1> <2>Willkommen zum</2> <3/> <4>Experience world-class frisbee facilities and training programs designed for athletes of all\n"
+#~ "skill levels at Munich's premier sports destination.</4> Erlebe erstklassige Frisbee-Anlagen und Trainingsprogramme für Athleten aller Leistungsstufen im <5/>"
+#~ msgstr ""
+#~ "<0/> <1>August 1. - 2. 2026</1> <2>Willkommen zum</2> <3/> <4>Experience world-class frisbee facilities and training programs designed for athletes of all\n"
+#~ "skill levels at Munich's premier sports destination.</4> Erlebe erstklassige Frisbee-Anlagen und Trainingsprogramme für Athleten aller Leistungsstufen im <5/>"
+
+#~ msgid ""
+#~ "<0/> <1>August 1. - 2. 2026</1> <2>Willkommen zum</2> <3/> <4>Experience world-class frisbee facilities and training programs designed for athletes of all\n"
+#~ "skill levels at Munich's premier sports destination.</4> Erlebe erstklassige Frisbee-Anlagen und Trainingsprogramme für Athleten aller Leistungsstufen im Münchner Top-Sportzentrum. <5/>"
+#~ msgstr ""
+#~ "<0/> <1>August 1. - 2. 2026</1> <2>Willkommen zum</2> <3/> <4>Experience world-class frisbee facilities and training programs designed for athletes of all\n"
+#~ "skill levels at Munich's premier sports destination.</4> Erlebe erstklassige Frisbee-Anlagen und Trainingsprogramme für Athleten aller Leistungsstufen im Münchner Top-Sportzentrum. <5/>"
+
+#~ msgid "Erlebe erstklassige Frisbee-Anlagen und Trainingsprogramme für Athleten aller Leistungsstufen im Münchner Top-Sportzentrum."
+#~ msgstr "Erlebe erstklassige Frisbee-Anlagen und Trainingsprogramme für Athleten aller Leistungsstufen im Münchner Top-Sportzentrum."
+
+#~ msgid ""
+#~ "Erlebe erstklassige Frisbee-Anlagen und Trainingsprogramme für Athleten aller Leistungsstufen im\n"
+#~ "Münchner Top-Sportzentrum."
+#~ msgstr ""
+#~ "Erlebe erstklassige Frisbee-Anlagen und Trainingsprogramme für Athleten aller Leistungsstufen im\n"
+#~ "Münchner Top-Sportzentrum."
+
+#~ msgid "Erlebe erstklassigen Frisbee"
+#~ msgstr "Erlebe erstklassigen Frisbee"
+
+#~ msgid "Erlebe erstklassigen Frisbee-Sport und feiere mit uns die Faszination der Flugscheibe in München."
+#~ msgstr "Erlebe erstklassigen Frisbee-Sport und feiere mit uns die Faszination der Flugscheibe in München."
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "Erlebe erstklassigen Frisbeesport und feiere mit uns die Faszination der Flugscheibe in München."
+msgstr "Erlebe erstklassigen Frisbeesport und feiere mit uns die Faszination der Flugscheibe in München."
+
+#~ msgid "1. - 2. August  2026"
+#~ msgstr "1. - 2. August  2026"
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "1. - 2. August 2026"
+msgstr "1. - 2. August 2026"
+
+#~ msgid "Entdecke die vielseitigen Sportarten"
+#~ msgstr "Entdecke die vielseitigen Sportarten"
+
+#~ msgid "Entdecke die vielseitigen  Sportarten"
+#~ msgstr "Entdecke die vielseitigen  Sportarten"
+
+#~ msgid "Entdecke die vielseitigen Frisbee Sportarten"
+#~ msgstr "Entdecke die vielseitigen Frisbee Sportarten"
+
+#: src/routes/[[locale=lang]]/disciplines/+page.svelte
+msgid "Entdecke die vielseitigen Frisbee-Sportarten"
+msgstr "Entdecke die vielseitigen Frisbee-Sportarten"
+
+#: src/lib/components/Schedule.svelte
+msgid "Anschauen"
+msgstr "Anschauen"
