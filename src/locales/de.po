@@ -72,6 +72,7 @@ msgstr "Mitmachen"
 #: src/lib/components/AppSidebar.svelte
 #: src/lib/components/Navigation.svelte
 #: src/lib/components/Navigation.svelte
+#: src/lib/components/Navigation.svelte
 #: src/routes/[[locale=lang]]/disciplines/+page.svelte
 msgid "Die Sportarten"
 msgstr "Die Sportarten"
@@ -165,9 +166,8 @@ msgstr "YouTube video"
 #~ msgid "Frequently Asked Questions"
 #~ msgstr "Frequently Asked Questions"
 
-#: src/routes/[[locale=lang]]/faq/+page.svelte
-msgid "Anfahrt"
-msgstr "Anfahrt"
+#~ msgid "Anfahrt"
+#~ msgstr "Anfahrt"
 
 #~ msgid "Sample Image"
 #~ msgstr "Sample Image"
@@ -760,49 +760,43 @@ msgstr "Sa & So, 10:00–17:00"
 #~ "Key features include advanced processing capabilities, and an intuitive\n"
 #~ "user interface designed for both beginners and experts."
 
-#: src/routes/[[locale=lang]]/faq/+page.svelte
-msgid "Shipping Details"
-msgstr "Shipping Details"
+#~ msgid "Shipping Details"
+#~ msgstr "Shipping Details"
 
-#: src/routes/[[locale=lang]]/faq/+page.svelte
-msgid ""
-"We offer worldwide shipping through trusted courier partners. Standard\n"
-"delivery takes 3-5 business days, while express shipping ensures\n"
-"delivery within 1-2 business days."
-msgstr ""
-"We offer worldwide shipping through trusted courier partners. Standard\n"
-"delivery takes 3-5 business days, while express shipping ensures\n"
-"delivery within 1-2 business days."
+#~ msgid ""
+#~ "We offer worldwide shipping through trusted courier partners. Standard\n"
+#~ "delivery takes 3-5 business days, while express shipping ensures\n"
+#~ "delivery within 1-2 business days."
+#~ msgstr ""
+#~ "We offer worldwide shipping through trusted courier partners. Standard\n"
+#~ "delivery takes 3-5 business days, while express shipping ensures\n"
+#~ "delivery within 1-2 business days."
 
-#: src/routes/[[locale=lang]]/faq/+page.svelte
-msgid ""
-"All orders are carefully packaged and fully insured. Track your shipment\n"
-"in real-time through our dedicated tracking portal."
-msgstr ""
-"All orders are carefully packaged and fully insured. Track your shipment\n"
-"in real-time through our dedicated tracking portal."
+#~ msgid ""
+#~ "All orders are carefully packaged and fully insured. Track your shipment\n"
+#~ "in real-time through our dedicated tracking portal."
+#~ msgstr ""
+#~ "All orders are carefully packaged and fully insured. Track your shipment\n"
+#~ "in real-time through our dedicated tracking portal."
 
-#: src/routes/[[locale=lang]]/faq/+page.svelte
-msgid "Return Policy"
-msgstr "Return Policy"
+#~ msgid "Return Policy"
+#~ msgstr "Return Policy"
 
-#: src/routes/[[locale=lang]]/faq/+page.svelte
-msgid ""
-"We stand behind our products with a comprehensive 30-day return policy.\n"
-"If you're not completely satisfied, simply return the item in its\n"
-"original condition."
-msgstr ""
-"We stand behind our products with a comprehensive 30-day return policy.\n"
-"If you're not completely satisfied, simply return the item in its\n"
-"original condition."
+#~ msgid ""
+#~ "We stand behind our products with a comprehensive 30-day return policy.\n"
+#~ "If you're not completely satisfied, simply return the item in its\n"
+#~ "original condition."
+#~ msgstr ""
+#~ "We stand behind our products with a comprehensive 30-day return policy.\n"
+#~ "If you're not completely satisfied, simply return the item in its\n"
+#~ "original condition."
 
-#: src/routes/[[locale=lang]]/faq/+page.svelte
-msgid ""
-"Our hassle-free return process includes free return shipping and full\n"
-"refunds processed within 48 hours of receiving the returned item."
-msgstr ""
-"Our hassle-free return process includes free return shipping and full\n"
-"refunds processed within 48 hours of receiving the returned item."
+#~ msgid ""
+#~ "Our hassle-free return process includes free return shipping and full\n"
+#~ "refunds processed within 48 hours of receiving the returned item."
+#~ msgstr ""
+#~ "Our hassle-free return process includes free return shipping and full\n"
+#~ "refunds processed within 48 hours of receiving the returned item."
 
 #~ msgid "Anfahrt per Sbahn"
 #~ msgstr "Anfahrt per Sbahn"
@@ -2219,3 +2213,288 @@ msgstr "Entdecke die vielseitigen Frisbee-Sportarten"
 #: src/lib/components/Schedule.svelte
 msgid "Anschauen"
 msgstr "Anschauen"
+
+#~ msgid "Parken"
+#~ msgstr "Parken"
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid "Wie komm ich hin?"
+msgstr "Wie komm ich hin?"
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid "Was kostet der Eintritt?"
+msgstr "Was kostet der Eintritt?"
+
+#~ msgid "Nichts! Wir freuen"
+#~ msgstr "Nichts! Wir freuen"
+
+#~ msgid "Nichts! Wir freuen uns über jeden Besucher, der die Welt der Flugscheibe entdecken"
+#~ msgstr "Nichts! Wir freuen uns über jeden Besucher, der die Welt der Flugscheibe entdecken"
+
+#~ msgid "Nichts! Wir freuen uns über jeden Besucher, der die Welt der Flugscheibe entdecken möchte."
+#~ msgstr "Nichts! Wir freuen uns über jeden Besucher, der die Welt der Flugscheibe entdecken möchte."
+
+#~ msgid "Nichts! Wir freuen uns über jeden Besucher, der unsere Sportarten, die wir so lieben"
+#~ msgstr "Nichts! Wir freuen uns über jeden Besucher, der unsere Sportarten, die wir so lieben"
+
+#~ msgid "Nichts! Wir freuen uns über jeden Besucher, der unsere Sportarten, die wir so lieben entdecken möchte."
+#~ msgstr "Nichts! Wir freuen uns über jeden Besucher, der unsere Sportarten, die wir so lieben entdecken möchte."
+
+#~ msgid ""
+#~ "Nichts! Wir freuen uns über jeden Besucher, der unsere Sportarten, die wir so lieben entdecken möchte.\n"
+#~ "Wir haben einige Turniere abzuhalten, und nutzen diese Gelegenheit sie Euch zu zeigen."
+#~ msgstr ""
+#~ "Nichts! Wir freuen uns über jeden Besucher, der unsere Sportarten, die wir so lieben entdecken möchte.\n"
+#~ "Wir haben einige Turniere abzuhalten, und nutzen diese Gelegenheit sie Euch zu zeigen."
+
+#~ msgid ""
+#~ "Nichts! Wir freuen uns über alle, der unsere Sportarten, die wir so lieben entdecken möchte.\n"
+#~ "Wir haben einige Turniere abzuhalten, und nutzen diese Gelegenheit sie Euch zu zeigen."
+#~ msgstr ""
+#~ "Nichts! Wir freuen uns über alle, der unsere Sportarten, die wir so lieben entdecken möchte.\n"
+#~ "Wir haben einige Turniere abzuhalten, und nutzen diese Gelegenheit sie Euch zu zeigen."
+
+#~ msgid ""
+#~ "Nichts! Wir freuen uns über alle, die unsere Sportarten, die wir so lieben entdecken möchte.\n"
+#~ "Wir haben einige Turniere abzuhalten, und nutzen diese Gelegenheit sie Euch zu zeigen."
+#~ msgstr ""
+#~ "Nichts! Wir freuen uns über alle, die unsere Sportarten, die wir so lieben entdecken möchte.\n"
+#~ "Wir haben einige Turniere abzuhalten, und nutzen diese Gelegenheit sie Euch zu zeigen."
+
+#~ msgid ""
+#~ "Nichts! Wir freuen uns über alle, die unseren Sportarten, die wir so lieben entdecken möchte.\n"
+#~ "Wir haben einige Turniere abzuhalten, und nutzen diese Gelegenheit sie Euch zu zeigen."
+#~ msgstr ""
+#~ "Nichts! Wir freuen uns über alle, die unseren Sportarten, die wir so lieben entdecken möchte.\n"
+#~ "Wir haben einige Turniere abzuhalten, und nutzen diese Gelegenheit sie Euch zu zeigen."
+
+#~ msgid ""
+#~ "Nichts! Wir freuen uns über alle, die unseren Sport, die wir so lieben entdecken möchte.\n"
+#~ "Wir haben einige Turniere abzuhalten, und nutzen diese Gelegenheit sie Euch zu zeigen."
+#~ msgstr ""
+#~ "Nichts! Wir freuen uns über alle, die unseren Sport, die wir so lieben entdecken möchte.\n"
+#~ "Wir haben einige Turniere abzuhalten, und nutzen diese Gelegenheit sie Euch zu zeigen."
+
+#~ msgid ""
+#~ "Nichts! Wir freuen uns über alle, die unseren Sport die wir so lieben entdecken möchte.\n"
+#~ "Wir haben einige Turniere abzuhalten, und nutzen diese Gelegenheit sie Euch zu zeigen."
+#~ msgstr ""
+#~ "Nichts! Wir freuen uns über alle, die unseren Sport die wir so lieben entdecken möchte.\n"
+#~ "Wir haben einige Turniere abzuhalten, und nutzen diese Gelegenheit sie Euch zu zeigen."
+
+#~ msgid ""
+#~ "Nichts! Wir freuen uns über alle, die unseren Sport den wir so lieben entdecken möchte.\n"
+#~ "Wir haben einige Turniere abzuhalten, und nutzen diese Gelegenheit sie Euch zu zeigen."
+#~ msgstr ""
+#~ "Nichts! Wir freuen uns über alle, die unseren Sport den wir so lieben entdecken möchte.\n"
+#~ "Wir haben einige Turniere abzuhalten, und nutzen diese Gelegenheit sie Euch zu zeigen."
+
+#~ msgid ""
+#~ "Nichts! Wir freuen uns über alle, die unseren Sport den wir so lieben entdecken möchten.\n"
+#~ "Wir haben einige Turniere abzuhalten, und nutzen diese Gelegenheit sie Euch zu zeigen."
+#~ msgstr ""
+#~ "Nichts! Wir freuen uns über alle, die unseren Sport den wir so lieben entdecken möchten.\n"
+#~ "Wir haben einige Turniere abzuhalten, und nutzen diese Gelegenheit sie Euch zu zeigen."
+
+#~ msgid "Kann"
+#~ msgstr "Kann"
+
+#~ msgid "Essen und Trinken?"
+#~ msgstr "Essen und Trinken?"
+
+#~ msgid "Es wird foodtrucks"
+#~ msgstr "Es wird foodtrucks"
+
+#~ msgid "Es wird foodtrucks geben, die leckeres Essen und Getränke anbieten. Es wird auch eine Bar geben, an der ihr erfrischende Getränke genießen könnt."
+#~ msgstr "Es wird foodtrucks geben, die leckeres Essen und Getränke anbieten. Es wird auch eine Bar geben, an der ihr erfrischende Getränke genießen könnt."
+
+#~ msgid "Wird es Essen und Trinken?"
+#~ msgstr "Wird es Essen und Trinken?"
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid "Wird es Essen und Trinken geben?"
+msgstr "Wird es Essen und Trinken geben?"
+
+#~ msgid "Natürlich wird es Food Trucks, und einen Aussc"
+#~ msgstr "Natürlich wird es Food Trucks, und einen Aussc"
+
+#~ msgid "Natürlich wird es Food Trucks, und einen Ausschank geben, damit ihr den ganzen Tag über versorgt seid."
+#~ msgstr "Natürlich wird es Food Trucks, und einen Ausschank geben, damit ihr den ganzen Tag über versorgt seid."
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid "Für wen ist das Festival?"
+msgstr "Für wen ist das Festival?"
+
+#~ msgid "Das Festival ist für Alle!"
+#~ msgstr "Das Festival ist für Alle!"
+
+#~ msgid "Das Festival ist für Alle! Egal ob jung oder alt,"
+#~ msgstr "Das Festival ist für Alle! Egal ob jung oder alt,"
+
+#~ msgid "Das Festival ist für Alle! Egal ob jung oder alt, Anfänger oder Profi, Hauptsache ihr habt Spaß an der Flugscheibe und wollt einen tollen Tag mit uns verbringen."
+#~ msgstr "Das Festival ist für Alle! Egal ob jung oder alt, Anfänger oder Profi, Hauptsache ihr habt Spaß an der Flugscheibe und wollt einen tollen Tag mit uns verbringen."
+
+#~ msgid "Das Festival ist für Alle! Egal ob jung oder alt, Anfänger oder Profi, Hauptsache ihr habt Spaß oder Interesse an der Flugscheibe und wollt einen tollen Tag mit uns verbringen."
+#~ msgstr "Das Festival ist für Alle! Egal ob jung oder alt, Anfänger oder Profi, Hauptsache ihr habt Spaß oder Interesse an der Flugscheibe und wollt einen tollen Tag mit uns verbringen."
+
+#~ msgid ""
+#~ "Das Festival ist für Alle! Egal ob jung oder alt, Anfänger oder Profi, Hauptsache ihr habt Spaß oder Interesse an der Flugscheibe und wollt einen tollen Tag mit uns verbringen.\n"
+#~ "Auch Familien sind explizit willkommen. Verbringt einfach einen schönen, entspannten Tag mit uns"
+#~ msgstr ""
+#~ "Das Festival ist für Alle! Egal ob jung oder alt, Anfänger oder Profi, Hauptsache ihr habt Spaß oder Interesse an der Flugscheibe und wollt einen tollen Tag mit uns verbringen.\n"
+#~ "Auch Familien sind explizit willkommen. Verbringt einfach einen schönen, entspannten Tag mit uns"
+
+#~ msgid ""
+#~ "Das Festival ist für Alle! Egal ob jung oder alt, Anfänger oder Profi, Hauptsache ihr habt Spaß oder Interesse an der Flugscheibe und wollt einen tollen Tag mit uns verbringen.\n"
+#~ "Auch Familien sind explizit willkommen. Verbringt einfach einen entspannten Tag mit uns"
+#~ msgstr ""
+#~ "Das Festival ist für Alle! Egal ob jung oder alt, Anfänger oder Profi, Hauptsache ihr habt Spaß oder Interesse an der Flugscheibe und wollt einen tollen Tag mit uns verbringen.\n"
+#~ "Auch Familien sind explizit willkommen. Verbringt einfach einen entspannten Tag mit uns"
+
+#~ msgid ""
+#~ "Das Festival ist für Alle! Egal ob jung oder alt, Anfänger oder Profi, Hauptsache ihr habt Spaß oder Interesse an der Flugscheibe und wollt einen tollen Tag mit uns verbringen.\n"
+#~ "Auch Familien sind explizit willkommen. Verbringt einfach einen entspannten Tag mit uns, und wer weiß, vielleicht findet euer Kind"
+#~ msgstr ""
+#~ "Das Festival ist für Alle! Egal ob jung oder alt, Anfänger oder Profi, Hauptsache ihr habt Spaß oder Interesse an der Flugscheibe und wollt einen tollen Tag mit uns verbringen.\n"
+#~ "Auch Familien sind explizit willkommen. Verbringt einfach einen entspannten Tag mit uns, und wer weiß, vielleicht findet euer Kind"
+
+#~ msgid ""
+#~ "Das Festival ist für Alle! Egal ob jung oder alt, Anfänger oder Profi, Hauptsache ihr habt Spaß oder Interesse an der Flugscheibe und wollt einen tollen Tag mit uns verbringen.\n"
+#~ "Auch Familien sind explizit willkommen. Verbringt einfach einen entspannten Tag mit uns, und wer weiß, vielleicht findet euer Kind eine neue Leidenschaft. Frsi"
+#~ msgstr ""
+#~ "Das Festival ist für Alle! Egal ob jung oder alt, Anfänger oder Profi, Hauptsache ihr habt Spaß oder Interesse an der Flugscheibe und wollt einen tollen Tag mit uns verbringen.\n"
+#~ "Auch Familien sind explizit willkommen. Verbringt einfach einen entspannten Tag mit uns, und wer weiß, vielleicht findet euer Kind eine neue Leidenschaft. Frsi"
+
+#~ msgid ""
+#~ "Das Festival ist für Alle! Egal ob jung oder alt, Anfänger oder Profi, Hauptsache ihr habt Spaß oder Interesse an der Flugscheibe und wollt einen tollen Tag mit uns verbringen.\n"
+#~ "Auch Familien sind explizit willkommen. Verbringt einfach einen entspannten Tag mit uns, und wer weiß, vielleicht findet euer Kind eine neue Leidenschaft."
+#~ msgstr ""
+#~ "Das Festival ist für Alle! Egal ob jung oder alt, Anfänger oder Profi, Hauptsache ihr habt Spaß oder Interesse an der Flugscheibe und wollt einen tollen Tag mit uns verbringen.\n"
+#~ "Auch Familien sind explizit willkommen. Verbringt einfach einen entspannten Tag mit uns, und wer weiß, vielleicht findet euer Kind eine neue Leidenschaft."
+
+#~ msgid "Warum ?"
+#~ msgstr "Warum ?"
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid "Warum veranstaltet ihr das Festival?"
+msgstr "Warum veranstaltet ihr das Festival?"
+
+#~ msgid "Wir haben einige Turniere abzuhalten, und nutzen diese Gelegenheit sie Euch zu zeigen."
+#~ msgstr "Wir haben einige Turniere abzuhalten, und nutzen diese Gelegenheit sie Euch zu zeigen."
+
+#~ msgid "Nichts! Wir freuen uns über alle, die unseren Sport den wir so lieben entdecken möchten."
+#~ msgstr "Nichts! Wir freuen uns über alle, die unseren Sport den wir so lieben entdecken möchten."
+
+#~ msgid "Die Freestyle Frisbee"
+#~ msgstr "Die Freestyle Frisbee"
+
+#~ msgid "Die Freestyle Frisbee Community in München war dieses Jahr dran, die Weltmeisterschaft auszutragen"
+#~ msgstr "Die Freestyle Frisbee Community in München war dieses Jahr dran, die Weltmeisterschaft auszutragen"
+
+#~ msgid "Die Freestyle Frisbee Community in München war dieses Jahr dran, die Weltmeisterschaft auszutragen."
+#~ msgstr "Die Freestyle Frisbee Community in München war dieses Jahr dran, die Weltmeisterschaft auszutragen."
+
+#~ msgid "Die Freestyle Frisbee Community in München war dieses Jahr dran, die Weltmeisterschaft auszutragen. Um die Reichweite unserer Sportart zu erweitern, haben wir uns mit unseren verwandten Frisbee Sportarten zusammengetan, um euch die Möglichkeit zu bieten, etwas"
+#~ msgstr "Die Freestyle Frisbee Community in München war dieses Jahr dran, die Weltmeisterschaft auszutragen. Um die Reichweite unserer Sportart zu erweitern, haben wir uns mit unseren verwandten Frisbee Sportarten zusammengetan, um euch die Möglichkeit zu bieten, etwas"
+
+#~ msgid "Die Freestyle Frisbee Community in München war dieses Jahr dran, die Weltmeisterschaft auszutragen. Um die Reichweite unserer Sportart zu erweitern, haben wir uns mit unseren verwandten Frisbee Sportarten zusammengetan, um euch die Möglichkeit zu bieten, etwas neues"
+#~ msgstr "Die Freestyle Frisbee Community in München war dieses Jahr dran, die Weltmeisterschaft auszutragen. Um die Reichweite unserer Sportart zu erweitern, haben wir uns mit unseren verwandten Frisbee Sportarten zusammengetan, um euch die Möglichkeit zu bieten, etwas neues"
+
+#~ msgid "Die Freestyle Frisbee Community in München war dieses Jahr dran, die Weltmeisterschaft auszutragen. Um die Reichweite unserer Sportart zu erweitern, haben wir uns mit unseren verwandten Frisbee Sportarten zusammengetan, um euch die Möglichkeit zu bieten, etwas neues zu sehen."
+#~ msgstr "Die Freestyle Frisbee Community in München war dieses Jahr dran, die Weltmeisterschaft auszutragen. Um die Reichweite unserer Sportart zu erweitern, haben wir uns mit unseren verwandten Frisbee Sportarten zusammengetan, um euch die Möglichkeit zu bieten, etwas neues zu sehen."
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid ""
+"Die Freestyle Frisbee Community in München war dieses Jahr dran, die Weltmeisterschaft\n"
+"auszutragen. Um die Reichweite unserer Sportart zu erweitern, haben wir uns mit unseren\n"
+"verwandten Frisbee Sportarten zusammengetan, um euch die Möglichkeit zu bieten, etwas neues\n"
+"zu sehen."
+msgstr ""
+"Die Freestyle Frisbee Community in München war dieses Jahr dran, die Weltmeisterschaft\n"
+"auszutragen. Um die Reichweite unserer Sportart zu erweitern, haben wir uns mit unseren\n"
+"verwandten Frisbee Sportarten zusammengetan, um euch die Möglichkeit zu bieten, etwas neues\n"
+"zu sehen."
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid ""
+"Natürlich wird es Food Trucks, und einen Ausschank geben, damit ihr den ganzen Tag über\n"
+"versorgt seid."
+msgstr ""
+"Natürlich wird es Food Trucks, und einen Ausschank geben, damit ihr den ganzen Tag über\n"
+"versorgt seid."
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid ""
+"Das Festival ist für Alle! Egal ob jung oder alt, Anfänger oder Profi, Hauptsache ihr habt\n"
+"Spaß oder Interesse an der Flugscheibe und wollt einen tollen Tag mit uns verbringen. Auch\n"
+"Familien sind explizit willkommen. Verbringt einfach einen entspannten Tag mit uns, und wer\n"
+"weiß, vielleicht findet euer Kind eine neue Leidenschaft."
+msgstr ""
+"Das Festival ist für Alle! Egal ob jung oder alt, Anfänger oder Profi, Hauptsache ihr habt\n"
+"Spaß oder Interesse an der Flugscheibe und wollt einen tollen Tag mit uns verbringen. Auch\n"
+"Familien sind explizit willkommen. Verbringt einfach einen entspannten Tag mit uns, und wer\n"
+"weiß, vielleicht findet euer Kind eine neue Leidenschaft."
+
+#~ msgid "Nichts! Wir freuen uns über alle, die unseren Sport den wir so lieben entdecken möchten, oder einfach einen"
+#~ msgstr "Nichts! Wir freuen uns über alle, die unseren Sport den wir so lieben entdecken möchten, oder einfach einen"
+
+#~ msgid "Nichts! Wir freuen uns über alle, die unseren Sport den wir so lieben entdecken möchten, oder einfach einen unvergesslichen Tag mit"
+#~ msgstr "Nichts! Wir freuen uns über alle, die unseren Sport den wir so lieben entdecken möchten, oder einfach einen unvergesslichen Tag mit"
+
+#~ msgid "Nichts! Wir freuen uns über alle, die unseren Sport den wir so lieben entdecken möchten, oder einfach einen unvergesslichen Tag mit uns verbringen möchten"
+#~ msgstr "Nichts! Wir freuen uns über alle, die unseren Sport den wir so lieben entdecken möchten, oder einfach einen unvergesslichen Tag mit uns verbringen möchten"
+
+#~ msgid "Nichts! Wir freuen uns über alle, die unseren Sport den wir so lieben entdecken möchten, oder einfach zwei unvergesslichen Tag mit uns verbringen möchten"
+#~ msgstr "Nichts! Wir freuen uns über alle, die unseren Sport den wir so lieben entdecken möchten, oder einfach zwei unvergesslichen Tag mit uns verbringen möchten"
+
+#~ msgid "Nichts! Wir freuen uns über alle, die unseren Sport den wir so lieben entdecken möchten, oder einfach zwei unvergessliche Tag mit uns verbringen möchten"
+#~ msgstr "Nichts! Wir freuen uns über alle, die unseren Sport den wir so lieben entdecken möchten, oder einfach zwei unvergessliche Tag mit uns verbringen möchten"
+
+#~ msgid "Nichts! Wir freuen uns über alle, die unseren Sport den wir so lieben entdecken möchten, oder einfach zwei unvergessliche Tage mit uns verbringen möchten"
+#~ msgstr "Nichts! Wir freuen uns über alle, die unseren Sport den wir so lieben entdecken möchten, oder einfach zwei unvergessliche Tage mit uns verbringen möchten"
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid ""
+"Nichts! Wir freuen uns über alle, die unseren Sport den wir so lieben entdecken möchten,\n"
+"oder einfach zwei unvergessliche Tage mit uns verbringen möchten"
+msgstr ""
+"Nichts! Wir freuen uns über alle, die unseren Sport den wir so lieben entdecken möchten,\n"
+"oder einfach zwei unvergessliche Tage mit uns verbringen möchten"
+
+#~ msgid "Soll ich etwas mitbringen?"
+#~ msgstr "Soll ich etwas mitbringen?"
+
+#~ msgid "todo"
+#~ msgstr "todo"
+
+#~ msgid "Was?"
+#~ msgstr "Was?"
+
+#~ msgid "Was ?"
+#~ msgstr "Was ?"
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid "Was muss ich tun?"
+msgstr "Was muss ich tun?"
+
+#~ msgid "Einfach erscheinen"
+#~ msgstr "Einfach erscheinen"
+
+#~ msgid "Einfach erscheinen!"
+#~ msgstr "Einfach erscheinen!"
+
+#~ msgid "Einfach erscheinen! Du siehst"
+#~ msgstr "Einfach erscheinen! Du siehst"
+
+#~ msgid "Einfach erscheinen! Du siehst das Programm"
+#~ msgstr "Einfach erscheinen! Du siehst das Programm"
+
+#~ msgid "Einfach erscheinen! Du siehst das Programm auf der"
+#~ msgstr "Einfach erscheinen! Du siehst das Programm auf der"
+
+#~ msgid "Einfach erscheinen! Du siehst das Programm auf der <0>Programm</0>"
+#~ msgstr "Einfach erscheinen! Du siehst das Programm auf der <0>Programm</0>"
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid "Einfach erscheinen! Du siehst das Programm auf der <0>Programm Seite</0>"
+msgstr "Einfach erscheinen! Du siehst das Programm auf der <0>Programm Seite</0>"
