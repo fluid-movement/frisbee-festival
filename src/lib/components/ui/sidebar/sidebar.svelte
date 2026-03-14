@@ -4,6 +4,10 @@
 	import type { HTMLAttributes } from 'svelte/elements';
 	import { SIDEBAR_WIDTH_MOBILE } from './constants.js';
 	import { useSidebar } from './context.svelte.js';
+	import { onMount } from 'svelte';
+
+	let mounted = $state(false);
+	onMount(() => { mounted = true; });
 
 	let {
 		ref = $bindable(null),
@@ -33,7 +37,7 @@
 	>
 		{@render children?.()}
 	</div>
-{:else if sidebar.isMobile}
+{:else if mounted && sidebar.isMobile}
 	<Sheet.Root bind:open={() => sidebar.openMobile, (v) => sidebar.setOpenMobile(v)} {...restProps}>
 		<Sheet.Content
 			data-sidebar="sidebar"

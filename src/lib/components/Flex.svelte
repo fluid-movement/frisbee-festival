@@ -34,14 +34,12 @@
 		fullWidth?: boolean;
 	} = $props();
 
-	let fullWidthClass = fullWidth ? '' : 'container-custom';
-
-	let classes = cn(
-        fullWidthClass,
+	const classes = $derived(cn(
+        fullWidth ? '' : 'container-custom',
         'flex gap-8 md:flex-row',
         reverse ? 'flex-col-reverse' : 'flex-col',
         className
-    );
+    ));
 </script>
 
 <div class={classes}>

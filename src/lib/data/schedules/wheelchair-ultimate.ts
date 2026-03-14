@@ -1,4 +1,5 @@
 import type { DisciplineSchedule } from '../types';
+import wheelchairWorkshopImage from '$lib/assets/wheelchair-ultimate/rollstuhl-frisbee.jpg';
 
 /**
  * Wheelchair Ultimate discipline schedule
@@ -8,73 +9,31 @@ import type { DisciplineSchedule } from '../types';
 export const getWheelchairUltimateSchedule = (): DisciplineSchedule => ({
 	discipline: 'wheelchair-ultimate',
 	name: 'Wheelchair Ultimate',
-	defaultPlace: 'Field A',
+	defaultPlace: 'Feld A',
 	schedule: {
 		Samstag: [
 			{
-				time: '09:00 - 10:00',
-				label: 'Anmeldung und Einführung',
-				type: 'tournament',
-				description: 'Begrüßung und Einführung in die Regeln des Rollstuhl-Ultimate'
-			},
+				time: '10:00 - 11:00',
+				label: 'Demo Spiel',
+				type: 'exhibition',
+				description: 'Ein spannendes Spiel zwischen zwei Teams, um die Fähigkeiten und den Spaß am Rollstuhl Ultimate zu zeigen.'
+      },
 			{
-				time: '10:00 - 12:00',
-				label: 'Vorrundenspiele Runde 1',
-				type: 'tournament'
-			},
-			{
-				time: '12:00 - 13:00',
-				label: 'Mittagspause',
-				type: 'tournament'
-			},
-			{
-				time: '13:00 - 15:00',
-				label: 'Vorrundenspiele Runde 2',
-				type: 'tournament'
-			},
-			{
-				time: '15:00 - 16:00',
-				label: 'Technik-Workshop',
-				type: 'workshop',
-				description: 'Wurftechniken und Rollstuhlmanöver für Anfänger'
-			},
-			{
-				time: '16:00 - 17:00',
-				label: 'Freies Spiel',
-				type: 'tournament'
-			}
+			time: '11:00 - 15:00',
+			label: 'Workshop für alle',
+			description: 'Lerne die Grundlagen des Rollstuhl Ultimate, einschließlich Wurftechniken, Bewegungsstrategien und Teamplay. Alle sind willkommen, egal ob mit oder ohne Behinderung.',
+			type: 'workshop',
+			id: 'wheelchair-workshop',
+			image: wheelchairWorkshopImage
+		},
+		{
+			time: '15:30 - 17:00',
+			label: 'Offenes Spiel für alle',
+			description: 'Nach dem Workshop können alle TeilnehmerInnen das Gelernte in einem offenen Spiel anwenden.',
+			type: 'workshop',
+			id: 'wheelchair-open-play'
+		}
 		],
-		Sonntag: [
-			{
-				time: '09:00 - 10:00',
-				label: 'Aufwärmspiele',
-				type: 'tournament'
-			},
-			{
-				time: '10:00 - 12:00',
-				label: 'Halbfinale',
-				type: 'tournament'
-			},
-			{
-				time: '12:00 - 13:00',
-				label: 'Mittagspause',
-				type: 'tournament'
-			},
-			{
-				time: '13:00 - 14:00',
-				label: 'Spiel um Platz 3',
-				type: 'tournament'
-			},
-			{
-				time: '14:00 - 15:00',
-				label: 'Finale',
-				type: 'tournament'
-			},
-			{
-				time: '15:00 - 16:00',
-				label: 'Siegerehrung',
-				type: 'tournament'
-			}
-		]
+		Sonntag: []
 	}
 });

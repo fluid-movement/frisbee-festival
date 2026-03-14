@@ -7,7 +7,7 @@
 	import FooterLink from './FooterLink.svelte';
 </script>
 
-<footer class="bg-[#101828] text-white">
+<footer class="bg-teal-dark">
 	<div class="container-custom grid grid-cols-1 gap-10 px-8 py-12 md:grid-cols-2 lg:grid-cols-4">
 		<!-- Brand -->
 		<div class="flex flex-col gap-4">

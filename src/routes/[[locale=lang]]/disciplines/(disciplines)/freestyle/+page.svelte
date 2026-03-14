@@ -53,4 +53,6 @@
 	<Image src={festivalImage} alt="Comunity" />
 </Grid>
 
-<Schedule schedule={scheduleData.schedule} />
+<Schedule schedule={scheduleData.schedule}>
+  An diesem Wochenende findet die Weltmeisterschaft im Freestyle Frisbee auf dem Festivalgelände statt!
+</Schedule>

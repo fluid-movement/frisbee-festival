@@ -97,7 +97,7 @@
 							>
 								{#snippet child({ props })}
 									<a
-										href={resolve('/[[locale=lang]]/disciplines/freestyle', {
+										href={resolve('/[[locale=lang]]/disciplines/(disciplines)/freestyle', {
 											locale: getLocaleForUrl()
 										})}
 										{...props}>Freestyle</a
@@ -112,7 +112,7 @@
 							>
 								{#snippet child({ props })}
 									<a
-										href={resolve('/[[locale=lang]]/disciplines/disc-golf', {
+										href={resolve('/[[locale=lang]]/disciplines/(disciplines)/disc-golf', {
 											locale: getLocaleForUrl()
 										})}
 										{...props}>Disc Golf</a
@@ -127,7 +127,7 @@
 							>
 								{#snippet child({ props })}
 									<a
-										href={resolve('/[[locale=lang]]/disciplines/double-disc-court', {
+										href={resolve('/[[locale=lang]]/disciplines/(disciplines)/double-disc-court', {
 											locale: getLocaleForUrl()
 										})}
 										{...props}>Double Disc Court</a
@@ -142,7 +142,7 @@
 							>
 								{#snippet child({ props })}
 									<a
-										href={resolve('/[[locale=lang]]/disciplines/ultimate', {
+										href={resolve('/[[locale=lang]]/disciplines/(disciplines)/ultimate', {
 											locale: getLocaleForUrl()
 										})}
 										{...props}>Ultimate</a
@@ -157,7 +157,7 @@
 							>
 								{#snippet child({ props })}
 									<a
-										href={resolve('/[[locale=lang]]/disciplines/wheelchair-ultimate', {locale: getLocaleForUrl()})}
+										href={resolve('/[[locale=lang]]/disciplines/(disciplines)/wheelchair-ultimate', {locale: getLocaleForUrl()})}
 										{...props}>Rollstuhl Ultimate</a
 									>
 								{/snippet}

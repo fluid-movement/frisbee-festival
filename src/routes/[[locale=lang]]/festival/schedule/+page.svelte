@@ -3,9 +3,14 @@
 	import { mergeAllSchedules } from '$lib/data/schedules';
 	import { page } from '$app/state';
 	import ScheduleLegend from '$lib/components/ScheduleLegend.svelte';
-	import { DISCIPLINE_IDS } from '$lib/data/types';
-	import type { DisciplineId, MergedScheduleData, MergedScheduleEvent } from '$lib/data/types';
+	import ScheduleTypeBadge from '$lib/components/ScheduleTypeBadge.svelte';
+	import { DISCIPLINE_IDS, EVENT_TYPES } from '$lib/data/types';
+	import type { DisciplineId, EventType, MergedScheduleData, MergedScheduleEvent } from '$lib/data/types';
 	import { SvelteSet } from 'svelte/reactivity';
+	import Button from '$lib/components/ui/button/button.svelte';
+	import { ChevronRight, X } from '@lucide/svelte/icons';
+	import { getLocaleForUrl } from '$lib/locale';
+	
 
 	const mergedSchedule = $derived.by(() => {
 		page.url;
@@ -21,35 +26,90 @@
 	});
 
 	let selected = new SvelteSet<DisciplineId>();
+	let selectedTypes = new SvelteSet<EventType>();
 
 	function toggle(id: DisciplineId) {
 		selected.has(id) ? selected.delete(id) : selected.add(id);
 	}
 
+	function toggleType(t: EventType) {
+		selectedTypes.has(t) ? selectedTypes.delete(t) : selectedTypes.add(t);
+	}
+
+	function clearAll() {
+		selected.clear();
+		selectedTypes.clear();
+	}
+
+	const anyFilter = $derived(selected.size > 0 || selectedTypes.size > 0);
+
+	const participatePath = $derived.by(() => {
+		const locale = getLocaleForUrl();
+		return locale ? `/${locale}/festival/participate` : '/festival/participate';
+	});
+
 	const filteredSchedule: MergedScheduleData = $derived(
-		selected.size === 0
-			? mergedSchedule
-			: (Object.fromEntries(
-					Object.entries(mergedSchedule)
-						.map(([day, events]) => [day, events.filter((e) => selected.has(e.discipline))])
-						.filter(([, events]) => (events as MergedScheduleEvent[]).length > 0)
-				) as MergedScheduleData)
+		Object.fromEntries(
+			Object.entries(mergedSchedule)
+				.map(([day, events]) => [
+					day,
+					events.filter(
+						(e) =>
+							(selected.size === 0 || selected.has(e.discipline)) &&
+							(selectedTypes.size === 0 || selectedTypes.has(e.type))
+					)
+				])
+				.filter(([, events]) => (events as MergedScheduleEvent[]).length > 0)
+		) as MergedScheduleData
+	);
+
+	const totalVisible = $derived(
+		Object.values(filteredSchedule).reduce((n, events) => n + events.length, 0)
+	);
+	const totalAll = $derived(
+		Object.values(mergedSchedule).reduce((n, events) => n + events.length, 0)
 	);
 </script>
 
 <h1 class="container-custom mb-12 text-center">Ablaufplan</h1>
 
 <div class="container-custom">
-	<!-- Legend: all disciplines with text labels -->
-	<div class="mb-8 flex flex-wrap gap-2">
+	<!-- Discipline filter -->
+	<div class="mb-4 flex flex-wrap gap-2">
 		{#each DISCIPLINE_IDS as disciplineId (disciplineId)}
 			<ScheduleLegend
 				{disciplineId}
+				active={selected.has(disciplineId)}
 				inactive={selected.size > 0 && !selected.has(disciplineId)}
 				onclick={() => toggle(disciplineId)}
 			/>
 		{/each}
 	</div>
+
+	<!-- Event type filter -->
+	<div class="mb-4 flex flex-wrap gap-2">
+		{#each EVENT_TYPES as eventType (eventType)}
+			<ScheduleTypeBadge
+				{eventType}
+				active={selectedTypes.has(eventType)}
+				inactive={selectedTypes.size > 0 && !selectedTypes.has(eventType)}
+				onclick={() => toggleType(eventType)}
+			/>
+		{/each}
+	</div>
+
+	<!-- Active filter status bar -->
+	{#if anyFilter}
+		<div class="mb-6 flex items-center gap-4">
+			<p class="my-0 text-sm text-muted-foreground">{totalVisible} von {totalAll} Einträgen angezeigt</p>
+			<Button variant="outline" size="sm" onclick={clearAll} class="cursor-pointer gap-1 text-muted-foreground hover:text-muted-foreground">
+				<X />
+				Filter entfernen
+			</Button>
+		</div>
+	{:else}
+		<div class="mb-6"></div>
+	{/if}
 
 	<div class="grid gap-8 lg:grid-cols-2">
 		{#each Object.entries(filteredSchedule) as [day, events] (day)}
@@ -60,10 +120,15 @@
 						<li class="grid grid-cols-[auto_1fr] items-center gap-x-4 border-b py-2">
 							<span class="text-sm text-muted-foreground">{event.time}</span>
 							<span class="text-xs font-semibold uppercase tracking-wide text-orange-500">{event.place}</span>
-							<ScheduleLegend disciplineId={event.discipline} showText={false} />
+							<div class="flex gap-1">
+								<ScheduleLegend disciplineId={event.discipline} showText={false} />
+								<ScheduleTypeBadge eventType={event.type} showText={false} />
+							</div>
 							<div class="flex flex-col gap-0.5">
 								<strong>{event.label}</strong>
-								{#if event.description}
+								{#if event.type === 'workshop' && event.id}
+									<Button href="{participatePath}#{event.id}" class="self-start">Mehr <ChevronRight /></Button>
+								{:else if event.description}
 									<span class="text-sm text-muted-foreground">{event.description}</span>
 								{/if}
 							</div>

@@ -10,7 +10,7 @@
 	import Navigation from '$lib/components/Navigation.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import { Separator } from '$lib/components/ui/separator';
-	import type { LayoutProps } from './../$types';
+	import type { LayoutProps } from './$types';
 	import * as Sidebar from '$lib/components/ui/sidebar';
 	import AppSidebar from '$lib/components/AppSidebar.svelte';
 	import Logo from '$lib/components/Logo.svelte';
@@ -37,7 +37,7 @@
 		<AppSidebar />
 		<header class={isHome
 			? 'absolute z-50 flex w-full items-center justify-between px-8 py-4'
-			: 'flex items-center justify-between px-8 py-4'}>
+			: 'relative z-50 flex items-center justify-between px-8 py-4'}>
 		    <Logo inverted={isHome} />
 			<Navigation inverted={isHome} />
 			<div class="hidden gap-2 md:flex">

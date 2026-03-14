@@ -19,7 +19,7 @@
 				class="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-102"
 			/>
 			<div
-				class="absolute right-0 bottom-0 left-0 mask-[linear-gradient(to_top,black_50%,transparent)] px-4 pt-16 pb-4 backdrop-blur-md"
+				class="absolute right-0 bottom-0 left-0 mask-[linear-gradient(to_top,black_50%,transparent)] px-4 pt-16 backdrop-blur-md"
 			>
 				<h3 class="text-center text-white uppercase drop-shadow-sm">{title}</h3>
 			</div>

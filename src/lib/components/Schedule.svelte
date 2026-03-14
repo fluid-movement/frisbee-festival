@@ -1,12 +1,12 @@
 <script lang="ts">
 	import type { ScheduleData } from '$lib/data/types';
 	import { page } from '$app/state';
+	import type { Snippet } from 'svelte';
+	import { getLocaleForUrl } from '$lib/locale';
+	import Button from '$lib/components/ui/button/button.svelte';
+	import ChevronRight from '@lucide/svelte/icons/chevron-right';
 
-	interface Props {
-		schedule: ScheduleData;
-	}
-
-	let { schedule }: Props = $props();
+	let { schedule, children }: { schedule: ScheduleData; children?: Snippet } = $props();
 
 	const dayNames: Record<string, string> = $derived.by(() => {
 		page.url;
@@ -15,9 +15,16 @@
 			Sonntag: 'Sonntag'
 		};
 	});
+
+	const participatePath = $derived.by(() => {
+		const locale = getLocaleForUrl();
+		return locale ? `/${locale}/festival/participate` : '/festival/participate';
+	});
 </script>
 
 <div class="container-custom">
+	<h3 class="uppercase">Programm</h3>
+	{#if children}<p>{@render children()}</p>{/if}
 	<ul class="mb-4">
 		<li class="flex items-center gap-2">
 			<span class="flex size-2 rounded-full bg-foreground"></span>
@@ -25,31 +32,35 @@
 		</li>
 		<li class="flex items-center gap-2">
 			<span class="flex size-2 rounded-full bg-primary"></span>
-			<strong>Mitmachen</strong>
+			<strong class="text-primary">Mitmachen</strong>
 		</li>
 	</ul>
 	<div class="grid gap-8 lg:grid-cols-2">
 		{#each Object.entries(schedule) as [day, events] (day)}
-			<div>
-				<h3 class="uppercase">{dayNames[day] ?? day}</h3>
-				<ul>
-					{#each events as event (event.time)}
-						<li class="grid grid-cols-[min-content_1fr] gap-x-4 pb-1 mb-1 border-b border-solid last:border-none">
-							<div class="whitespace-nowrap {event.type === 'workshop' ? 'text-primary' : ''}">
-								{event.time}
-							</div>
-							<div class="flex flex-col gap-1">
-								<strong class={event.type === 'workshop' ? 'text-primary' : ''}>
-									{event.label}
-								</strong>
-								{#if event.description}
-									<span class="text-sm text-muted-foreground">{event.description}</span>
-								{/if}
-							</div>
-						</li>
-					{/each}
-				</ul>
-			</div>
+			<ul class="grid grid-cols-[auto_1fr] gap-x-4">
+				<li class="col-span-full grid grid-cols-subgrid">
+					<h5 class="col-start-2 uppercase">{dayNames[day] ?? day}</h5>
+				</li>
+				{#each events as event (event.time)}
+					<li
+						class="col-span-full mb-1 grid grid-cols-subgrid border-b border-solid pb-1 last:border-none"
+					>
+						<div class="whitespace-nowrap {event.type === 'workshop' ? 'text-primary' : ''}">
+							{event.time}
+						</div>
+						<div class="flex flex-col gap-1">
+							<strong class={event.type === 'workshop' ? 'text-primary' : ''}>
+								{event.label}
+							</strong>
+							{#if event.type === 'workshop' && event.id}
+								<Button href="{participatePath}#{event.id}" class="self-start">Mehr <ChevronRight /></Button>
+							{:else if event.description}
+								<span class="text-sm text-muted-foreground">{event.description}</span>
+							{/if}
+						</div>
+					</li>
+				{/each}
+			</ul>
 		{/each}
 	</div>
 </div>

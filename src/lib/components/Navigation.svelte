@@ -3,7 +3,7 @@
 	import { navigationMenuTriggerStyle } from '$lib/components/ui/navigation-menu/navigation-menu-trigger.svelte';
 	import { cn } from '$lib/utils.ts';
 	import type { HTMLAttributes } from 'svelte/elements';
-	import type { Pathname } from '$app/types';
+	import type { RouteId } from '$app/types';
 	import { getLocaleForUrl } from '$lib/locale';
 	import { resolve } from '$app/paths';
 	import festivalImage from '$lib/assets/home/festival.jpg';
@@ -20,17 +20,17 @@
 
 	type ListItemProps = Omit<HTMLAttributes<HTMLAnchorElement>, 'href'> & {
 		title: string;
-		href: Pathname;
+		routeId: RouteId;
 		content: string;
 	};
 </script>
 
-{#snippet ListItem({ title, content, href, class: className, ...restProps }: ListItemProps)}
+{#snippet ListItem({ title, content, routeId, class: className, ...restProps }: ListItemProps)}
 	<li>
 		<NavigationMenu.Link>
 			{#snippet child()}
 				<a
-					href={resolve(`/[[locale=lang]]${href}`, { locale: getLocaleForUrl() })}
+					href={resolve(routeId as '/[[locale=lang]]', { locale: getLocaleForUrl() })}
 					class={cn(
 						'block space-y-1 rounded-md p-3 leading-none no-underline transition-colors outline-none select-none hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground',
 						className
@@ -118,27 +118,27 @@
 						</NavigationMenu.Link>
 					</li>
 					{@render ListItem({
-						href: '/disciplines/freestyle',
+						routeId: '/[[locale=lang]]/disciplines/(disciplines)/freestyle',
 						title: 'Freestyle',
 						content: 'Artistische Tricks und kreative Würfe mit der Frisbee.'
 					})}
 					{@render ListItem({
-						href: '/disciplines/disc-golf',
+						routeId: '/[[locale=lang]]/disciplines/(disciplines)/disc-golf',
 						title: 'Disc Golf',
 						content: 'Präzision und Power in einem Golfspiel mit der Frisbee.'
 					})}
 					{@render ListItem({
-						href: '/disciplines/double-disc-court',
+						routeId: '/[[locale=lang]]/disciplines/(disciplines)/double-disc-court',
 						title: 'Double Disc Court',
 						content: 'Ein schnelles Spiel mit zwei Teams und zwei Scheiben.'
 					})}
 					{@render ListItem({
-						href: '/disciplines/ultimate',
+						routeId: '/[[locale=lang]]/disciplines/(disciplines)/ultimate',
 						title: 'Ultimate',
 						content: 'Teamwork und Strategie in einem intensiven Frisbee-Mannschaftssport.'
 					})}
 					{@render ListItem({
-						href: '/disciplines/wheelchair-ultimate',
+						routeId: '/[[locale=lang]]/disciplines/(disciplines)/wheelchair-ultimate',
 						title: 'Rollstuhl Ultimate',
 						content: 'Teamwork und Strategie in einem intensiven Frisbee-Mannschaftssport.'
 					})}

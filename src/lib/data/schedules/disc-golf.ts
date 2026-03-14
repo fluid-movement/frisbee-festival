@@ -1,4 +1,5 @@
 import type { DisciplineSchedule } from '../types';
+import discGolfPuttImage from '$lib/assets/disc-golf/putt.jpg';
 
 /**
  * Disc Golf discipline schedule
@@ -8,46 +9,49 @@ import type { DisciplineSchedule } from '../types';
 export const getDiscGolfSchedule = (): DisciplineSchedule => ({
 	discipline: 'disc-golf',
 	name: 'Disc Golf',
-	defaultPlace: 'Field B',
+	defaultPlace: 'Disc Golf Kurs',
 	schedule: {
 		Samstag: [
 			{
 				time: '09:00 - 10:00',
 				label: 'Putting Clinic',
 				type: 'workshop',
-				description: 'Master the fundamentals of disc golf putting'
+				id: 'putting-clinic',
+				description: 'Lerne die Grundlagen des Disc Golf Puttens. Unsere erfahrenen Spieler zeigen dir Technik und Positionierung für präzise Putts aus kurzer und mittlerer Distanz.',
+				image: discGolfPuttImage
 			},
 			{
 				time: '10:00 - 13:00',
-				label: 'Round 2 - Amateur',
+				label: '2. Runde – Amateur',
 				type: 'tournament'
 			},
 			{
 				time: '13:00 - 16:00',
-				label: 'Round 2 - Open',
+				label: '2. Runde – Open',
 				type: 'tournament'
 			},
 			{
 				time: '16:00 - 17:00',
-				label: 'Distance Driving Workshop',
+				label: 'Weite-Wurf Workshop',
 				type: 'workshop',
-				description: 'Techniques for maximizing driving distance'
+				id: 'distance-driving-workshop',
+				description: 'Techniken zur Maximierung der Wurfweite. Unsere Profis zeigen dir, wie du mit der richtigen Technik mehr Distanz aus deinem Wurf herausholst.'
 			}
 		],
 		Sonntag: [
 			{
 				time: '09:00 - 12:00',
-				label: 'Final Round - Amateur',
+				label: 'Finalrunde – Amateur',
 				type: 'tournament'
 			},
 			{
 				time: '12:00 - 15:00',
-				label: 'Final Round - Open',
+				label: 'Finalrunde – Open',
 				type: 'tournament'
 			},
 			{
 				time: '15:00 - 16:00',
-				label: 'Awards Ceremony',
+				label: 'Siegerehrung',
 				type: 'tournament'
 			}
 		]

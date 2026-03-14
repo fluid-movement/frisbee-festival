@@ -1,22 +1,86 @@
-<script>
-	import Grid from '$lib/components/Grid.svelte';
+<script lang="ts">
+	import { getAllSchedules } from '$lib/data/schedules';
+	import { DAY_NAMES, type DisciplineId } from '$lib/data/types';
+	import { page } from '$app/state';
+	import DisciplineBadge from '$lib/components/DisciplineBadge.svelte';
+	import MapPin from '@lucide/svelte/icons/map-pin';
+	import Clock from '@lucide/svelte/icons/clock';
+
+	interface WorkshopEntry {
+		id: string;
+		title: string;
+		disciplineId: DisciplineId;
+		time: string;
+		place: string;
+		description: string;
+		image?: string;
+	}
+
+	const byDay = $derived.by((): Record<string, WorkshopEntry[]> => {
+		page.url;
+		const result: Record<string, WorkshopEntry[]> = {};
+		for (const disciplineSchedule of getAllSchedules()) {
+			for (const [day, events] of Object.entries(disciplineSchedule.schedule)) {
+				for (const event of events) {
+					if (event.type === 'workshop' && event.id) {
+						(result[day] ??= []).push({
+							id: event.id,
+							title: event.label,
+							disciplineId: disciplineSchedule.discipline,
+							time: event.time,
+							place: event.place ?? disciplineSchedule.defaultPlace,
+							description: event.description ?? '',
+							image: event.image
+						});
+					}
+				}
+			}
+		}
+		// Sort each day's workshops by start time
+		for (const workshops of Object.values(result)) {
+			workshops.sort((a, b) => a.time.localeCompare(b.time));
+		}
+		return result;
+	});
 </script>
 
+{#snippet workshopCard(w: WorkshopEntry)}
+	<div id={w.id} class="flex flex-col overflow-hidden rounded-xl border border-secondary">
+		{#if w.image}
+			<img src={w.image} alt={w.title} class="h-48 w-full object-cover" />
+		{/if}
+		<div class="flex flex-col gap-2 p-5">
+			<DisciplineBadge disciplineId={w.disciplineId} />
+			<h4 class="my-0">{w.title}</h4>
+			<div class="flex flex-wrap gap-3 text-sm text-muted-foreground">
+				<span class="flex items-center gap-1"><Clock class="size-4" />{w.time}</span>
+				<span class="flex items-center gap-1"><MapPin class="size-4" />{w.place}</span>
+			</div>
+			<p class="text-sm leading-relaxed">{w.description}</p>
+		</div>
+	</div>
+{/snippet}
+
 <h1 class="container-custom mb-12 text-center">Mitmachen</h1>
-<Grid>
-	<article class="text-center">
-		<h2>Mitmachprogramm</h2>
-		<p>
-			In hac habitasse platea dictumst. Donec sodales, lectus vitae cursus sollicitudin, arcu risus
-			vulputate tortor, id ullamcorper justo eros at lectus. Nullam et dignissim lectus. Nullam
-			metus lorem, ullamcorper sit amet mattis a, hendrerit et sem. Maecenas a libero quam. Etiam at
-			tellus vitae eros placerat condimentum et a erat. Proin aliquet nunc magna, a lacinia libero
-			luctus vel.
-		</p>
-		<p>
-			Integer id sodales sem, eget congue lorem. Praesent eget felis sit amet lectus lobortis
-			imperdiet.
-		</p>
-	</article>
-	<div class="min-h-100 rounded-md bg-gray-200"></div>
-</Grid>
+
+<p class="container-custom">
+	Wir wollen dass Ihr bei unserem Festival nicht nur Frisbee als Zuschauer erleben könnt, sondern
+	auch selbst aktiv werdet! Deshalb bieten wir eine Vielzahl von Workshops an, bei denen Ihr die
+	Möglichkeit habt, verschiedene Frisbee-Disziplinen auszuprobieren und von erfahrenen SpielerInnen
+	zu lernen. Egal ob AnfängerIn oder Fortgeschrittene:r, es ist für alle etwas dabei. Schaut Euch
+	die Workshops unten an und findet heraus, welcher am besten zu Euch passt!
+</p>
+<div class="container-custom flex flex-col gap-10">
+	{#each DAY_NAMES as day (day)}
+		{#if byDay[day]?.length}
+			<section>
+				<h2 class="mb-6 uppercase">{day}</h2>
+				<div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+					{#each byDay[day] as w (w.id)}
+						{@render workshopCard(w)}
+					{/each}
+				</div>
+			</section>
+		{/if}
+	{/each}
+</div>

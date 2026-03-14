@@ -8,50 +8,33 @@ import type { DisciplineSchedule } from '../types';
 export const getUltimateSchedule = (): DisciplineSchedule => ({
 	discipline: 'ultimate',
 	name: 'Ultimate',
-	defaultPlace: 'Field A',
+	defaultPlace: 'Feld A',
 	schedule: {
-		Samstag: [
-			{
-				time: '09:00 - 11:00',
-				label: 'Pool Play Round 3',
-				type: 'tournament'
-			},
-			{
-				time: '11:00 - 13:00',
-				label: 'Pool Play Round 4',
-				type: 'tournament'
-			},
-			{
-				time: '13:00 - 15:00',
-				label: 'Quarterfinals',
-				type: 'tournament'
-			},
-			{
-				time: '15:00 - 17:00',
-				label: 'Defense Strategies Workshop',
-				type: 'workshop',
-				description: 'Advanced defensive positioning and marking techniques'
-			}
-		],
+		Samstag: [],
 		Sonntag: [
 			{
-				time: '09:00 - 11:00',
-				label: 'Semifinals',
+				time: '09:00 - 09:30',
+				label: 'Warmup',
 				type: 'tournament'
 			},
 			{
-				time: '11:00 - 12:00',
-				label: '3rd Place Game',
+				time: '09:30 - 10:00',
+				label: 'Teamzuweisung',
 				type: 'tournament'
 			},
 			{
-				time: '12:00 - 13:00',
-				label: 'Finals',
+				time: '10:00 - 14:00',
+				label: 'Hut Turnier',
 				type: 'tournament'
 			},
 			{
-				time: '13:00 - 14:00',
-				label: 'Awards Ceremony',
+				time: '14:30 - 15:00',
+				label: 'Finale',
+				type: 'tournament'
+			},
+			{
+				time: '15:00 - 15:30',
+				label: 'Siegerehrung',
 				type: 'tournament'
 			}
 		]
