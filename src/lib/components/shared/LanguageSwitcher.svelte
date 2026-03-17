@@ -2,7 +2,7 @@
 	import { page } from '$app/state';
 	import { resolve } from '$app/paths';
 	import { building } from '$app/environment';
-	import { locales } from '../../locales/data.js';
+	import { locales } from '../../../locales/data.js';
 	import type { ResolvedPathname } from '$app/types';
 	import { cn } from '$lib/utils.js';
 

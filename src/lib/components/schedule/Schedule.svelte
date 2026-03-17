@@ -18,7 +18,7 @@
 
 	const participatePath = $derived.by(() => {
 		const locale = getLocaleForUrl();
-		return locale ? `/${locale}/festival/participate` : '/festival/participate';
+		return locale ? `/${locale}/mitmachen` : '/mitmachen';
 	});
 </script>
 

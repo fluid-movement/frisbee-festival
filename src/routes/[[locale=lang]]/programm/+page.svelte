@@ -2,8 +2,8 @@
 
 	import { mergeAllSchedules } from '$lib/data/schedules';
 	import { page } from '$app/state';
-	import ScheduleLegend from '$lib/components/ScheduleLegend.svelte';
-	import ScheduleTypeBadge from '$lib/components/ScheduleTypeBadge.svelte';
+	import ScheduleLegend from '$lib/components/schedule/ScheduleLegend.svelte';
+	import ScheduleTypeBadge from '$lib/components/schedule/ScheduleTypeBadge.svelte';
 	import { DISCIPLINE_IDS, EVENT_TYPES } from '$lib/data/types';
 	import type { DisciplineId, EventType, MergedScheduleData, MergedScheduleEvent } from '$lib/data/types';
 	import { SvelteSet } from 'svelte/reactivity';
@@ -45,7 +45,7 @@
 
 	const participatePath = $derived.by(() => {
 		const locale = getLocaleForUrl();
-		return locale ? `/${locale}/festival/participate` : '/festival/participate';
+		return locale ? `/${locale}/mitmachen` : '/mitmachen';
 	});
 
 	const filteredSchedule: MergedScheduleData = $derived(
@@ -71,7 +71,7 @@
 	);
 </script>
 
-<h1 class="container-custom mb-12 text-center">Ablaufplan</h1>
+<h1 class="container-custom mb-12 text-center">Programm</h1>
 
 <div class="container-custom">
 	<!-- Discipline filter -->

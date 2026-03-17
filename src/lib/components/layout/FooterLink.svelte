@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { RouteId } from '$app/types';
 	import type { Snippet } from 'svelte';
-	import Link from './Link.svelte';
+	import Link from '../shared/Link.svelte';
 
 	let {
 		href,

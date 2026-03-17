@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Logo from '$lib/components/Logo.svelte';
+	import Logo from '$lib/components/shared/Logo.svelte';
 	import MapPin from '@lucide/svelte/icons/map-pin';
 	import Clock from '@lucide/svelte/icons/clock';
 	import Calendar from '@lucide/svelte/icons/calendar';
@@ -20,16 +20,16 @@
 			<h6 class="mb-4 text-white">Quick Links</h6>
 			<ul class="flex flex-col gap-2 text-sm text-white/60">
 				<li>
-				  <FooterLink href='/[[locale=lang]]/disciplines'>Sportarten</FooterLink>
+					<FooterLink href="/[[locale=lang]]/sportarten">Sportarten</FooterLink>
 				</li>
 				<li>
-				  <FooterLink href='/[[locale=lang]]/festival/schedule'>Programm</FooterLink>
+					<FooterLink href="/[[locale=lang]]/programm">Programm</FooterLink>
 				</li>
 				<li>
-				  <FooterLink href='/[[locale=lang]]/festival/participate'>Mitmachen</FooterLink>
+					<FooterLink href="/[[locale=lang]]/mitmachen">Mitmachen</FooterLink>
 				</li>
 				<li>
-				  <FooterLink href='/[[locale=lang]]/faq'>Häufige Fragen</FooterLink>
+					<FooterLink href="/[[locale=lang]]/faq">Häufige Fragen</FooterLink>
 				</li>
 			</ul>
 		</div>
@@ -59,8 +59,8 @@
 			<ul class="flex flex-col gap-3 text-sm text-primary-foreground/60">
 				<li class="flex items-center gap-2">
 					<Mail class="h-4 w-4 shrink-0" />
-					<a href="mailto:info@frisbeefestival.de" class="transition-colors hover:text-white">
-						info@frisbeefestival.de
+					<a href="mailto:frisbeefestival@gmail.com" class="transition-colors hover:text-white">
+						frisbeefestival@gmail.com
 					</a>
 				</li>
 			</ul>

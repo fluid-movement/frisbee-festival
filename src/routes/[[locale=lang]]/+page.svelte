@@ -38,47 +38,47 @@
 
 	const disciplines: Discipline[] = [
 		{
-			name: 'WFDF Ultimate Frisbee',
-			badge: 'Ultimate',
-			description:
-				'Das schnellste Mannschaftsspiel der Scheibenwelt. Athletisch, fair und faszinierend.',
-			time: 'Sa & So, 09:00–18:00',
-			image: ultimateImage,
-			href: '/[[locale=lang]]/disciplines/(disciplines)/ultimate'
-		},
-		{
-			name: 'PDGA German Open',
-			badge: 'Disc Golf',
-			description: 'Golf trifft Frisbee. Präzision und Technik in einem wunderschönen Naturkurs.',
-			time: 'Sa & So, 09:00–17:00',
-			image: discGolfImage,
-			href: '/[[locale=lang]]/disciplines/(disciplines)/disc-golf'
-		},
-		{
-			name: 'FPAW Freestyle Disc',
+			name: 'Freestyle Frisbee Weltmeisterschaften',
 			badge: 'Freestyle',
 			description: 'Akrobatik, Kreativität und Rhythmus – Freestyle Disc als Kunstform.',
 			time: 'Sa & So, 10:00–17:00',
 			image: freestyleImage,
-			href: '/[[locale=lang]]/disciplines/(disciplines)/freestyle'
+			href: '/[[locale=lang]]/(disciplines)/freestyle'
 		},
 		{
-			name: 'Double Disc Court',
+			name: 'Double Disc Court Deutsche Meisterschaften',
 			badge: 'DDC',
 			description: 'Zwei Scheiben, zwei Teams, ein Spielfeld – taktischer Teamsport pur.',
 			time: 'Sa & So, 10:00–17:00',
 			image: ddcImage,
-			href: '/[[locale=lang]]/disciplines/(disciplines)/double-disc-court'
+			href: '/[[locale=lang]]/(disciplines)/double-disc-court'
 		},
 		{
-			name: 'Rollstuhl Ultimate',
+			name: 'Disc Golf Munich Open',
+			badge: 'Disc Golf',
+			description: 'Golf trifft Frisbee. Präzision und Technik in einem wunderschönen Naturkurs.',
+			time: 'Sa & So, 09:00–17:00',
+			image: discGolfImage,
+			href: '/[[locale=lang]]/(disciplines)/disc-golf'
+		},
+		{
+			name: 'Rollstuhl Ultimate Showmatch',
 			badge: 'Rollstuhl Ultimate',
 			description:
 				'Inklusion in Aktion. Dieser Sport trennt nicht – er verbindet. Wheelchair Ultimate zeigt, wie kreativ, inklusiv und fair Sport sein kann.',
 			time: 'Sa & So, 10:00–17:00',
 			image: wheelchairUltimateImage,
-			href: '/[[locale=lang]]/disciplines/(disciplines)/wheelchair-ultimate'
-		}
+			href: '/[[locale=lang]]/(disciplines)/wheelchair-ultimate'
+		},
+		{
+			name: 'Ultimate Bavarian Open',
+			badge: 'Ultimate',
+			description:
+				'Das schnellste Mannschaftsspiel der Scheibenwelt. Athletisch, fair und faszinierend.',
+			time: 'Sa & So, 09:00–18:00',
+			image: ultimateImage,
+			href: '/[[locale=lang]]/(disciplines)/ultimate'
+		},
 	];
 </script>
 
@@ -128,6 +128,15 @@
 	</div>
 </section>
 
+<section class="container-custom text-center">
+  <p>
+    Wir bieten über zwei Tage die Möglichkeit erstklassigen Frisbee Sport mitzufiebern. 
+  </p>
+  <p>
+    todo: erklärung
+    
+  </p>
+</section>
 <!-- Disciplines Section --> 
 <section class="container-custom">
 	<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -232,8 +241,8 @@
 		</div>
 	</div>
 	<div class="mt-6 flex flex-wrap justify-center gap-4">
-		<Button href={resolve("/[[locale=lang]]/festival/schedule", { locale: getLocaleForUrl() })}>Programm <ChevronRight /></Button>
-		<Button href={resolve("/[[locale=lang]]/festival/participate", { locale: getLocaleForUrl() })}>Mitmachen <ChevronRight /></Button>
+		<Button href={resolve("/[[locale=lang]]/programm", { locale: getLocaleForUrl() })}>Programm <ChevronRight /></Button>
+		<Button href={resolve("/[[locale=lang]]/mitmachen", { locale: getLocaleForUrl() })}>Mitmachen <ChevronRight /></Button>
 	</div>
 </section>
 

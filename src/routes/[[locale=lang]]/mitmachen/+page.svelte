@@ -2,7 +2,7 @@
 	import { getAllSchedules } from '$lib/data/schedules';
 	import { DAY_NAMES, type DisciplineId } from '$lib/data/types';
 	import { page } from '$app/state';
-	import DisciplineBadge from '$lib/components/DisciplineBadge.svelte';
+	import DisciplineBadge from '$lib/components/disciplines/DisciplineBadge.svelte';
 	import MapPin from '@lucide/svelte/icons/map-pin';
 	import Clock from '@lucide/svelte/icons/clock';
 

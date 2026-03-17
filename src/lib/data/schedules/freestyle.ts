@@ -13,11 +13,6 @@ export const getFreestyleSchedule = (): DisciplineSchedule => ({
 	schedule: {
 		Samstag: [
 			{
-				time: '09:00 - 10:00',
-				label: 'Warmup',
-				type: 'tournament'
-			},
-			{
 				time: '10:00 - 11:00',
         label: 'Semi Finale Mixed Pool 1',
         description: 'Bei Mixed Pairs bestehen die Teams aus einem Mann und einer Frau.',
@@ -45,11 +40,6 @@ export const getFreestyleSchedule = (): DisciplineSchedule => ({
 			}
 		],
 		Sonntag: [
-			{
-				time: '09:00 - 10:00',
-				label: 'Warmup',
-				type: 'tournament'
-			},
 			{
 				time: '10:00 - 11:00',
         label: 'Finale Open Pairs',

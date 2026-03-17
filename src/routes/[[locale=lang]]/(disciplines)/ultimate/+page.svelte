@@ -1,12 +1,12 @@
 <script lang="ts">
-	import Grid from '$lib/components/Grid.svelte';
+	import Grid from '$lib/components/layout/Grid.svelte';
 	import mainImage from '$lib/assets/ultimate/ultimate.jpg';
 	import galleryImage from '$lib/assets/ultimate/spirit.jpg';
 	import galleryImage2 from '$lib/assets/ultimate/ultimate-contest.jpg';
 	import galleryImage3 from '$lib/assets/ultimate/ultimate-pull.jpg';
 	import Badge from '$lib/components/ui/badge/badge.svelte';
-	import Image from '$lib/components/Image.svelte';
-	import Schedule from '$lib/components/Schedule.svelte';
+	import Image from '$lib/components/shared/Image.svelte';
+	import Schedule from '$lib/components/schedule/Schedule.svelte';
 	import { getSchedule } from '$lib/data/schedules';
 	import { page } from '$app/state';
 	import { Users } from '@lucide/svelte/icons';

@@ -12,11 +12,6 @@ export const getDDCSchedule = (): DisciplineSchedule => ({
 	schedule: {
 		Samstag: [
 			{
-				time: '10:00 - 10:30',
-				label: 'Warmup / Players Meeting',
-				type: 'tournament'
-			},
-			{
 				time: '10:30 - 11:00',
 				label: '1. Runde',
 				type: 'tournament'
@@ -76,11 +71,6 @@ export const getDDCSchedule = (): DisciplineSchedule => ({
 			}
 		],
 		Sonntag: [
-			{
-				time: '10:00 - 10:30',
-				label: 'Warmup',
-				type: 'tournament'
-			},
 			{
 				time: '10:30 - 11:00',
 				label: '1. Runde',

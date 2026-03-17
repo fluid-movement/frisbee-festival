@@ -8,7 +8,7 @@
 
 <div class="container-custom flex justify-end">
 	<a
-		href={resolve('/[[locale=lang]]/disciplines', { locale: getLocaleForUrl() })}
+		href={resolve('/[[locale=lang]]/sportarten', { locale: getLocaleForUrl() })}
 		class={cn('', buttonVariants({ variant: 'outline', size: 'lg' }))}
 	>
 		Zurück zu den Sportarten

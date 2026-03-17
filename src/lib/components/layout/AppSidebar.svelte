@@ -8,8 +8,8 @@
 	import * as Sidebar from '$lib/components/ui/sidebar/index.js';
 	import { getLocaleForUrl } from '$lib/locale';
 	import { resolve } from '$app/paths';
-	import LanguageSwitcher from './LanguageSwitcher.svelte';
-	import Logo from './Logo.svelte';
+	import LanguageSwitcher from '../shared/LanguageSwitcher.svelte';
+	import Logo from '../shared/Logo.svelte';
 	import { useSidebar } from '$lib/components/ui/sidebar';
 
 	const sidebar = useSidebar();
@@ -39,17 +39,9 @@
 
 					<!-- Zuschauen -->
 					<Sidebar.MenuItem>
-						<Sidebar.MenuButton
-							onclick={sidebar.toggle}
-							isActive={currentPath === '/festival/schedule'}
-						>
+						<Sidebar.MenuButton onclick={sidebar.toggle} isActive={currentPath === '/programm'}>
 							{#snippet child({ props })}
-								<a
-									href={resolve('/[[locale=lang]]/festival/schedule', {
-										locale: getLocaleForUrl()
-									})}
-									{...props}
-								>
+								<a href={resolve('/[[locale=lang]]/programm', { locale: getLocaleForUrl() })} {...props}>
 									<CalendarIcon />
 									<span>Zuschauen</span>
 								</a>
@@ -59,17 +51,9 @@
 
 					<!-- Mitmachen -->
 					<Sidebar.MenuItem>
-						<Sidebar.MenuButton
-							onclick={sidebar.toggle}
-							isActive={currentPath === '/festival/participate'}
-						>
+						<Sidebar.MenuButton onclick={sidebar.toggle} isActive={currentPath === '/mitmachen'}>
 							{#snippet child({ props })}
-								<a
-									href={resolve('/[[locale=lang]]/festival/participate', {
-										locale: getLocaleForUrl()
-									})}
-									{...props}
-								>
+								<a href={resolve('/[[locale=lang]]/mitmachen', {locale: getLocaleForUrl()})} {...props}>
 									<AwardIcon />
 									<span>Mitmachen</span>
 								</a>
@@ -79,12 +63,9 @@
 
 					<!-- Die Sportarten with children -->
 					<Sidebar.MenuItem>
-						<Sidebar.MenuButton onclick={sidebar.toggle} isActive={currentPath === '/disciplines'}>
+						<Sidebar.MenuButton onclick={sidebar.toggle} isActive={currentPath === '/sportarten'}>
 							{#snippet child({ props })}
-								<a
-									href={resolve('/[[locale=lang]]/disciplines', { locale: getLocaleForUrl() })}
-									{...props}
-								>
+								<a href={resolve('/[[locale=lang]]/sportarten', { locale: getLocaleForUrl() })} {...props}>
 									<DiscIcon />
 									<span>Die Sportarten</span>
 								</a>
@@ -93,11 +74,11 @@
 						<Sidebar.MenuSubItem class="ml-12">
 							<Sidebar.MenuSubButton
 								onclick={sidebar.toggle}
-								isActive={currentPath === '/disciplines/freestyle'}
+								isActive={currentPath === '/freestyle'}
 							>
 								{#snippet child({ props })}
 									<a
-										href={resolve('/[[locale=lang]]/disciplines/(disciplines)/freestyle', {
+										href={resolve('/[[locale=lang]]/(disciplines)/freestyle', {
 											locale: getLocaleForUrl()
 										})}
 										{...props}>Freestyle</a
@@ -108,11 +89,11 @@
 						<Sidebar.MenuSubItem class="ml-12">
 							<Sidebar.MenuSubButton
 								onclick={sidebar.toggle}
-								isActive={currentPath === '/disciplines/disc-golf'}
+								isActive={currentPath === '/disc-golf'}
 							>
 								{#snippet child({ props })}
 									<a
-										href={resolve('/[[locale=lang]]/disciplines/(disciplines)/disc-golf', {
+										href={resolve('/[[locale=lang]]/(disciplines)/disc-golf', {
 											locale: getLocaleForUrl()
 										})}
 										{...props}>Disc Golf</a
@@ -123,11 +104,11 @@
 						<Sidebar.MenuSubItem class="ml-12">
 							<Sidebar.MenuSubButton
 								onclick={sidebar.toggle}
-								isActive={currentPath === '/disciplines/double-disc-court'}
+								isActive={currentPath === '/double-disc-court'}
 							>
 								{#snippet child({ props })}
 									<a
-										href={resolve('/[[locale=lang]]/disciplines/(disciplines)/double-disc-court', {
+										href={resolve('/[[locale=lang]]/(disciplines)/double-disc-court', {
 											locale: getLocaleForUrl()
 										})}
 										{...props}>Double Disc Court</a
@@ -138,11 +119,11 @@
 						<Sidebar.MenuSubItem class="ml-12">
 							<Sidebar.MenuSubButton
 								onclick={sidebar.toggle}
-								isActive={currentPath === '/disciplines/ultimate'}
+								isActive={currentPath === '/ultimate'}
 							>
 								{#snippet child({ props })}
 									<a
-										href={resolve('/[[locale=lang]]/disciplines/(disciplines)/ultimate', {
+										href={resolve('/[[locale=lang]]/(disciplines)/ultimate', {
 											locale: getLocaleForUrl()
 										})}
 										{...props}>Ultimate</a
@@ -153,11 +134,13 @@
 						<Sidebar.MenuSubItem class="ml-12">
 							<Sidebar.MenuSubButton
 								onclick={sidebar.toggle}
-								isActive={currentPath === '/disciplines/ultimate'}
+								isActive={currentPath === '/wheelchair-ultimate'}
 							>
 								{#snippet child({ props })}
 									<a
-										href={resolve('/[[locale=lang]]/disciplines/(disciplines)/wheelchair-ultimate', {locale: getLocaleForUrl()})}
+										href={resolve('/[[locale=lang]]/(disciplines)/wheelchair-ultimate', {
+											locale: getLocaleForUrl()
+										})}
 										{...props}>Rollstuhl Ultimate</a
 									>
 								{/snippet}

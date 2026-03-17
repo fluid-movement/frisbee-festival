@@ -6,14 +6,14 @@
 	import '../../app.css';
 	import favicon from '$lib/assets/favicon.ico';
 	import { page } from '$app/state';
-	import LanguageSwitcher from '$lib/components/LanguageSwitcher.svelte';
-	import Navigation from '$lib/components/Navigation.svelte';
-	import Footer from '$lib/components/Footer.svelte';
+	import LanguageSwitcher from '$lib/components/shared/LanguageSwitcher.svelte';
+	import Navigation from '$lib/components/layout/Navigation.svelte';
+	import Footer from '$lib/components/layout/Footer.svelte';
 	import { Separator } from '$lib/components/ui/separator';
 	import type { LayoutProps } from './$types';
 	import * as Sidebar from '$lib/components/ui/sidebar';
-	import AppSidebar from '$lib/components/AppSidebar.svelte';
-	import Logo from '$lib/components/Logo.svelte';
+	import AppSidebar from '$lib/components/layout/AppSidebar.svelte';
+	import Logo from '$lib/components/shared/Logo.svelte';
 
 	let { children, data }: LayoutProps = $props();
 

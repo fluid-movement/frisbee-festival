@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
 	import { type RouteId } from '$app/types';
-	import Grid from '$lib/components/Grid.svelte';
+	import Grid from '$lib/components/layout/Grid.svelte';
 	import { getLocaleForUrl } from '$lib/locale';
 	import freestyleImage from '$lib/assets/freestyle/edo-gitis.png';
 	import discGolfImage from '$lib/assets/disc-golf/putt.jpg';
@@ -34,19 +34,19 @@
 	</div>
 	{@render card(
 		'Freestyle Frisbee',
-		'/[[locale=lang]]/disciplines/(disciplines)/freestyle',
+		'/[[locale=lang]]/(disciplines)/freestyle',
 		freestyleImage
 	)}
-	{@render card('Disc Golf', '/[[locale=lang]]/disciplines/(disciplines)/disc-golf', discGolfImage)}
+	{@render card('Disc Golf', '/[[locale=lang]]/(disciplines)/disc-golf', discGolfImage)}
 	{@render card(
 		'Double Disc Court',
-		'/[[locale=lang]]/disciplines/(disciplines)/double-disc-court',
+		'/[[locale=lang]]/(disciplines)/double-disc-court',
 		ddcImage
 	)}
-	{@render card('Ultimate', '/[[locale=lang]]/disciplines/(disciplines)/ultimate', ultimateImage)}
+	{@render card('Ultimate', '/[[locale=lang]]/(disciplines)/ultimate', ultimateImage)}
 	{@render card(
 		'Rollstuhl Ultimate',
-		'/[[locale=lang]]/disciplines/(disciplines)/wheelchair-ultimate',
+		'/[[locale=lang]]/(disciplines)/wheelchair-ultimate',
 		wheelchairUltimateImage
 	)}
 </Grid>

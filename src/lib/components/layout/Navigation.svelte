@@ -64,7 +64,7 @@
 			<NavigationMenu.Link>
 				{#snippet child()}
 					<a
-						href={resolve('/[[locale=lang]]/festival/schedule', { locale: getLocaleForUrl() })}
+						href={resolve('/[[locale=lang]]/programm', { locale: getLocaleForUrl() })}
 						class={linkClass}
 					>
 						Programm
@@ -77,7 +77,7 @@
 			<NavigationMenu.Link>
 				{#snippet child()}
 					<a
-						href={resolve('/[[locale=lang]]/festival/participate', { locale: getLocaleForUrl() })}
+						href={resolve('/[[locale=lang]]/mitmachen', { locale: getLocaleForUrl() })}
 						class={linkClass}
 					>
 						Mitmachen
@@ -102,11 +102,17 @@
 							{#snippet child({ props })}
 								<a
 									{...props}
-									href={resolve('/[[locale=lang]]/disciplines', { locale: getLocaleForUrl() })}
+									href={resolve('/[[locale=lang]]/sportarten', { locale: getLocaleForUrl() })}
 								>
 									<div class="relative h-full overflow-hidden rounded-md">
-										<img src={festivalImage} alt="Die Sportarten" class="h-full w-full object-cover brightness-60" />
-										<div class="absolute inset-0 flex flex-col items-center justify-center p-6 text-center">
+										<img
+											src={festivalImage}
+											alt="Die Sportarten"
+											class="h-full w-full object-cover brightness-60"
+										/>
+										<div
+											class="absolute inset-0 flex flex-col items-center justify-center p-6 text-center"
+										>
 											<div class="mb-2 text-lg font-medium text-white">Die Sportarten</div>
 											<p class="text-sm leading-tight text-white/80">
 												Entdecke die Welt der Scheibe
@@ -118,27 +124,27 @@
 						</NavigationMenu.Link>
 					</li>
 					{@render ListItem({
-						routeId: '/[[locale=lang]]/disciplines/(disciplines)/freestyle',
+						routeId: '/[[locale=lang]]/(disciplines)/freestyle',
 						title: 'Freestyle',
 						content: 'Artistische Tricks und kreative Würfe mit der Frisbee.'
 					})}
 					{@render ListItem({
-						routeId: '/[[locale=lang]]/disciplines/(disciplines)/disc-golf',
+						routeId: '/[[locale=lang]]/(disciplines)/disc-golf',
 						title: 'Disc Golf',
 						content: 'Präzision und Power in einem Golfspiel mit der Frisbee.'
 					})}
 					{@render ListItem({
-						routeId: '/[[locale=lang]]/disciplines/(disciplines)/double-disc-court',
+						routeId: '/[[locale=lang]]/(disciplines)/double-disc-court',
 						title: 'Double Disc Court',
 						content: 'Ein schnelles Spiel mit zwei Teams und zwei Scheiben.'
 					})}
 					{@render ListItem({
-						routeId: '/[[locale=lang]]/disciplines/(disciplines)/ultimate',
+						routeId: '/[[locale=lang]]/(disciplines)/ultimate',
 						title: 'Ultimate',
 						content: 'Teamwork und Strategie in einem intensiven Frisbee-Mannschaftssport.'
 					})}
 					{@render ListItem({
-						routeId: '/[[locale=lang]]/disciplines/(disciplines)/wheelchair-ultimate',
+						routeId: '/[[locale=lang]]/(disciplines)/wheelchair-ultimate',
 						title: 'Rollstuhl Ultimate',
 						content: 'Teamwork und Strategie in einem intensiven Frisbee-Mannschaftssport.'
 					})}
