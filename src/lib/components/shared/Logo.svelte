@@ -17,6 +17,14 @@
 	} = $props();
 </script>
 
-<a href={resolve('/[[locale=lang]]', {locale: getLocaleForUrl()})} class={cn('inline-block', className)} {onclick}>
-	<img src={logo} alt="Frisbee Festival München Logo" class={cn('h-auto', width, inverted && 'brightness-0 invert')} />
+<a
+	href={resolve('/[[locale=lang]]', { locale: getLocaleForUrl() })}
+	class={cn('inline-block', className)}
+	{onclick}
+>
+	<img
+		src={logo}
+		alt="Frisbee Festival München Logo"
+		class={cn('h-auto', width, inverted && 'brightness-0 invert')}
+	/>
 </a>

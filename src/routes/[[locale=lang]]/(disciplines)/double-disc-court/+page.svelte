@@ -8,11 +8,13 @@
 	import Image from '$lib/components/shared/Image.svelte';
 	import Schedule from '$lib/components/schedule/Schedule.svelte';
 	import { getSchedule } from '$lib/data/schedules';
-	import { page } from '$app/state';
+	import { getLocaleForUrl } from '$lib/locale';
 	import { Trophy } from '@lucide/svelte/icons';
 
+	const locale = $derived(getLocaleForUrl());
+
 	const scheduleData = $derived.by(() => {
-		page.url;
+		void locale;
 		return getSchedule('double-disc-court');
 	});
 </script>

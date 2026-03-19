@@ -1,12 +1,12 @@
 import type { Handle } from '@sveltejs/kit';
 import { runWithLocale, loadLocales } from 'wuchale/load-utils/server';
-import * as main from './locales/main.loader.server.svelte.js'
-import * as js from './locales/js.loader.server.js'
+import * as main from './locales/main.loader.server.svelte.js';
+import * as js from './locales/js.loader.server.js';
 import { locales } from './locales/data.js';
 
 // Pre-load all catalogs at server startup
-loadLocales(main.key, main.loadIDs, main.loadCatalog, locales)
-loadLocales(js.key, js.loadIDs, js.loadCatalog, locales)
+loadLocales(main.key, main.loadIDs, main.loadCatalog, locales);
+loadLocales(js.key, js.loadIDs, js.loadCatalog, locales);
 
 export const handle: Handle = async ({ event, resolve }) => {
 	// Extract locale from URL path (e.g., /de/page, /en/page)

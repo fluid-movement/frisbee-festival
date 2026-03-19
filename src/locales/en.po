@@ -22,6 +22,7 @@ msgstr "Home"
 
 #: src/lib/components/AppSidebar.svelte
 #: src/lib/components/layout/AppSidebar.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
 msgid "Zuschauen"
 msgstr "Watch"
 
@@ -33,6 +34,7 @@ msgstr "Watch"
 #: src/lib/components/layout/Footer.svelte
 #: src/lib/components/layout/Navigation.svelte
 #: src/lib/components/schedule/Schedule.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
 #: src/routes/[[locale=lang]]/festival/participate/+page.svelte
 #: src/routes/[[locale=lang]]/mitmachen/+page.svelte
 msgid "Mitmachen"
@@ -60,7 +62,6 @@ msgstr "Disciplines"
 #: src/lib/components/layout/Navigation.svelte
 #: src/lib/components/schedule/ScheduleLegend.svelte
 #: src/lib/data/schedules/freestyle.ts
-#: src/routes/[[locale=lang]]/+page.svelte
 msgid "Freestyle"
 msgstr "Freestyle"
 
@@ -75,7 +76,6 @@ msgstr "Freestyle"
 #: src/lib/data/schedules/disc-golf.ts
 #: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
 #: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
-#: src/routes/[[locale=lang]]/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/(disciplines)/disc-golf/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/(disciplines)/disc-golf/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/+page.svelte
@@ -120,7 +120,6 @@ msgstr "Double Disc Court"
 #: src/lib/components/layout/Navigation.svelte
 #: src/lib/components/schedule/ScheduleLegend.svelte
 #: src/lib/data/schedules/ultimate.ts
-#: src/routes/[[locale=lang]]/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/+page.svelte
 #: src/routes/[[locale=lang]]/sportarten/+page.svelte
 msgid "Ultimate"
@@ -135,7 +134,6 @@ msgstr "Ultimate"
 #: src/lib/components/layout/Navigation.svelte
 #: src/lib/components/schedule/ScheduleLegend.svelte
 #: src/routes/[[locale=lang]]/(disciplines)/wheelchair-ultimate/+page.svelte
-#: src/routes/[[locale=lang]]/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/(disciplines)/wheelchair-ultimate/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/+page.svelte
 #: src/routes/[[locale=lang]]/sportarten/+page.svelte
@@ -335,9 +333,8 @@ msgstr "Welcome to"
 msgid "Frisbee Festival München"
 msgstr "Frisbee Festival München"
 
-#: src/routes/[[locale=lang]]/+page.svelte
-msgid "Erlebe erstklassigen Frisbeesport und feiere mit uns die Faszination der Flugscheibe in München."
-msgstr "Experience top-class frisbee sport and celebrate the fascination of flying discs with us in Munich."
+#~ msgid "Erlebe erstklassigen Frisbeesport und feiere mit uns die Faszination der Flugscheibe in München."
+#~ msgstr "Experience top-class frisbee sport and celebrate the fascination of flying discs with us in Munich."
 
 #: src/routes/[[locale=lang]]/+page.svelte
 msgid "Die Welt der Scheibe"
@@ -379,31 +376,27 @@ msgstr "Join In"
 msgid "Sei Teil des Festivals"
 msgstr "Be Part of the Festival"
 
-#: src/routes/[[locale=lang]]/+page.svelte
-msgid "Eine Community, die gemeinsames Wachstum fördert"
-msgstr "A community that fosters mutual growth"
+#~ msgid "Eine Community, die gemeinsames Wachstum fördert"
+#~ msgstr "A community that fosters mutual growth"
 
-#: src/routes/[[locale=lang]]/+page.svelte
-msgid ""
-"Wir glauben an den Aufbau einer unterstützenden Gemeinschaft, in der sich Spieler\n"
-"gegenseitig ermutigen, Wissen teilen und gemeinsam Erfolge feiern. Unser Sport ist mehr\n"
-"als nur ein Spiel – er ist eine Familie."
-msgstr ""
-"We believe in building a supportive community where players encourage each other,\n"
-"share knowledge and celebrate successes together. Our sport is more\n"
-"than just a game – it's a family."
+#~ msgid ""
+#~ "Wir glauben an den Aufbau einer unterstützenden Gemeinschaft, in der sich Spieler\n"
+#~ "gegenseitig ermutigen, Wissen teilen und gemeinsam Erfolge feiern. Unser Sport ist mehr\n"
+#~ "als nur ein Spiel – er ist eine Familie."
+#~ msgstr ""
+#~ "We believe in building a supportive community where players encourage each other,\n"
+#~ "share knowledge and celebrate successes together. Our sport is more\n"
+#~ "than just a game – it's a family."
 
-#: src/routes/[[locale=lang]]/+page.svelte
-msgid "Community"
-msgstr "Community"
+#~ msgid "Community"
+#~ msgstr "Community"
 
 #: src/routes/[[locale=lang]]/+page.svelte
 msgid "Programm <0/>"
 msgstr "Schedule <0/>"
 
-#: src/routes/[[locale=lang]]/+page.svelte
-msgid "Mitmachen <0/>"
-msgstr "Participate <0/>"
+#~ msgid "Mitmachen <0/>"
+#~ msgstr "Participate <0/>"
 
 #: src/routes/[[locale=lang]]/+page.svelte
 msgid "Starke Partnerschaften"
@@ -413,17 +406,15 @@ msgstr "Strong Partnerships"
 msgid "Dank an unsere Sponsoren"
 msgstr "Thanks to Our Sponsors"
 
-#: src/routes/[[locale=lang]]/+page.svelte
-msgid ""
-"Das Frisbee Festival schafft Sichtbarkeit für den Frisbeesport und bringt die internationale\n"
-"Frisbee-Community nach München. Ermöglicht durch großartige Partnerorganisationen."
-msgstr ""
-"The Frisbee Festival creates visibility for frisbee sport and brings the international\n"
-"frisbee community to Munich. Made possible by great partner organisations."
+#~ msgid ""
+#~ "Das Frisbee Festival schafft Sichtbarkeit für den Frisbeesport und bringt die internationale\n"
+#~ "Frisbee-Community nach München. Ermöglicht durch großartige Partnerorganisationen."
+#~ msgstr ""
+#~ "The Frisbee Festival creates visibility for frisbee sport and brings the international\n"
+#~ "frisbee community to Munich. Made possible by great partner organisations."
 
-#: src/routes/[[locale=lang]]/+page.svelte
-msgid "Festival"
-msgstr "Festival"
+#~ msgid "Festival"
+#~ msgstr "Festival"
 
 #: src/lib/components/Logo.svelte
 #: src/lib/components/shared/Logo.svelte
@@ -652,7 +643,6 @@ msgstr ""
 msgid "Comunity"
 msgstr "Community"
 
-#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/(disciplines)/freestyle/+page.svelte
 msgid "An diesem Wochenende findet die Weltmeisterschaft im Freestyle Frisbee auf dem Festivalgelände statt!"
 msgstr "This weekend, the Freestyle Frisbee World Championships are taking place at the festival grounds!"
@@ -1245,18 +1235,16 @@ msgstr ""
 #~ msgid "Wir bieten über zwei Tage die Möglichkeit erstklassigen Frisbee Sport mitzufei"
 #~ msgstr ""
 
-#: src/routes/[[locale=lang]]/+page.svelte
-msgid "Wir bieten über zwei Tage die Möglichkeit erstklassigen Frisbee Sport mitzufiebern."
-msgstr ""
+#~ msgid "Wir bieten über zwei Tage die Möglichkeit erstklassigen Frisbee Sport mitzufiebern."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Wir bieten über zwei Tage die Möglichkeit erstklassigen Frisbee Sport mitzufiebern.\n"
 #~ "todo: erklärung"
 #~ msgstr ""
 
-#: src/routes/[[locale=lang]]/+page.svelte
-msgid "todo: erklärung"
-msgstr ""
+#~ msgid "todo: erklärung"
+#~ msgstr ""
 
 #: src/routes/[[locale=lang]]/+page.svelte
 msgid "Freestyle Frisbee Weltmeisterschaften"
@@ -1295,4 +1283,93 @@ msgstr ""
 
 #: src/lib/components/layout/Footer.svelte
 msgid "frisbeefestival@gmail.com"
+msgstr ""
+
+#~ msgid ""
+#~ "Erlebe erstklassigen Frisbeesport und feiere mit uns die Faszination der Flugscheibe in\n"
+#~ "München."
+#~ msgstr ""
+
+#~ msgid "Spitzensport trifft Community-Spirit. Erlebe fünf packende Frisbee-Sportarten live, werde in Workshops selbst aktiv und genieße die entspannte Festival-Atmosphäre. Das Sommer-Highlight für Fans, Freunde und Familien."
+#~ msgstr ""
+
+#~ msgid ". Erlebe fünf packende Frisbee-Sportarten live, werde in Workshops selbst aktiv und genieße die entspannte Festival-Atmosphäre. Das Sommer-Highlight für Fans, Freunde und Familien."
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "Spitzensport trifft Community-Spirit"
+msgstr ""
+
+#~ msgid "Erlebe fünf packende Frisbee-Sportarten live, werde in Workshops selbst aktiv und genieße die entspannte Festival-Atmosphäre. Das Sommer-Highlight für Fans, Freunde und Familien."
+#~ msgstr ""
+
+#~ msgid "Erlebe den Frisbeesport hautnah, von Freestyle-Weltmeisterschaften bis zu spannenden Showmatches. Entdecke unseren Zeitplan und verpasse keines der Highlights auf dem Festival."
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid ""
+"Erlebe fünf packende Frisbee-Sportarten live, werde in Workshops selbst aktiv und genieße die\n"
+"entspannte Festival-Atmosphäre. Das Sommer-Highlight für Fans, Freunde und Familien."
+msgstr ""
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid ""
+"Erlebe den Frisbeesport hautnah, von Freestyle-Weltmeisterschaften bis zu spannenden\n"
+"Showmatches. Entdecke unseren Zeitplan und verpasse keines der Highlights auf dem\n"
+"Festival."
+msgstr ""
+
+#~ msgid "Zum Zuschauen"
+#~ msgstr ""
+
+#~ msgid "Lust selbst aktiv zu werden? Egal ob Anfänger oder Profi – bei unseren Workshops, Mitmach-Stationen und Side-Events kannst du die Scheibe selbst fliegen lassen und Teil unserer Community werden."
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid ""
+"Lust selbst aktiv zu werden? Egal ob Anfänger oder Profi – bei unseren Workshops,\n"
+"Mitmach-Stationen und Side-Events kannst du die Scheibe selbst fliegen lassen und Teil\n"
+"unserer Community werden."
+msgstr ""
+
+#~ msgid "Wio <0/>"
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "Workshops <0/>"
+msgstr ""
+
+#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
+msgid ""
+"An diesem Wochenende findet die Weltmeisterschaft im Freestyle Frisbee auf dem Festivalgelände\n"
+"statt!"
+msgstr ""
+
+#~ msgid "Engagierte Vereine"
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "Die Organisatoren"
+msgstr ""
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "Das Team hinter dem Event"
+msgstr ""
+
+#~ msgid "Internationale Verbände und lokale Partner vereinen ihre Kräfte, um die Sportschule Oberhaching zum Zentrum der Frisbee-Welt zu machen."
+#~ msgstr ""
+
+#~ msgid "Gemeinsam bringen wir die Scheibe zum Fliegen! Ein großes Dankeschön an unsere Partner, die das Frisbee Festival München und die internationale Community unterstützen."
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid ""
+"Gemeinsam bringen wir die Scheibe zum Fliegen! Ein großes Dankeschön an unsere Partner, die\n"
+"das Frisbee Festival München und die internationale Community unterstützen."
+msgstr ""
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid ""
+"Internationale Verbände und lokale Partner vereinen ihre Kräfte, um die Sportschule\n"
+"Oberhaching zum Zentrum der Frisbee-Welt zu machen."
 msgstr ""

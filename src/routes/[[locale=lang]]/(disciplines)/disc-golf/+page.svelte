@@ -8,12 +8,13 @@
 	import Image from '$lib/components/shared/Image.svelte';
 	import Schedule from '$lib/components/schedule/Schedule.svelte';
 	import { getSchedule } from '$lib/data/schedules';
-	import { page } from '$app/state';
+	import { getLocaleForUrl } from '$lib/locale';
 	import { Target } from '@lucide/svelte/icons';
 
+	const locale = $derived(getLocaleForUrl());
 
 	const scheduleData = $derived.by(() => {
-		page.url;
+		void locale;
 		return getSchedule('disc-golf');
 	});
 </script>
@@ -33,7 +34,7 @@
 			Abwurfpunkt. Nach dem ersten Wurf spielt man von da weiter, wo die Disc liegengeblieben ist.
 			Dies macht man so lange, bis die Disc in dem Fangkorb zur Ruhe gekommen ist.
 		</p>
-		<h5>Was für ein Discgolf-Turnier findet beim Frisbee Festival statt? </h5>
+		<h5>Was für ein Discgolf-Turnier findet beim Frisbee Festival statt?</h5>
 		<p>
 			Im Rahmen des Frisbee Festivals organisiert der Disc Golf München e.V. zum dritten Mal ein
 			großes Turnier in der Sportschule Oberhaching. Den Auftakt machten die Bayerischen Disc Golf
@@ -43,11 +44,11 @@
 			Deutschlands. Gespielt wird in acht Altersdivisionen über drei Runden zu je 18 Bahnen. Wer
 			über die drei Tage die wenigsten Würfe benötigt hat, gewinnt.
 		</p>
-		<h5>Wo kann ich Discgolf selbst ausprobieren? </h5>
+		<h5>Wo kann ich Discgolf selbst ausprobieren?</h5>
 		<p>
-			Hier in der Sportschule! Entweder gleich heute an dem Stand von Disc Golf München e.V., oder das
-			ganze Jahr über auf dem für die Öffentlichkeit zugänglichen Kurs. An der Rezeption bekommst du eine
-			Tageskarte (6€) und Leihscheiben.
+			Hier in der Sportschule! Entweder gleich heute an dem Stand von Disc Golf München e.V., oder
+			das ganze Jahr über auf dem für die Öffentlichkeit zugänglichen Kurs. An der Rezeption
+			bekommst du eine Tageskarte (6€) und Leihscheiben.
 		</p>
 	</article>
 	<Image src={mainImage} alt="Disc Golf" />
@@ -56,7 +57,7 @@
 <Schedule schedule={scheduleData.schedule} />
 
 <div class="container-custom grid gap-4 md:grid-cols-3">
-  <Image src={puttImage} alt="Disc Golf Putt" />
-  <Image src={walkingImage} alt="Disc Golf Community" />
-  <Image src={throwImage} alt="Disc Golf far throw" />
+	<Image src={puttImage} alt="Disc Golf Putt" />
+	<Image src={walkingImage} alt="Disc Golf Community" />
+	<Image src={throwImage} alt="Disc Golf far throw" />
 </div>

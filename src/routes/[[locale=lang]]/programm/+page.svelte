@@ -1,24 +1,28 @@
 <script lang="ts">
-
 	import { mergeAllSchedules } from '$lib/data/schedules';
-	import { page } from '$app/state';
 	import ScheduleLegend from '$lib/components/schedule/ScheduleLegend.svelte';
 	import ScheduleTypeBadge from '$lib/components/schedule/ScheduleTypeBadge.svelte';
 	import { DISCIPLINE_IDS, EVENT_TYPES } from '$lib/data/types';
-	import type { DisciplineId, EventType, MergedScheduleData, MergedScheduleEvent } from '$lib/data/types';
+	import type {
+		DisciplineId,
+		EventType,
+		MergedScheduleData,
+		MergedScheduleEvent
+	} from '$lib/data/types';
 	import { SvelteSet } from 'svelte/reactivity';
 	import Button from '$lib/components/ui/button/button.svelte';
 	import { ChevronRight, X } from '@lucide/svelte/icons';
 	import { getLocaleForUrl } from '$lib/locale';
-	
+
+	const locale = $derived(getLocaleForUrl());
 
 	const mergedSchedule = $derived.by(() => {
-		page.url;
+		void locale;
 		return mergeAllSchedules();
 	});
 
 	const dayNames: Record<string, string> = $derived.by(() => {
-		page.url;
+		void locale;
 		return {
 			Samstag: 'Samstag',
 			Sonntag: 'Sonntag'
@@ -29,11 +33,19 @@
 	let selectedTypes = new SvelteSet<EventType>();
 
 	function toggle(id: DisciplineId) {
-		selected.has(id) ? selected.delete(id) : selected.add(id);
+		if (selected.has(id)) {
+			selected.delete(id);
+		} else {
+			selected.add(id);
+		}
 	}
 
 	function toggleType(t: EventType) {
-		selectedTypes.has(t) ? selectedTypes.delete(t) : selectedTypes.add(t);
+		if (selectedTypes.has(t)) {
+			selectedTypes.delete(t);
+		} else {
+			selectedTypes.add(t);
+		}
 	}
 
 	function clearAll() {
@@ -43,10 +55,7 @@
 
 	const anyFilter = $derived(selected.size > 0 || selectedTypes.size > 0);
 
-	const participatePath = $derived.by(() => {
-		const locale = getLocaleForUrl();
-		return locale ? `/${locale}/mitmachen` : '/mitmachen';
-	});
+	const participatePath = $derived(locale ? `/${locale}/mitmachen` : '/mitmachen');
 
 	const filteredSchedule: MergedScheduleData = $derived(
 		Object.fromEntries(
@@ -101,8 +110,15 @@
 	<!-- Active filter status bar -->
 	{#if anyFilter}
 		<div class="mb-6 flex items-center gap-4">
-			<p class="my-0 text-sm text-muted-foreground">{totalVisible} von {totalAll} Einträgen angezeigt</p>
-			<Button variant="outline" size="sm" onclick={clearAll} class="cursor-pointer gap-1 text-muted-foreground hover:text-muted-foreground">
+			<p class="my-0 text-sm text-muted-foreground">
+				{totalVisible} von {totalAll} Einträgen angezeigt
+			</p>
+			<Button
+				variant="outline"
+				size="sm"
+				onclick={clearAll}
+				class="cursor-pointer gap-1 text-muted-foreground hover:text-muted-foreground"
+			>
 				<X />
 				Filter entfernen
 			</Button>
@@ -119,7 +135,9 @@
 					{#each events as event (event.time + event.discipline)}
 						<li class="grid grid-cols-[auto_1fr] items-center gap-x-4 border-b py-2">
 							<span class="text-sm text-muted-foreground">{event.time}</span>
-							<span class="text-xs font-semibold uppercase tracking-wide text-orange-500">{event.place}</span>
+							<span class="text-xs font-semibold tracking-wide text-orange-500 uppercase"
+								>{event.place}</span
+							>
 							<div class="flex gap-1">
 								<ScheduleLegend disciplineId={event.discipline} showText={false} />
 								<ScheduleTypeBadge eventType={event.type} showText={false} />
@@ -127,7 +145,9 @@
 							<div class="flex flex-col gap-0.5">
 								<strong>{event.label}</strong>
 								{#if event.type === 'workshop' && event.id}
-									<Button href="{participatePath}#{event.id}" class="self-start">Mehr <ChevronRight /></Button>
+									<Button href="{participatePath}#{event.id}" class="self-start"
+										>Mehr <ChevronRight /></Button
+									>
 								{:else if event.description}
 									<span class="text-sm text-muted-foreground">{event.description}</span>
 								{/if}

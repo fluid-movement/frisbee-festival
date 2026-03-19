@@ -5,11 +5,13 @@
 	import Image from '$lib/components/shared/Image.svelte';
 	import Schedule from '$lib/components/schedule/Schedule.svelte';
 	import { getSchedule } from '$lib/data/schedules';
-	import { page } from '$app/state';
+	import { getLocaleForUrl } from '$lib/locale';
 	import { Wind } from '@lucide/svelte/icons';
 
+	const locale = $derived(getLocaleForUrl());
+
 	const scheduleData = $derived.by(() => {
-		page.url;
+		void locale;
 		return getSchedule('freestyle');
 	});
 </script>
@@ -27,9 +29,9 @@
 			von Werfen und Fangen. Ein spektakuläres, vielseitiges und mitreißendes Erlebnis für Publikum
 			und Teilnehmer gleichermaßen.
 		</p>
-		
+
 		<h5>Kunst der Bewegung</h5>
-		
+
 		<p>
 			Was Freestyle Frisbee so besonders macht, ist die perfekte Verschmelzung von Sport, Tanz und
 			Artistik. Jeder Wurf, jeder Fang wird zur künstlerischen Ausdrucksform. Die Scheibe wird unter
@@ -38,9 +40,9 @@
 			gleitet. Die Synchronisation zwischen den Teammitgliedern muss dabei perfekt sein – wie bei
 			einem Pas de Deux im Ballett.
 		</p>
-		
+
 		<h5>Teamwork und Kreativität</h5>
-		
+
 		<p>
 			Im Freestyle Frisbee verschmelzen die Spieler zu einer Einheit. Jede Bewegung ist aufeinander
 			abgestimmt, jeder Trick baut auf dem vorherigen auf. Die besten Teams entwickeln ihren eigenen
@@ -54,5 +56,6 @@
 </Grid>
 
 <Schedule schedule={scheduleData.schedule}>
-  An diesem Wochenende findet die Weltmeisterschaft im Freestyle Frisbee auf dem Festivalgelände statt!
+	An diesem Wochenende findet die Weltmeisterschaft im Freestyle Frisbee auf dem Festivalgelände
+	statt!
 </Schedule>

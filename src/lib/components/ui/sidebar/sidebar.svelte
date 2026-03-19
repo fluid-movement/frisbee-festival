@@ -7,7 +7,9 @@
 	import { onMount } from 'svelte';
 
 	let mounted = $state(false);
-	onMount(() => { mounted = true; });
+	onMount(() => {
+		mounted = true;
+	});
 
 	let {
 		ref = $bindable(null),

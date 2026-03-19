@@ -17,7 +17,8 @@ export const getDiscGolfSchedule = (): DisciplineSchedule => ({
 				label: 'Putting Clinic',
 				type: 'workshop',
 				id: 'putting-clinic',
-				description: 'Lerne die Grundlagen des Disc Golf Puttens. Unsere erfahrenen Spieler zeigen dir Technik und Positionierung für präzise Putts aus kurzer und mittlerer Distanz.',
+				description:
+					'Lerne die Grundlagen des Disc Golf Puttens. Unsere erfahrenen Spieler zeigen dir Technik und Positionierung für präzise Putts aus kurzer und mittlerer Distanz.',
 				image: discGolfPuttImage
 			},
 			{
@@ -35,7 +36,8 @@ export const getDiscGolfSchedule = (): DisciplineSchedule => ({
 				label: 'Weite-Wurf Workshop',
 				type: 'workshop',
 				id: 'distance-driving-workshop',
-				description: 'Techniken zur Maximierung der Wurfweite. Unsere Profis zeigen dir, wie du mit der richtigen Technik mehr Distanz aus deinem Wurf herausholst.'
+				description:
+					'Techniken zur Maximierung der Wurfweite. Unsere Profis zeigen dir, wie du mit der richtigen Technik mehr Distanz aus deinem Wurf herausholst.'
 			}
 		],
 		Sonntag: [

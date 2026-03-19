@@ -5,7 +5,7 @@
 	import { getLocaleForUrl } from '$lib/locale';
 	import freestyleImage from '$lib/assets/freestyle/edo-gitis.png';
 	import discGolfImage from '$lib/assets/disc-golf/putt.jpg';
-	import ddcImage from '$lib/assets/ddc/ddc-gallery-3.jpg'
+	import ddcImage from '$lib/assets/ddc/ddc-gallery-3.jpg';
 	import ultimateImage from '$lib/assets/ultimate/ultimate-jump.jpg';
 	import wheelchairUltimateImage from '$lib/assets/wheelchair-ultimate/rollstuhl-frisbee-handshake.jpg';
 </script>
@@ -32,17 +32,9 @@
 	<div class="hidden flex-col items-center justify-center md:flex">
 		<h5>Entdecke die vielseitigen Frisbee-Sportarten</h5>
 	</div>
-	{@render card(
-		'Freestyle Frisbee',
-		'/[[locale=lang]]/(disciplines)/freestyle',
-		freestyleImage
-	)}
+	{@render card('Freestyle Frisbee', '/[[locale=lang]]/(disciplines)/freestyle', freestyleImage)}
 	{@render card('Disc Golf', '/[[locale=lang]]/(disciplines)/disc-golf', discGolfImage)}
-	{@render card(
-		'Double Disc Court',
-		'/[[locale=lang]]/(disciplines)/double-disc-court',
-		ddcImage
-	)}
+	{@render card('Double Disc Court', '/[[locale=lang]]/(disciplines)/double-disc-court', ddcImage)}
 	{@render card('Ultimate', '/[[locale=lang]]/(disciplines)/ultimate', ultimateImage)}
 	{@render card(
 		'Rollstuhl Ultimate',

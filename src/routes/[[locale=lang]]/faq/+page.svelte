@@ -56,7 +56,10 @@
 		<Accordion.Trigger>Was muss ich tun?</Accordion.Trigger>
 		<Accordion.Content>
 			<p>
-			Einfach erscheinen! Du siehst das Programm auf der <Link class="underline" href="/[[locale=lang]]/programm">Programm Seite</Link>
+				Einfach erscheinen! Du siehst das Programm auf der <Link
+					class="underline"
+					href="/[[locale=lang]]/programm">Programm Seite</Link
+				>
 			</p>
 		</Accordion.Content>
 	</Accordion.Item>

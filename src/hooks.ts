@@ -15,10 +15,10 @@ import { locales } from './locales/data.js';
 export const reroute: Reroute = ({ url }) => {
 	const pathname = url.pathname || '/';
 
-  if (pathname.startsWith('/sitemap.xml') || pathname.startsWith('/health')) {
-    return;
-  }
-  
+	if (pathname.startsWith('/sitemap.xml') || pathname.startsWith('/health')) {
+		return;
+	}
+
 	const segments = pathname.split('/').filter(Boolean);
 	const first = segments[0];
 

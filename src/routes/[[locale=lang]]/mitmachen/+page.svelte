@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { getAllSchedules } from '$lib/data/schedules';
 	import { DAY_NAMES, type DisciplineId } from '$lib/data/types';
-	import { page } from '$app/state';
+	import { getLocaleForUrl } from '$lib/locale';
 	import DisciplineBadge from '$lib/components/disciplines/DisciplineBadge.svelte';
 	import MapPin from '@lucide/svelte/icons/map-pin';
 	import Clock from '@lucide/svelte/icons/clock';
@@ -16,8 +16,10 @@
 		image?: string;
 	}
 
+	const locale = $derived(getLocaleForUrl());
+
 	const byDay = $derived.by((): Record<string, WorkshopEntry[]> => {
-		page.url;
+		void locale;
 		const result: Record<string, WorkshopEntry[]> = {};
 		for (const disciplineSchedule of getAllSchedules()) {
 			for (const [day, events] of Object.entries(disciplineSchedule.schedule)) {

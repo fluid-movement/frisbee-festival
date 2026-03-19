@@ -5,7 +5,13 @@
 	import { tv } from 'tailwind-variants';
 	import type { Component } from 'svelte';
 
-	let { disciplineId, showText = true, inactive = false, active = false, onclick }: {
+	let {
+		disciplineId,
+		showText = true,
+		inactive = false,
+		active = false,
+		onclick
+	}: {
 		disciplineId: DisciplineId;
 		showText?: boolean;
 		inactive?: boolean;
@@ -43,7 +49,11 @@
 
 {#snippet disciplineBadge(id: DisciplineId)}
 	{@const { label, Icon } = configs[id]}
-	<Button class={badge({ discipline: id, inactive, active })} size={showText ? 'default' : 'icon-sm'} {onclick}>
+	<Button
+		class={badge({ discipline: id, inactive, active })}
+		size={showText ? 'default' : 'icon-sm'}
+		{onclick}
+	>
 		<Icon />
 		{#if showText}{label}{/if}
 	</Button>

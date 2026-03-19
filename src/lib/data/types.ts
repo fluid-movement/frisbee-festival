@@ -28,7 +28,7 @@ export type DisciplineId = (typeof DISCIPLINE_IDS)[number];
 export interface ScheduleEvent {
 	/** Time range in format "HH:MM - HH:MM" */
 	time: string;
-  label: string;
+	label: string;
 	/** Event type discriminator for styling and filtering */
 	type: EventType;
 	description?: string;

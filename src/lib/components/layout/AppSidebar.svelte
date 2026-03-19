@@ -41,7 +41,10 @@
 					<Sidebar.MenuItem>
 						<Sidebar.MenuButton onclick={sidebar.toggle} isActive={currentPath === '/programm'}>
 							{#snippet child({ props })}
-								<a href={resolve('/[[locale=lang]]/programm', { locale: getLocaleForUrl() })} {...props}>
+								<a
+									href={resolve('/[[locale=lang]]/programm', { locale: getLocaleForUrl() })}
+									{...props}
+								>
 									<CalendarIcon />
 									<span>Zuschauen</span>
 								</a>
@@ -53,7 +56,10 @@
 					<Sidebar.MenuItem>
 						<Sidebar.MenuButton onclick={sidebar.toggle} isActive={currentPath === '/mitmachen'}>
 							{#snippet child({ props })}
-								<a href={resolve('/[[locale=lang]]/mitmachen', {locale: getLocaleForUrl()})} {...props}>
+								<a
+									href={resolve('/[[locale=lang]]/mitmachen', { locale: getLocaleForUrl() })}
+									{...props}
+								>
 									<AwardIcon />
 									<span>Mitmachen</span>
 								</a>
@@ -65,7 +71,10 @@
 					<Sidebar.MenuItem>
 						<Sidebar.MenuButton onclick={sidebar.toggle} isActive={currentPath === '/sportarten'}>
 							{#snippet child({ props })}
-								<a href={resolve('/[[locale=lang]]/sportarten', { locale: getLocaleForUrl() })} {...props}>
+								<a
+									href={resolve('/[[locale=lang]]/sportarten', { locale: getLocaleForUrl() })}
+									{...props}
+								>
 									<DiscIcon />
 									<span>Die Sportarten</span>
 								</a>

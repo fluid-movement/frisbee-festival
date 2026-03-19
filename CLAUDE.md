@@ -1,34 +1,20 @@
-# CLAUDE.md
-
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
-
 ## Project Overview
 
 This is a static SvelteKit 5 website for the Frisbee Festival München using Tailwind CSS 4. The site is multilingual (German as source locale, English translation) and uses the Wuchale i18n framework for translations.
-
-## Development Commands
-
-```bash
-npm run dev          # Start dev server (already running per user config)
-npm run build        # Build static site for production
-npm run preview      # Preview production build
-npm run check        # Type-check with svelte-check
-npm run check:watch  # Type-check in watch mode
-npm run format       # Format code with Prettier
-npm run lint         # Lint with ESLint and Prettier
-```
 
 ## Architecture
 
 ### Internationalization (i18n)
 
 The site uses **Wuchale** for translations:
+
 - Source locale: `de` (German)
 - Available locales: `de`, `en` (defined in `src/locales/data.js`)
 - Translation files: `src/locales/de.po` and `src/locales/en.po` (PO/gettext format)
 - Compiled translations are generated in `src/locales/.wuchale/`
 
 **Key i18n files:**
+
 - `src/hooks.server.ts`: Server-side locale context setup using `runWithLocale()`, pre-loads all catalogs at startup
 - `src/routes/[[locale=lang]]/+layout.ts`: Client-side locale loading with `loadLocale()`
 - `src/params/lang.ts`: Route matcher for locale parameter validation

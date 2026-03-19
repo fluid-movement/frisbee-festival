@@ -5,7 +5,13 @@
 	import { tv } from 'tailwind-variants';
 	import type { Component } from 'svelte';
 
-	let { eventType, showText = true, inactive = false, active = false, onclick }: {
+	let {
+		eventType,
+		showText = true,
+		inactive = false,
+		active = false,
+		onclick
+	}: {
 		eventType: EventType;
 		showText?: boolean;
 		inactive?: boolean;
@@ -39,7 +45,11 @@
 
 {#snippet typeBadge(type: EventType)}
 	{@const { label, Icon } = configs[type]}
-	<Button class={badge({ type, inactive, active })} size={showText ? 'default' : 'icon-sm'} {onclick}>
+	<Button
+		class={badge({ type, inactive, active })}
+		size={showText ? 'default' : 'icon-sm'}
+		{onclick}
+	>
 		<Icon />
 		{#if showText}{label}{/if}
 	</Button>

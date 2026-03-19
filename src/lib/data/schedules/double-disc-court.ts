@@ -110,13 +110,13 @@ export const getDDCSchedule = (): DisciplineSchedule => ({
 				time: '14:15 - 14:45',
 				label: 'Match um dritten Platz',
 				type: 'tournament'
-      },
-      {
+			},
+			{
 				time: '15:00 - 15:30',
 				label: 'Finale',
 				type: 'tournament'
-      },
-      {
+			},
+			{
 				time: '15:30 - 16:00',
 				label: 'Freies Spiel',
 				description:

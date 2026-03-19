@@ -1,6 +1,5 @@
 <script lang="ts">
 	import type { ScheduleData } from '$lib/data/types';
-	import { page } from '$app/state';
 	import type { Snippet } from 'svelte';
 	import { getLocaleForUrl } from '$lib/locale';
 	import Button from '$lib/components/ui/button/button.svelte';
@@ -8,18 +7,17 @@
 
 	let { schedule, children }: { schedule: ScheduleData; children?: Snippet } = $props();
 
+	const locale = $derived(getLocaleForUrl());
+
 	const dayNames: Record<string, string> = $derived.by(() => {
-		page.url;
+		void locale;
 		return {
 			Samstag: 'Samstag',
 			Sonntag: 'Sonntag'
 		};
 	});
 
-	const participatePath = $derived.by(() => {
-		const locale = getLocaleForUrl();
-		return locale ? `/${locale}/mitmachen` : '/mitmachen';
-	});
+	const participatePath = $derived(locale ? `/${locale}/mitmachen` : '/mitmachen');
 </script>
 
 <div class="container-custom">
@@ -53,7 +51,9 @@
 								{event.label}
 							</strong>
 							{#if event.type === 'workshop' && event.id}
-								<Button href="{participatePath}#{event.id}" class="self-start">Mehr <ChevronRight /></Button>
+								<Button href="{participatePath}#{event.id}" class="self-start"
+									>Mehr <ChevronRight /></Button
+								>
 							{:else if event.description}
 								<span class="text-sm text-muted-foreground">{event.description}</span>
 							{/if}
