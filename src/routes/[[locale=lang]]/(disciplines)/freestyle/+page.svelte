@@ -24,32 +24,29 @@
 			<h1 class="uppercase">Freestyle Frisbee</h1>
 		</div>
 		<p>
-			Freestyle Frisbee ist die Kunst, mit der Wurfscheibe kreative und artistische Moves zu zeigen.
-			Die zur Musik choreografierten Shows vereinen die Eleganz von Tanz und Gymnastik mit dem Spiel
-			von Werfen und Fangen. Ein spektakuläres, vielseitiges und mitreißendes Erlebnis für Publikum
-			und Teilnehmer gleichermaßen.
+			Freestyle Frisbee ist die spektakuläre Verschmelzung von Akrobatik, Tanz und Präzision. Zu
+			packenden Beats zeigen die Athleten choreografierte Shows, die die Schwerkraft scheinbar
+			aufheben. Ein mitreißendes Erlebnis, das Sport und Kunst perfekt vereint.
 		</p>
 
 		<h5>Kunst der Bewegung</h5>
 
 		<p>
-			Was Freestyle Frisbee so besonders macht, ist die perfekte Verschmelzung von Sport, Tanz und
-			Artistik. Jeder Wurf, jeder Fang wird zur künstlerischen Ausdrucksform. Die Scheibe wird unter
-			dem Bein hindurch geworfen, hinter dem Rücken gefangen oder mit den Fingernägeln balanciert.
-			Spieler vollführen Sprünge, Rollen und sogar Saltos, während die Frisbee durch die Luft
-			gleitet. Die Synchronisation zwischen den Teammitgliedern muss dabei perfekt sein – wie bei
-			einem Pas de Deux im Ballett.
+			Im Kern geht es beim Freestyle darum, die rotierende Scheibe durch technisch anspruchsvolle
+			Tricks zu manipulieren. Die Basis fast aller Manöver ist der Nail Delay: Die Scheibe rotiert
+			auf dem Fingernagel. Spieler:innen kombinieren kontrollierte Manipulationen der Frisbee mit
+			Kicks, Körperdrehungen und spektakulären Catches. Ob solo oder im Team – beim Freestyle zählt
+			der „Flow“. Es ist ein Spiel mit der Physik, bei dem Wind und Eigenrotation genutzt werden, um
+			unmögliche Flugbahnen zu kreieren. Es geht nicht nur um Schwierigkeit, sondern auch um den
+			persönlichen Stil und die akrobatische Leichtigkeit.
 		</p>
 
 		<h5>Teamwork und Kreativität</h5>
 
 		<p>
-			Im Freestyle Frisbee verschmelzen die Spieler zu einer Einheit. Jede Bewegung ist aufeinander
-			abgestimmt, jeder Trick baut auf dem vorherigen auf. Die besten Teams entwickeln ihren eigenen
-			Stil und erfinden ständig neue Kombinationen. Die Kreativität kennt dabei keine Grenzen: Von
-			eleganten, fließenden Bewegungen bis zu explosiven, kraftvollen Tricks ist alles möglich.
-			Diese kreative Freiheit macht Freestyle Frisbee zu einer der individuellsten Sportarten
-			überhaupt.
+			Im Freestyle gibt es keine Grenzen. Teams verschmelzen zu einer Einheit, in der jeder Trick
+			auf dem nächsten aufbaut – so präzise wie ein modernes Ballett. Diese Freiheit macht Freestyle
+			zur individuellsten und kreativsten Disziplin des Frisbeesports.
 		</p>
 	</article>
 	<Image src={festivalImage} alt="Comunity" />
@@ -59,3 +56,16 @@
 	An diesem Wochenende findet die Weltmeisterschaft im Freestyle Frisbee auf dem Festivalgelände
 	statt!
 </Schedule>
+
+<section class="container-custom">
+  <h5>Freestyle Patrons</h5>
+  <p>
+  	Diese Weltmeisterschaften leben vom Spirit unserer Community – wir danken unseren Patrons herzlich
+  	für ihre wertvolle Unterstützung, die diesen Sport erst zum Fliegen bringt.
+  </p>
+  <ul>
+  	<li>Paul Kenny</li>
+  	<li>Larry Imperiale</li>
+  	<li>Waldemar “Wowa” Wagner</li>
+  </ul>  
+</section>

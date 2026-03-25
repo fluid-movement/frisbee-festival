@@ -545,7 +545,6 @@ msgid "Toggle Sidebar"
 msgstr "Toggle Sidebar"
 
 #: src/routes/[[locale=lang]]/festival/participate/+page.svelte
-#: src/routes/[[locale=lang]]/mitmachen/+page.svelte
 msgid ""
 "Wir wollen dass Ihr bei unserem Festival nicht nur Frisbee als Zuschauer erleben könnt, sondern\n"
 "auch selbst aktiv werdet! Deshalb bieten wir eine Vielzahl von Workshops an, bei denen Ihr die\n"
@@ -581,7 +580,6 @@ msgstr "<0/> Clear filters"
 msgid "Jetzt wirds kreativ"
 msgstr "Now it gets creative"
 
-#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/(disciplines)/freestyle/+page.svelte
 msgid ""
 "Freestyle Frisbee ist die Kunst, mit der Wurfscheibe kreative und artistische Moves zu zeigen.\n"
@@ -599,7 +597,6 @@ msgstr ""
 msgid "Kunst der Bewegung"
 msgstr "The Art of Movement"
 
-#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/(disciplines)/freestyle/+page.svelte
 msgid ""
 "Was Freestyle Frisbee so besonders macht, ist die perfekte Verschmelzung von Sport, Tanz und\n"
@@ -620,7 +617,6 @@ msgstr ""
 msgid "Teamwork und Kreativität"
 msgstr "Teamwork and Creativity"
 
-#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/(disciplines)/freestyle/+page.svelte
 msgid ""
 "Im Freestyle Frisbee verschmelzen die Spieler zu einer Einheit. Jede Bewegung ist aufeinander\n"
@@ -752,7 +748,6 @@ msgstr "What kind of disc golf tournament is taking place at the Frisbee Festiva
 msgid "Wo kann ich Discgolf selbst ausprobieren?"
 msgstr "Where can I try disc golf myself?"
 
-#: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/(disciplines)/disc-golf/+page.svelte
 msgid ""
 "Hier in der Sportschule! Entweder gleich heute an dem Stand von Disc Golf München e.V., oder das\n"
@@ -1372,4 +1367,104 @@ msgstr ""
 msgid ""
 "Internationale Verbände und lokale Partner vereinen ihre Kräfte, um die Sportschule\n"
 "Oberhaching zum Zentrum der Frisbee-Welt zu machen."
+msgstr ""
+
+#~ msgid "Zuschauen ist gut, Selberwerfen ist besser. Wir bieten euch die Chance, die Faszination Frisbee direkt auszuprobieren. In unseren Workshops zeigen euch erfahrene Spieler:innen die Kniffe der verschiedenen Disziplinen – völlig egal, wie viel Erfahrung ihr mitbringt. Sucht euch unten euren Slot aus und werdet Teil des Festivals!"
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/mitmachen/+page.svelte
+msgid ""
+"Zuschauen ist gut, Selberwerfen ist besser. Wir bieten euch die Chance, die Faszination Frisbee\n"
+"direkt auszuprobieren. In unseren Workshops zeigen euch erfahrene Spieler:innen die Kniffe der\n"
+"verschiedenen Disziplinen – völlig egal, wie viel Erfahrung ihr mitbringt. Sucht euch unten euren\n"
+"Slot aus und werdet Teil des Festivals!"
+msgstr ""
+
+#~ msgid "Verpasse kein Highlight! Mit unserem dynamischen Zeitplan und der Festival-Karte hast du alle Events  fest im Blick. Nutze die Filter, um das Programm nach Sportarten und Kategorien zu sortieren und deinen Besuch perfekt zu planen. Such dir deine Favoriten aus und erlebe ein unvergessliches Frisbee Wochenende!"
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/programm/+page.svelte
+msgid ""
+"Verpasse kein Highlight! Mit unserem dynamischen Zeitplan und der Festival-Karte hast du alle\n"
+"Events fest im Blick. Nutze die Filter, um das Programm nach Sportarten und Kategorien zu\n"
+"sortieren und deinen Besuch perfekt zu planen. Such dir deine Favoriten aus und erlebe ein\n"
+"unvergessliches Frisbee Wochenende!"
+msgstr ""
+
+#~ msgid "Freestyle Frisbee ist die spektakuläre Verschmelzung von Akrobatik, Tanz und Präzision. Zu packenden Beats zeigen die Athleten choreografierte Shows, die die Schwerkraft scheinbar aufheben. Ein mitreißendes Erlebnis, das Sport und Kunst perfekt vereint."
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
+msgid ""
+"Freestyle Frisbee ist die spektakuläre Verschmelzung von Akrobatik, Tanz und Präzision. Zu\n"
+"packenden Beats zeigen die Athleten choreografierte Shows, die die Schwerkraft scheinbar\n"
+"aufheben. Ein mitreißendes Erlebnis, das Sport und Kunst perfekt vereint."
+msgstr ""
+
+#~ msgid "Im Kern geht es beim Freestyle darum, die rotierende Scheibe durch technisch anspruchsvolle Tricks zu manipulieren. Die Basis fast aller Manöver ist der Nail Delay: Die Scheibe rotiert auf dem Fingernagel. Spieler:innen kombinieren kontrollierte Manipulationen der Frisbee mit Kicks, Körperdrehungen und spektakulären Catches. Ob solo oder im Team – beim Freestyle zählt der „Flow“. Es ist ein Spiel mit der Physik, bei dem Wind und Eigenrotation genutzt werden, um unmögliche Flugbahnen zu kreieren. Es geht nicht nur um Schwierigkeit, sondern auch um den persönlichen Stil und die akrobatische Leichtigkeit."
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
+msgid ""
+"Im Kern geht es beim Freestyle darum, die rotierende Scheibe durch technisch anspruchsvolle\n"
+"Tricks zu manipulieren. Die Basis fast aller Manöver ist der Nail Delay: Die Scheibe rotiert\n"
+"auf dem Fingernagel. Spieler:innen kombinieren kontrollierte Manipulationen der Frisbee mit\n"
+"Kicks, Körperdrehungen und spektakulären Catches. Ob solo oder im Team – beim Freestyle zählt\n"
+"der „Flow“. Es ist ein Spiel mit der Physik, bei dem Wind und Eigenrotation genutzt werden, um\n"
+"unmögliche Flugbahnen zu kreieren. Es geht nicht nur um Schwierigkeit, sondern auch um den\n"
+"persönlichen Stil und die akrobatische Leichtigkeit."
+msgstr ""
+
+#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
+msgid ""
+"Im Freestyle gibt es keine Grenzen. Teams verschmelzen zu einer Einheit, in der jeder Trick\n"
+"auf dem nächsten aufbaut – so präzise wie ein modernes Ballett. Diese Freiheit macht Freestyle\n"
+"zur individuellsten und kreativsten Disziplin des Frisbeesports."
+msgstr ""
+
+#~ msgid "FREESTYLE PATRONS"
+#~ msgstr ""
+
+#~ msgid "Diese Weltmeisterschaften leben vom Spirit unserer Community – wir danken unseren Patrons herzlich für ihre wertvolle Unterstützung, die diesen Sport erst zum Fliegen bringt."
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
+msgid ""
+"Diese Weltmeisterschaften leben vom Spirit unserer Community – wir danken unseren Patrons herzlich\n"
+"für ihre wertvolle Unterstützung, die diesen Sport erst zum Fliegen bringt."
+msgstr ""
+
+#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
+msgid "Paul Kenny"
+msgstr ""
+
+#~ msgid "<0>Paul Kenny</0> li"
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
+msgid "Larry Imperiale"
+msgstr ""
+
+#~ msgid "<0>Paul Kenny</0> <1>Larry Imperiale</1> li"
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
+msgid "Waldemar “Wowa” Wagner"
+msgstr ""
+
+#: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
+msgid ""
+"Hier in der Sportschule! Entweder gleich heute an dem Stand von Disc Golf München e.V., oder\n"
+"das ganze Jahr über auf dem für die Öffentlichkeit zugänglichen Kurs. An der Rezeption\n"
+"bekommst du eine Tageskarte (6€) und Leihscheiben."
+msgstr ""
+
+#~ msgid "freestyle patrons"
+#~ msgstr ""
+
+#~ msgid "freestyle Patrons"
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
+msgid "Freestyle Patrons"
 msgstr ""

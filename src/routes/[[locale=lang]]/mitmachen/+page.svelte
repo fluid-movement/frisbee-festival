@@ -66,11 +66,10 @@
 <h1 class="container-custom mb-12 text-center">Mitmachen</h1>
 
 <p class="container-custom">
-	Wir wollen dass Ihr bei unserem Festival nicht nur Frisbee als Zuschauer erleben könnt, sondern
-	auch selbst aktiv werdet! Deshalb bieten wir eine Vielzahl von Workshops an, bei denen Ihr die
-	Möglichkeit habt, verschiedene Frisbee-Disziplinen auszuprobieren und von erfahrenen SpielerInnen
-	zu lernen. Egal ob AnfängerIn oder Fortgeschrittene:r, es ist für alle etwas dabei. Schaut Euch
-	die Workshops unten an und findet heraus, welcher am besten zu Euch passt!
+	Zuschauen ist gut, Selberwerfen ist besser. Wir bieten euch die Chance, die Faszination Frisbee
+	direkt auszuprobieren. In unseren Workshops zeigen euch erfahrene Spieler:innen die Kniffe der
+	verschiedenen Disziplinen – völlig egal, wie viel Erfahrung ihr mitbringt. Sucht euch unten euren
+	Slot aus und werdet Teil des Festivals!
 </p>
 <div class="container-custom flex flex-col gap-10">
 	{#each DAY_NAMES as day (day)}

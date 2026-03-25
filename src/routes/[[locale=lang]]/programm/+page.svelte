@@ -81,7 +81,12 @@
 </script>
 
 <h1 class="container-custom mb-12 text-center">Programm</h1>
-
+<p class="container-custom">
+	Verpasse kein Highlight! Mit unserem dynamischen Zeitplan und der Festival-Karte hast du alle
+	Events fest im Blick. Nutze die Filter, um das Programm nach Sportarten und Kategorien zu
+	sortieren und deinen Besuch perfekt zu planen. Such dir deine Favoriten aus und erlebe ein
+	unvergessliches Frisbee Wochenende!
+</p>
 <div class="container-custom">
 	<!-- Discipline filter -->
 	<div class="mb-4 flex flex-wrap gap-2">
