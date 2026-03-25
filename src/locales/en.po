@@ -21,8 +21,8 @@ msgid "Startseite"
 msgstr "Home"
 
 #: src/lib/components/AppSidebar.svelte
+#: src/lib/components/home/Community.svelte
 #: src/lib/components/layout/AppSidebar.svelte
-#: src/routes/[[locale=lang]]/+page.svelte
 msgid "Zuschauen"
 msgstr "Watch"
 
@@ -30,11 +30,11 @@ msgstr "Watch"
 #: src/lib/components/Footer.svelte
 #: src/lib/components/Navigation.svelte
 #: src/lib/components/Schedule.svelte
+#: src/lib/components/home/Community.svelte
 #: src/lib/components/layout/AppSidebar.svelte
 #: src/lib/components/layout/Footer.svelte
 #: src/lib/components/layout/Navigation.svelte
 #: src/lib/components/schedule/Schedule.svelte
-#: src/routes/[[locale=lang]]/+page.svelte
 #: src/routes/[[locale=lang]]/festival/participate/+page.svelte
 #: src/routes/[[locale=lang]]/mitmachen/+page.svelte
 msgid "Mitmachen"
@@ -264,8 +264,8 @@ msgid "Anschauen"
 msgstr "Watch"
 
 #: src/lib/components/Schedule.svelte
+#: src/lib/components/home/Disciplines.svelte
 #: src/lib/components/schedule/Schedule.svelte
-#: src/routes/[[locale=lang]]/+page.svelte
 #: src/routes/[[locale=lang]]/festival/schedule/+page.svelte
 #: src/routes/[[locale=lang]]/programm/+page.svelte
 msgid "Mehr <0/>"
@@ -274,107 +274,108 @@ msgstr "More <0/>"
 #~ msgid "WFDF Ultimate Frisbee"
 #~ msgstr "WFDF Ultimate Frisbee"
 
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Disciplines.svelte
 msgid "Das schnellste Mannschaftsspiel der Scheibenwelt. Athletisch, fair und faszinierend."
 msgstr "The fastest team sport in the disc world. Athletic, fair and fascinating."
 
-#: src/routes/[[locale=lang]]/+page.svelte
-msgid "Sa & So, 09:00–18:00"
-msgstr "Sat & Sun, 09:00–18:00"
+#~ msgid "Sa & So, 09:00–18:00"
+#~ msgstr "Sat & Sun, 09:00–18:00"
 
 #~ msgid "PDGA German Open"
 #~ msgstr "PDGA German Open"
 
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Disciplines.svelte
 msgid "Golf trifft Frisbee. Präzision und Technik in einem wunderschönen Naturkurs."
 msgstr "Golf meets frisbee. Precision and technique on a beautiful natural course."
 
-#: src/routes/[[locale=lang]]/+page.svelte
-msgid "Sa & So, 09:00–17:00"
-msgstr "Sat & Sun, 09:00–17:00"
+#~ msgid "Sa & So, 09:00–17:00"
+#~ msgstr "Sat & Sun, 09:00–17:00"
 
 #~ msgid "FPAW Freestyle Disc"
 #~ msgstr "FPAW Freestyle Disc"
 
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Disciplines.svelte
 msgid "Akrobatik, Kreativität und Rhythmus – Freestyle Disc als Kunstform."
 msgstr "Acrobatics, creativity and rhythm – freestyle disc as an art form."
 
-#: src/routes/[[locale=lang]]/+page.svelte
-#: src/routes/[[locale=lang]]/+page.svelte
-#: src/routes/[[locale=lang]]/+page.svelte
-msgid "Sa & So, 10:00–17:00"
-msgstr "Sat & Sun, 10:00–17:00"
+#~ msgid "Sa & So, 10:00–17:00"
+#~ msgstr "Sat & Sun, 10:00–17:00"
 
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Disciplines.svelte
 msgid "Zwei Scheiben, zwei Teams, ein Spielfeld – taktischer Teamsport pur."
 msgstr "Two discs, two teams, one field – pure tactical team sport."
 
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Disciplines.svelte
 msgid "Inklusion in Aktion. Dieser Sport trennt nicht – er verbindet. Wheelchair Ultimate zeigt, wie kreativ, inklusiv und fair Sport sein kann."
 msgstr "Inclusion in action. This sport doesn't divide – it connects. Wheelchair Ultimate shows how creative, inclusive and fair sport can be."
 
-#: src/routes/[[locale=lang]]/+page.svelte
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Hero.svelte
+#: src/lib/components/home/Hero.svelte
 msgid "Frisbee player"
 msgstr "Frisbee player"
 
-#: src/routes/[[locale=lang]]/+page.svelte
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Hero.svelte
+#: src/lib/components/home/Venue.svelte
 msgid "1. - 2. August 2026"
 msgstr "August 1–2, 2026"
 
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Hero.svelte
 msgid "Willkommen zum"
 msgstr "Welcome to"
 
-#: src/routes/[[locale=lang]]/+layout.svelte
-#: src/routes/[[locale=lang]]/+layout.svelte
+#: src/lib/components/home/Hero.svelte
+#: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
+#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
 #: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/mitmachen/+page.svelte
+#: src/routes/[[locale=lang]]/programm/+page.svelte
+#: src/routes/[[locale=lang]]/sportarten/+page.svelte
 msgid "Frisbee Festival München"
 msgstr "Frisbee Festival München"
 
 #~ msgid "Erlebe erstklassigen Frisbeesport und feiere mit uns die Faszination der Flugscheibe in München."
 #~ msgstr "Experience top-class frisbee sport and celebrate the fascination of flying discs with us in Munich."
 
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Disciplines.svelte
 msgid "Die Welt der Scheibe"
 msgstr "The World of the Disc"
 
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Disciplines.svelte
 msgid "Disziplinen und Turniere"
 msgstr "Disciplines and Tournaments"
 
-#: src/routes/[[locale=lang]]/+page.svelte
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Sponsors.svelte
+#: src/lib/components/home/Sponsors.svelte
+#: src/lib/components/home/Venue.svelte
+#: src/lib/components/home/Venue.svelte
 msgid "Sportschule Oberhaching"
 msgstr "Sportschule Oberhaching"
 
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Venue.svelte
 msgid "Event Location"
 msgstr "Event Location"
 
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Venue.svelte
 msgid "SPORTSCHULE OBERHACHING"
 msgstr "SPORTSCHULE OBERHACHING"
 
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Venue.svelte
 msgid "9:00 – 19:00 Uhr"
 msgstr "9:00 – 19:00"
 
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Venue.svelte
 msgid "Sportschule Oberhaching, 82041 Oberhaching"
 msgstr "Sportschule Oberhaching, 82041 Oberhaching"
 
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Venue.svelte
 msgid "Mehrere Spielfelder, Zuschauerbereich, Verpflegung, Parkplatz"
 msgstr "Multiple playing fields, spectator area, catering, parking"
 
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Community.svelte
 msgid "Mach mit"
 msgstr "Join In"
 
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Community.svelte
 msgid "Sei Teil des Festivals"
 msgstr "Be Part of the Festival"
 
@@ -394,18 +395,18 @@ msgstr "Be Part of the Festival"
 msgid "Community"
 msgstr "Community"
 
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Community.svelte
 msgid "Programm <0/>"
 msgstr "Schedule <0/>"
 
 #~ msgid "Mitmachen <0/>"
 #~ msgstr "Participate <0/>"
 
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Sponsors.svelte
 msgid "Starke Partnerschaften"
 msgstr "Strong Partnerships"
 
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Sponsors.svelte
 msgid "Dank an unsere Sponsoren"
 msgstr "Thanks to Our Sponsors"
 
@@ -424,10 +425,8 @@ msgstr "Thanks to Our Sponsors"
 msgid "Frisbee Festival München Logo"
 msgstr "Frisbee Festival München Logo"
 
-#: src/routes/[[locale=lang]]/+layout.svelte
-#: src/routes/[[locale=lang]]/+layout.svelte
-msgid "Das Frisbee Festival München ist ein Event welches den Frisbeesport in allen Facetten feiert. Von Ultimate Frisbee über Disc Golf bis hin zu Freestyle und Rollstuhl-Frisbee."
-msgstr "The Frisbee Festival Munich is an event celebrating frisbee sport in all its facets. From Ultimate Frisbee to Disc Golf to Freestyle and Wheelchair Frisbee."
+#~ msgid "Das Frisbee Festival München ist ein Event welches den Frisbeesport in allen Facetten feiert. Von Ultimate Frisbee über Disc Golf bis hin zu Freestyle und Rollstuhl-Frisbee."
+#~ msgstr "The Frisbee Festival Munich is an event celebrating frisbee sport in all its facets. From Ultimate Frisbee to Disc Golf to Freestyle and Wheelchair Frisbee."
 
 #: src/lib/components/ScheduleTypeBadge.svelte
 #: src/lib/components/schedule/ScheduleTypeBadge.svelte
@@ -595,7 +594,6 @@ msgstr ""
 "of throwing and catching. A spectacular, versatile and captivating experience for audience\n"
 "and participants alike."
 
-#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/(disciplines)/freestyle/+page.svelte
 msgid "Kunst der Bewegung"
 msgstr "The Art of Movement"
@@ -615,7 +613,6 @@ msgstr ""
 "somersaults as the frisbee glides through the air. The synchronisation between team members\n"
 "must be perfect – like a pas de deux in ballet."
 
-#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/(disciplines)/freestyle/+page.svelte
 msgid "Teamwork und Kreativität"
 msgstr "Teamwork and Creativity"
@@ -707,7 +704,6 @@ msgstr ""
 msgid "Präzision und Konzentration"
 msgstr "Precision and Concentration"
 
-#: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/(disciplines)/disc-golf/+page.svelte
 msgid ""
 "Discgolf verbindet die Präzision des Golfsports mit der Dynamik der Frisbee. Statt Ball und\n"
@@ -723,7 +719,6 @@ msgstr ""
 "golf course normally has 18 holes. Each hole has a designated tee area. After the first throw,\n"
 "you play on from where the disc landed, until the disc comes to rest in the basket."
 
-#: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/(disciplines)/disc-golf/+page.svelte
 msgid "Was für ein Discgolf-Turnier findet beim Frisbee Festival statt?"
 msgstr "What kind of disc golf tournament is taking place at the Frisbee Festival?"
@@ -745,7 +740,6 @@ msgstr "What kind of disc golf tournament is taking place at the Frisbee Festiva
 #~ "across eight age divisions over three rounds of 18 holes. The player with the fewest throws\n"
 #~ "over the three days wins."
 
-#: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/(disciplines)/disc-golf/+page.svelte
 msgid "Wo kann ich Discgolf selbst ausprobieren?"
 msgstr "Where can I try disc golf myself?"
@@ -1189,7 +1183,6 @@ msgid ""
 "der Scheiben zu verhindern."
 msgstr ""
 
-#: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/(disciplines)/disc-golf/+page.svelte
 msgid ""
 "Im Rahmen des Frisbee Festivals organisiert der Disc Golf München e.V. zum dritten Mal ein\n"
@@ -1243,18 +1236,18 @@ msgstr ""
 #~ msgid "todo: erklärung"
 #~ msgstr ""
 
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Disciplines.svelte
 msgid "Freestyle Frisbee Weltmeisterschaften"
 msgstr ""
 
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Disciplines.svelte
 msgid "Double Disc Court Deutsche Meisterschaften"
 msgstr ""
 
 #~ msgid "Dis"
 #~ msgstr ""
 
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Disciplines.svelte
 msgid "Disc Golf Munich Open"
 msgstr ""
 
@@ -1270,11 +1263,11 @@ msgstr ""
 #~ msgid "Rollstuhl Ultimate Show Matches"
 #~ msgstr ""
 
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Disciplines.svelte
 msgid "Rollstuhl Ultimate Showmatch"
 msgstr ""
 
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Disciplines.svelte
 msgid "Ultimate Bavarian Open"
 msgstr ""
 
@@ -1293,7 +1286,7 @@ msgstr ""
 #~ msgid ". Erlebe fünf packende Frisbee-Sportarten live, werde in Workshops selbst aktiv und genieße die entspannte Festival-Atmosphäre. Das Sommer-Highlight für Fans, Freunde und Familien."
 #~ msgstr ""
 
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Disciplines.svelte
 msgid "Spitzensport trifft Community-Spirit"
 msgstr ""
 
@@ -1303,13 +1296,13 @@ msgstr ""
 #~ msgid "Erlebe den Frisbeesport hautnah, von Freestyle-Weltmeisterschaften bis zu spannenden Showmatches. Entdecke unseren Zeitplan und verpasse keines der Highlights auf dem Festival."
 #~ msgstr ""
 
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Disciplines.svelte
 msgid ""
 "Erlebe fünf packende Frisbee-Sportarten live, werde in Workshops selbst aktiv und genieße die\n"
 "entspannte Festival-Atmosphäre. Das Sommer-Highlight für Fans, Freunde und Familien."
 msgstr ""
 
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Community.svelte
 msgid ""
 "Erlebe den Frisbeesport hautnah, von Freestyle-Weltmeisterschaften bis zu spannenden\n"
 "Showmatches. Entdecke unseren Zeitplan und verpasse keines der Highlights auf dem\n"
@@ -1322,7 +1315,7 @@ msgstr ""
 #~ msgid "Lust selbst aktiv zu werden? Egal ob Anfänger oder Profi – bei unseren Workshops, Mitmach-Stationen und Side-Events kannst du die Scheibe selbst fliegen lassen und Teil unserer Community werden."
 #~ msgstr ""
 
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Community.svelte
 msgid ""
 "Lust selbst aktiv zu werden? Egal ob Anfänger oder Profi – bei unseren Workshops,\n"
 "Mitmach-Stationen und Side-Events kannst du die Scheibe selbst fliegen lassen und Teil\n"
@@ -1332,24 +1325,23 @@ msgstr ""
 #~ msgid "Wio <0/>"
 #~ msgstr ""
 
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Community.svelte
 msgid "Workshops <0/>"
 msgstr ""
 
-#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
-msgid ""
-"An diesem Wochenende findet die Weltmeisterschaft im Freestyle Frisbee auf dem Festivalgelände\n"
-"statt!"
-msgstr ""
+#~ msgid ""
+#~ "An diesem Wochenende findet die Weltmeisterschaft im Freestyle Frisbee auf dem Festivalgelände\n"
+#~ "statt!"
+#~ msgstr ""
 
 #~ msgid "Engagierte Vereine"
 #~ msgstr ""
 
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Sponsors.svelte
 msgid "Die Organisatoren"
 msgstr ""
 
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Sponsors.svelte
 msgid "Das Team hinter dem Event"
 msgstr ""
 
@@ -1359,13 +1351,13 @@ msgstr ""
 #~ msgid "Gemeinsam bringen wir die Scheibe zum Fliegen! Ein großes Dankeschön an unsere Partner, die das Frisbee Festival München und die internationale Community unterstützen."
 #~ msgstr ""
 
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Sponsors.svelte
 msgid ""
 "Gemeinsam bringen wir die Scheibe zum Fliegen! Ein großes Dankeschön an unsere Partner, die\n"
 "das Frisbee Festival München und die internationale Community unterstützen."
 msgstr ""
 
-#: src/routes/[[locale=lang]]/+page.svelte
+#: src/lib/components/home/Sponsors.svelte
 msgid ""
 "Internationale Verbände und lokale Partner vereinen ihre Kräfte, um die Sportschule\n"
 "Oberhaching zum Zentrum der Frisbee-Welt zu machen."
@@ -1430,11 +1422,10 @@ msgstr ""
 #~ msgid "Diese Weltmeisterschaften leben vom Spirit unserer Community – wir danken unseren Patrons herzlich für ihre wertvolle Unterstützung, die diesen Sport erst zum Fliegen bringt."
 #~ msgstr ""
 
-#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
-msgid ""
-"Diese Weltmeisterschaften leben vom Spirit unserer Community – wir danken unseren Patrons herzlich\n"
-"für ihre wertvolle Unterstützung, die diesen Sport erst zum Fliegen bringt."
-msgstr ""
+#~ msgid ""
+#~ "Diese Weltmeisterschaften leben vom Spirit unserer Community – wir danken unseren Patrons herzlich\n"
+#~ "für ihre wertvolle Unterstützung, die diesen Sport erst zum Fliegen bringt."
+#~ msgstr ""
 
 #: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
 msgid "Paul Kenny"
@@ -1454,12 +1445,11 @@ msgstr ""
 msgid "Waldemar “Wowa” Wagner"
 msgstr ""
 
-#: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
-msgid ""
-"Hier in der Sportschule! Entweder gleich heute an dem Stand von Disc Golf München e.V., oder\n"
-"das ganze Jahr über auf dem für die Öffentlichkeit zugänglichen Kurs. An der Rezeption\n"
-"bekommst du eine Tageskarte (6€) und Leihscheiben."
-msgstr ""
+#~ msgid ""
+#~ "Hier in der Sportschule! Entweder gleich heute an dem Stand von Disc Golf München e.V., oder\n"
+#~ "das ganze Jahr über auf dem für die Öffentlichkeit zugänglichen Kurs. An der Rezeption\n"
+#~ "bekommst du eine Tageskarte (6€) und Leihscheiben."
+#~ msgstr ""
 
 #~ msgid "freestyle patrons"
 #~ msgstr ""
@@ -1471,27 +1461,218 @@ msgstr ""
 msgid "Freestyle Patrons"
 msgstr ""
 
+#. placeholder {0}: discipline.image
+#. placeholder {0}: flbyLogo
 #. placeholder {0}: fpaLogo
+#. placeholder {0}: wfdfLogo
 #. placeholder {0}: fpaLogo
-#. placeholder {0}: heroPerson
+#. placeholder {0}: dfvLogo
+#. placeholder {0}: flbyLogo
+#. placeholder {0}: alpressoLogo
+#. placeholder {0}: dgMucLogo
 #. placeholder {0}: fpaLogo
-#. placeholder {0}: fpaLogo
-#. placeholder {0}: heroPerson
+#. placeholder {0}: flbyLogo
 #. placeholder {0}: festivalImage
-#. placeholder {0}: fpaLogo
+#. placeholder {0}: djkLogo
+#. placeholder {0}: wfdfLogo
+#. placeholder {0}: image
+#. placeholder {0}: dfvLogo
 #. placeholder {0}: flbyLogo
-#. placeholder {0}: fpaLogo
-#. placeholder {0}: flbyLogo
-#: src/routes/[[locale=lang]]/+page.svelte
-#: src/routes/[[locale=lang]]/+page.svelte
-#: src/routes/[[locale=lang]]/+page.svelte
-#: src/routes/[[locale=lang]]/+page.svelte
-#: src/routes/[[locale=lang]]/+page.svelte
-#: src/routes/[[locale=lang]]/+page.svelte
-#: src/routes/[[locale=lang]]/+page.svelte
-#: src/routes/[[locale=lang]]/+page.svelte
-#: src/routes/[[locale=lang]]/+page.svelte
-#: src/routes/[[locale=lang]]/+page.svelte
-#: src/routes/[[locale=lang]]/+page.svelte
+#. placeholder {0}: alpressoLogo
+#. placeholder {0}: dgMucLogo
+#. placeholder {0}: soLogo
+#. placeholder {0}: djkLogo
+#. placeholder {0}: hieberLogo
+#. placeholder {0}: sfbLogo
+#. placeholder {0}: xdiscLogo
+#: src/lib/components/home/Disciplines.svelte
+#: src/lib/components/home/Hero.svelte
+#: src/lib/components/home/Sponsors.svelte
+#: src/lib/components/home/Sponsors.svelte
+#: src/lib/components/home/Sponsors.svelte
+#: src/lib/components/home/Sponsors.svelte
+#: src/lib/components/home/Sponsors.svelte
+#: src/lib/components/home/Sponsors.svelte
+#: src/lib/components/home/Sponsors.svelte
+#: src/lib/components/home/Sponsors.svelte
+#: src/lib/components/home/Sponsors.svelte
+#: src/lib/components/home/Sponsors.svelte
+#: src/lib/components/home/Sponsors.svelte
+#: src/lib/components/home/Venue.svelte
+#: src/routes/[[locale=lang]]/sportarten/+page.svelte
 msgid "{0} was not enhanced. Cannot determine dimensions."
+msgstr ""
+
+#~ msgid "Disc Golf verbindet die zeitlose Präzision des Golfsports mit der dynamischen Flugphysik der Frisbee. Statt Ball und Schläger kommen spezialisierte Wurfscheiben zum Einsatz, die mit möglichst wenigen Würfen in ein Ziel – einen Fangkorb aus Metall – befördert werden müssen. Ein Sport für jedes Alter, der Technik, Kraft und Konzentration in der Natur vereint."
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
+msgid ""
+"Disc Golf verbindet die zeitlose Präzision des Golfsports mit der dynamischen Flugphysik der\n"
+"Frisbee. Statt Ball und Schläger kommen spezialisierte Wurfscheiben zum Einsatz, die mit\n"
+"möglichst wenigen Würfen in ein Ziel – einen Fangkorb aus Metall – befördert werden müssen.\n"
+"Ein Sport für jedes Alter, der Technik, Kraft und Konzentration in der Natur vereint."
+msgstr ""
+
+#: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
+msgid "Wie funktioniert Disc Golf?"
+msgstr ""
+
+#~ msgid "Das Prinzip ist einfach, die Umsetzung eine faszinierende Herausforderung: Ein Kurs besteht in der Regel aus 18 Bahnen. Jede Bahn beginnt an einem festgelegten Abwurfpunkt. Von dort aus spielst du immer genau von der Stelle weiter, an der deine Disc liegen geblieben ist, bis die Scheibe im Fangkorb zur Ruhe kommt. Dabei gilt es, Bäume zu umspielen, Windverhältnisse zu lesen und für jede Distanz die richtige Scheibe zu wählen – vom schnellen „Driver“ für den weiten Abwurf bis zum präzisen „Putter“ für den finalen Wurf in die Ketten."
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
+msgid "Das Munich Open “Campustreffen” in München"
+msgstr ""
+
+#~ msgid "Das Frisbee Festival bringt mit dem „Campustreffen“ die nationale Elite nach München. Als Teil der „German Disc Golf Tour South“ kämpfen hier Deutschlands beste Spieler:innen in acht Divisionen über drei Runden auf 18 Bahnen um den Sieg. Wer die wenigsten Würfe benötigt, gewinnt – die perfekte Chance, erstklassigen Sport und Profi-Techniken hautnah zu erleben!"
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
+msgid ""
+"Das Prinzip ist einfach, die Umsetzung eine faszinierende Herausforderung: Ein Kurs besteht in\n"
+"der Regel aus 18 Bahnen. Jede Bahn beginnt an einem festgelegten Abwurfpunkt. Von dort aus\n"
+"spielst du immer genau von der Stelle weiter, an der deine Disc liegen geblieben ist, bis die\n"
+"Scheibe im Fangkorb zur Ruhe kommt. Dabei gilt es, Bäume zu umspielen, Windverhältnisse zu\n"
+"lesen und für jede Distanz die richtige Scheibe zu wählen – vom schnellen „Driver“ für den\n"
+"weiten Abwurf bis zum präzisen „Putter“ für den finalen Wurf in die Ketten."
+msgstr ""
+
+#: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
+msgid ""
+"Das Frisbee Festival bringt mit dem „Campustreffen“ die nationale Elite nach München. Als Teil\n"
+"der „German Disc Golf Tour South“ kämpfen hier Deutschlands beste Spieler:innen in acht\n"
+"Divisionen über drei Runden auf 18 Bahnen um den Sieg. Wer die wenigsten Würfe benötigt,\n"
+"gewinnt – die perfekte Chance, erstklassigen Sport und Profi-Techniken hautnah zu erleben!"
+msgstr ""
+
+#: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
+msgid "Probier es selbst aus!"
+msgstr ""
+
+#~ msgid "Die Sportschule Oberhaching verfügt auch abseits des Frisbee Festivals über einen öffentlich zugänglichen Kurs. An der Rezeption erhältst du für 6 € eine Tageskarte sowie Leihscheiben. Pack deine Freunde ein und starte deine eigene Runde!"
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
+msgid ""
+"Die Sportschule Oberhaching verfügt auch abseits des Frisbee Festivals über einen öffentlich\n"
+"zugänglichen Kurs. An der Rezeption erhältst du für 6 € eine Tageskarte sowie Leihscheiben.\n"
+"Pack deine Freunde ein und starte deine eigene Runde!"
+msgstr ""
+
+#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
+msgid ""
+"Diese Weltmeisterschaften leben vom Spirit unserer Community – wir danken unseren Patrons\n"
+"herzlich für ihre wertvolle Unterstützung, die diesen Sport erst zum Fliegen bringt."
+msgstr ""
+
+#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
+msgid "Kunst in Bewegung"
+msgstr ""
+
+#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
+msgid "Kreativität & Teamwork"
+msgstr ""
+
+#~ msgid "Im Freestyle gibt es keine Grenzen. Teams verschmelzen zu einer Einheit, in der jeder Trick auf dem nächsten aufbaut – so präzise wie ein modernes Ballett. Diese Freiheit macht Freestyle zur individuellsten und kreativsten Disziplin des Frisbeesports."
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
+msgid "Die Weltmeisterschaften in München"
+msgstr ""
+
+#~ msgid "Wenn die globale Elite bei der Weltmeisterschaft in München zusammenkommt, verwandelt sich das Spielfeld in eine Bühne für sportliche Höchstleistungen. In choreografierten Routinen treten die Athlet:innen zur Musik an, wobei eine Fachjury die Darbietungen nach strengen Kriterien bewertet. Dabei fließen die technische Schwierigkeit der Manöver, die Sicherheit in der Ausführung sowie die künstlerische Präsentation und Musikalität in die Wertung ein. Diese Weltmeisterschaften sind jedoch weit mehr als ein reiner Wettkampf: Sie sind das pulsierende Zentrum einer leidenschaftlichen Community, in der Innovationen gefeiert werden und der „Spirit of the Game“ – der Respekt und die Freude am gemeinsamen Spiel – stets an erster Stelle steht."
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
+msgid ""
+"Wenn die globale Elite bei der Weltmeisterschaft in München zusammenkommt, verwandelt sich das\n"
+"Spielfeld in eine Bühne für sportliche Höchstleistungen. In choreografierten Routinen treten\n"
+"die Athlet:innen zur Musik an, wobei eine Fachjury die Darbietungen nach strengen Kriterien\n"
+"bewertet. Dabei fließen die technische Schwierigkeit der Manöver, die Sicherheit in der\n"
+"Ausführung sowie die künstlerische Präsentation und Musikalität in die Wertung ein. Diese\n"
+"Weltmeisterschaften sind jedoch weit mehr als ein reiner Wettkampf: Sie sind das pulsierende\n"
+"Zentrum einer leidenschaftlichen Community, in der Innovationen gefeiert werden und der\n"
+"„Spirit of the Game“ – der Respekt und die Freude am gemeinsamen Spiel – stets an erster\n"
+"Stelle steht."
+msgstr ""
+
+#: src/lib/components/home/Sponsors.svelte
+#: src/lib/components/home/Sponsors.svelte
+msgid "Alpresso"
+msgstr ""
+
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "Frisbee Festival München 2026 | 1. & 2. August"
+msgstr ""
+
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "Erlebe fünf Frisbee-Disziplinen live in München: Freestyle-WM, Disc Golf, Double Disc Court, Ultimate & Rollstuhl Ultimate. 1.–2. August 2026 in Oberhaching."
+msgstr ""
+
+#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
+#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
+msgid "Freestyle Frisbee WM | Frisbee Festival München"
+msgstr ""
+
+#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
+#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
+msgid "Die Freestyle Frisbee Weltmeisterschaft in München: Akrobatik, Tricks und Teamwork auf höchstem Niveau. 1.–2. August 2026 in der Sportschule Oberhaching."
+msgstr ""
+
+#: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
+#: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
+msgid "Disc Golf Munich Open | Frisbee Festival München"
+msgstr ""
+
+#: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
+#: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
+msgid "Disc Golf München Open: Deutschlands beste Spieler:innen bei der German Disc Golf Tour South in Oberhaching. 8 Divisionen, 3 Runden, 18 Bahnen. 1.–2. August 2026."
+msgstr ""
+
+#: src/routes/[[locale=lang]]/mitmachen/+page.svelte
+#: src/routes/[[locale=lang]]/mitmachen/+page.svelte
+msgid "Workshops & Mitmachen | Frisbee Festival München"
+msgstr ""
+
+#: src/routes/[[locale=lang]]/mitmachen/+page.svelte
+#: src/routes/[[locale=lang]]/mitmachen/+page.svelte
+msgid "Frisbee selbst ausprobieren beim Frisbee Festival München: Workshops in Freestyle, Disc Golf, DDC, Ultimate und Rollstuhl Ultimate. Für alle – kostenlos, 1.–2. August 2026."
+msgstr ""
+
+#: src/routes/[[locale=lang]]/programm/+page.svelte
+#: src/routes/[[locale=lang]]/programm/+page.svelte
+msgid "Programm | Frisbee Festival München"
+msgstr ""
+
+#: src/routes/[[locale=lang]]/programm/+page.svelte
+#: src/routes/[[locale=lang]]/programm/+page.svelte
+msgid "Das vollständige Programm des Frisbee Festivals München: alle Events, Wettkämpfe und Workshops am 1.–2. August 2026 in der Sportschule Oberhaching – filterbar nach Sportart."
+msgstr ""
+
+#: src/lib/components/home/Sponsors.svelte
+#: src/lib/components/home/Sponsors.svelte
+msgid "Disc Golf München"
+msgstr ""
+
+#: src/lib/components/home/Sponsors.svelte
+#: src/lib/components/home/Sponsors.svelte
+msgid "Hieber"
+msgstr ""
+
+#: src/lib/components/home/Sponsors.svelte
+#: src/lib/components/home/Sponsors.svelte
+msgid "XDisc"
+msgstr ""
+
+#: src/routes/[[locale=lang]]/sportarten/+page.svelte
+#: src/routes/[[locale=lang]]/sportarten/+page.svelte
+msgid "Die Sportarten | Frisbee Festival München"
+msgstr ""
+
+#: src/routes/[[locale=lang]]/sportarten/+page.svelte
+#: src/routes/[[locale=lang]]/sportarten/+page.svelte
+msgid "Fünf Frisbee-Disziplinen auf einen Blick: Freestyle, Disc Golf, Double Disc Court, Ultimate und Rollstuhl Ultimate – live beim Frisbee Festival München am 1.–2. August 2026."
 msgstr ""

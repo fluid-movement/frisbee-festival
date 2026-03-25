@@ -2,6 +2,8 @@
 	import { getAllSchedules } from '$lib/data/schedules';
 	import { DAY_NAMES, type DisciplineId } from '$lib/data/types';
 	import { getLocaleForUrl } from '$lib/locale';
+	import { PUBLIC_ORIGIN } from '$env/static/public';
+	import { page } from '$app/state';
 	import DisciplineBadge from '$lib/components/disciplines/DisciplineBadge.svelte';
 	import MapPin from '@lucide/svelte/icons/map-pin';
 	import Clock from '@lucide/svelte/icons/clock';
@@ -45,6 +47,19 @@
 		return result;
 	});
 </script>
+
+<svelte:head>
+	<title>Workshops & Mitmachen | Frisbee Festival München</title>
+	<meta name="description" content="Frisbee selbst ausprobieren beim Frisbee Festival München: Workshops in Freestyle, Disc Golf, DDC, Ultimate und Rollstuhl Ultimate. Für alle – kostenlos, 1.–2. August 2026." />
+	<link rel="canonical" href="{PUBLIC_ORIGIN}{page.url.pathname}" />
+	<meta property="og:title" content="Workshops & Mitmachen | Frisbee Festival München" />
+	<meta property="og:description" content="Frisbee selbst ausprobieren beim Frisbee Festival München: Workshops in Freestyle, Disc Golf, DDC, Ultimate und Rollstuhl Ultimate. Für alle – kostenlos, 1.–2. August 2026." />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="{PUBLIC_ORIGIN}{page.url.pathname}" />
+	<meta property="og:site_name" content="Frisbee Festival München" />
+	<meta property="og:locale" content={locale === 'en' ? 'en_US' : 'de_DE'} />
+	<meta name="twitter:card" content="summary_large_image" />
+</svelte:head>
 
 {#snippet workshopCard(w: WorkshopEntry)}
 	<div id={w.id} class="flex flex-col overflow-hidden rounded-xl border border-secondary">

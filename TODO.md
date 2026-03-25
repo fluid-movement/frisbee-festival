@@ -1,1 +1,1 @@
-- check if schedule translation is working
+- create svelte:head tag on all pages and add data

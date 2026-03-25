@@ -1,7 +1,21 @@
 <script lang="ts">
 	import Link from '$lib/components/shared/Link.svelte';
 	import * as Accordion from '$lib/components/ui/accordion/index.js';
+	import { PUBLIC_ORIGIN } from '$env/static/public';
+	import { page } from '$app/state';
 </script>
+
+<svelte:head>
+	<title>FAQ | Frisbee Festival München</title>
+	<meta name="description" content="Häufige Fragen zum Frisbee Festival München: Anreise, Eintritt, Programm, Workshops und mehr. Alles, was du für deinen Besuch am 1.–2. August 2026 wissen musst." />
+	<link rel="canonical" href="{PUBLIC_ORIGIN}{page.url.pathname}" />
+	<meta property="og:title" content="FAQ | Frisbee Festival München" />
+	<meta property="og:description" content="Häufige Fragen zum Frisbee Festival München: Anreise, Eintritt, Programm, Workshops und mehr. Alles, was du für deinen Besuch am 1.–2. August 2026 wissen musst." />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="{PUBLIC_ORIGIN}{page.url.pathname}" />
+	<meta property="og:site_name" content="Frisbee Festival München" />
+	<meta name="twitter:card" content="summary_large_image" />
+</svelte:head>
 
 <h1 class="container-custom text-center">Häufige Fragen</h1>
 

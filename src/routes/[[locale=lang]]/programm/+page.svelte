@@ -13,6 +13,8 @@
 	import Button from '$lib/components/ui/button/button.svelte';
 	import { ChevronRight, X } from '@lucide/svelte/icons';
 	import { getLocaleForUrl } from '$lib/locale';
+	import { PUBLIC_ORIGIN } from '$env/static/public';
+	import { page } from '$app/state';
 
 	const locale = $derived(getLocaleForUrl());
 
@@ -79,6 +81,19 @@
 		Object.values(mergedSchedule).reduce((n, events) => n + events.length, 0)
 	);
 </script>
+
+<svelte:head>
+	<title>Programm | Frisbee Festival München</title>
+	<meta name="description" content="Das vollständige Programm des Frisbee Festivals München: alle Events, Wettkämpfe und Workshops am 1.–2. August 2026 in der Sportschule Oberhaching – filterbar nach Sportart." />
+	<link rel="canonical" href="{PUBLIC_ORIGIN}{page.url.pathname}" />
+	<meta property="og:title" content="Programm | Frisbee Festival München" />
+	<meta property="og:description" content="Das vollständige Programm des Frisbee Festivals München: alle Events, Wettkämpfe und Workshops am 1.–2. August 2026 in der Sportschule Oberhaching – filterbar nach Sportart." />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="{PUBLIC_ORIGIN}{page.url.pathname}" />
+	<meta property="og:site_name" content="Frisbee Festival München" />
+	<meta property="og:locale" content={locale === 'en' ? 'en_US' : 'de_DE'} />
+	<meta name="twitter:card" content="summary_large_image" />
+</svelte:head>
 
 <h1 class="container-custom mb-12 text-center">Programm</h1>
 <p class="container-custom">

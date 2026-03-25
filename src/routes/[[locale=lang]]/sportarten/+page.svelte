@@ -4,12 +4,29 @@
 	import Grid from '$lib/components/layout/Grid.svelte';
 	import { getLocaleForUrl } from '$lib/locale';
 	import type { Picture } from 'vite-imagetools';
+	import { PUBLIC_ORIGIN } from '$env/static/public';
+	import { page } from '$app/state';
+	import ogImage from '$lib/assets/freestyle/edo-gitis.png';
 	import freestyleImage from '$lib/assets/freestyle/edo-gitis.png?enhanced';
 	import discGolfImage from '$lib/assets/disc-golf/putt.jpg?enhanced';
 	import ddcImage from '$lib/assets/ddc/ddc-gallery-3.jpg?enhanced';
 	import ultimateImage from '$lib/assets/ultimate/ultimate-jump.jpg?enhanced';
 	import wheelchairUltimateImage from '$lib/assets/wheelchair-ultimate/rollstuhl-frisbee-handshake.jpg?enhanced';
 </script>
+
+<svelte:head>
+	<title>Die Sportarten | Frisbee Festival München</title>
+	<meta name="description" content="Fünf Frisbee-Disziplinen auf einen Blick: Freestyle, Disc Golf, Double Disc Court, Ultimate und Rollstuhl Ultimate – live beim Frisbee Festival München am 1.–2. August 2026." />
+	<link rel="canonical" href="{PUBLIC_ORIGIN}{page.url.pathname}" />
+	<meta property="og:title" content="Die Sportarten | Frisbee Festival München" />
+	<meta property="og:description" content="Fünf Frisbee-Disziplinen auf einen Blick: Freestyle, Disc Golf, Double Disc Court, Ultimate und Rollstuhl Ultimate – live beim Frisbee Festival München am 1.–2. August 2026." />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="{PUBLIC_ORIGIN}{page.url.pathname}" />
+	<meta property="og:site_name" content="Frisbee Festival München" />
+	<meta property="og:image" content="{PUBLIC_ORIGIN}{ogImage}" />
+	<meta property="og:locale" content={getLocaleForUrl() === 'en' ? 'en_US' : 'de_DE'} />
+	<meta name="twitter:card" content="summary_large_image" />
+</svelte:head>
 
 {#snippet card(title: string, href: Extract<RouteId, `/[[locale=lang]]${string}`>, image: Picture | string)}
 	<a href={resolve(href, { locale: getLocaleForUrl() })} class="group">
