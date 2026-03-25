@@ -3,17 +3,18 @@
 	import { type RouteId } from '$app/types';
 	import Grid from '$lib/components/layout/Grid.svelte';
 	import { getLocaleForUrl } from '$lib/locale';
-	import freestyleImage from '$lib/assets/freestyle/edo-gitis.png';
-	import discGolfImage from '$lib/assets/disc-golf/putt.jpg';
-	import ddcImage from '$lib/assets/ddc/ddc-gallery-3.jpg';
-	import ultimateImage from '$lib/assets/ultimate/ultimate-jump.jpg';
-	import wheelchairUltimateImage from '$lib/assets/wheelchair-ultimate/rollstuhl-frisbee-handshake.jpg';
+	import type { Picture } from 'vite-imagetools';
+	import freestyleImage from '$lib/assets/freestyle/edo-gitis.png?enhanced';
+	import discGolfImage from '$lib/assets/disc-golf/putt.jpg?enhanced';
+	import ddcImage from '$lib/assets/ddc/ddc-gallery-3.jpg?enhanced';
+	import ultimateImage from '$lib/assets/ultimate/ultimate-jump.jpg?enhanced';
+	import wheelchairUltimateImage from '$lib/assets/wheelchair-ultimate/rollstuhl-frisbee-handshake.jpg?enhanced';
 </script>
 
-{#snippet card(title: string, href: Extract<RouteId, `/[[locale=lang]]${string}`>, image: string)}
+{#snippet card(title: string, href: Extract<RouteId, `/[[locale=lang]]${string}`>, image: Picture | string)}
 	<a href={resolve(href, { locale: getLocaleForUrl() })} class="group">
 		<div class="relative aspect-square overflow-hidden rounded-xl">
-			<img
+			<enhanced:img
 				src={image}
 				alt={title}
 				class="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-102"

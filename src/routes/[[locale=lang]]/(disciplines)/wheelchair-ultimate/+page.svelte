@@ -1,9 +1,6 @@
 <script lang="ts">
 	import Grid from '$lib/components/layout/Grid.svelte';
-	import mainImage from '$lib/assets/wheelchair-ultimate/rollstuhl-frisbee.jpg';
-	import handshakeImage from '$lib/assets/wheelchair-ultimate/rollstuhl-frisbee-handshake.jpg';
 	import Badge from '$lib/components/ui/badge/badge.svelte';
-	import Image from '$lib/components/shared/Image.svelte';
 	import Schedule from '$lib/components/schedule/Schedule.svelte';
 	import { getSchedule } from '$lib/data/schedules';
 	import { getLocaleForUrl } from '$lib/locale';
@@ -42,8 +39,8 @@
 				beeindruckt.
 			</p>
 		</div>
-		<Image src={mainImage} alt="Rollstuhl Frisbee" />
-		<Image src={handshakeImage} alt="Rollstuhl Frisbee" />
+		<enhanced:img src="$lib/assets/wheelchair-ultimate/rollstuhl-frisbee.jpg" alt="Rollstuhl Frisbee" class="h-full w-full rounded-xl object-cover" />
+		<enhanced:img src="$lib/assets/wheelchair-ultimate/rollstuhl-frisbee-handshake.jpg" alt="Rollstuhl Frisbee" class="h-full w-full rounded-xl object-cover" />
 		<p>
 			Es ist mehr als nur ein Spiel – es ist ein Erlebnis, das Menschen zusammenbringt. In dem
 			Moment, in dem man über das Spielfeld rollt, die Scheibe fängt und mit seinen Mitspielern

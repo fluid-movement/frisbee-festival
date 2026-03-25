@@ -315,6 +315,7 @@ msgid "Inklusion in Aktion. Dieser Sport trennt nicht – er verbindet. Wheelcha
 msgstr "Inclusion in action. This sport doesn't divide – it connects. Wheelchair Ultimate shows how creative, inclusive and fair sport can be."
 
 #: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
 msgid "Frisbee player"
 msgstr "Frisbee player"
 
@@ -344,6 +345,7 @@ msgstr "The World of the Disc"
 msgid "Disziplinen und Turniere"
 msgstr "Disciplines and Tournaments"
 
+#: src/routes/[[locale=lang]]/+page.svelte
 #: src/routes/[[locale=lang]]/+page.svelte
 msgid "Sportschule Oberhaching"
 msgstr "Sportschule Oberhaching"
@@ -388,8 +390,9 @@ msgstr "Be Part of the Festival"
 #~ "share knowledge and celebrate successes together. Our sport is more\n"
 #~ "than just a game – it's a family."
 
-#~ msgid "Community"
-#~ msgstr "Community"
+#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
+msgid "Community"
+msgstr "Community"
 
 #: src/routes/[[locale=lang]]/+page.svelte
 msgid "Programm <0/>"
@@ -633,7 +636,6 @@ msgstr ""
 "the most individual sports of all."
 
 #: src/routes/[[locale=lang]]/(disciplines)/double-disc-court/+page.svelte
-#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/(disciplines)/double-disc-court/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/(disciplines)/freestyle/+page.svelte
 msgid "Comunity"
@@ -1467,4 +1469,29 @@ msgstr ""
 
 #: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
 msgid "Freestyle Patrons"
+msgstr ""
+
+#. placeholder {0}: fpaLogo
+#. placeholder {0}: fpaLogo
+#. placeholder {0}: heroPerson
+#. placeholder {0}: fpaLogo
+#. placeholder {0}: fpaLogo
+#. placeholder {0}: heroPerson
+#. placeholder {0}: festivalImage
+#. placeholder {0}: fpaLogo
+#. placeholder {0}: flbyLogo
+#. placeholder {0}: fpaLogo
+#. placeholder {0}: flbyLogo
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "{0} was not enhanced. Cannot determine dimensions."
 msgstr ""

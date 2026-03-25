@@ -1,5 +1,5 @@
 import type { DisciplineSchedule } from '../types';
-import discGolfPuttImage from '$lib/assets/disc-golf/putt.jpg';
+import discGolfPuttImage from '$lib/assets/disc-golf/putt.webp';
 
 /**
  * Disc Golf discipline schedule

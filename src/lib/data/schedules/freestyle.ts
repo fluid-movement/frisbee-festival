@@ -1,5 +1,5 @@
 import type { DisciplineSchedule } from '../types';
-import freestyleWorkshopImage from '$lib/assets/freestyle/coop.jpg';
+import freestyleWorkshopImage from '$lib/assets/freestyle/coop.webp';
 
 /**
  * Freestyle discipline schedule

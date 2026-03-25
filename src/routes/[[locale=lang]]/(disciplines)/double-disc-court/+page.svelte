@@ -1,11 +1,6 @@
 <script lang="ts">
 	import Grid from '$lib/components/layout/Grid.svelte';
-	import ddcImage from '$lib/assets/ddc/ddc.jpg';
-	import galleryImage from '$lib/assets/ddc/ddc-action.jpg';
-	import galleryImage2 from '$lib/assets/ddc/ddc2.jpeg';
-	import galleryImage3 from '$lib/assets/ddc/ddc-gallery-3.jpg';
 	import Badge from '$lib/components/ui/badge/badge.svelte';
-	import Image from '$lib/components/shared/Image.svelte';
 	import Schedule from '$lib/components/schedule/Schedule.svelte';
 	import { getSchedule } from '$lib/data/schedules';
 	import { getLocaleForUrl } from '$lib/locale';
@@ -54,13 +49,13 @@
 			Nischensportart hat DDC eine sehr familiäre Community, die langsam aber stetig wächst.
 		</p>
 	</article>
-	<Image class="object-cover" src={ddcImage} alt="Comunity" />
+	<enhanced:img src="$lib/assets/ddc/ddc.jpg" alt="Community" class="h-full w-full rounded-xl object-cover" />
 </Grid>
 
 <Schedule schedule={scheduleData.schedule} />
 
 <div class="container-custom grid gap-4 md:grid-cols-3">
-	<Image src={galleryImage3} alt="Double Disc Court" />
-	<Image src={galleryImage} alt="Double Disc Court" />
-	<Image src={galleryImage2} alt="Double Disc Court" />
+	<enhanced:img src="$lib/assets/ddc/ddc-gallery-3.jpg" alt="Double Disc Court" class="h-full w-full rounded-xl object-cover" />
+	<enhanced:img src="$lib/assets/ddc/ddc-action.jpg" alt="Double Disc Court" class="h-full w-full rounded-xl object-cover" />
+	<enhanced:img src="$lib/assets/ddc/ddc2.jpeg" alt="Double Disc Court" class="h-full w-full rounded-xl object-cover" />
 </div>

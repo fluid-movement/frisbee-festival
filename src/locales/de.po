@@ -23,6 +23,7 @@ msgstr "Frisbee Festival München"
 #~ msgstr "Willkommen zum Frisbee-Festival"
 
 #: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
 msgid "Sportschule Oberhaching"
 msgstr "Sportschule Oberhaching"
 
@@ -308,8 +309,9 @@ msgstr "Mach mit"
 msgid "Sei Teil des Festivals"
 msgstr "Sei Teil des Festivals"
 
-#~ msgid "Community"
-#~ msgstr "Community"
+#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
+msgid "Community"
+msgstr "Community"
 
 #~ msgid ""
 #~ "In hac habitasse platea dictumst. Donec sodales, lectus vitae cursus sollicitudin, arcu\n"
@@ -355,7 +357,6 @@ msgstr ""
 #~ msgstr "Woman Pairs"
 
 #: src/routes/[[locale=lang]]/(disciplines)/double-disc-court/+page.svelte
-#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/(disciplines)/double-disc-court/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/(disciplines)/freestyle/+page.svelte
 #: src/routes/[[locale=lang]]/disciplines/double-disc-court/+page.svelte
@@ -742,6 +743,7 @@ msgstr "© 2026 Frisbee Festival München. Alle Rechte vorbehalten."
 #~ "Experience world-class frisbee facilities and training programs designed for athletes of all\n"
 #~ "skill levels at Munich's premier sports destination."
 
+#: src/routes/[[locale=lang]]/+page.svelte
 #: src/routes/[[locale=lang]]/+page.svelte
 msgid "Frisbee player"
 msgstr "Frisbee player"
@@ -3236,3 +3238,28 @@ msgstr ""
 #: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
 msgid "Freestyle Patrons"
 msgstr "Freestyle Patrons"
+
+#. placeholder {0}: fpaLogo
+#. placeholder {0}: fpaLogo
+#. placeholder {0}: heroPerson
+#. placeholder {0}: fpaLogo
+#. placeholder {0}: fpaLogo
+#. placeholder {0}: heroPerson
+#. placeholder {0}: festivalImage
+#. placeholder {0}: fpaLogo
+#. placeholder {0}: flbyLogo
+#. placeholder {0}: fpaLogo
+#. placeholder {0}: flbyLogo
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "{0} was not enhanced. Cannot determine dimensions."
+msgstr "{0} was not enhanced. Cannot determine dimensions."

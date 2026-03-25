@@ -1,5 +1,5 @@
 import type { DisciplineSchedule } from '../types';
-import wheelchairWorkshopImage from '$lib/assets/wheelchair-ultimate/rollstuhl-frisbee.jpg';
+import wheelchairWorkshopImage from '$lib/assets/wheelchair-ultimate/rollstuhl-frisbee.webp';
 
 /**
  * Wheelchair Ultimate discipline schedule

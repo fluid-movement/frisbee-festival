@@ -1,11 +1,6 @@
 <script lang="ts">
 	import Grid from '$lib/components/layout/Grid.svelte';
-	import mainImage from '$lib/assets/ultimate/ultimate.jpg';
-	import galleryImage from '$lib/assets/ultimate/spirit.jpg';
-	import galleryImage2 from '$lib/assets/ultimate/ultimate-contest.jpg';
-	import galleryImage3 from '$lib/assets/ultimate/ultimate-pull.jpg';
 	import Badge from '$lib/components/ui/badge/badge.svelte';
-	import Image from '$lib/components/shared/Image.svelte';
 	import Schedule from '$lib/components/schedule/Schedule.svelte';
 	import { getSchedule } from '$lib/data/schedules';
 	import { getLocaleForUrl } from '$lib/locale';
@@ -36,15 +31,15 @@
 			mitreißende Stimmung.
 		</p>
 	</article>
-	<Image src={mainImage} alt="Ultimate Frisbee" />
+	<enhanced:img src="$lib/assets/ultimate/ultimate.jpg" alt="Ultimate Frisbee" class="h-full w-full rounded-xl object-cover" />
 </Grid>
 
 <Schedule schedule={scheduleData.schedule} />
 
 <div class="container-custom grid gap-4 md:grid-cols-3">
-	<Image src={galleryImage3} alt="Double Disc Court" />
-	<Image src={galleryImage} alt="Double Disc Court" />
-	<Image src={galleryImage2} alt="Double Disc Court" />
+	<enhanced:img src="$lib/assets/ultimate/ultimate-pull.jpg" alt="Ultimate Frisbee" class="h-full w-full rounded-xl object-cover" />
+	<enhanced:img src="$lib/assets/ultimate/spirit.jpg" alt="Ultimate Frisbee" class="h-full w-full rounded-xl object-cover" />
+	<enhanced:img src="$lib/assets/ultimate/ultimate-contest.jpg" alt="Ultimate Frisbee" class="h-full w-full rounded-xl object-cover" />
 </div>
 
 <div class="container-custom">

@@ -6,7 +6,7 @@
 	import type { RouteId } from '$app/types';
 	import { getLocaleForUrl } from '$lib/locale';
 	import { resolve } from '$app/paths';
-	import festivalImage from '$lib/assets/home/festival.jpg';
+
 
 	let { inverted = false }: { inverted?: boolean } = $props();
 
@@ -105,8 +105,8 @@
 									href={resolve('/[[locale=lang]]/sportarten', { locale: getLocaleForUrl() })}
 								>
 									<div class="relative h-full overflow-hidden rounded-md">
-										<img
-											src={festivalImage}
+										<enhanced:img
+											src="$lib/assets/home/festival.jpg"
 											alt="Die Sportarten"
 											class="h-full w-full object-cover brightness-60"
 										/>

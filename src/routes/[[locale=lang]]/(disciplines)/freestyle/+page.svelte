@@ -1,8 +1,6 @@
 <script lang="ts">
 	import Grid from '$lib/components/layout/Grid.svelte';
-	import festivalImage from '$lib/assets/home/festival.jpg';
 	import Badge from '$lib/components/ui/badge/badge.svelte';
-	import Image from '$lib/components/shared/Image.svelte';
 	import Schedule from '$lib/components/schedule/Schedule.svelte';
 	import { getSchedule } from '$lib/data/schedules';
 	import { getLocaleForUrl } from '$lib/locale';
@@ -49,7 +47,7 @@
 			zur individuellsten und kreativsten Disziplin des Frisbeesports.
 		</p>
 	</article>
-	<Image src={festivalImage} alt="Comunity" />
+	<enhanced:img src="$lib/assets/home/festival.jpg" alt="Community" class="h-full w-full rounded-xl object-cover" />
 </Grid>
 
 <Schedule schedule={scheduleData.schedule}>

@@ -1,17 +1,17 @@
 <script lang="ts">
-	import festivalImage from '$lib/assets/home/sportschule.webp';
-	import dfvLogo from '$lib/assets/logo/dfv-logo.jpg';
-	import flbyLogo from '$lib/assets/logo/flby-logo.png';
-	import fpaLogo from '$lib/assets/logo/fpa-logo.png';
-	import wfdfLogo from '$lib/assets/logo/wfdf-logo.png';
+	import festivalImage from '$lib/assets/home/sportschule.webp?enhanced';
+	import dfvLogo from '$lib/assets/logo/dfv-logo.jpg?enhanced';
+	import flbyLogo from '$lib/assets/logo/flby-logo.png?enhanced';
+	import fpaLogo from '$lib/assets/logo/fpa-logo.png?enhanced';
+	import wfdfLogo from '$lib/assets/logo/wfdf-logo.png?enhanced';
 	import heroBg from '$lib/assets/home/hero-bg.svg';
 	import heroLogo from '$lib/assets/home/hero-logo.svg';
-	import heroPerson from '$lib/assets/home/hero-person.png';
-	import freestyleImage from '$lib/assets/freestyle/edo-gitis.png';
-	import discGolfImage from '$lib/assets/disc-golf/putt.jpg';
-	import ddcImage from '$lib/assets/ddc/ddc-gallery-3.jpg';
-	import ultimateImage from '$lib/assets/ultimate/ultimate-jump.jpg';
-	import wheelchairUltimateImage from '$lib/assets/wheelchair-ultimate/rollstuhl-frisbee-handshake.jpg';
+	import heroPerson from '$lib/assets/home/hero-person.png?enhanced';
+	import freestyleImage from '$lib/assets/freestyle/edo-gitis.png?enhanced';
+	import discGolfImage from '$lib/assets/disc-golf/putt.jpg?enhanced';
+	import ddcImage from '$lib/assets/ddc/ddc-gallery-3.jpg?enhanced';
+	import ultimateImage from '$lib/assets/ultimate/ultimate-jump.jpg?enhanced';
+	import wheelchairUltimateImage from '$lib/assets/wheelchair-ultimate/rollstuhl-frisbee-handshake.jpg?enhanced';
 	import * as Card from '$lib/components/ui/card';
 	import Badge from '$lib/components/ui/badge/badge.svelte';
 	import { buttonVariants } from '$lib/components/ui/button/button.svelte';
@@ -25,6 +25,7 @@
 	import { Button } from '$lib/components/ui/button';
 	import DisciplineBadge from '$lib/components/disciplines/DisciplineBadge.svelte';
 	import type { DisciplineId } from '$lib/data/types';
+	import type { Picture } from 'vite-imagetools';
 	import { Calendar } from '@lucide/svelte';
 
 	type LocaleRouteId = Extract<RouteId, `/[[locale=lang]]${string}`>;
@@ -34,7 +35,7 @@
 		disciplineId: DisciplineId;
 		description: string;
 		time: string;
-		image: string;
+		image: Picture | string;
 		href: LocaleRouteId;
 	};
 
@@ -96,7 +97,7 @@
 	/>
 
 	<!-- Person image: stays absolute because it intentionally overflows vertically -->
-	<img
+	<enhanced:img
 		src={heroPerson}
 		alt="Frisbee player"
 		class="pointer-events-none absolute top-0 right-0 z-5 h-[95%] w-auto object-contain select-none md:top-[5.9%] md:right-auto md:left-[41.6%] md:z-20 md:h-[119.7%]"
@@ -138,7 +139,7 @@
 		{#each disciplines as discipline (discipline.name)}
 			<Card.Root class="relative min-h-80 overflow-hidden p-0">
 				<div class="absolute inset-0">
-					<img src={discipline.image} alt={discipline.name} class="h-full w-full object-cover" />
+					<enhanced:img src={discipline.image} alt={discipline.name} class="h-full w-full object-cover" />
 					<div
 						class="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent"
 					></div>
@@ -170,7 +171,7 @@
 
 <!-- Venue Section -->
 <section class="relative h-125 overflow-hidden">
-	<img
+	<enhanced:img
 		src={festivalImage}
 		alt="Sportschule Oberhaching"
 		class="absolute inset-0 h-full w-full object-cover"
@@ -251,10 +252,10 @@
 				das Frisbee Festival München und die internationale Community unterstützen.
 			</p>
 			<div class="mt-8 flex flex-wrap items-center gap-8">
-				<img src={wfdfLogo} alt="WFDF" class="h-12 object-contain" />
-				<img src={fpaLogo} alt="FPA" class="h-12 object-contain" />
-				<img src={dfvLogo} alt="DFV" class="h-12 object-contain mix-blend-multiply" />
-				<img src={flbyLogo} alt="FLBY" class="h-12 object-contain mix-blend-multiply" />
+				<enhanced:img src={wfdfLogo} alt="WFDF" class="h-12 object-contain" />
+				<enhanced:img src={fpaLogo} alt="FPA" class="h-12 object-contain" />
+				<enhanced:img src={dfvLogo} alt="DFV" class="h-12 object-contain mix-blend-multiply" />
+				<enhanced:img src={flbyLogo} alt="FLBY" class="h-12 object-contain mix-blend-multiply" />
 			</div>
 		</div>
 		<div>
@@ -265,10 +266,10 @@
 				Oberhaching zum Zentrum der Frisbee-Welt zu machen.
 			</p>
 			<div class="mt-8 flex flex-wrap items-center gap-8">
-				<img src={wfdfLogo} alt="WFDF" class="h-12 object-contain" />
-				<img src={fpaLogo} alt="FPA" class="h-12 object-contain" />
-				<img src={dfvLogo} alt="DFV" class="h-12 object-contain mix-blend-multiply" />
-				<img src={flbyLogo} alt="FLBY" class="h-12 object-contain mix-blend-multiply" />
+				<enhanced:img src={wfdfLogo} alt="WFDF" class="h-12 object-contain" />
+				<enhanced:img src={fpaLogo} alt="FPA" class="h-12 object-contain" />
+				<enhanced:img src={dfvLogo} alt="DFV" class="h-12 object-contain mix-blend-multiply" />
+				<enhanced:img src={flbyLogo} alt="FLBY" class="h-12 object-contain mix-blend-multiply" />
 			</div>
 		</div>
 	</div>

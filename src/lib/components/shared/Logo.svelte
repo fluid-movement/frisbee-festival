@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { cn } from '$lib/utils';
-	import logo from '$lib/assets/logo.png';
+
 	import { resolve } from '$app/paths';
 	import { getLocaleForUrl } from '$lib/locale';
 
@@ -22,8 +22,8 @@
 	class={cn('inline-block', className)}
 	{onclick}
 >
-	<img
-		src={logo}
+	<enhanced:img
+		src="$lib/assets/logo.png"
 		alt="Frisbee Festival München Logo"
 		class={cn('h-auto', width, inverted && 'brightness-0 invert')}
 	/>
