@@ -59,7 +59,12 @@
 	}
 </script>
 
-<div class="flex gap-2">
+<div
+	class={cn(
+		'inline-flex rounded-lg border p-0.5',
+		inverted ? 'border-white/30' : 'border-border'
+	)}
+>
 	{#each languages as { code, label } (code)}
 		{@const active = isActive(code)}
 		<a
@@ -68,9 +73,14 @@
 			aria-current={active ? 'true' : undefined}
 			data-sveltekit-preload-data="off"
 			class={cn(
-				'inline-flex items-center rounded-md px-3 py-1 text-sm',
-				active ? 'border font-bold shadow-sm' : '',
-				inverted ? 'border-white/40 text-white hover:bg-white/10' : ''
+				'inline-flex items-center rounded-md px-3 py-1 text-sm font-medium transition-colors',
+				active
+					? inverted
+						? 'bg-white text-foreground shadow-sm'
+						: 'bg-foreground text-background shadow-sm'
+					: inverted
+						? 'text-white/60 hover:text-white'
+						: 'text-muted-foreground hover:text-foreground'
 			)}
 		>
 			{label}

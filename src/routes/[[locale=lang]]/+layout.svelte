@@ -14,6 +14,7 @@
 	import * as Sidebar from '$lib/components/ui/sidebar';
 	import AppSidebar from '$lib/components/layout/AppSidebar.svelte';
 	import Logo from '$lib/components/shared/Logo.svelte';
+	import LanguageModal from '$lib/components/shared/LanguageModal.svelte';
 
 	let { children, data }: LayoutProps = $props();
 
@@ -45,4 +46,5 @@
 		<Separator />
 		<Footer />
 	</div>
+	<LanguageModal />
 </Sidebar.Provider>

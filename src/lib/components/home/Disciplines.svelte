@@ -41,7 +41,7 @@
 			href: '/[[locale=lang]]/(disciplines)/double-disc-court'
 		},
 		{
-			name: 'Disc Golf Munich Open',
+			name: 'Disc Golf Campustreffen',
 			disciplineId: 'disc-golf',
 			description: 'Golf trifft Frisbee. Präzision und Technik in einem wunderschönen Naturkurs.',
 			image: discGolfImage,
