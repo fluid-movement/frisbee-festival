@@ -3,6 +3,7 @@
 	import '@fontsource/inter/500.css';
 	import '@fontsource/inter/600.css';
 	import '@fontsource/inter/700.css';
+	import '@fontsource/bebas-neue/400.css';
 	import '../../app.css';
 	import favicon from '$lib/assets/favicon.ico';
 	import { page } from '$app/state';
@@ -15,8 +16,9 @@
 	import AppSidebar from '$lib/components/layout/AppSidebar.svelte';
 	import Logo from '$lib/components/shared/Logo.svelte';
 	import LanguageModal from '$lib/components/shared/LanguageModal.svelte';
+	import { cn } from '$lib/utils';
 
-	let { children, data }: LayoutProps = $props();
+	let { children }: LayoutProps = $props();
 
 	const isHome = $derived(page.route.id === '/[[locale=lang]]');
 </script>
@@ -29,9 +31,7 @@
 	<div class="flex min-h-screen w-full flex-col">
 		<AppSidebar />
 		<header
-			class={isHome
-				? 'absolute z-50 flex w-full items-center justify-between px-8 py-4'
-				: 'relative z-50 flex items-center justify-between px-8 py-4'}
+			class={cn("z-50 flex w-full items-center justify-between px-8 py-4", isHome ? "absolute" : "relative")}
 		>
 			<Logo inverted={isHome} />
 			<Navigation inverted={isHome} />

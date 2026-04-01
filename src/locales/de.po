@@ -549,8 +549,6 @@ msgstr "Exhibition"
 
 #. placeholder {0}: totalVisible
 #. placeholder {1}: totalAll
-#. placeholder {0}: totalVisible
-#. placeholder {1}: totalAll
 #: src/routes/[[locale=lang]]/programm/+page.svelte
 msgid "{0} von {1} Einträgen angezeigt"
 msgstr "{0} von {1} Einträgen angezeigt"
@@ -1282,18 +1280,18 @@ msgstr ""
 "Nimm Platz, schnapp dir die Scheibe und werde Teil unserer Gemeinschaft!"
 
 #. placeholder {0}: discipline.image
-#. placeholder {0}: discipline.image
-#. placeholder {0}: heroPerson
+#. placeholder {0}: wfdfLogo
 #. placeholder {0}: fpaLogo
+#. placeholder {0}: wfdfLogo
+#. placeholder {0}: fpaLogo
+#. placeholder {0}: festivalImage
+#. placeholder {0}: festivalImage
+#. placeholder {0}: wfdfLogo
+#. placeholder {0}: fpaLogo
+#. placeholder {0}: wfdfLogo
+#. placeholder {0}: fpaLogo
+#. placeholder {0}: festivalImage
 #. placeholder {0}: dfvLogo
-#. placeholder {0}: flbyLogo
-#. placeholder {0}: alpressoLogo
-#. placeholder {0}: dgMucLogo
-#. placeholder {0}: soLogo
-#. placeholder {0}: djkLogo
-#. placeholder {0}: hieberLogo
-#. placeholder {0}: sfbLogo
-#. placeholder {0}: xdiscLogo
 #. placeholder {0}: wfdfLogo
 #. placeholder {0}: fpaLogo
 #. placeholder {0}: dfvLogo

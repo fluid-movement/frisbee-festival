@@ -2,8 +2,6 @@
 
 @import 'tw-animate-css';
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
 :root {
 	--radius: 0.625rem;
 	--background: oklch(0.95 0.02 42.5303);

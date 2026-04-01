@@ -414,8 +414,6 @@ msgstr "Toggle Sidebar"
 
 #. placeholder {0}: totalVisible
 #. placeholder {1}: totalAll
-#. placeholder {0}: totalVisible
-#. placeholder {1}: totalAll
 #: src/routes/[[locale=lang]]/programm/+page.svelte
 msgid "{0} von {1} Einträgen angezeigt"
 msgstr "{0} of {1} entries shown"
@@ -1243,43 +1241,43 @@ msgstr ""
 msgid "msgid “Das Munich Open “Campustreffen” in München”"
 msgstr "msgstr “The Munich Open “Campustreffen” in Munich”"
 
-#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
-msgid ""
-"Wenn die globale Elite bei der Weltmeisterschaft in München zusammenkommt, verwandelt sich das\n"
-"Spielfeld in eine Bühne für sportliche Höchstleistungen. In choreografierten Routinen treten\n"
-"die Athlet:innen zur Musik an, wobei eine Fachjury die Darbietungen nach strengen Kriterien\n"
-"bewertet. Dabei fließen die technische Schwierigkeit der Manöver, die Sicherheit in der\n"
-"Ausführung sowie die künstlerische Präsentation und Musikalität in die Wertung ein. Diese\n"
-"Weltmeisterschaften sind jedoch weit mehr als ein reiner Wettkampf: Sie sind das pulsierende\n"
-"Zentrum einer leidenschaftlichen Community, in der Innovationen gefeiert werden und der\n"
-"“„Spirit of the Game” – der Respekt und die Freude am gemeinsamen Spiel – stets an erster\n"
-"”“Stelle steht.”"
-msgstr ""
-"msgstr “”“When the global elite come together at the World Championships in Munich, the field transforms\n"
-"”“into a stage for peak athletic performance. Athletes compete in choreographed routines to music,\n"
-"”“with an expert jury evaluating performances against strict criteria. The technical difficulty of\n"
-"”“the manoeuvres, execution precision, and artistic presentation and musicality all factor into the\n"
-"”“score. Yet these World Championships are far more than a pure competition: they are the vibrant\n"
-"”“centre of a passionate community where innovation is celebrated and the \\”Spirit of the Game\\” –\n"
-"”“respect and joy in playing together – always comes first.”"
+#~ msgid ""
+#~ "Wenn die globale Elite bei der Weltmeisterschaft in München zusammenkommt, verwandelt sich das\n"
+#~ "Spielfeld in eine Bühne für sportliche Höchstleistungen. In choreografierten Routinen treten\n"
+#~ "die Athlet:innen zur Musik an, wobei eine Fachjury die Darbietungen nach strengen Kriterien\n"
+#~ "bewertet. Dabei fließen die technische Schwierigkeit der Manöver, die Sicherheit in der\n"
+#~ "Ausführung sowie die künstlerische Präsentation und Musikalität in die Wertung ein. Diese\n"
+#~ "Weltmeisterschaften sind jedoch weit mehr als ein reiner Wettkampf: Sie sind das pulsierende\n"
+#~ "Zentrum einer leidenschaftlichen Community, in der Innovationen gefeiert werden und der\n"
+#~ "“„Spirit of the Game” – der Respekt und die Freude am gemeinsamen Spiel – stets an erster\n"
+#~ "”“Stelle steht.”"
+#~ msgstr ""
+#~ "msgstr “”“When the global elite come together at the World Championships in Munich, the field transforms\n"
+#~ "”“into a stage for peak athletic performance. Athletes compete in choreographed routines to music,\n"
+#~ "”“with an expert jury evaluating performances against strict criteria. The technical difficulty of\n"
+#~ "”“the manoeuvres, execution precision, and artistic presentation and musicality all factor into the\n"
+#~ "”“score. Yet these World Championships are far more than a pure competition: they are the vibrant\n"
+#~ "”“centre of a passionate community where innovation is celebrated and the \\”Spirit of the Game\\” –\n"
+#~ "”“respect and joy in playing together – always comes first.”"
 
-#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
-msgid "msgid “Waldemar “Wowa” Wagner”"
-msgstr "msgstr “Waldemar “Wowa” Wagner”"
+#~ msgid "msgid “Waldemar “Wowa” Wagner”"
+#~ msgstr "msgstr “Waldemar “Wowa” Wagner”"
 
 #. placeholder {0}: discipline.image
-#. placeholder {0}: heroPerson
+#. placeholder {0}: wfdfLogo
 #. placeholder {0}: fpaLogo
+#. placeholder {0}: wfdfLogo
+#. placeholder {0}: fpaLogo
+#. placeholder {0}: festivalImage
+#. placeholder {0}: festivalImage
+#. placeholder {0}: wfdfLogo
+#. placeholder {0}: festivalImage
 #. placeholder {0}: dfvLogo
 #. placeholder {0}: flbyLogo
-#. placeholder {0}: alpressoLogo
-#. placeholder {0}: dgMucLogo
-#. placeholder {0}: soLogo
-#. placeholder {0}: djkLogo
-#. placeholder {0}: hieberLogo
-#. placeholder {0}: sfbLogo
-#. placeholder {0}: xdiscLogo
+#. placeholder {0}: wfdfLogo
 #. placeholder {0}: festivalImage
+#. placeholder {0}: wfdfLogo
+#. placeholder {0}: fpaLogo
 #. placeholder {0}: dfvLogo
 #. placeholder {0}: flbyLogo
 #. placeholder {0}: alpressoLogo
@@ -1304,4 +1302,21 @@ msgstr "msgstr “Waldemar “Wowa” Wagner”"
 #: src/lib/components/home/Sponsors.svelte
 #: src/lib/components/home/Venue.svelte
 msgid "{0} was not enhanced. Cannot determine dimensions."
+msgstr ""
+
+#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
+msgid ""
+"Wenn die globale Elite bei der Weltmeisterschaft in München zusammenkommt, verwandelt sich das\n"
+"Spielfeld in eine Bühne für sportliche Höchstleistungen. In choreografierten Routinen treten\n"
+"die Athlet:innen zur Musik an, wobei eine Fachjury die Darbietungen nach strengen Kriterien\n"
+"bewertet. Dabei fließen die technische Schwierigkeit der Manöver, die Sicherheit in der\n"
+"Ausführung sowie die künstlerische Präsentation und Musikalität in die Wertung ein. Diese\n"
+"Weltmeisterschaften sind jedoch weit mehr als ein reiner Wettkampf: Sie sind das pulsierende\n"
+"Zentrum einer leidenschaftlichen Community, in der Innovationen gefeiert werden und der\n"
+"„Spirit of the Game“ – der Respekt und die Freude am gemeinsamen Spiel – stets an erster\n"
+"Stelle steht."
+msgstr ""
+
+#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
+msgid "Waldemar “Wowa” Wagner"
 msgstr ""
