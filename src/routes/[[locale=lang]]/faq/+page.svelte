@@ -52,6 +52,11 @@
 				href="https://www.google.com/maps/place/Sportschule+Oberhaching/@48.036526,11.590923,138456m/data=!3m1!1e3!4m9!3m8!1s0x479dddebe0e3164f:0x2c53f75f79085b0!5m2!4m1!1i2!8m2!3d48.0362343!4d11.5905633!16s%2Fg%2F1td_44qt?hl=en-GB&entry=ttu&g_ep=EgoyMDI2MDMzMS4wIKXMDSoASAFQAw%3D%3D"
 				>Hier der Link zu Google Maps</a
 			>
+			<enhanced:img
+				src="$lib/assets/faq/anfahrt.webp"
+				alt="Anfahrt"
+				class="h-full w-full rounded-xl object-cover mt-8"
+			/>
 		</Accordion.Content>
 	</Accordion.Item>
 	<Accordion.Item>

@@ -19,10 +19,16 @@
 
 <svelte:head>
 	<title>Rollstuhl Ultimate Showmatch | Frisbee Festival München</title>
-	<meta name="description" content="Rollstuhl Ultimate beim Frisbee Festival München: inklusiver Sport auf höchstem Niveau. Showmatch & Workshops für alle. 1.–2. August 2026 in Oberhaching." />
+	<meta
+		name="description"
+		content="Rollstuhl Ultimate beim Frisbee Festival München: inklusiver Sport auf höchstem Niveau. Showmatch & Workshops für alle. 1.–2. August 2026 in Oberhaching."
+	/>
 	<link rel="canonical" href="{PUBLIC_ORIGIN}{page.url.pathname}" />
 	<meta property="og:title" content="Rollstuhl Ultimate Showmatch | Frisbee Festival München" />
-	<meta property="og:description" content="Rollstuhl Ultimate beim Frisbee Festival München: inklusiver Sport auf höchstem Niveau. Showmatch & Workshops für alle. 1.–2. August 2026 in Oberhaching." />
+	<meta
+		property="og:description"
+		content="Rollstuhl Ultimate beim Frisbee Festival München: inklusiver Sport auf höchstem Niveau. Showmatch & Workshops für alle. 1.–2. August 2026 in Oberhaching."
+	/>
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="{PUBLIC_ORIGIN}{page.url.pathname}" />
 	<meta property="og:site_name" content="Frisbee Festival München" />
@@ -64,11 +70,11 @@
 			</p>
 			<h5>Erlebe den Perspektivwechsel hautnah</h5>
 			<p>
-				Beim Frisbee Festival München machen wir diesen Sport für alle greifbar. Neben packenden
-				Showmatches der Profis laden unsere Workshops jede:n – egal ob mit oder ohne Behinderung –
+				Beim Frisbee Festival München machen wir diesen Sport für alle greifbar. Nach dem Showgame
+				von Könnern und Anfängern lädt unser Workshop jede:n – egal ob mit oder ohne Behinderung –
 				ein, selbst in den Sportrollstuhl zu steigen. Entdecke die Herausforderung dieser
-				Fortbewegung, gewinne neue Perspektiven und erlebe ein berauschendes Spiel auf Augenhöhe.
-				Nimm Platz, schnapp dir die Scheibe und werde Teil unserer Gemeinschaft!
+				Fortbewegung, gewinne neue Perspektiven und erlebe ein tolles Spiel auf Augenhöhe. Nimm
+				Platz, schnapp dir die Scheibe und werde Teil unserer Gemeinschaft!
 			</p>
 		</div>
 		<enhanced:img

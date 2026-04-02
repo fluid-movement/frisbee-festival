@@ -35,32 +35,34 @@
 	</ul>
 	<div class="grid gap-8 lg:grid-cols-2">
 		{#each Object.entries(schedule) as [day, events] (day)}
-			<ul class="grid grid-cols-[auto_1fr] gap-x-4">
-				<li class="col-span-full grid grid-cols-subgrid">
-					<h5 class="col-start-2 uppercase">{dayNames[day] ?? day}</h5>
-				</li>
-				{#each events as event (event.time)}
-					<li
-						class="col-span-full mb-1 grid grid-cols-subgrid border-b border-solid pb-1 last:border-none"
-					>
-						<div class="whitespace-nowrap {event.type === 'workshop' ? 'text-primary' : ''}">
-							{event.time}
-						</div>
-						<div class="flex flex-col gap-1">
-							<strong class={event.type === 'workshop' ? 'text-primary' : ''}>
-								{event.label}
-							</strong>
-							{#if event.type === 'workshop' && event.id}
-								<Button href="{participatePath}#{event.id}" class="self-start"
-									>Mehr <ChevronRight /></Button
-								>
-							{:else if event.description}
-								<span class="text-sm text-muted-foreground">{event.description}</span>
-							{/if}
-						</div>
+			{#if events.length > 0}
+				<ul class="grid grid-cols-[auto_1fr] gap-x-4">
+					<li class="col-span-full grid grid-cols-subgrid">
+						<h5 class="col-start-2 uppercase">{dayNames[day] ?? day}</h5>
 					</li>
-				{/each}
-			</ul>
+					{#each events as event (event.time)}
+						<li
+							class="col-span-full mb-1 grid grid-cols-subgrid border-b border-solid pb-1 last:border-none"
+						>
+							<div class="whitespace-nowrap {event.type === 'workshop' ? 'text-primary' : ''}">
+								{event.time}
+							</div>
+							<div class="flex flex-col gap-1">
+								<strong class={event.type === 'workshop' ? 'text-primary' : ''}>
+									{event.label}
+								</strong>
+								{#if event.type === 'workshop' && event.id}
+									<Button href="{participatePath}#{event.id}" class="self-start"
+										>Mehr <ChevronRight /></Button
+									>
+								{:else if event.description}
+									<span class="text-sm text-muted-foreground">{event.description}</span>
+								{/if}
+							</div>
+						</li>
+					{/each}
+				</ul>
+			{/if}
 		{/each}
 	</div>
 </div>
