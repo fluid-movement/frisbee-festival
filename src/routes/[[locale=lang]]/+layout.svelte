@@ -1,9 +1,4 @@
 <script lang="ts">
-	import '@fontsource/inter/400.css';
-	import '@fontsource/inter/500.css';
-	import '@fontsource/inter/600.css';
-	import '@fontsource/inter/700.css';
-	import '@fontsource/bebas-neue/400.css';
 	import '../../app.css';
 	import favicon from '$lib/assets/favicon.ico';
 	import { page } from '$app/state';

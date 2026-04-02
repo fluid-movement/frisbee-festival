@@ -80,81 +80,83 @@
 								</a>
 							{/snippet}
 						</Sidebar.MenuButton>
-						<Sidebar.MenuSubItem class="ml-12">
-							<Sidebar.MenuSubButton
-								onclick={sidebar.toggle}
-								isActive={currentPath === '/freestyle'}
-							>
-								{#snippet child({ props })}
-									<a
-										href={resolve('/[[locale=lang]]/(disciplines)/freestyle', {
-											locale: getLocaleForUrl()
-										})}
-										{...props}>Freestyle</a
-									>
-								{/snippet}
-							</Sidebar.MenuSubButton>
-						</Sidebar.MenuSubItem>
-						<Sidebar.MenuSubItem class="ml-12">
-							<Sidebar.MenuSubButton
-								onclick={sidebar.toggle}
-								isActive={currentPath === '/disc-golf'}
-							>
-								{#snippet child({ props })}
-									<a
-										href={resolve('/[[locale=lang]]/(disciplines)/disc-golf', {
-											locale: getLocaleForUrl()
-										})}
-										{...props}>Disc Golf</a
-									>
-								{/snippet}
-							</Sidebar.MenuSubButton>
-						</Sidebar.MenuSubItem>
-						<Sidebar.MenuSubItem class="ml-12">
-							<Sidebar.MenuSubButton
-								onclick={sidebar.toggle}
-								isActive={currentPath === '/double-disc-court'}
-							>
-								{#snippet child({ props })}
-									<a
-										href={resolve('/[[locale=lang]]/(disciplines)/double-disc-court', {
-											locale: getLocaleForUrl()
-										})}
-										{...props}>Double Disc Court</a
-									>
-								{/snippet}
-							</Sidebar.MenuSubButton>
-						</Sidebar.MenuSubItem>
-						<Sidebar.MenuSubItem class="ml-12">
-							<Sidebar.MenuSubButton
-								onclick={sidebar.toggle}
-								isActive={currentPath === '/ultimate'}
-							>
-								{#snippet child({ props })}
-									<a
-										href={resolve('/[[locale=lang]]/(disciplines)/ultimate', {
-											locale: getLocaleForUrl()
-										})}
-										{...props}>Ultimate</a
-									>
-								{/snippet}
-							</Sidebar.MenuSubButton>
-						</Sidebar.MenuSubItem>
-						<Sidebar.MenuSubItem class="ml-12">
-							<Sidebar.MenuSubButton
-								onclick={sidebar.toggle}
-								isActive={currentPath === '/wheelchair-ultimate'}
-							>
-								{#snippet child({ props })}
-									<a
-										href={resolve('/[[locale=lang]]/(disciplines)/wheelchair-ultimate', {
-											locale: getLocaleForUrl()
-										})}
-										{...props}>Rollstuhl Ultimate</a
-									>
-								{/snippet}
-							</Sidebar.MenuSubButton>
-						</Sidebar.MenuSubItem>
+						<Sidebar.MenuSub>
+							<Sidebar.MenuSubItem>
+								<Sidebar.MenuSubButton
+									onclick={sidebar.toggle}
+									isActive={currentPath === '/freestyle'}
+								>
+									{#snippet child({ props })}
+										<a
+											href={resolve('/[[locale=lang]]/(disciplines)/freestyle', {
+												locale: getLocaleForUrl()
+											})}
+											{...props}>Freestyle</a
+										>
+									{/snippet}
+								</Sidebar.MenuSubButton>
+							</Sidebar.MenuSubItem>
+							<Sidebar.MenuSubItem>
+								<Sidebar.MenuSubButton
+									onclick={sidebar.toggle}
+									isActive={currentPath === '/disc-golf'}
+								>
+									{#snippet child({ props })}
+										<a
+											href={resolve('/[[locale=lang]]/(disciplines)/disc-golf', {
+												locale: getLocaleForUrl()
+											})}
+											{...props}>Disc Golf</a
+										>
+									{/snippet}
+								</Sidebar.MenuSubButton>
+							</Sidebar.MenuSubItem>
+							<Sidebar.MenuSubItem>
+								<Sidebar.MenuSubButton
+									onclick={sidebar.toggle}
+									isActive={currentPath === '/double-disc-court'}
+								>
+									{#snippet child({ props })}
+										<a
+											href={resolve('/[[locale=lang]]/(disciplines)/double-disc-court', {
+												locale: getLocaleForUrl()
+											})}
+											{...props}>Double Disc Court</a
+										>
+									{/snippet}
+								</Sidebar.MenuSubButton>
+							</Sidebar.MenuSubItem>
+							<Sidebar.MenuSubItem>
+								<Sidebar.MenuSubButton
+									onclick={sidebar.toggle}
+									isActive={currentPath === '/ultimate'}
+								>
+									{#snippet child({ props })}
+										<a
+											href={resolve('/[[locale=lang]]/(disciplines)/ultimate', {
+												locale: getLocaleForUrl()
+											})}
+											{...props}>Ultimate</a
+										>
+									{/snippet}
+								</Sidebar.MenuSubButton>
+							</Sidebar.MenuSubItem>
+							<Sidebar.MenuSubItem>
+								<Sidebar.MenuSubButton
+									onclick={sidebar.toggle}
+									isActive={currentPath === '/wheelchair-ultimate'}
+								>
+									{#snippet child({ props })}
+										<a
+											href={resolve('/[[locale=lang]]/(disciplines)/wheelchair-ultimate', {
+												locale: getLocaleForUrl()
+											})}
+											{...props}>Rollstuhl Ultimate</a
+										>
+									{/snippet}
+								</Sidebar.MenuSubButton>
+							</Sidebar.MenuSubItem>
+						</Sidebar.MenuSub>
 					</Sidebar.MenuItem>
 
 					<!-- FAQ -->

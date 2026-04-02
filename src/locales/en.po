@@ -135,9 +135,8 @@ msgstr "August 1–2, 2026"
 msgid "9:00–19:00 Uhr"
 msgstr "9:00–19:00"
 
-#: src/lib/components/layout/Footer.svelte
-msgid "Sportschule Oberhaching<0/>82041 Oberhaching<1/>Oberhaching, Bayern"
-msgstr "Sportschule Oberhaching<0/>82041 Oberhaching<1/>Oberhaching, Bavaria"
+#~ msgid "Sportschule Oberhaching<0/>82041 Oberhaching<1/>Oberhaching, Bayern"
+#~ msgstr "Sportschule Oberhaching<0/>82041 Oberhaching<1/>Oberhaching, Bavaria"
 
 #: src/lib/components/layout/Footer.svelte
 msgid "Kontakt"
@@ -329,9 +328,8 @@ msgstr "Back to disciplines <0/>"
 msgid "Wie komm ich hin?"
 msgstr "How do I get there?"
 
-#: src/routes/[[locale=lang]]/faq/+page.svelte
-msgid "Die Sportschule Oberhaching ist einfach mit der S-Bahn erreichbar"
-msgstr "The Sportschule Oberhaching is easily accessible by S-Bahn"
+#~ msgid "Die Sportschule Oberhaching ist einfach mit der S-Bahn erreichbar"
+#~ msgstr "The Sportschule Oberhaching is easily accessible by S-Bahn"
 
 #: src/routes/[[locale=lang]]/faq/+page.svelte
 msgid "Was kostet der Eintritt?"
@@ -349,16 +347,15 @@ msgstr ""
 msgid "Warum veranstaltet ihr das Festival?"
 msgstr "Why are you organising the festival?"
 
-#: src/routes/[[locale=lang]]/faq/+page.svelte
-msgid ""
-"Die Freestyle Frisbee Community in München war dieses Jahr dran, die Weltmeisterschaft\n"
-"auszutragen. Um die Reichweite unserer Sportart zu erweitern, haben wir uns mit unseren\n"
-"verwandten Frisbee Sportarten zusammengetan, um euch die Möglichkeit zu bieten, etwas neues\n"
-"zu sehen."
-msgstr ""
-"The Freestyle Frisbee community in Munich was next in line to host the World Championships\n"
-"this year. To expand the reach of our sport, we teamed up with our related frisbee\n"
-"disciplines to give you the opportunity to see something new."
+#~ msgid ""
+#~ "Die Freestyle Frisbee Community in München war dieses Jahr dran, die Weltmeisterschaft\n"
+#~ "auszutragen. Um die Reichweite unserer Sportart zu erweitern, haben wir uns mit unseren\n"
+#~ "verwandten Frisbee Sportarten zusammengetan, um euch die Möglichkeit zu bieten, etwas neues\n"
+#~ "zu sehen."
+#~ msgstr ""
+#~ "The Freestyle Frisbee community in Munich was next in line to host the World Championships\n"
+#~ "this year. To expand the reach of our sport, we teamed up with our related frisbee\n"
+#~ "disciplines to give you the opportunity to see something new."
 
 #: src/routes/[[locale=lang]]/faq/+page.svelte
 msgid "Wird es Essen und Trinken geben?"
@@ -390,9 +387,8 @@ msgstr ""
 msgid "Was muss ich tun?"
 msgstr "What do I need to do?"
 
-#: src/routes/[[locale=lang]]/faq/+page.svelte
-msgid "Einfach erscheinen! Du siehst das Programm auf der <0>Programm Seite</0>"
-msgstr "Just show up! You can see the schedule on the <0>Schedule Page</0>"
+#~ msgid "Einfach erscheinen! Du siehst das Programm auf der <0>Programm Seite</0>"
+#~ msgstr "Just show up! You can see the schedule on the <0>Schedule Page</0>"
 
 #: src/lib/components/ui/sheet/sheet-content.svelte
 msgid "Close"
@@ -1221,6 +1217,23 @@ msgstr ""
 "gain new perspectives and experience an exhilarating game at eye level.\n"
 "Take a seat, grab the disc and become part of our community!"
 
+#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
+msgid ""
+"Wenn die globale Elite bei der Weltmeisterschaft in München zusammenkommt, verwandelt sich das\n"
+"Spielfeld in eine Bühne für sportliche Höchstleistungen. In choreografierten Routinen treten\n"
+"die Athlet:innen zur Musik an, wobei eine Fachjury die Darbietungen nach strengen Kriterien\n"
+"bewertet. Dabei fließen die technische Schwierigkeit der Manöver, die Sicherheit in der\n"
+"Ausführung sowie die künstlerische Präsentation und Musikalität in die Wertung ein. Diese\n"
+"Weltmeisterschaften sind jedoch weit mehr als ein reiner Wettkampf: Sie sind das pulsierende\n"
+"Zentrum einer leidenschaftlichen Community, in der Innovationen gefeiert werden und der\n"
+"„Spirit of the Game“ – der Respekt und die Freude am gemeinsamen Spiel – stets an erster\n"
+"Stelle steht."
+msgstr ""
+
+#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
+msgid "Waldemar “Wowa” Wagner"
+msgstr ""
+
 #: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
 msgid ""
 "Das Prinzip ist einfach, die Umsetzung eine faszinierende Herausforderung: Ein Kurs besteht in\n"
@@ -1228,54 +1241,23 @@ msgid ""
 "spielst du immer genau von der Stelle weiter, an der deine Disc liegen geblieben ist, bis die\n"
 "Scheibe im Fangkorb zur Ruhe kommt. Dabei gilt es, Bäume zu umspielen, Windverhältnisse zu\n"
 "lesen und für jede Distanz die richtige Scheibe zu wählen – vom schnellen „Driver“ für den\n"
-"“weiten Abwurf bis zum präzisen „Putter” für den finalen Wurf in die Ketten.”"
+"weiten Abwurf bis zum präzisen „Putter“ für den finalen Wurf in die Ketten."
 msgstr ""
-"msgstr “”“The principle is simple, the execution a fascinating challenge: a course typically consists\n"
-"”“of 18 holes. Each hole starts at a designated tee pad. From there, you always play from\n"
-"”“exactly where your disc has landed, until it comes to rest in the basket. Along the way you\n"
-"”“need to navigate around trees, read wind conditions and choose the right disc for each\n"
-"”“distance – from the fast 'driver' for the long throw to the precise 'putter' for the\n"
-"”“final throw into the chains.”"
 
 #: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
-msgid "msgid “Das Munich Open “Campustreffen” in München”"
-msgstr "msgstr “The Munich Open “Campustreffen” in Munich”"
-
-#~ msgid ""
-#~ "Wenn die globale Elite bei der Weltmeisterschaft in München zusammenkommt, verwandelt sich das\n"
-#~ "Spielfeld in eine Bühne für sportliche Höchstleistungen. In choreografierten Routinen treten\n"
-#~ "die Athlet:innen zur Musik an, wobei eine Fachjury die Darbietungen nach strengen Kriterien\n"
-#~ "bewertet. Dabei fließen die technische Schwierigkeit der Manöver, die Sicherheit in der\n"
-#~ "Ausführung sowie die künstlerische Präsentation und Musikalität in die Wertung ein. Diese\n"
-#~ "Weltmeisterschaften sind jedoch weit mehr als ein reiner Wettkampf: Sie sind das pulsierende\n"
-#~ "Zentrum einer leidenschaftlichen Community, in der Innovationen gefeiert werden und der\n"
-#~ "“„Spirit of the Game” – der Respekt und die Freude am gemeinsamen Spiel – stets an erster\n"
-#~ "”“Stelle steht.”"
-#~ msgstr ""
-#~ "msgstr “”“When the global elite come together at the World Championships in Munich, the field transforms\n"
-#~ "”“into a stage for peak athletic performance. Athletes compete in choreographed routines to music,\n"
-#~ "”“with an expert jury evaluating performances against strict criteria. The technical difficulty of\n"
-#~ "”“the manoeuvres, execution precision, and artistic presentation and musicality all factor into the\n"
-#~ "”“score. Yet these World Championships are far more than a pure competition: they are the vibrant\n"
-#~ "”“centre of a passionate community where innovation is celebrated and the \\”Spirit of the Game\\” –\n"
-#~ "”“respect and joy in playing together – always comes first.”"
-
-#~ msgid "msgid “Waldemar “Wowa” Wagner”"
-#~ msgstr "msgstr “Waldemar “Wowa” Wagner”"
+msgid "Das Munich Open “Campustreffen” in München"
+msgstr ""
 
 #. placeholder {0}: discipline.image
+#. placeholder {0}: djkLogo
+#. placeholder {0}: hieberLogo
+#. placeholder {0}: sfbLogo
+#. placeholder {0}: xdiscLogo
 #. placeholder {0}: wfdfLogo
 #. placeholder {0}: fpaLogo
-#. placeholder {0}: wfdfLogo
-#. placeholder {0}: fpaLogo
-#. placeholder {0}: festivalImage
-#. placeholder {0}: festivalImage
-#. placeholder {0}: wfdfLogo
-#. placeholder {0}: festivalImage
 #. placeholder {0}: dfvLogo
-#. placeholder {0}: flbyLogo
 #. placeholder {0}: wfdfLogo
-#. placeholder {0}: festivalImage
+#. placeholder {0}: fpaLogo
 #. placeholder {0}: wfdfLogo
 #. placeholder {0}: fpaLogo
 #. placeholder {0}: dfvLogo
@@ -1304,19 +1286,115 @@ msgstr "msgstr “The Munich Open “Campustreffen” in Munich”"
 msgid "{0} was not enhanced. Cannot determine dimensions."
 msgstr ""
 
-#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
-msgid ""
-"Wenn die globale Elite bei der Weltmeisterschaft in München zusammenkommt, verwandelt sich das\n"
-"Spielfeld in eine Bühne für sportliche Höchstleistungen. In choreografierten Routinen treten\n"
-"die Athlet:innen zur Musik an, wobei eine Fachjury die Darbietungen nach strengen Kriterien\n"
-"bewertet. Dabei fließen die technische Schwierigkeit der Manöver, die Sicherheit in der\n"
-"Ausführung sowie die künstlerische Präsentation und Musikalität in die Wertung ein. Diese\n"
-"Weltmeisterschaften sind jedoch weit mehr als ein reiner Wettkampf: Sie sind das pulsierende\n"
-"Zentrum einer leidenschaftlichen Community, in der Innovationen gefeiert werden und der\n"
-"„Spirit of the Game“ – der Respekt und die Freude am gemeinsamen Spiel – stets an erster\n"
-"Stelle steht."
+#~ msgid "Sportschule Oberhaching<0/>Im Loh 282041 Oberhaching<1/>Oberhaching, Bayern"
+#~ msgstr ""
+
+#~ msgid "Sportschule Oberhaching<0/>Im Loh 2<1/>82041 Oberhaching<2/>Oberhaching, Bayern"
+#~ msgstr ""
+
+#: src/lib/components/layout/Footer.svelte
+msgid "Sportschule Oberhaching<0/>Im Loh 2<1/>82041 Oberhaching"
 msgstr ""
 
-#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
-msgid "Waldemar “Wowa” Wagner"
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid ""
+"Die Sportschule Oberhaching liegt verkehrsgünstig im Süden Münchens und ist sowohl mit\n"
+"öffentlichen Verkehrsmitteln als auch mit dem Auto einfach zu erreichen."
+msgstr ""
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid "Anfahrt mit der S-Bahn"
+msgstr ""
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid ""
+"Dank der direkten Anbindung an die S-Bahn-Linie S3 Richtung Deisenhofen oder Holzkirchen\n"
+"(Haltestelle Furth) gelangt ihr bequem und schnell aus dem Münchner Stadtgebiet zu uns –\n"
+"ideal für Tagesgäste, Teilnehmer von Trainingslagern, Schulklassen oder Tagungen."
+msgstr ""
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid "Anfahrt mit dem Auto"
+msgstr ""
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid ""
+"Für alle, die mit dem PKW anreisen, bietet die nahegelegene Autobahn A8 (München – Salzburg)\n"
+"eine unkomplizierte und schnelle Verbindung. Einfach auf der A995/E54 bis Ausfahrt\n"
+"Oberhaching und dann der Beschilderung „Sportschule Oberhaching“ folgen. Parkmöglichkeiten\n"
+"stehen auf dem Gelände der Sportschule kostenlos zur Verfügung."
+msgstr ""
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid "Hier der Link zu Google Maps"
+msgstr ""
+
+#~ msgid "Einfach erscheinen! Du siehst das Programm auf der <0>Programmseite</0>"
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid "Was bedeutet Sport für Alle?"
+msgstr ""
+
+#~ msgid "Sport für alle ist ein Begriff, der oft im Zusammenhang mit körperlicher Aktivität genannt wird (mit der Abkürzung SAPA für Sport for All and Physical Activity). Der Begriff wird vor allem von TAFISA verwendet, dem Weltverband für Sport für Alle (The Association for International Sport for All). Sein Motto lautet: “Die Welt durch Sport für Alle zu einem besseren Ort zu machen”."
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid ""
+"Sport für alle ist ein Begriff, der oft im Zusammenhang mit körperlicher Aktivität genannt\n"
+"wird (mit der Abkürzung SAPA für Sport for All and Physical Activity). Der Begriff wird vor\n"
+"allem von TAFISA verwendet, dem Weltverband für Sport für Alle (The Association for\n"
+"International Sport for All). Sein Motto lautet: “Die Welt durch Sport für Alle zu einem\n"
+"besseren Ort zu machen”."
+msgstr ""
+
+#~ msgid "Breitensport sagt gewöhnlich: “Kommt alle, wenn ihr könnt.” Sport für Alle hingegen betrachtet, welche Zielgruppen besondere Schwierigkeiten haben, am Breitensport teilzunehmen. Dabei handelt es sich häufig um Kinder und Jugendliche, um Frauen, um sich nicht-binär identifizierende Personen, um Menschen mit Behinderungen oder um ätere Menschen oder um Menschen, die aufgrund unterschiedlicher Merkmale diskriminiert werden. Sport für Alle macht sich zur Aufgabe, Angebote für gesellschaftlich benachteiligte Personen zu schaffen, um ihnen die Teilnahme an Sport und körperlicher Aktivität zu ermöglichen."
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid "Was unterscheidet Sport für Alle vom Breitensport?"
+msgstr ""
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid ""
+"Breitensport sagt gewöhnlich: “Kommt alle, wenn ihr könnt.” Sport für Alle hingegen\n"
+"betrachtet, welche Zielgruppen besondere Schwierigkeiten haben, am Breitensport\n"
+"teilzunehmen. Dabei handelt es sich häufig um Kinder und Jugendliche, um Frauen, um sich\n"
+"nicht-binär identifizierende Personen, um Menschen mit Behinderungen oder um ätere Menschen\n"
+"oder um Menschen, die aufgrund unterschiedlicher Merkmale diskriminiert werden. Sport für\n"
+"Alle macht sich zur Aufgabe, Angebote für gesellschaftlich benachteiligte Personen zu\n"
+"schaffen, um ihnen die Teilnahme an Sport und körperlicher Aktivität zu ermöglichen."
+msgstr ""
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid "Wofür steht die Auszeichnung des Frisbee Festivals als Sport für Alle-Event?"
+msgstr ""
+
+#~ msgid "Die Auszeichnung des Frisbee Festivals München als lizenziertes Sport für Alle-Event belegt, dass die Veranstaltung als wichtiger Beitrag zur Förderung von körperlicher Aktivität angesehen wird. Der Weltverband für Sport für Alle (TAFISA) zeichnet damit Veranstaltungen mit einem hohen Engagement zur Förderung einer Kultur der Inklusion aus. Dabei spielt auch die öffentlichkeitswirksame Kombination eines Spitzensportevents mit Breitensport und der Ansprache verschiedener Zielgruppen eine besondere Rolle. Die TAFISA-Lizenzierung ist Events mit einem starken Fokus auf Sport für Alle vorbehalten, da diese zur weltweiten Förderung von körperlicher Aktivität gerade von gesellschaftlich benachteiligten Zielgruppen beitragen, im Einklang mit den UN-Nachhaltigkeitszielen und den Themen der TAFISA-Mission 2030."
+#~ msgstr ""
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid ""
+"Die Auszeichnung des Frisbee Festivals München als lizenziertes Sport für Alle-Event belegt,\n"
+"dass die Veranstaltung als wichtiger Beitrag zur Förderung von körperlicher Aktivität\n"
+"angesehen wird. Der Weltverband für Sport für Alle (TAFISA) zeichnet damit Veranstaltungen\n"
+"mit einem hohen Engagement zur Förderung einer Kultur der Inklusion aus. Dabei spielt auch\n"
+"die öffentlichkeitswirksame Kombination eines Spitzensportevents mit Breitensport und der\n"
+"Ansprache verschiedener Zielgruppen eine besondere Rolle. Die TAFISA-Lizenzierung ist Events\n"
+"mit einem starken Fokus auf Sport für Alle vorbehalten, da diese zur weltweiten Förderung\n"
+"von körperlicher Aktivität gerade von gesellschaftlich benachteiligten Zielgruppen\n"
+"beitragen, im Einklang mit den UN-Nachhaltigkeitszielen und den Themen der TAFISA-Mission\n"
+"2030."
+msgstr ""
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid "Einfach vorbeikommen! Du siehst das Programm auf der <0>Programmseite</0>"
+msgstr ""
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid ""
+"Die Freestyle Frisbee Community in München war dieses Jahr dran, die Weltmeisterschaft\n"
+"auszutragen. Um die Reichweite unserer Sportart zu erweitern, haben wir uns mit unseren\n"
+"verwandten Frisbee Sportarten zusammengetan, um euch die Möglichkeit zu bieten, etwas Neues\n"
+"zu sehen."
 msgstr ""

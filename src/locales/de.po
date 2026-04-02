@@ -319,9 +319,8 @@ msgstr "© 2026 Frisbee Festival München. Alle Rechte vorbehalten."
 msgid "Frisbee player"
 msgstr "Frisbee player"
 
-#: src/routes/[[locale=lang]]/faq/+page.svelte
-msgid "Die Sportschule Oberhaching ist einfach mit der S-Bahn erreichbar"
-msgstr "Die Sportschule Oberhaching ist einfach mit der S-Bahn erreichbar"
+#~ msgid "Die Sportschule Oberhaching ist einfach mit der S-Bahn erreichbar"
+#~ msgstr "Die Sportschule Oberhaching ist einfach mit der S-Bahn erreichbar"
 
 #: src/lib/components/home/Disciplines.svelte
 msgid "Inklusion in Aktion. Dieser Sport trennt nicht – er verbindet. Wheelchair Ultimate zeigt, wie kreativ, inklusiv und fair Sport sein kann."
@@ -403,9 +402,8 @@ msgstr "Entdecke die Welt der Flugscheibe"
 msgid "Sportarten"
 msgstr "Sportarten"
 
-#: src/lib/components/layout/Footer.svelte
-msgid "Sportschule Oberhaching<0/>82041 Oberhaching<1/>Oberhaching, Bayern"
-msgstr "Sportschule Oberhaching<0/>82041 Oberhaching<1/>Oberhaching, Bayern"
+#~ msgid "Sportschule Oberhaching<0/>82041 Oberhaching<1/>Oberhaching, Bayern"
+#~ msgstr "Sportschule Oberhaching<0/>82041 Oberhaching<1/>Oberhaching, Bayern"
 
 #: src/lib/components/home/Hero.svelte
 msgid "Willkommen zum"
@@ -444,17 +442,16 @@ msgstr "Für wen ist das Festival?"
 msgid "Warum veranstaltet ihr das Festival?"
 msgstr "Warum veranstaltet ihr das Festival?"
 
-#: src/routes/[[locale=lang]]/faq/+page.svelte
-msgid ""
-"Die Freestyle Frisbee Community in München war dieses Jahr dran, die Weltmeisterschaft\n"
-"auszutragen. Um die Reichweite unserer Sportart zu erweitern, haben wir uns mit unseren\n"
-"verwandten Frisbee Sportarten zusammengetan, um euch die Möglichkeit zu bieten, etwas neues\n"
-"zu sehen."
-msgstr ""
-"Die Freestyle Frisbee Community in München war dieses Jahr dran, die Weltmeisterschaft\n"
-"auszutragen. Um die Reichweite unserer Sportart zu erweitern, haben wir uns mit unseren\n"
-"verwandten Frisbee Sportarten zusammengetan, um euch die Möglichkeit zu bieten, etwas neues\n"
-"zu sehen."
+#~ msgid ""
+#~ "Die Freestyle Frisbee Community in München war dieses Jahr dran, die Weltmeisterschaft\n"
+#~ "auszutragen. Um die Reichweite unserer Sportart zu erweitern, haben wir uns mit unseren\n"
+#~ "verwandten Frisbee Sportarten zusammengetan, um euch die Möglichkeit zu bieten, etwas neues\n"
+#~ "zu sehen."
+#~ msgstr ""
+#~ "Die Freestyle Frisbee Community in München war dieses Jahr dran, die Weltmeisterschaft\n"
+#~ "auszutragen. Um die Reichweite unserer Sportart zu erweitern, haben wir uns mit unseren\n"
+#~ "verwandten Frisbee Sportarten zusammengetan, um euch die Möglichkeit zu bieten, etwas neues\n"
+#~ "zu sehen."
 
 #: src/routes/[[locale=lang]]/faq/+page.svelte
 msgid ""
@@ -488,9 +485,8 @@ msgstr ""
 msgid "Was muss ich tun?"
 msgstr "Was muss ich tun?"
 
-#: src/routes/[[locale=lang]]/faq/+page.svelte
-msgid "Einfach erscheinen! Du siehst das Programm auf der <0>Programm Seite</0>"
-msgstr "Einfach erscheinen! Du siehst das Programm auf der <0>Programm Seite</0>"
+#~ msgid "Einfach erscheinen! Du siehst das Programm auf der <0>Programm Seite</0>"
+#~ msgstr "Einfach erscheinen! Du siehst das Programm auf der <0>Programm Seite</0>"
 
 #: src/lib/data/schedules/ultimate.ts
 msgid "Warmup"
@@ -1280,18 +1276,15 @@ msgstr ""
 "Nimm Platz, schnapp dir die Scheibe und werde Teil unserer Gemeinschaft!"
 
 #. placeholder {0}: discipline.image
+#. placeholder {0}: djkLogo
+#. placeholder {0}: hieberLogo
+#. placeholder {0}: sfbLogo
+#. placeholder {0}: xdiscLogo
 #. placeholder {0}: wfdfLogo
 #. placeholder {0}: fpaLogo
-#. placeholder {0}: wfdfLogo
-#. placeholder {0}: fpaLogo
-#. placeholder {0}: festivalImage
-#. placeholder {0}: festivalImage
-#. placeholder {0}: wfdfLogo
-#. placeholder {0}: fpaLogo
-#. placeholder {0}: wfdfLogo
-#. placeholder {0}: fpaLogo
-#. placeholder {0}: festivalImage
 #. placeholder {0}: dfvLogo
+#. placeholder {0}: wfdfLogo
+#. placeholder {0}: fpaLogo
 #. placeholder {0}: wfdfLogo
 #. placeholder {0}: fpaLogo
 #. placeholder {0}: dfvLogo
@@ -1319,3 +1312,151 @@ msgstr ""
 #: src/lib/components/home/Venue.svelte
 msgid "{0} was not enhanced. Cannot determine dimensions."
 msgstr "{0} was not enhanced. Cannot determine dimensions."
+
+#~ msgid "Sportschule Oberhaching<0/>Im Loh 282041 Oberhaching<1/>Oberhaching, Bayern"
+#~ msgstr "Sportschule Oberhaching<0/>Im Loh 282041 Oberhaching<1/>Oberhaching, Bayern"
+
+#~ msgid "Sportschule Oberhaching<0/>Im Loh 2<1/>82041 Oberhaching<2/>Oberhaching, Bayern"
+#~ msgstr "Sportschule Oberhaching<0/>Im Loh 2<1/>82041 Oberhaching<2/>Oberhaching, Bayern"
+
+#: src/lib/components/layout/Footer.svelte
+msgid "Sportschule Oberhaching<0/>Im Loh 2<1/>82041 Oberhaching"
+msgstr "Sportschule Oberhaching<0/>Im Loh 2<1/>82041 Oberhaching"
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid ""
+"Die Sportschule Oberhaching liegt verkehrsgünstig im Süden Münchens und ist sowohl mit\n"
+"öffentlichen Verkehrsmitteln als auch mit dem Auto einfach zu erreichen."
+msgstr ""
+"Die Sportschule Oberhaching liegt verkehrsgünstig im Süden Münchens und ist sowohl mit\n"
+"öffentlichen Verkehrsmitteln als auch mit dem Auto einfach zu erreichen."
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid "Anfahrt mit der S-Bahn"
+msgstr "Anfahrt mit der S-Bahn"
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid ""
+"Dank der direkten Anbindung an die S-Bahn-Linie S3 Richtung Deisenhofen oder Holzkirchen\n"
+"(Haltestelle Furth) gelangt ihr bequem und schnell aus dem Münchner Stadtgebiet zu uns –\n"
+"ideal für Tagesgäste, Teilnehmer von Trainingslagern, Schulklassen oder Tagungen."
+msgstr ""
+"Dank der direkten Anbindung an die S-Bahn-Linie S3 Richtung Deisenhofen oder Holzkirchen\n"
+"(Haltestelle Furth) gelangt ihr bequem und schnell aus dem Münchner Stadtgebiet zu uns –\n"
+"ideal für Tagesgäste, Teilnehmer von Trainingslagern, Schulklassen oder Tagungen."
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid "Anfahrt mit dem Auto"
+msgstr "Anfahrt mit dem Auto"
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid ""
+"Für alle, die mit dem PKW anreisen, bietet die nahegelegene Autobahn A8 (München – Salzburg)\n"
+"eine unkomplizierte und schnelle Verbindung. Einfach auf der A995/E54 bis Ausfahrt\n"
+"Oberhaching und dann der Beschilderung „Sportschule Oberhaching“ folgen. Parkmöglichkeiten\n"
+"stehen auf dem Gelände der Sportschule kostenlos zur Verfügung."
+msgstr ""
+"Für alle, die mit dem PKW anreisen, bietet die nahegelegene Autobahn A8 (München – Salzburg)\n"
+"eine unkomplizierte und schnelle Verbindung. Einfach auf der A995/E54 bis Ausfahrt\n"
+"Oberhaching und dann der Beschilderung „Sportschule Oberhaching“ folgen. Parkmöglichkeiten\n"
+"stehen auf dem Gelände der Sportschule kostenlos zur Verfügung."
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid "Hier der Link zu Google Maps"
+msgstr "Hier der Link zu Google Maps"
+
+#~ msgid "Einfach erscheinen! Du siehst das Programm auf der <0>Programmseite</0>"
+#~ msgstr "Einfach erscheinen! Du siehst das Programm auf der <0>Programmseite</0>"
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid "Was bedeutet Sport für Alle?"
+msgstr "Was bedeutet Sport für Alle?"
+
+#~ msgid "Sport für alle ist ein Begriff, der oft im Zusammenhang mit körperlicher Aktivität genannt wird (mit der Abkürzung SAPA für Sport for All and Physical Activity). Der Begriff wird vor allem von TAFISA verwendet, dem Weltverband für Sport für Alle (The Association for International Sport for All). Sein Motto lautet: “Die Welt durch Sport für Alle zu einem besseren Ort zu machen”."
+#~ msgstr "Sport für alle ist ein Begriff, der oft im Zusammenhang mit körperlicher Aktivität genannt wird (mit der Abkürzung SAPA für Sport for All and Physical Activity). Der Begriff wird vor allem von TAFISA verwendet, dem Weltverband für Sport für Alle (The Association for International Sport for All). Sein Motto lautet: “Die Welt durch Sport für Alle zu einem besseren Ort zu machen”."
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid ""
+"Sport für alle ist ein Begriff, der oft im Zusammenhang mit körperlicher Aktivität genannt\n"
+"wird (mit der Abkürzung SAPA für Sport for All and Physical Activity). Der Begriff wird vor\n"
+"allem von TAFISA verwendet, dem Weltverband für Sport für Alle (The Association for\n"
+"International Sport for All). Sein Motto lautet: “Die Welt durch Sport für Alle zu einem\n"
+"besseren Ort zu machen”."
+msgstr ""
+"Sport für alle ist ein Begriff, der oft im Zusammenhang mit körperlicher Aktivität genannt\n"
+"wird (mit der Abkürzung SAPA für Sport for All and Physical Activity). Der Begriff wird vor\n"
+"allem von TAFISA verwendet, dem Weltverband für Sport für Alle (The Association for\n"
+"International Sport for All). Sein Motto lautet: “Die Welt durch Sport für Alle zu einem\n"
+"besseren Ort zu machen”."
+
+#~ msgid "Breitensport sagt gewöhnlich: “Kommt alle, wenn ihr könnt.” Sport für Alle hingegen betrachtet, welche Zielgruppen besondere Schwierigkeiten haben, am Breitensport teilzunehmen. Dabei handelt es sich häufig um Kinder und Jugendliche, um Frauen, um sich nicht-binär identifizierende Personen, um Menschen mit Behinderungen oder um ätere Menschen oder um Menschen, die aufgrund unterschiedlicher Merkmale diskriminiert werden. Sport für Alle macht sich zur Aufgabe, Angebote für gesellschaftlich benachteiligte Personen zu schaffen, um ihnen die Teilnahme an Sport und körperlicher Aktivität zu ermöglichen."
+#~ msgstr "Breitensport sagt gewöhnlich: “Kommt alle, wenn ihr könnt.” Sport für Alle hingegen betrachtet, welche Zielgruppen besondere Schwierigkeiten haben, am Breitensport teilzunehmen. Dabei handelt es sich häufig um Kinder und Jugendliche, um Frauen, um sich nicht-binär identifizierende Personen, um Menschen mit Behinderungen oder um ätere Menschen oder um Menschen, die aufgrund unterschiedlicher Merkmale diskriminiert werden. Sport für Alle macht sich zur Aufgabe, Angebote für gesellschaftlich benachteiligte Personen zu schaffen, um ihnen die Teilnahme an Sport und körperlicher Aktivität zu ermöglichen."
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid "Was unterscheidet Sport für Alle vom Breitensport?"
+msgstr "Was unterscheidet Sport für Alle vom Breitensport?"
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid ""
+"Breitensport sagt gewöhnlich: “Kommt alle, wenn ihr könnt.” Sport für Alle hingegen\n"
+"betrachtet, welche Zielgruppen besondere Schwierigkeiten haben, am Breitensport\n"
+"teilzunehmen. Dabei handelt es sich häufig um Kinder und Jugendliche, um Frauen, um sich\n"
+"nicht-binär identifizierende Personen, um Menschen mit Behinderungen oder um ätere Menschen\n"
+"oder um Menschen, die aufgrund unterschiedlicher Merkmale diskriminiert werden. Sport für\n"
+"Alle macht sich zur Aufgabe, Angebote für gesellschaftlich benachteiligte Personen zu\n"
+"schaffen, um ihnen die Teilnahme an Sport und körperlicher Aktivität zu ermöglichen."
+msgstr ""
+"Breitensport sagt gewöhnlich: “Kommt alle, wenn ihr könnt.” Sport für Alle hingegen\n"
+"betrachtet, welche Zielgruppen besondere Schwierigkeiten haben, am Breitensport\n"
+"teilzunehmen. Dabei handelt es sich häufig um Kinder und Jugendliche, um Frauen, um sich\n"
+"nicht-binär identifizierende Personen, um Menschen mit Behinderungen oder um ätere Menschen\n"
+"oder um Menschen, die aufgrund unterschiedlicher Merkmale diskriminiert werden. Sport für\n"
+"Alle macht sich zur Aufgabe, Angebote für gesellschaftlich benachteiligte Personen zu\n"
+"schaffen, um ihnen die Teilnahme an Sport und körperlicher Aktivität zu ermöglichen."
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid "Wofür steht die Auszeichnung des Frisbee Festivals als Sport für Alle-Event?"
+msgstr "Wofür steht die Auszeichnung des Frisbee Festivals als Sport für Alle-Event?"
+
+#~ msgid "Die Auszeichnung des Frisbee Festivals München als lizenziertes Sport für Alle-Event belegt, dass die Veranstaltung als wichtiger Beitrag zur Förderung von körperlicher Aktivität angesehen wird. Der Weltverband für Sport für Alle (TAFISA) zeichnet damit Veranstaltungen mit einem hohen Engagement zur Förderung einer Kultur der Inklusion aus. Dabei spielt auch die öffentlichkeitswirksame Kombination eines Spitzensportevents mit Breitensport und der Ansprache verschiedener Zielgruppen eine besondere Rolle. Die TAFISA-Lizenzierung ist Events mit einem starken Fokus auf Sport für Alle vorbehalten, da diese zur weltweiten Förderung von körperlicher Aktivität gerade von gesellschaftlich benachteiligten Zielgruppen beitragen, im Einklang mit den UN-Nachhaltigkeitszielen und den Themen der TAFISA-Mission 2030."
+#~ msgstr "Die Auszeichnung des Frisbee Festivals München als lizenziertes Sport für Alle-Event belegt, dass die Veranstaltung als wichtiger Beitrag zur Förderung von körperlicher Aktivität angesehen wird. Der Weltverband für Sport für Alle (TAFISA) zeichnet damit Veranstaltungen mit einem hohen Engagement zur Förderung einer Kultur der Inklusion aus. Dabei spielt auch die öffentlichkeitswirksame Kombination eines Spitzensportevents mit Breitensport und der Ansprache verschiedener Zielgruppen eine besondere Rolle. Die TAFISA-Lizenzierung ist Events mit einem starken Fokus auf Sport für Alle vorbehalten, da diese zur weltweiten Förderung von körperlicher Aktivität gerade von gesellschaftlich benachteiligten Zielgruppen beitragen, im Einklang mit den UN-Nachhaltigkeitszielen und den Themen der TAFISA-Mission 2030."
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid ""
+"Die Auszeichnung des Frisbee Festivals München als lizenziertes Sport für Alle-Event belegt,\n"
+"dass die Veranstaltung als wichtiger Beitrag zur Förderung von körperlicher Aktivität\n"
+"angesehen wird. Der Weltverband für Sport für Alle (TAFISA) zeichnet damit Veranstaltungen\n"
+"mit einem hohen Engagement zur Förderung einer Kultur der Inklusion aus. Dabei spielt auch\n"
+"die öffentlichkeitswirksame Kombination eines Spitzensportevents mit Breitensport und der\n"
+"Ansprache verschiedener Zielgruppen eine besondere Rolle. Die TAFISA-Lizenzierung ist Events\n"
+"mit einem starken Fokus auf Sport für Alle vorbehalten, da diese zur weltweiten Förderung\n"
+"von körperlicher Aktivität gerade von gesellschaftlich benachteiligten Zielgruppen\n"
+"beitragen, im Einklang mit den UN-Nachhaltigkeitszielen und den Themen der TAFISA-Mission\n"
+"2030."
+msgstr ""
+"Die Auszeichnung des Frisbee Festivals München als lizenziertes Sport für Alle-Event belegt,\n"
+"dass die Veranstaltung als wichtiger Beitrag zur Förderung von körperlicher Aktivität\n"
+"angesehen wird. Der Weltverband für Sport für Alle (TAFISA) zeichnet damit Veranstaltungen\n"
+"mit einem hohen Engagement zur Förderung einer Kultur der Inklusion aus. Dabei spielt auch\n"
+"die öffentlichkeitswirksame Kombination eines Spitzensportevents mit Breitensport und der\n"
+"Ansprache verschiedener Zielgruppen eine besondere Rolle. Die TAFISA-Lizenzierung ist Events\n"
+"mit einem starken Fokus auf Sport für Alle vorbehalten, da diese zur weltweiten Förderung\n"
+"von körperlicher Aktivität gerade von gesellschaftlich benachteiligten Zielgruppen\n"
+"beitragen, im Einklang mit den UN-Nachhaltigkeitszielen und den Themen der TAFISA-Mission\n"
+"2030."
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid "Einfach vorbeikommen! Du siehst das Programm auf der <0>Programmseite</0>"
+msgstr "Einfach vorbeikommen! Du siehst das Programm auf der <0>Programmseite</0>"
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid ""
+"Die Freestyle Frisbee Community in München war dieses Jahr dran, die Weltmeisterschaft\n"
+"auszutragen. Um die Reichweite unserer Sportart zu erweitern, haben wir uns mit unseren\n"
+"verwandten Frisbee Sportarten zusammengetan, um euch die Möglichkeit zu bieten, etwas Neues\n"
+"zu sehen."
+msgstr ""
+"Die Freestyle Frisbee Community in München war dieses Jahr dran, die Weltmeisterschaft\n"
+"auszutragen. Um die Reichweite unserer Sportart zu erweitern, haben wir uns mit unseren\n"
+"verwandten Frisbee Sportarten zusammengetan, um euch die Möglichkeit zu bieten, etwas Neues\n"
+"zu sehen."

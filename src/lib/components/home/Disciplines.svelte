@@ -94,7 +94,7 @@
 
 				<div class="relative z-10 flex h-full flex-col justify-end p-4 text-white">
 					<Card.Title class="mb-2 text-base text-white">{discipline.name}</Card.Title>
-					<Card.Description class="m-0 flex gap-4 text-xs leading-relaxed text-white/80">
+					<div class="m-0 flex gap-4 text-xs leading-relaxed text-white/80">
 						<div>
 							{discipline.description}
 						</div>
@@ -106,7 +106,7 @@
 						>
 							Mehr <ChevronRight />
 						</Button>
-					</Card.Description>
+					</div>
 				</div>
 			</Card.Root>
 		{/each}

@@ -48,7 +48,7 @@
 				</li>
 				<li class="flex items-center gap-2">
 					<MapPin class="h-4 w-4 shrink-0" />
-					<span>Sportschule Oberhaching<br />82041 Oberhaching<br />Oberhaching, Bayern</span>
+					<span>Sportschule Oberhaching<br />Im Loh 2<br/>82041 Oberhaching</span>
 				</li>
 			</ul>
 		</div>
