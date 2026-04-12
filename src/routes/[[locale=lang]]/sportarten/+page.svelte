@@ -9,7 +9,7 @@
 	import ogImage from '$lib/assets/freestyle/edo-gitis.png';
 	import freestyleImage from '$lib/assets/freestyle/edo-gitis.png?enhanced';
 	import discGolfImage from '$lib/assets/disc-golf/putt.jpg?enhanced';
-	import ddcImage from '$lib/assets/ddc/ddc-gallery-3.jpg?enhanced';
+	import ddcImage from '$lib/assets/ddc/Scheibenerwachen-197.jpg?enhanced';
 	import ultimateImage from '$lib/assets/ultimate/ultimate-jump.jpg?enhanced';
 	import wheelchairUltimateImage from '$lib/assets/wheelchair-ultimate/rollstuhl-frisbee-handshake.jpg?enhanced';
 </script>

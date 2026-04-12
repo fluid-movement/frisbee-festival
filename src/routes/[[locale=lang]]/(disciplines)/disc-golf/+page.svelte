@@ -19,10 +19,16 @@
 
 <svelte:head>
 	<title>Disc Golf Munich Open | Frisbee Festival München</title>
-	<meta name="description" content="Disc Golf München Open: Deutschlands beste Spieler:innen bei der German Disc Golf Tour South in Oberhaching. 8 Divisionen, 3 Runden, 18 Bahnen. 1.–2. August 2026." />
+	<meta
+		name="description"
+		content="Disc Golf München Open: Deutschlands beste Spieler:innen bei der German Disc Golf Tour South in Oberhaching. 8 Divisionen, 3 Runden, 18 Bahnen. 1.–2. August 2026."
+	/>
 	<link rel="canonical" href="{PUBLIC_ORIGIN}{page.url.pathname}" />
 	<meta property="og:title" content="Disc Golf Munich Open | Frisbee Festival München" />
-	<meta property="og:description" content="Disc Golf München Open: Deutschlands beste Spieler:innen bei der German Disc Golf Tour South in Oberhaching. 8 Divisionen, 3 Runden, 18 Bahnen. 1.–2. August 2026." />
+	<meta
+		property="og:description"
+		content="Disc Golf München Open: Deutschlands beste Spieler:innen bei der German Disc Golf Tour South in Oberhaching. 8 Divisionen, 3 Runden, 18 Bahnen. 1.–2. August 2026."
+	/>
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="{PUBLIC_ORIGIN}{page.url.pathname}" />
 	<meta property="og:site_name" content="Frisbee Festival München" />
@@ -39,32 +45,33 @@
 			<h1 class="uppercase">Disc Golf</h1>
 		</div>
 		<p>
-			Disc Golf verbindet die zeitlose Präzision des Golfsports mit der dynamischen Flugphysik der
-			Frisbee. Statt Ball und Schläger kommen spezialisierte Wurfscheiben zum Einsatz, die mit
+			Discgolf verbindet die Präzision des Golfsports mit der dynamischen Flugphysik der Frisbee.
+			Statt Ball und Schläger kommen spezialisierte Wurfscheiben (Discs) zum Einsatz, die mit
 			möglichst wenigen Würfen in ein Ziel – einen Fangkorb aus Metall – befördert werden müssen.
 			Ein Sport für jedes Alter, der Technik, Kraft und Konzentration in der Natur vereint.
 		</p>
 		<h5>Wie funktioniert Disc Golf?</h5>
 		<p>
-			Das Prinzip ist einfach, die Umsetzung eine faszinierende Herausforderung: Ein Kurs besteht in
-			der Regel aus 18 Bahnen. Jede Bahn beginnt an einem festgelegten Abwurfpunkt. Von dort aus
-			spielst du immer genau von der Stelle weiter, an der deine Disc liegen geblieben ist, bis die
-			Scheibe im Fangkorb zur Ruhe kommt. Dabei gilt es, Bäume zu umspielen, Windverhältnisse zu
-			lesen und für jede Distanz die richtige Scheibe zu wählen – vom schnellen „Driver“ für den
-			weiten Abwurf bis zum präzisen „Putter“ für den finalen Wurf in die Ketten.
+			Das Prinzip ist einfach: Ein Kurs besteht in der Regel aus 18 Bahnen. Jede Bahn beginnt an
+			einem festgelegten Abwurfpunkt. Von dort aus spielst du immer genau von der Stelle weiter, an
+			der deine Disc liegen geblieben ist, bis die Scheibe im Fangkorb zur Ruhe kommt. Dabei gilt
+			es, Bäume zu umspielen, Windverhältnisse zu lesen und für jede Distanz die richtige Scheibe zu
+			wählen – vom schnellen “Driver” für den weiten Abwurf bis zum präzisen “Putter” für den
+			finalen Wurf in die Ketten.
 		</p>
-		<h5>Das Munich Open “Campustreffen” in München</h5>
+		<h5>Das “Münchener Campustreffen” in Oberhaching</h5>
 		<p>
-			Das Frisbee Festival bringt mit dem „Campustreffen“ die nationale Elite nach München. Als Teil
-			der „German Disc Golf Tour South“ kämpfen hier Deutschlands beste Spieler:innen in acht
-			Divisionen über drei Runden auf 18 Bahnen um den Sieg. Wer die wenigsten Würfe benötigt,
-			gewinnt – die perfekte Chance, erstklassigen Sport und Profi-Techniken hautnah zu erleben!
+			Das Frisbee Festival bringt mit dem “Münchener Campustreffen” ein starkes und überregionales
+			Spielerfeld nach München. Als Teil der „Discgolf Serie Süd“ treten die Spieler:innen in
+			mehreren Divisionen über drei Runden auf 18 Bahnen gegeneinander an. Wer die wenigsten Würfe
+			benötigt, gewinnt – die perfekte Chance, erstklassigen Sport und Profi-Techniken hautnah zu
+			erleben!
 		</p>
 		<h5>Probier es selbst aus!</h5>
 		<p>
 			Die Sportschule Oberhaching verfügt auch abseits des Frisbee Festivals über einen öffentlich
-			zugänglichen Kurs. An der Rezeption erhältst du für 6 € eine Tageskarte sowie Leihscheiben.
-			Pack deine Freunde ein und starte deine eigene Runde!
+			zugänglichen Kurs. An der Rezeption erhältst du für 6 € eine Tageskarte, Leihscheiben gibt es
+			für 3€. Nimm deine Freunde mit und starte deine eigene Runde!
 		</p>
 	</article>
 	<enhanced:img

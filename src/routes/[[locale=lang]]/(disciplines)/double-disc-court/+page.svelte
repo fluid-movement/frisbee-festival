@@ -19,10 +19,16 @@
 
 <svelte:head>
 	<title>Double Disc Court DM | Frisbee Festival München</title>
-	<meta name="description" content="Deutsche Meisterschaft im Double Disc Court: zwei Teams, zwei Scheiben, ein Spielfeld. Rasanter Frisbeesport pur in München. 1.–2. August 2026 in Oberhaching." />
+	<meta
+		name="description"
+		content="Deutsche Meisterschaft im Double Disc Court: zwei Teams, zwei Scheiben, ein Spielfeld. Rasanter Frisbeesport pur in München. 1.–2. August 2026 in Oberhaching."
+	/>
 	<link rel="canonical" href="{PUBLIC_ORIGIN}{page.url.pathname}" />
 	<meta property="og:title" content="Double Disc Court DM | Frisbee Festival München" />
-	<meta property="og:description" content="Deutsche Meisterschaft im Double Disc Court: zwei Teams, zwei Scheiben, ein Spielfeld. Rasanter Frisbeesport pur in München. 1.–2. August 2026 in Oberhaching." />
+	<meta
+		property="og:description"
+		content="Deutsche Meisterschaft im Double Disc Court: zwei Teams, zwei Scheiben, ein Spielfeld. Rasanter Frisbeesport pur in München. 1.–2. August 2026 in Oberhaching."
+	/>
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="{PUBLIC_ORIGIN}{page.url.pathname}" />
 	<meta property="og:site_name" content="Frisbee Festival München" />
@@ -55,6 +61,15 @@
 			sogenannte „Double“: Berührt das gegnerische Team beide Scheiben gleichzeitig, wandern sofort
 			zwei Punkte auf das eigene Konto.
 		</p>
+	</article>
+	<enhanced:img
+		src="$lib/assets/ddc/ddc.jpg"
+		alt="Community"
+		class="h-full w-full rounded-xl object-cover"
+	/>
+</Grid>
+<Grid>
+	<div>
 		<h5>Kommunikation als Schlüssel zum Erfolg</h5>
 		<p>
 			Gespielt wird DDC mit den leichtesten und damit windanfälligsten Scheiben der Frisbee-Welt.
@@ -64,6 +79,8 @@
 			gleichzeitigen Kontakt beider Scheiben verhindern und im richtigen Moment zum Gegenangriff
 			ansetzen.
 		</p>
+	</div>
+	<div>
 		<h5>Die Deutsche Meisterschaften in München</h5>
 		<p>
 			DDC gilt als die charmante „Nischensportart in der Nischensportart“ mit einer familiären
@@ -73,24 +90,18 @@
 			höchstem Niveau. Sei dabei, wenn Deutschlands beste Teams taktisch anspruchsvoll um jeden
 			Zentimeter kämpfen und die Faszination der zwei Scheiben erlebbar machen.
 		</p>
-	</article>
-	<enhanced:img
-		src="$lib/assets/ddc/ddc.jpg"
-		alt="Community"
-		class="h-full w-full rounded-xl object-cover"
-	/>
+	</div>
 </Grid>
-
 <Schedule schedule={scheduleData.schedule} />
 
 <div class="container-custom grid gap-4 md:grid-cols-3">
 	<enhanced:img
-		src="$lib/assets/ddc/ddc-gallery-3.jpg"
+		src="$lib/assets/ddc/Scheibenerwachen-197.jpg"
 		alt="Double Disc Court"
 		class="h-full w-full rounded-xl object-cover"
 	/>
 	<enhanced:img
-		src="$lib/assets/ddc/ddc-action.jpg"
+		src="$lib/assets/ddc/Scheibenerwachen-218.jpg"
 		alt="Double Disc Court"
 		class="h-full w-full rounded-xl object-cover"
 	/>

@@ -218,7 +218,6 @@ msgid "Putting Clinic"
 msgstr "Putting Clinic"
 
 #: src/lib/data/schedules/double-disc-court.ts
-#: src/lib/data/schedules/double-disc-court.ts
 msgid "Freies Spiel"
 msgstr "Freies Spiel"
 
@@ -553,18 +552,15 @@ msgstr "{0} von {1} Einträgen angezeigt"
 msgid "<0/> Filter entfernen"
 msgstr "<0/> Filter entfernen"
 
-#: src/lib/data/schedules/double-disc-court.ts
-#: src/lib/data/schedules/double-disc-court.ts
-msgid "Freies Spiel für alle. Hier könnt Ihr das Spiel auch lernen, wenn Ihr neu dabei seid. Es gibt keine festen Teams, sondern es wird einfach drauf los gespielt."
-msgstr "Freies Spiel für alle. Hier könnt Ihr das Spiel auch lernen, wenn Ihr neu dabei seid. Es gibt keine festen Teams, sondern es wird einfach drauf los gespielt."
+#~ msgid "Freies Spiel für alle. Hier könnt Ihr das Spiel auch lernen, wenn Ihr neu dabei seid. Es gibt keine festen Teams, sondern es wird einfach drauf los gespielt."
+#~ msgstr "Freies Spiel für alle. Hier könnt Ihr das Spiel auch lernen, wenn Ihr neu dabei seid. Es gibt keine festen Teams, sondern es wird einfach drauf los gespielt."
 
 #: src/lib/data/schedules/double-disc-court.ts
 msgid "Semifinale 1 & 2"
 msgstr "Semifinale 1 & 2"
 
-#: src/lib/data/schedules/double-disc-court.ts
-msgid "Match um dritten Platz"
-msgstr "Match um dritten Platz"
+#~ msgid "Match um dritten Platz"
+#~ msgstr "Match um dritten Platz"
 
 #: src/lib/data/schedules/ultimate.ts
 msgid "Teamzuweisung"
@@ -807,67 +803,62 @@ msgstr "Waldemar “Wowa” Wagner"
 msgid "Freestyle Patrons"
 msgstr "Freestyle Patrons"
 
-#: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
-msgid ""
-"Disc Golf verbindet die zeitlose Präzision des Golfsports mit der dynamischen Flugphysik der\n"
-"Frisbee. Statt Ball und Schläger kommen spezialisierte Wurfscheiben zum Einsatz, die mit\n"
-"möglichst wenigen Würfen in ein Ziel – einen Fangkorb aus Metall – befördert werden müssen.\n"
-"Ein Sport für jedes Alter, der Technik, Kraft und Konzentration in der Natur vereint."
-msgstr ""
-"Disc Golf verbindet die zeitlose Präzision des Golfsports mit der dynamischen Flugphysik der\n"
-"Frisbee. Statt Ball und Schläger kommen spezialisierte Wurfscheiben zum Einsatz, die mit\n"
-"möglichst wenigen Würfen in ein Ziel – einen Fangkorb aus Metall – befördert werden müssen.\n"
-"Ein Sport für jedes Alter, der Technik, Kraft und Konzentration in der Natur vereint."
+#~ msgid ""
+#~ "Disc Golf verbindet die zeitlose Präzision des Golfsports mit der dynamischen Flugphysik der\n"
+#~ "Frisbee. Statt Ball und Schläger kommen spezialisierte Wurfscheiben zum Einsatz, die mit\n"
+#~ "möglichst wenigen Würfen in ein Ziel – einen Fangkorb aus Metall – befördert werden müssen.\n"
+#~ "Ein Sport für jedes Alter, der Technik, Kraft und Konzentration in der Natur vereint."
+#~ msgstr ""
+#~ "Disc Golf verbindet die zeitlose Präzision des Golfsports mit der dynamischen Flugphysik der\n"
+#~ "Frisbee. Statt Ball und Schläger kommen spezialisierte Wurfscheiben zum Einsatz, die mit\n"
+#~ "möglichst wenigen Würfen in ein Ziel – einen Fangkorb aus Metall – befördert werden müssen.\n"
+#~ "Ein Sport für jedes Alter, der Technik, Kraft und Konzentration in der Natur vereint."
 
 #: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
 msgid "Wie funktioniert Disc Golf?"
 msgstr "Wie funktioniert Disc Golf?"
 
-#: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
-msgid "Das Munich Open “Campustreffen” in München"
-msgstr "Das Munich Open “Campustreffen” in München"
+#~ msgid "Das Munich Open “Campustreffen” in München"
+#~ msgstr "Das Munich Open “Campustreffen” in München"
 
-#: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
-msgid ""
-"Das Prinzip ist einfach, die Umsetzung eine faszinierende Herausforderung: Ein Kurs besteht in\n"
-"der Regel aus 18 Bahnen. Jede Bahn beginnt an einem festgelegten Abwurfpunkt. Von dort aus\n"
-"spielst du immer genau von der Stelle weiter, an der deine Disc liegen geblieben ist, bis die\n"
-"Scheibe im Fangkorb zur Ruhe kommt. Dabei gilt es, Bäume zu umspielen, Windverhältnisse zu\n"
-"lesen und für jede Distanz die richtige Scheibe zu wählen – vom schnellen „Driver“ für den\n"
-"weiten Abwurf bis zum präzisen „Putter“ für den finalen Wurf in die Ketten."
-msgstr ""
-"Das Prinzip ist einfach, die Umsetzung eine faszinierende Herausforderung: Ein Kurs besteht in\n"
-"der Regel aus 18 Bahnen. Jede Bahn beginnt an einem festgelegten Abwurfpunkt. Von dort aus\n"
-"spielst du immer genau von der Stelle weiter, an der deine Disc liegen geblieben ist, bis die\n"
-"Scheibe im Fangkorb zur Ruhe kommt. Dabei gilt es, Bäume zu umspielen, Windverhältnisse zu\n"
-"lesen und für jede Distanz die richtige Scheibe zu wählen – vom schnellen „Driver“ für den\n"
-"weiten Abwurf bis zum präzisen „Putter“ für den finalen Wurf in die Ketten."
+#~ msgid ""
+#~ "Das Prinzip ist einfach, die Umsetzung eine faszinierende Herausforderung: Ein Kurs besteht in\n"
+#~ "der Regel aus 18 Bahnen. Jede Bahn beginnt an einem festgelegten Abwurfpunkt. Von dort aus\n"
+#~ "spielst du immer genau von der Stelle weiter, an der deine Disc liegen geblieben ist, bis die\n"
+#~ "Scheibe im Fangkorb zur Ruhe kommt. Dabei gilt es, Bäume zu umspielen, Windverhältnisse zu\n"
+#~ "lesen und für jede Distanz die richtige Scheibe zu wählen – vom schnellen „Driver“ für den\n"
+#~ "weiten Abwurf bis zum präzisen „Putter“ für den finalen Wurf in die Ketten."
+#~ msgstr ""
+#~ "Das Prinzip ist einfach, die Umsetzung eine faszinierende Herausforderung: Ein Kurs besteht in\n"
+#~ "der Regel aus 18 Bahnen. Jede Bahn beginnt an einem festgelegten Abwurfpunkt. Von dort aus\n"
+#~ "spielst du immer genau von der Stelle weiter, an der deine Disc liegen geblieben ist, bis die\n"
+#~ "Scheibe im Fangkorb zur Ruhe kommt. Dabei gilt es, Bäume zu umspielen, Windverhältnisse zu\n"
+#~ "lesen und für jede Distanz die richtige Scheibe zu wählen – vom schnellen „Driver“ für den\n"
+#~ "weiten Abwurf bis zum präzisen „Putter“ für den finalen Wurf in die Ketten."
 
-#: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
-msgid ""
-"Das Frisbee Festival bringt mit dem „Campustreffen“ die nationale Elite nach München. Als Teil\n"
-"der „German Disc Golf Tour South“ kämpfen hier Deutschlands beste Spieler:innen in acht\n"
-"Divisionen über drei Runden auf 18 Bahnen um den Sieg. Wer die wenigsten Würfe benötigt,\n"
-"gewinnt – die perfekte Chance, erstklassigen Sport und Profi-Techniken hautnah zu erleben!"
-msgstr ""
-"Das Frisbee Festival bringt mit dem „Campustreffen“ die nationale Elite nach München. Als Teil\n"
-"der „German Disc Golf Tour South“ kämpfen hier Deutschlands beste Spieler:innen in acht\n"
-"Divisionen über drei Runden auf 18 Bahnen um den Sieg. Wer die wenigsten Würfe benötigt,\n"
-"gewinnt – die perfekte Chance, erstklassigen Sport und Profi-Techniken hautnah zu erleben!"
+#~ msgid ""
+#~ "Das Frisbee Festival bringt mit dem „Campustreffen“ die nationale Elite nach München. Als Teil\n"
+#~ "der „German Disc Golf Tour South“ kämpfen hier Deutschlands beste Spieler:innen in acht\n"
+#~ "Divisionen über drei Runden auf 18 Bahnen um den Sieg. Wer die wenigsten Würfe benötigt,\n"
+#~ "gewinnt – die perfekte Chance, erstklassigen Sport und Profi-Techniken hautnah zu erleben!"
+#~ msgstr ""
+#~ "Das Frisbee Festival bringt mit dem „Campustreffen“ die nationale Elite nach München. Als Teil\n"
+#~ "der „German Disc Golf Tour South“ kämpfen hier Deutschlands beste Spieler:innen in acht\n"
+#~ "Divisionen über drei Runden auf 18 Bahnen um den Sieg. Wer die wenigsten Würfe benötigt,\n"
+#~ "gewinnt – die perfekte Chance, erstklassigen Sport und Profi-Techniken hautnah zu erleben!"
 
 #: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
 msgid "Probier es selbst aus!"
 msgstr "Probier es selbst aus!"
 
-#: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
-msgid ""
-"Die Sportschule Oberhaching verfügt auch abseits des Frisbee Festivals über einen öffentlich\n"
-"zugänglichen Kurs. An der Rezeption erhältst du für 6 € eine Tageskarte sowie Leihscheiben.\n"
-"Pack deine Freunde ein und starte deine eigene Runde!"
-msgstr ""
-"Die Sportschule Oberhaching verfügt auch abseits des Frisbee Festivals über einen öffentlich\n"
-"zugänglichen Kurs. An der Rezeption erhältst du für 6 € eine Tageskarte sowie Leihscheiben.\n"
-"Pack deine Freunde ein und starte deine eigene Runde!"
+#~ msgid ""
+#~ "Die Sportschule Oberhaching verfügt auch abseits des Frisbee Festivals über einen öffentlich\n"
+#~ "zugänglichen Kurs. An der Rezeption erhältst du für 6 € eine Tageskarte sowie Leihscheiben.\n"
+#~ "Pack deine Freunde ein und starte deine eigene Runde!"
+#~ msgstr ""
+#~ "Die Sportschule Oberhaching verfügt auch abseits des Frisbee Festivals über einen öffentlich\n"
+#~ "zugänglichen Kurs. An der Rezeption erhältst du für 6 € eine Tageskarte sowie Leihscheiben.\n"
+#~ "Pack deine Freunde ein und starte deine eigene Runde!"
 
 #: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
 msgid ""
@@ -1273,20 +1264,19 @@ msgstr "Erlebe den Perspektivwechsel hautnah"
 
 #. placeholder {0}: discipline.image
 #. placeholder {0}: heroPerson
-#. placeholder {0}: fpaLogo
-#. placeholder {0}: dfvLogo
+#. placeholder {0}: festivalImage
+#. placeholder {0}: wfdfLogo
+#. placeholder {0}: festivalImage
 #. placeholder {0}: wfdfLogo
 #. placeholder {0}: fpaLogo
-#. placeholder {0}: wfdfLogo
-#. placeholder {0}: fpaLogo
-#. placeholder {0}: dfvLogo
 #. placeholder {0}: festivalImage
 #. placeholder {0}: wfdfLogo
 #. placeholder {0}: fpaLogo
 #. placeholder {0}: dfvLogo
 #. placeholder {0}: festivalImage
-#. placeholder {0}: dfvLogo
-#. placeholder {0}: flbyLogo
+#. placeholder {0}: wfdfLogo
+#. placeholder {0}: fpaLogo
+#. placeholder {0}: image
 #. placeholder {0}: alpressoLogo
 #. placeholder {0}: dgMucLogo
 #. placeholder {0}: soLogo
@@ -1584,3 +1574,114 @@ msgstr ""
 "ein, selbst in den Sportrollstuhl zu steigen. Entdecke die Herausforderung dieser\n"
 "Fortbewegung, gewinne neue Perspektiven und erlebe ein tolles Spiel auf Augenhöhe. Nimm\n"
 "Platz, schnapp dir die Scheibe und werde Teil unserer Gemeinschaft!"
+
+#: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
+msgid ""
+"Discgolf verbindet die Präzision des Golfsports mit der dynamischen Flugphysik der Frisbee.\n"
+"Statt Ball und Schläger kommen spezialisierte Wurfscheiben (Discs) zum Einsatz, die mit\n"
+"möglichst wenigen Würfen in ein Ziel – einen Fangkorb aus Metall – befördert werden müssen.\n"
+"Ein Sport für jedes Alter, der Technik, Kraft und Konzentration in der Natur vereint."
+msgstr ""
+"Discgolf verbindet die Präzision des Golfsports mit der dynamischen Flugphysik der Frisbee.\n"
+"Statt Ball und Schläger kommen spezialisierte Wurfscheiben (Discs) zum Einsatz, die mit\n"
+"möglichst wenigen Würfen in ein Ziel – einen Fangkorb aus Metall – befördert werden müssen.\n"
+"Ein Sport für jedes Alter, der Technik, Kraft und Konzentration in der Natur vereint."
+
+#: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
+msgid ""
+"Das Prinzip ist einfach: Ein Kurs besteht in der Regel aus 18 Bahnen. Jede Bahn beginnt an\n"
+"einem festgelegten Abwurfpunkt. Von dort aus spielst du immer genau von der Stelle weiter, an\n"
+"der deine Disc liegen geblieben ist, bis die Scheibe im Fangkorb zur Ruhe kommt. Dabei gilt\n"
+"es, Bäume zu umspielen, Windverhältnisse zu lesen und für jede Distanz die richtige Scheibe zu\n"
+"wählen – vom schnellen “Driver” für den weiten Abwurf bis zum präzisen “Putter” für den\n"
+"finalen Wurf in die Ketten."
+msgstr ""
+"Das Prinzip ist einfach: Ein Kurs besteht in der Regel aus 18 Bahnen. Jede Bahn beginnt an\n"
+"einem festgelegten Abwurfpunkt. Von dort aus spielst du immer genau von der Stelle weiter, an\n"
+"der deine Disc liegen geblieben ist, bis die Scheibe im Fangkorb zur Ruhe kommt. Dabei gilt\n"
+"es, Bäume zu umspielen, Windverhältnisse zu lesen und für jede Distanz die richtige Scheibe zu\n"
+"wählen – vom schnellen “Driver” für den weiten Abwurf bis zum präzisen “Putter” für den\n"
+"finalen Wurf in die Ketten."
+
+#: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
+msgid "Das “Münchener Campustreffen” in Oberhaching"
+msgstr "Das “Münchener Campustreffen” in Oberhaching"
+
+#: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
+msgid ""
+"Das Frisbee Festival bringt mit dem “Münchener Campustreffen” ein starkes und überregionales\n"
+"Spielerfeld nach München. Als Teil der „Discgolf Serie Süd“ treten die Spieler:innen in\n"
+"mehreren Divisionen über drei Runden auf 18 Bahnen gegeneinander an. Wer die wenigsten Würfe\n"
+"benötigt, gewinnt – die perfekte Chance, erstklassigen Sport und Profi-Techniken hautnah zu\n"
+"erleben!"
+msgstr ""
+"Das Frisbee Festival bringt mit dem “Münchener Campustreffen” ein starkes und überregionales\n"
+"Spielerfeld nach München. Als Teil der „Discgolf Serie Süd“ treten die Spieler:innen in\n"
+"mehreren Divisionen über drei Runden auf 18 Bahnen gegeneinander an. Wer die wenigsten Würfe\n"
+"benötigt, gewinnt – die perfekte Chance, erstklassigen Sport und Profi-Techniken hautnah zu\n"
+"erleben!"
+
+#: src/routes/[[locale=lang]]/(disciplines)/disc-golf/+page.svelte
+msgid ""
+"Die Sportschule Oberhaching verfügt auch abseits des Frisbee Festivals über einen öffentlich\n"
+"zugänglichen Kurs. An der Rezeption erhältst du für 6 € eine Tageskarte, Leihscheiben gibt es\n"
+"für 3€. Nimm deine Freunde mit und starte deine eigene Runde!"
+msgstr ""
+"Die Sportschule Oberhaching verfügt auch abseits des Frisbee Festivals über einen öffentlich\n"
+"zugänglichen Kurs. An der Rezeption erhältst du für 6 € eine Tageskarte, Leihscheiben gibt es\n"
+"für 3€. Nimm deine Freunde mit und starte deine eigene Runde!"
+
+#: src/lib/data/schedules/double-disc-court.ts
+msgid "Vorrunde Block 1"
+msgstr "Vorrunde Block 1"
+
+#: src/lib/data/schedules/double-disc-court.ts
+msgid "Gespielt wird in zwei Gruppen \"Round robin\", wobei die stärkeren Teams in den vorderen Feldern zu sehen sein werden."
+msgstr "Gespielt wird in zwei Gruppen \"Round robin\", wobei die stärkeren Teams in den vorderen Feldern zu sehen sein werden."
+
+#~ msgid "Workshop / Regelkunde"
+#~ msgstr "Workshop / Regelkunde"
+
+#: src/lib/data/schedules/double-disc-court.ts
+msgid "Regelkunde"
+msgstr "Regelkunde"
+
+#: src/lib/data/schedules/double-disc-court.ts
+msgid "Lernt die Besonderheiten der DDC-Würfe kennen und das Feld treffen und natürlich auch die Regeln, damit ihr dem Spiel besser folgen könnt. Erlebt, wie komplex es ist, gleichzeitig zu kommunizieren und zu agieren indem ihr die ankommenden Scheiben anzählt und beim Werfen eurem Partner signalisiert, dass eure Scheibe wieder in der Luft ist, damit er nun wiederum seine Scheibe fangen kann."
+msgstr "Lernt die Besonderheiten der DDC-Würfe kennen und das Feld treffen und natürlich auch die Regeln, damit ihr dem Spiel besser folgen könnt. Erlebt, wie komplex es ist, gleichzeitig zu kommunizieren und zu agieren indem ihr die ankommenden Scheiben anzählt und beim Werfen eurem Partner signalisiert, dass eure Scheibe wieder in der Luft ist, damit er nun wiederum seine Scheibe fangen kann."
+
+#: src/lib/data/schedules/double-disc-court.ts
+msgid "Vorrunde Block 2"
+msgstr "Vorrunde Block 2"
+
+#: src/lib/data/schedules/double-disc-court.ts
+msgid "Fortsetzung der \"Round Robin\" Phase"
+msgstr "Fortsetzung der \"Round Robin\" Phase"
+
+#: src/lib/data/schedules/double-disc-court.ts
+msgid "Poolphase"
+msgstr "Poolphase"
+
+#: src/lib/data/schedules/double-disc-court.ts
+msgid "Spiele der Top 4, endlich entscheidet sich, wer ins Finale einzieht"
+msgstr "Spiele der Top 4, endlich entscheidet sich, wer ins Finale einzieht"
+
+#: src/lib/data/schedules/double-disc-court.ts
+msgid "Aufteilung der Gruppen in Pools nach Leistung und Ausspielen der unteren Platzierungen."
+msgstr "Aufteilung der Gruppen in Pools nach Leistung und Ausspielen der unteren Platzierungen."
+
+#: src/lib/data/schedules/double-disc-court.ts
+msgid "Match um 3. Platz"
+msgstr "Match um 3. Platz"
+
+#: src/lib/data/schedules/double-disc-court.ts
+msgid "Der Kampf um den Bronzepokal und natürlich geht es auch weiterhin um die begehrten Punkte für die Weltrangliste"
+msgstr "Der Kampf um den Bronzepokal und natürlich geht es auch weiterhin um die begehrten Punkte für die Weltrangliste"
+
+#: src/lib/data/schedules/double-disc-court.ts
+msgid "Die Krönung des Turniers - alle Teilnehmer schauen gespannt zu, wer dieses Jahr das Rennen macht."
+msgstr "Die Krönung des Turniers - alle Teilnehmer schauen gespannt zu, wer dieses Jahr das Rennen macht."
+
+#: src/lib/data/schedules/double-disc-court.ts
+msgid "Nach der Siegerehrung findet nochmal ein Freies Spiel für alle statt. Zum Ausklang könnt Ihr das Spiel auch lernen, wenn Ihr neu dabei seid. Es gibt keine festen Teams, sondern es wird einfach drauf los gespielt."
+msgstr "Nach der Siegerehrung findet nochmal ein Freies Spiel für alle statt. Zum Ausklang könnt Ihr das Spiel auch lernen, wenn Ihr neu dabei seid. Es gibt keine festen Teams, sondern es wird einfach drauf los gespielt."

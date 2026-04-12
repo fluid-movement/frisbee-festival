@@ -12,116 +12,60 @@ export const getDDCSchedule = (): DisciplineSchedule => ({
 	schedule: {
 		Samstag: [
 			{
-				time: '10:30 - 11:00',
-				label: '1. Runde',
-				type: 'tournament'
-			},
-			{
-				time: '11:00 - 11:30',
-				label: '2. Runde',
-				type: 'tournament'
-			},
-			{
-				time: '11:30 - 12:00',
-				label: '3. Runde',
-				type: 'tournament'
-			},
-			{
-				time: '12:00 - 12:30',
-				label: '4. Runde',
-				type: 'tournament'
-			},
-			{
-				time: '12:30 - 13:00',
-				label: '5. Runde',
-				type: 'tournament'
-			},
-			{
-				time: '13:00 - 13:30',
-				label: '6. Runde',
-				type: 'tournament'
-			},
-			{
-				time: '13:30 - 14:00',
-				label: '7. Runde',
-				type: 'tournament'
-			},
-			{
-				time: '14:00 - 14:30',
-				label: '8. Runde',
-				type: 'tournament'
-			},
-			{
-				time: '14:30 - 15:00',
-				label: '9. Runde',
-				type: 'tournament'
-			},
-			{
-				time: '15:00 - 15:30',
-				label: '10. Runde',
-				type: 'tournament'
-			},
-			{
-				time: '15:30 - 16:00',
-				label: 'Freies Spiel',
+				time: '10:30 - 12:00',
+				label: 'Vorrunde Block 1',
+				type: 'tournament',
 				description:
-					'Freies Spiel für alle. Hier könnt Ihr das Spiel auch lernen, wenn Ihr neu dabei seid. Es gibt keine festen Teams, sondern es wird einfach drauf los gespielt.',
+					'Gespielt wird in zwei Gruppen "Round robin", wobei die stärkeren Teams in den vorderen Feldern zu sehen sein werden.'
+			},
+			{
+				time: '12:00 - 13:00',
+				label: 'Regelkunde',
 				type: 'workshop',
-				id: 'ddc-freies-spiel-samstag'
+				description:
+					'Lernt die Besonderheiten der DDC-Würfe kennen und das Feld treffen und natürlich auch die Regeln, damit ihr dem Spiel besser folgen könnt. Erlebt, wie komplex es ist, gleichzeitig zu kommunizieren und zu agieren indem ihr die ankommenden Scheiben anzählt und beim Werfen eurem Partner signalisiert, dass eure Scheibe wieder in der Luft ist, damit er nun wiederum seine Scheibe fangen kann.'
+			},
+			{
+				time: '13:00 - 16:00',
+				label: 'Vorrunde Block 2',
+				type: 'tournament',
+				description: 'Fortsetzung der "Round Robin" Phase'
 			}
 		],
 		Sonntag: [
 			{
-				time: '10:30 - 11:00',
-				label: '1. Runde',
-				type: 'tournament'
-			},
-			{
-				time: '11:00 - 11:30',
-				label: '2. Runde',
-				type: 'tournament'
-			},
-			{
-				time: '11:30 - 12:00',
-				label: '3. Runde',
-				type: 'tournament'
-			},
-			{
-				time: '12:00 - 12:30',
-				label: '4. Runde',
-				type: 'tournament'
-			},
-			{
-				time: '12:30 - 13:00',
-				label: '5. Runde',
-				type: 'tournament'
-			},
-			{
-				time: '13:00 - 13:30',
-				label: '6. Runde',
-				type: 'tournament'
-			},
-			{
-				time: '13:30 - 14:00',
-				label: 'Semifinale 1 & 2',
-				type: 'tournament'
-			},
-			{
-				time: '14:15 - 14:45',
-				label: 'Match um dritten Platz',
-				type: 'tournament'
-			},
-			{
-				time: '15:00 - 15:30',
-				label: 'Finale',
-				type: 'tournament'
-			},
-			{
-				time: '15:30 - 16:00',
-				label: 'Freies Spiel',
+				time: '10:30 - 13:30',
+				label: 'Poolphase',
+				type: 'tournament',
 				description:
-					'Freies Spiel für alle. Hier könnt Ihr das Spiel auch lernen, wenn Ihr neu dabei seid. Es gibt keine festen Teams, sondern es wird einfach drauf los gespielt.',
-				type: 'workshop'
+					'Aufteilung der Gruppen in Pools nach Leistung und Ausspielen der unteren Platzierungen.'
+			},
+			{
+				time: '13:30 - 14:15',
+				label: 'Semifinale 1 & 2',
+				type: 'tournament',
+				description: 'Spiele der Top 4, endlich entscheidet sich, wer ins Finale einzieht'
+			},
+			{
+				time: '14:15 - 15:00',
+				label: 'Match um 3. Platz',
+				type: 'tournament',
+				description:
+					'Der Kampf um den Bronzepokal und natürlich geht es auch weiterhin um die begehrten Punkte für die Weltrangliste'
+			},
+			{
+				time: '15:00 - 16:00',
+				label: 'Finale',
+				type: 'tournament',
+				description:
+					'Die Krönung des Turniers - alle Teilnehmer schauen gespannt zu, wer dieses Jahr das Rennen macht.'
+			},
+			{
+				time: '16:00 - 19:00',
+				label: 'Freies Spiel',
+				type: 'workshop',
+				description:
+					'Nach der Siegerehrung findet nochmal ein Freies Spiel für alle statt. Zum Ausklang könnt Ihr das Spiel auch lernen, wenn Ihr neu dabei seid. Es gibt keine festen Teams, sondern es wird einfach drauf los gespielt.'
 			}
 		]
 	}
