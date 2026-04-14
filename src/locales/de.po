@@ -85,6 +85,7 @@ msgstr "Disc Golf"
 #: src/lib/components/layout/Navigation.svelte
 #: src/lib/components/schedule/ScheduleLegend.svelte
 #: src/lib/data/schedules/double-disc-court.ts
+#: src/lib/data/schedules/double-disc-court.ts
 #: src/routes/[[locale=lang]]/(disciplines)/double-disc-court/+page.svelte
 #: src/routes/[[locale=lang]]/(disciplines)/double-disc-court/+page.svelte
 #: src/routes/[[locale=lang]]/(disciplines)/double-disc-court/+page.svelte
@@ -222,11 +223,9 @@ msgid "Freies Spiel"
 msgstr "Freies Spiel"
 
 #: src/lib/data/schedules/double-disc-court.ts
-#: src/lib/data/schedules/ultimate.ts
 msgid "Finale"
 msgstr "Finale"
 
-#: src/lib/data/schedules/disc-golf.ts
 #: src/lib/data/schedules/freestyle.ts
 #: src/lib/data/schedules/ultimate.ts
 msgid "Siegerehrung"
@@ -491,23 +490,18 @@ msgstr "Was muss ich tun?"
 msgid "Warmup"
 msgstr "Warmup"
 
-#: src/lib/data/schedules/freestyle.ts
-#: src/lib/data/schedules/freestyle.ts
-msgid "Semi Finale Mixed Pool 1"
-msgstr "Semi Finale Mixed Pool 1"
+#~ msgid "Semi Finale Mixed Pool 1"
+#~ msgstr "Semi Finale Mixed Pool 1"
 
-#: src/lib/data/schedules/freestyle.ts
-#: src/lib/data/schedules/freestyle.ts
-msgid "Bei Mixed Pairs bestehen die Teams aus einem Mann und einer Frau."
-msgstr "Bei Mixed Pairs bestehen die Teams aus einem Mann und einer Frau."
+#~ msgid "Bei Mixed Pairs bestehen die Teams aus einem Mann und einer Frau."
+#~ msgstr "Bei Mixed Pairs bestehen die Teams aus einem Mann und einer Frau."
 
 #: src/lib/data/schedules/freestyle.ts
 msgid "Freestyle Workshop"
 msgstr "Freestyle Workshop"
 
-#: src/lib/data/schedules/freestyle.ts
-msgid "Wir bringen euch die Basics des Freestyle Frisbee bei. Alle sind willkommen, egal ob ihr bereits eine Frisbeesportart spielt, oder noch nie eine Scheibe in der Hand hattet."
-msgstr "Wir bringen euch die Basics des Freestyle Frisbee bei. Alle sind willkommen, egal ob ihr bereits eine Frisbeesportart spielt, oder noch nie eine Scheibe in der Hand hattet."
+#~ msgid "Wir bringen euch die Basics des Freestyle Frisbee bei. Alle sind willkommen, egal ob ihr bereits eine Frisbeesportart spielt, oder noch nie eine Scheibe in der Hand hattet."
+#~ msgstr "Wir bringen euch die Basics des Freestyle Frisbee bei. Alle sind willkommen, egal ob ihr bereits eine Frisbeesportart spielt, oder noch nie eine Scheibe in der Hand hattet."
 
 #: src/lib/data/schedules/freestyle.ts
 #: src/lib/data/schedules/freestyle.ts
@@ -534,9 +528,8 @@ msgstr "Junior Challenge powered by XDISC"
 msgid "Finale Mixed Pairs"
 msgstr "Finale Mixed Pairs"
 
-#: src/lib/data/schedules/freestyle.ts
-msgid "Finale Coop"
-msgstr "Finale Coop"
+#~ msgid "Finale Coop"
+#~ msgstr "Finale Coop"
 
 #: src/lib/components/schedule/ScheduleTypeBadge.svelte
 msgid "Exhibition"
@@ -566,33 +559,28 @@ msgstr "Semifinale 1 & 2"
 msgid "Teamzuweisung"
 msgstr "Teamzuweisung"
 
-#: src/lib/data/schedules/ultimate.ts
-msgid "Hut Turnier"
-msgstr "Hut Turnier"
+#~ msgid "Hut Turnier"
+#~ msgstr "Hut Turnier"
 
-#: src/lib/data/schedules/wheelchair-ultimate.ts
-msgid "Demo Spiel"
-msgstr "Demo Spiel"
+#~ msgid "Demo Spiel"
+#~ msgstr "Demo Spiel"
 
-#: src/lib/data/schedules/wheelchair-ultimate.ts
-msgid "Ein spannendes Spiel zwischen zwei Teams, um die Fähigkeiten und den Spaß am Rollstuhl Ultimate zu zeigen."
-msgstr "Ein spannendes Spiel zwischen zwei Teams, um die Fähigkeiten und den Spaß am Rollstuhl Ultimate zu zeigen."
+#~ msgid "Ein spannendes Spiel zwischen zwei Teams, um die Fähigkeiten und den Spaß am Rollstuhl Ultimate zu zeigen."
+#~ msgstr "Ein spannendes Spiel zwischen zwei Teams, um die Fähigkeiten und den Spaß am Rollstuhl Ultimate zu zeigen."
 
 #: src/lib/data/schedules/wheelchair-ultimate.ts
 msgid "Workshop für alle"
 msgstr "Workshop für alle"
 
-#: src/lib/data/schedules/wheelchair-ultimate.ts
-msgid "Lerne die Grundlagen des Rollstuhl Ultimate, einschließlich Wurftechniken, Bewegungsstrategien und Teamplay. Alle sind willkommen, egal ob mit oder ohne Behinderung."
-msgstr "Lerne die Grundlagen des Rollstuhl Ultimate, einschließlich Wurftechniken, Bewegungsstrategien und Teamplay. Alle sind willkommen, egal ob mit oder ohne Behinderung."
+#~ msgid "Lerne die Grundlagen des Rollstuhl Ultimate, einschließlich Wurftechniken, Bewegungsstrategien und Teamplay. Alle sind willkommen, egal ob mit oder ohne Behinderung."
+#~ msgstr "Lerne die Grundlagen des Rollstuhl Ultimate, einschließlich Wurftechniken, Bewegungsstrategien und Teamplay. Alle sind willkommen, egal ob mit oder ohne Behinderung."
 
 #: src/lib/data/schedules/wheelchair-ultimate.ts
 msgid "Offenes Spiel für alle"
 msgstr "Offenes Spiel für alle"
 
-#: src/lib/data/schedules/wheelchair-ultimate.ts
-msgid "Nach dem Workshop können alle TeilnehmerInnen das Gelernte in einem offenen Spiel anwenden."
-msgstr "Nach dem Workshop können alle TeilnehmerInnen das Gelernte in einem offenen Spiel anwenden."
+#~ msgid "Nach dem Workshop können alle TeilnehmerInnen das Gelernte in einem offenen Spiel anwenden."
+#~ msgstr "Nach dem Workshop können alle TeilnehmerInnen das Gelernte in einem offenen Spiel anwenden."
 
 #: src/lib/components/home/Disciplines.svelte
 #: src/lib/components/schedule/Schedule.svelte
@@ -616,34 +604,28 @@ msgstr "Dank an unsere Sponsoren"
 msgid "Disc Golf Kurs"
 msgstr "Disc Golf Kurs"
 
-#: src/lib/data/schedules/disc-golf.ts
-msgid "Lerne die Grundlagen des Disc Golf Puttens. Unsere erfahrenen Spieler zeigen dir Technik und Positionierung für präzise Putts aus kurzer und mittlerer Distanz."
-msgstr "Lerne die Grundlagen des Disc Golf Puttens. Unsere erfahrenen Spieler zeigen dir Technik und Positionierung für präzise Putts aus kurzer und mittlerer Distanz."
+#~ msgid "Lerne die Grundlagen des Disc Golf Puttens. Unsere erfahrenen Spieler zeigen dir Technik und Positionierung für präzise Putts aus kurzer und mittlerer Distanz."
+#~ msgstr "Lerne die Grundlagen des Disc Golf Puttens. Unsere erfahrenen Spieler zeigen dir Technik und Positionierung für präzise Putts aus kurzer und mittlerer Distanz."
 
 #: src/lib/data/schedules/ultimate.ts
 #: src/lib/data/schedules/wheelchair-ultimate.ts
 msgid "Feld A"
 msgstr "Feld A"
 
-#: src/lib/data/schedules/disc-golf.ts
-msgid "Weite-Wurf Workshop"
-msgstr "Weite-Wurf Workshop"
+#~ msgid "Weite-Wurf Workshop"
+#~ msgstr "Weite-Wurf Workshop"
 
-#: src/lib/data/schedules/disc-golf.ts
-msgid "Techniken zur Maximierung der Wurfweite. Unsere Profis zeigen dir, wie du mit der richtigen Technik mehr Distanz aus deinem Wurf herausholst."
-msgstr "Techniken zur Maximierung der Wurfweite. Unsere Profis zeigen dir, wie du mit der richtigen Technik mehr Distanz aus deinem Wurf herausholst."
+#~ msgid "Techniken zur Maximierung der Wurfweite. Unsere Profis zeigen dir, wie du mit der richtigen Technik mehr Distanz aus deinem Wurf herausholst."
+#~ msgstr "Techniken zur Maximierung der Wurfweite. Unsere Profis zeigen dir, wie du mit der richtigen Technik mehr Distanz aus deinem Wurf herausholst."
 
-#: src/lib/data/schedules/disc-golf.ts
-msgid "Finalrunde – Amateur"
-msgstr "Finalrunde – Amateur"
+#~ msgid "Finalrunde – Amateur"
+#~ msgstr "Finalrunde – Amateur"
 
-#: src/lib/data/schedules/disc-golf.ts
-msgid "Finalrunde – Open"
-msgstr "Finalrunde – Open"
+#~ msgid "Finalrunde – Open"
+#~ msgstr "Finalrunde – Open"
 
-#: src/lib/data/schedules/double-disc-court.ts
-msgid "Feld B"
-msgstr "Feld B"
+#~ msgid "Feld B"
+#~ msgstr "Feld B"
 
 #: src/lib/components/home/Disciplines.svelte
 msgid "Freestyle Frisbee Weltmeisterschaften"
@@ -1263,20 +1245,21 @@ msgstr "Erlebe den Perspektivwechsel hautnah"
 #~ "Nimm Platz, schnapp dir die Scheibe und werde Teil unserer Gemeinschaft!"
 
 #. placeholder {0}: discipline.image
-#. placeholder {0}: heroPerson
-#. placeholder {0}: festivalImage
-#. placeholder {0}: wfdfLogo
-#. placeholder {0}: festivalImage
+#. placeholder {0}: image
+#. placeholder {0}: dgMucLogo
 #. placeholder {0}: wfdfLogo
 #. placeholder {0}: fpaLogo
-#. placeholder {0}: festivalImage
 #. placeholder {0}: wfdfLogo
 #. placeholder {0}: fpaLogo
 #. placeholder {0}: dfvLogo
-#. placeholder {0}: festivalImage
+#. placeholder {0}: flbyLogo
+#. placeholder {0}: alpressoLogo
+#. placeholder {0}: dgMucLogo
+#. placeholder {0}: soLogo
 #. placeholder {0}: wfdfLogo
 #. placeholder {0}: fpaLogo
-#. placeholder {0}: image
+#. placeholder {0}: dfvLogo
+#. placeholder {0}: flbyLogo
 #. placeholder {0}: alpressoLogo
 #. placeholder {0}: dgMucLogo
 #. placeholder {0}: soLogo
@@ -1685,3 +1668,167 @@ msgstr "Die Krönung des Turniers - alle Teilnehmer schauen gespannt zu, wer die
 #: src/lib/data/schedules/double-disc-court.ts
 msgid "Nach der Siegerehrung findet nochmal ein Freies Spiel für alle statt. Zum Ausklang könnt Ihr das Spiel auch lernen, wenn Ihr neu dabei seid. Es gibt keine festen Teams, sondern es wird einfach drauf los gespielt."
 msgstr "Nach der Siegerehrung findet nochmal ein Freies Spiel für alle statt. Zum Ausklang könnt Ihr das Spiel auch lernen, wenn Ihr neu dabei seid. Es gibt keine festen Teams, sondern es wird einfach drauf los gespielt."
+
+#: src/lib/data/schedules/disc-golf.ts
+msgid "Weitwurf-Workshop"
+msgstr "Weitwurf-Workshop"
+
+#: src/lib/data/schedules/freestyle.ts
+msgid "Halbfinale Mixed Pairs"
+msgstr "Halbfinale Mixed Pairs"
+
+#: src/lib/data/schedules/freestyle.ts
+msgid "In diesem Halbfinale kämpfen gemischte Duos (Mann und Frau) mit artistischen Choreografien um den Einzug ins Finale am Sonntag."
+msgstr "In diesem Halbfinale kämpfen gemischte Duos (Mann und Frau) mit artistischen Choreografien um den Einzug ins Finale am Sonntag."
+
+#: src/lib/data/schedules/freestyle.ts
+msgid "In diesem Workshop bringen wir euch die Basics des Freestyle Frisbee bei. Alle sind willkommen, egal ob ihr bereits eine Frisbeesportart spielt, oder noch nie eine Scheibe in der Hand hattet. Mindestalter: 8 Jahre."
+msgstr "In diesem Workshop bringen wir euch die Basics des Freestyle Frisbee bei. Alle sind willkommen, egal ob ihr bereits eine Frisbeesportart spielt, oder noch nie eine Scheibe in der Hand hattet. Mindestalter: 8 Jahre."
+
+#: src/lib/data/schedules/freestyle.ts
+msgid "Halbfinale Open Coop"
+msgstr "Halbfinale Open Coop"
+
+#: src/lib/data/schedules/freestyle.ts
+msgid "Beim Halbfinale der Open Coop Kategorie demonstrieren Dreierteams ihr blindes Verständnis und ihre Geschicklichkeit an der Scheibe um ins Finale am Sonntag einzuziehen."
+msgstr "Beim Halbfinale der Open Coop Kategorie demonstrieren Dreierteams ihr blindes Verständnis und ihre Geschicklichkeit an der Scheibe um ins Finale am Sonntag einzuziehen."
+
+#: src/lib/data/schedules/freestyle.ts
+msgid "Im großen Finale der Open Pairs zeigen die besten Zweierteams ihre spektakulärsten Moves, um den begehrten Titel zu gewinnen."
+msgstr "Im großen Finale der Open Pairs zeigen die besten Zweierteams ihre spektakulärsten Moves, um den begehrten Titel zu gewinnen."
+
+#: src/lib/data/schedules/freestyle.ts
+msgid "Das Finale der Frauen-Paare verspricht hochklassige Akrobatik im Kampf um die Weltmeisterschaft."
+msgstr "Das Finale der Frauen-Paare verspricht hochklassige Akrobatik im Kampf um die Weltmeisterschaft."
+
+#: src/lib/data/schedules/freestyle.ts
+msgid "Trau dich und zeige deine Frisbee-Tricks vor dem Publikum der Freestyle Frisbee Weltmeisterschaften und gewinne tolle Preise von unserem Sponsor XDISC."
+msgstr "Trau dich und zeige deine Frisbee-Tricks vor dem Publikum der Freestyle Frisbee Weltmeisterschaften und gewinne tolle Preise von unserem Sponsor XDISC."
+
+#: src/lib/data/schedules/freestyle.ts
+msgid "Im Finale der Mixed Pairs verbinden gemischte Paare Eleganz und Dynamik zu einer beeindruckenden sportlichen Darbietung."
+msgstr "Im Finale der Mixed Pairs verbinden gemischte Paare Eleganz und Dynamik zu einer beeindruckenden sportlichen Darbietung."
+
+#: src/lib/data/schedules/freestyle.ts
+msgid "Finale Open Coop"
+msgstr "Finale Open Coop"
+
+#: src/lib/data/schedules/freestyle.ts
+msgid "Die Teams der Open Coop Kategorie treten im Finale an, um durch perfektes Zusammenspiel und technische Brillanz zu überzeugen."
+msgstr "Die Teams der Open Coop Kategorie treten im Finale an, um durch perfektes Zusammenspiel und technische Brillanz zu überzeugen."
+
+#: src/lib/data/schedules/freestyle.ts
+msgid "Die feierliche Siegerehrung bildet den krönenden Abschluss des Festivals - hier werden die Weltmeister gekührt."
+msgstr "Die feierliche Siegerehrung bildet den krönenden Abschluss des Festivals - hier werden die Weltmeister gekührt."
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Treffen auf dem Kunstrasen, dann individuelles Aufwärmen, um bereit für die Spiele zu sein und das Verletzungsrisiko zu mindern."
+msgstr "Treffen auf dem Kunstrasen, dann individuelles Aufwärmen, um bereit für die Spiele zu sein und das Verletzungsrisiko zu mindern."
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Die angemeldeten SpielerInnen werden vom Veranstalter in Teams eingeteilt. Die Teammitglieder lernen sich kennen und definieren Spielstrategien für Offense und Defense"
+msgstr "Die angemeldeten SpielerInnen werden vom Veranstalter in Teams eingeteilt. Die Teammitglieder lernen sich kennen und definieren Spielstrategien für Offense und Defense"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Gruppe A: 1-3 + 2-4"
+msgstr "Gruppe A: 1-3 + 2-4"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Gruppe A: Spielfeld Süd - Team 1 vs 3 /  Spielfeld Nord - Team 2 vs 4"
+msgstr "Gruppe A: Spielfeld Süd - Team 1 vs 3 /  Spielfeld Nord - Team 2 vs 4"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Gruppe B: 4-7 + 5-8"
+msgstr "Gruppe B: 4-7 + 5-8"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Gruppe B: Spielfeld Süd - Team 4 vs 7 /  Spielfeld Nord - Team 5 vs 8"
+msgstr "Gruppe B: Spielfeld Süd - Team 4 vs 7 /  Spielfeld Nord - Team 5 vs 8"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Gruppe A: 3-2 + 4-1"
+msgstr "Gruppe A: 3-2 + 4-1"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Gruppe A: SF Süd - Team 3 vs 2 /  Spielfeld Nord - Team 4 vs 1"
+msgstr "Gruppe A: SF Süd - Team 3 vs 2 /  Spielfeld Nord - Team 4 vs 1"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Gruppe B: 7-6 + 8-5"
+msgstr "Gruppe B: 7-6 + 8-5"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Gruppe B: SF Süd - Team 7 vs 6 /  Spielfeld Nord - Team 8 vs 5"
+msgstr "Gruppe B: SF Süd - Team 7 vs 6 /  Spielfeld Nord - Team 8 vs 5"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Gruppe A: 1-2 + 3-4"
+msgstr "Gruppe A: 1-2 + 3-4"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Gruppe A: SF Süd - Team 1 vs 2 /  Spielfeld Nord - Team 3 vs 4"
+msgstr "Gruppe A: SF Süd - Team 1 vs 2 /  Spielfeld Nord - Team 3 vs 4"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Gruppe B: 5-6 + 7-8"
+msgstr "Gruppe B: 5-6 + 7-8"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Gruppe B: SF Süd - Team 5 vs 6 /  Spielfeld Nord - Team 7 vs 8"
+msgstr "Gruppe B: SF Süd - Team 5 vs 6 /  Spielfeld Nord - Team 7 vs 8"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Workshop Ultimate Frisbee"
+msgstr "Workshop Ultimate Frisbee"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Parallel zu den ersten Finalspielen auf SF Süd findet auf dem SF Nord ein Mitmachangebot statt: ein Workshop für alle Interessierten an Ultimate Frisbee. Ihr braucht nur einigermaßen sportliche Kleidung und Turnschuhe."
+msgstr "Parallel zu den ersten Finalspielen auf SF Süd findet auf dem SF Nord ein Mitmachangebot statt: ein Workshop für alle Interessierten an Ultimate Frisbee. Ihr braucht nur einigermaßen sportliche Kleidung und Turnschuhe."
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Spiel um Platz 7"
+msgstr "Spiel um Platz 7"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "SF Süd: Finalspiel um Platz 7"
+msgstr "SF Süd: Finalspiel um Platz 7"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Spiel um Platz 5"
+msgstr "Spiel um Platz 5"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "SF Süd: Finalspiel um Platz 5"
+msgstr "SF Süd: Finalspiel um Platz 5"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Spiel um Platz 3"
+msgstr "Spiel um Platz 3"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "SF Süd: Finalspiel um Platz 3"
+msgstr "SF Süd: Finalspiel um Platz 3"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Finale - Spiel um Platz 1"
+msgstr "Finale - Spiel um Platz 1"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Der krönende Abschluss des Ultimate-Turniers: das Finale der beiden Gruppensieger findet auf Feld Süd des Kunstrasens vor hoffentlich vielen Zuschauern statt."
+msgstr "Der krönende Abschluss des Ultimate-Turniers: das Finale der beiden Gruppensieger findet auf Feld Süd des Kunstrasens vor hoffentlich vielen Zuschauern statt."
+
+#: src/lib/data/schedules/wheelchair-ultimate.ts
+msgid "Showgame"
+msgstr "Showgame"
+
+#: src/lib/data/schedules/wheelchair-ultimate.ts
+msgid "Beim Exhibition-Match im Rollstuhl-Ultimate zeigen wir euch wie spannend und athletisch diese vom Teamgeist geprägte Sportart ist."
+msgstr "Beim Exhibition-Match im Rollstuhl-Ultimate zeigen wir euch wie spannend und athletisch diese vom Teamgeist geprägte Sportart ist."
+
+#: src/lib/data/schedules/wheelchair-ultimate.ts
+msgid "Lerne die Grundlagen des Rollstuhl Ultimate, einschließlich Wurftechniken, Bewegungsstrategien und Teamplay. Alle sind willkommen, egal ob mit oder ohne Beeinträchtigungen."
+msgstr "Lerne die Grundlagen des Rollstuhl Ultimate, einschließlich Wurftechniken, Bewegungsstrategien und Teamplay. Alle sind willkommen, egal ob mit oder ohne Beeinträchtigungen."
+
+#: src/lib/data/schedules/wheelchair-ultimate.ts
+msgid "Nach dem Rollstuhl Ultimate Workshop können alle TeilnehmerInnen das Gelernte in einem offenen Spiel anwenden. Alle sind willkommen, egal ob mit oder ohne Beeinträchtigungen."
+msgstr "Nach dem Rollstuhl Ultimate Workshop können alle TeilnehmerInnen das Gelernte in einem offenen Spiel anwenden. Alle sind willkommen, egal ob mit oder ohne Beeinträchtigungen."

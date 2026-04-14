@@ -1,7 +1,7 @@
 <script lang="ts">
 	import freestyleImage from '$lib/assets/freestyle/edo-gitis.png?enhanced';
 	import discGolfImage from '$lib/assets/disc-golf/putt.jpg?enhanced';
-	import ddcImage from '$lib/assets/ddc/ddc-gallery-3.jpg?enhanced';
+	import ddcImage from '$lib/assets/ddc/ddc.jpg?enhanced';
 	import ultimateImage from '$lib/assets/ultimate/ultimate-jump.jpg?enhanced';
 	import wheelchairUltimateImage from '$lib/assets/wheelchair-ultimate/rollstuhl-frisbee-handshake.jpg?enhanced';
 	import * as Card from '$lib/components/ui/card';
@@ -99,7 +99,7 @@
 							{discipline.description}
 						</div>
 						<Button
-							variant="ghostline"
+							variant="ghost"
 							size="sm"
 							href={resolve(discipline.href, { locale: getLocaleForUrl() })}
 							class="self-end"

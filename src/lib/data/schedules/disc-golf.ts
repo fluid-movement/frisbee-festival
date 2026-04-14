@@ -1,5 +1,5 @@
 import type { DisciplineSchedule } from '../types';
-import discGolfPuttImage from '$lib/assets/disc-golf/putt.webp';
+import discGolfPuttImage from '$lib/assets/disc-golf/putt.jpg';
 
 /**
  * Disc Golf discipline schedule
@@ -13,49 +13,32 @@ export const getDiscGolfSchedule = (): DisciplineSchedule => ({
 	schedule: {
 		Samstag: [
 			{
-				time: '09:00 - 10:00',
-				label: 'Putting Clinic',
-				type: 'workshop',
-				id: 'putting-clinic',
-				description:
-					'Lerne die Grundlagen des Disc Golf Puttens. Unsere erfahrenen Spieler zeigen dir Technik und Positionierung für präzise Putts aus kurzer und mittlerer Distanz.',
-				image: discGolfPuttImage
-			},
-			{
-				time: '10:00 - 13:00',
-				label: '2. Runde – Amateur',
-				type: 'tournament'
-			},
-			{
-				time: '13:00 - 16:00',
-				label: '2. Runde – Open',
-				type: 'tournament'
+				time: '08:30 - 18:00',
+				label: '2. Runde Campustreffen',
+				type: 'tournament',
+				description: '2. Runde des Turniers, Golfstart, ca. alle 12 Minuten ein Flight'
 			},
 			{
 				time: '16:00 - 17:00',
-				label: 'Weite-Wurf Workshop',
+				label: 'Weitwurf-Workshop',
 				type: 'workshop',
-				id: 'distance-driving-workshop',
-				description:
-					'Techniken zur Maximierung der Wurfweite. Unsere Profis zeigen dir, wie du mit der richtigen Technik mehr Distanz aus deinem Wurf herausholst.'
+				id: 'dg-distance'
 			}
 		],
 		Sonntag: [
 			{
-				time: '09:00 - 12:00',
-				label: 'Finalrunde – Amateur',
-				type: 'tournament'
-			},
-			{
-				time: '12:00 - 15:00',
-				label: 'Finalrunde – Open',
-				type: 'tournament'
+				time: '08:00 - 18:00',
+				label: '3. Runde Campustreffen',
+        type: 'tournament',
+        description: '3. Runde des Turniers, Golfstart, ca. alle 10 Minuten ein Flight'
 			},
 			{
 				time: '15:00 - 16:00',
-				label: 'Siegerehrung',
-				type: 'tournament'
-			}
+				label: 'Putting Clinic',
+        type: 'workshop',
+        id: 'dg-putt',
+        image: discGolfPuttImage,
+			},
 		]
 	}
 });

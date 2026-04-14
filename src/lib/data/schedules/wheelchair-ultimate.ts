@@ -13,17 +13,17 @@ export const getWheelchairUltimateSchedule = (): DisciplineSchedule => ({
 	schedule: {
 		Samstag: [
 			{
-				time: '10:00 - 11:00',
-				label: 'Demo Spiel',
+				time: '10:00 - 10:45',
+				label: 'Showgame',
 				type: 'exhibition',
 				description:
-					'Ein spannendes Spiel zwischen zwei Teams, um die Fähigkeiten und den Spaß am Rollstuhl Ultimate zu zeigen.'
+					'Beim Exhibition-Match im Rollstuhl-Ultimate zeigen wir euch wie spannend und athletisch diese vom Teamgeist geprägte Sportart ist.'
 			},
 			{
-				time: '11:00 - 15:00',
+				time: '11:00 - 15:15',
 				label: 'Workshop für alle',
 				description:
-					'Lerne die Grundlagen des Rollstuhl Ultimate, einschließlich Wurftechniken, Bewegungsstrategien und Teamplay. Alle sind willkommen, egal ob mit oder ohne Behinderung.',
+					'Lerne die Grundlagen des Rollstuhl Ultimate, einschließlich Wurftechniken, Bewegungsstrategien und Teamplay. Alle sind willkommen, egal ob mit oder ohne Beeinträchtigungen.',
 				type: 'workshop',
 				id: 'wheelchair-workshop',
 				image: wheelchairWorkshopImage
@@ -32,7 +32,7 @@ export const getWheelchairUltimateSchedule = (): DisciplineSchedule => ({
 				time: '15:30 - 17:00',
 				label: 'Offenes Spiel für alle',
 				description:
-					'Nach dem Workshop können alle TeilnehmerInnen das Gelernte in einem offenen Spiel anwenden.',
+					'Nach dem Rollstuhl Ultimate Workshop können alle TeilnehmerInnen das Gelernte in einem offenen Spiel anwenden. Alle sind willkommen, egal ob mit oder ohne Beeinträchtigungen.',
 				type: 'workshop',
 				id: 'wheelchair-open-play'
 			}
