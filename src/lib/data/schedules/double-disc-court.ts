@@ -1,4 +1,6 @@
 import type { DisciplineSchedule } from '../types';
+import rulesImage from '$lib/assets/ddc/rules.jpg';
+import playImage from '$lib/assets/ddc/play.jpg';
 
 /**
  * Double Disc Court discipline schedule
@@ -21,10 +23,11 @@ export const getDDCSchedule = (): DisciplineSchedule => ({
 			{
 				time: '12:00 - 13:00',
 				label: 'Regelkunde',
-        type: 'workshop',
+				type: 'workshop',
 				id: 'ddc-regelkunde',
 				description:
-					'Lernt die Besonderheiten der DDC-Würfe kennen und das Feld treffen und natürlich auch die Regeln, damit ihr dem Spiel besser folgen könnt. Erlebt, wie komplex es ist, gleichzeitig zu kommunizieren und zu agieren indem ihr die ankommenden Scheiben anzählt und beim Werfen eurem Partner signalisiert, dass eure Scheibe wieder in der Luft ist, damit er nun wiederum seine Scheibe fangen kann.'
+					'Lernt die Besonderheiten der DDC-Würfe kennen und das Feld treffen und natürlich auch die Regeln, damit ihr dem Spiel besser folgen könnt. Erlebt, wie komplex es ist, gleichzeitig zu kommunizieren und zu agieren indem ihr die ankommenden Scheiben anzählt und beim Werfen eurem Partner signalisiert, dass eure Scheibe wieder in der Luft ist, damit er nun wiederum seine Scheibe fangen kann.',
+				image: rulesImage
 			},
 			{
 				time: '13:00 - 16:00',
@@ -63,11 +66,12 @@ export const getDDCSchedule = (): DisciplineSchedule => ({
 			},
 			{
 				time: '16:00 - 19:00',
-        label: 'Freies Spiel',
+				label: 'Freies Spiel',
 				id: 'ddc-freies-spiel',
 				type: 'workshop',
 				description:
-					'Nach der Siegerehrung findet nochmal ein Freies Spiel für alle statt. Zum Ausklang könnt Ihr das Spiel auch lernen, wenn Ihr neu dabei seid. Es gibt keine festen Teams, sondern es wird einfach drauf los gespielt.'
+          'Nach der Siegerehrung findet nochmal ein Freies Spiel für alle statt. Zum Ausklang könnt Ihr das Spiel auch lernen, wenn Ihr neu dabei seid. Es gibt keine festen Teams, sondern es wird einfach drauf los gespielt.',
+        image: playImage
 			}
 		]
 	}

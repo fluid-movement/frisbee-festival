@@ -19,10 +19,16 @@
 
 <svelte:head>
 	<title>Freestyle Frisbee WM | Frisbee Festival München</title>
-	<meta name="description" content="Die Freestyle Frisbee Weltmeisterschaft in München: Akrobatik, Tricks und Teamwork auf höchstem Niveau. 1.–2. August 2026 in der Sportschule Oberhaching." />
+	<meta
+		name="description"
+		content="Die Freestyle Frisbee Weltmeisterschaft in München: Akrobatik, Tricks und Teamwork auf höchstem Niveau. 1.–2. August 2026 in der Sportschule Oberhaching."
+	/>
 	<link rel="canonical" href="{PUBLIC_ORIGIN}{page.url.pathname}" />
 	<meta property="og:title" content="Freestyle Frisbee WM | Frisbee Festival München" />
-	<meta property="og:description" content="Die Freestyle Frisbee Weltmeisterschaft in München: Akrobatik, Tricks und Teamwork auf höchstem Niveau. 1.–2. August 2026 in der Sportschule Oberhaching." />
+	<meta
+		property="og:description"
+		content="Die Freestyle Frisbee Weltmeisterschaft in München: Akrobatik, Tricks und Teamwork auf höchstem Niveau. 1.–2. August 2026 in der Sportschule Oberhaching."
+	/>
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="{PUBLIC_ORIGIN}{page.url.pathname}" />
 	<meta property="og:site_name" content="Frisbee Festival München" />
@@ -43,6 +49,20 @@
 			packenden Beats zeigen die Athleten choreografierte Shows, die die Schwerkraft scheinbar
 			aufheben. Ein mitreißendes Erlebnis, das Sport und Kunst perfekt vereint.
 		</p>
+		<h5>Kreativität & Teamwork</h5>
+		<p>
+			Im Freestyle gibt es keine Grenzen. Teams verschmelzen zu einer Einheit, in der jeder Trick
+			auf dem nächsten aufbaut – so präzise wie ein modernes Ballett. Diese Freiheit macht Freestyle
+			zur individuellsten und kreativsten Disziplin des Frisbeesports.
+		</p>
+	</article>
+	<enhanced:img
+		src="$lib/assets/freestyle/coop.jpg"
+		class="h-full w-full rounded-xl object-cover"
+	/>
+</Grid>
+<Grid>
+	<div>
 		<h5>Kunst in Bewegung</h5>
 		<p>
 			Im Kern geht es beim Freestyle darum, die rotierende Scheibe durch technisch anspruchsvolle
@@ -53,12 +73,8 @@
 			unmögliche Flugbahnen zu kreieren. Es geht nicht nur um Schwierigkeit, sondern auch um den
 			persönlichen Stil und die akrobatische Leichtigkeit.
 		</p>
-		<h5>Kreativität & Teamwork</h5>
-		<p>
-			Im Freestyle gibt es keine Grenzen. Teams verschmelzen zu einer Einheit, in der jeder Trick
-			auf dem nächsten aufbaut – so präzise wie ein modernes Ballett. Diese Freiheit macht Freestyle
-			zur individuellsten und kreativsten Disziplin des Frisbeesports.
-		</p>
+	</div>
+	<div>
 		<h5>Die Weltmeisterschaften in München</h5>
 		<p>
 			Wenn die globale Elite bei der Weltmeisterschaft in München zusammenkommt, verwandelt sich das
@@ -71,15 +87,24 @@
 			„Spirit of the Game“ – der Respekt und die Freude am gemeinsamen Spiel – stets an erster
 			Stelle steht.
 		</p>
-	</article>
+	</div>
+</Grid>
+<Schedule schedule={scheduleData.schedule} />
+
+<div class="container-custom grid gap-4 md:grid-cols-3">
 	<enhanced:img
-		src="$lib/assets/home/festival.jpg"
-		alt="Community"
+		src="$lib/assets/freestyle/pablo.jpg"
 		class="h-full w-full rounded-xl object-cover"
 	/>
-</Grid>
-
-<Schedule schedule={scheduleData.schedule} />
+	<enhanced:img
+		src="$lib/assets/freestyle/dani-silvina.jpg"
+		class="h-full w-full rounded-xl object-cover"
+	/>
+	<enhanced:img
+		src="$lib/assets/freestyle/crow.jpg"
+		class="h-full w-full rounded-xl object-cover"
+	/>
+</div>
 
 <section class="container-custom">
 	<h5>Freestyle Patrons</h5>

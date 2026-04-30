@@ -7,7 +7,6 @@
 	import { getLocaleForUrl } from '$lib/locale';
 	import { resolve } from '$app/paths';
 
-
 	let { inverted = false }: { inverted?: boolean } = $props();
 
 	const linkClass = $derived(
@@ -140,13 +139,13 @@
 					})}
 					{@render ListItem({
 						routeId: '/[[locale=lang]]/(disciplines)/ultimate',
-						title: 'Ultimate',
-						content: 'Teamwork und Strategie in einem intensiven Frisbee-Mannschaftssport.'
+						title: 'Ultimate Frisbee',
+						content: 'Teamwork und Strategie in einem intensiven Mannschaftssport.'
 					})}
 					{@render ListItem({
 						routeId: '/[[locale=lang]]/(disciplines)/wheelchair-ultimate',
-						title: 'Rollstuhl Ultimate',
-						content: 'Teamwork und Strategie in einem intensiven Frisbee-Mannschaftssport.'
+						title: 'Rollstuhl Ultimate Frisbee',
+						content: 'Inklusion und Action vereint in einem spannenden Spiel.'
 					})}
 				</ul>
 			</NavigationMenu.Content>

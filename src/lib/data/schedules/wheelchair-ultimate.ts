@@ -1,5 +1,6 @@
 import type { DisciplineSchedule } from '../types';
 import wheelchairWorkshopImage from '$lib/assets/wheelchair-ultimate/rollstuhl-frisbee.webp';
+import gameImage from '$lib/assets/wheelchair-ultimate/wheelchair-ultimate.jpg';
 
 /**
  * Wheelchair Ultimate discipline schedule
@@ -34,7 +35,8 @@ export const getWheelchairUltimateSchedule = (): DisciplineSchedule => ({
 				description:
 					'Nach dem Rollstuhl Ultimate Workshop können alle TeilnehmerInnen das Gelernte in einem offenen Spiel anwenden. Alle sind willkommen, egal ob mit oder ohne Beeinträchtigungen.',
 				type: 'workshop',
-				id: 'wheelchair-open-play'
+        id: 'wheelchair-open-play',
+				image: gameImage
 			}
 		],
 		Sonntag: []

@@ -55,7 +55,7 @@
 			<enhanced:img
 				src="$lib/assets/faq/anfahrt.webp"
 				alt="Anfahrt"
-				class="h-full w-full rounded-xl object-cover mt-8"
+				class="mt-8 h-full w-full rounded-xl object-cover"
 			/>
 		</Accordion.Content>
 	</Accordion.Item>
@@ -128,7 +128,7 @@
 				Breitensport sagt gewöhnlich: “Kommt alle, wenn ihr könnt.” Sport für Alle hingegen
 				betrachtet, welche Zielgruppen besondere Schwierigkeiten haben, am Breitensport
 				teilzunehmen. Dabei handelt es sich häufig um Kinder und Jugendliche, um Frauen, um sich
-				nicht-binär identifizierende Personen, um Menschen mit Behinderungen oder um ätere Menschen
+				nicht-binär identifizierende Personen, um Menschen mit Behinderungen oder um ältere Menschen
 				oder um Menschen, die aufgrund unterschiedlicher Merkmale diskriminiert werden. Sport für
 				Alle macht sich zur Aufgabe, Angebote für gesellschaftlich benachteiligte Personen zu
 				schaffen, um ihnen die Teilnahme an Sport und körperlicher Aktivität zu ermöglichen.
@@ -136,9 +136,9 @@
 		</Accordion.Content>
 	</Accordion.Item>
 	<Accordion.Item>
-		<Accordion.Trigger
-			>Wofür steht die Auszeichnung des Frisbee Festivals als Sport für Alle-Event?</Accordion.Trigger
-		>
+		<Accordion.Trigger>
+			Wofür steht die Auszeichnung des Frisbee Festivals als Sport für Alle-Event?
+		</Accordion.Trigger>
 		<Accordion.Content>
 			<p>
 				Die Auszeichnung des Frisbee Festivals München als lizenziertes Sport für Alle-Event belegt,

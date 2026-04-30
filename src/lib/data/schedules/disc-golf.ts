@@ -1,5 +1,6 @@
 import type { DisciplineSchedule } from '../types';
 import discGolfPuttImage from '$lib/assets/disc-golf/putt.jpg';
+import throwImage from '$lib/assets/disc-golf/distance.jpeg';
 
 /**
  * Disc Golf discipline schedule
@@ -22,7 +23,8 @@ export const getDiscGolfSchedule = (): DisciplineSchedule => ({
 				time: '16:00 - 17:00',
 				label: 'Weitwurf-Workshop',
 				type: 'workshop',
-				id: 'dg-distance'
+        id: 'dg-distance',
+				image: throwImage
 			}
 		],
 		Sonntag: [

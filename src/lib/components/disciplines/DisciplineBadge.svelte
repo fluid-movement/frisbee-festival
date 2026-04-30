@@ -21,8 +21,8 @@
 	});
 
 	const configs: Record<DisciplineId, { label: string; Icon: Component }> = {
-		ultimate: { label: 'Ultimate', Icon: Users },
-		'wheelchair-ultimate': { label: 'Rollstuhl Ultimate', Icon: Accessibility },
+		ultimate: { label: 'Ultimate Frisbee', Icon: Users },
+		'wheelchair-ultimate': { label: 'Rollstuhl Ultimate Frisbee', Icon: Accessibility },
 		'disc-golf': { label: 'Disc Golf', Icon: Target },
 		freestyle: { label: 'Freestyle', Icon: Wind },
 		'double-disc-court': { label: 'Double Disc Court', Icon: Trophy }

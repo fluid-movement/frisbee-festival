@@ -1,5 +1,6 @@
 import type { DisciplineSchedule } from '../types';
-import freestyleWorkshopImage from '$lib/assets/freestyle/coop.webp';
+import freestyleWorkshopImage from '$lib/assets/freestyle/coop.jpg';
+import xDiscImage from '$lib/assets/freestyle/xdisc.jpg';
 
 /**
  * Freestyle discipline schedule
@@ -63,7 +64,8 @@ export const getFreestyleSchedule = (): DisciplineSchedule => ({
 				description:
 					'Trau dich und zeige deine Frisbee-Tricks vor dem Publikum der Freestyle Frisbee Weltmeisterschaften und gewinne tolle Preise von unserem Sponsor XDISC.',
 				type: 'workshop',
-				id: 'junior-challenge'
+        id: 'junior-challenge',
+				image: xDiscImage
 			},
 			{
 				time: '14:00 - 15:00',

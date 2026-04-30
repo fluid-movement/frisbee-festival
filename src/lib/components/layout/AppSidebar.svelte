@@ -136,7 +136,7 @@
 											href={resolve('/[[locale=lang]]/(disciplines)/ultimate', {
 												locale: getLocaleForUrl()
 											})}
-											{...props}>Ultimate</a
+											{...props}>Ultimate Frisbee</a
 										>
 									{/snippet}
 								</Sidebar.MenuSubButton>
@@ -151,7 +151,7 @@
 											href={resolve('/[[locale=lang]]/(disciplines)/wheelchair-ultimate', {
 												locale: getLocaleForUrl()
 											})}
-											{...props}>Rollstuhl Ultimate</a
+											{...props}>Rollstuhl Ultimate Frisbee</a
 										>
 									{/snippet}
 								</Sidebar.MenuSubButton>

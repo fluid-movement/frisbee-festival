@@ -1,6 +1,6 @@
 <script lang="ts">
 	import '../../app.css';
-	import favicon from '$lib/assets/favicon.ico';
+	import favicon from '$lib/assets/logo.png';
 	import { page } from '$app/state';
 	import LanguageSwitcher from '$lib/components/shared/LanguageSwitcher.svelte';
 	import Navigation from '$lib/components/layout/Navigation.svelte';
@@ -12,6 +12,7 @@
 	import Logo from '$lib/components/shared/Logo.svelte';
 	import LanguageModal from '$lib/components/shared/LanguageModal.svelte';
 	import { cn } from '$lib/utils';
+	import BreakpointIndicator from '$lib/components/dev/BreakpointIndicator.svelte';
 
 	let { children }: LayoutProps = $props();
 
@@ -42,4 +43,7 @@
 		<Footer />
 	</div>
 	<LanguageModal />
+	{#if import.meta.env.DEV}
+		<BreakpointIndicator />
+	{/if}
 </Sidebar.Provider>

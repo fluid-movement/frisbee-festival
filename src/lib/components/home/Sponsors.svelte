@@ -1,17 +1,48 @@
 <script lang="ts">
-  import Badge from '$lib/components/ui/badge/badge.svelte';
-	import dfvLogo from '$lib/assets/home/sponsors/dfv-logo.jpg?enhanced';
-	import flbyLogo from '$lib/assets/home/sponsors/flby-logo.png?enhanced';
-	import fpaLogo from '$lib/assets/home/sponsors/fpa-logo.png?enhanced';
-	import wfdfLogo from '$lib/assets/home/sponsors/wfdf-logo.png?enhanced';
-	import alpressoLogo from '$lib/assets/home/sponsors/alpresso-logo.webp?enhanced';
-	import dgMucLogo from '$lib/assets/home/sponsors/dg-muc-logo.png?enhanced';
-	import soLogo from '$lib/assets/home/sponsors/so-logo.webp?enhanced';
-	import djkLogo from '$lib/assets/home/sponsors/djk-logo.png?enhanced';
-	import hieberLogo from '$lib/assets/home/sponsors/hieber-logo.png?enhanced';
-	import sfbLogo from '$lib/assets/home/sponsors/sfb-logo.png?enhanced';
-	import xdiscLogo from '$lib/assets/home/sponsors/xdisc-logo.png?enhanced';
+	import Badge from '$lib/components/ui/badge/badge.svelte';
+	import type { Picture } from '@sveltejs/enhanced-img';
 
+	const allLogos = import.meta.glob<{ default: Picture }>(
+		'/src/lib/assets/home/sponsors/*.{jpg,jpeg,png,webp,avif}',
+		{ eager: true, query: '?enhanced' }
+	);
+
+	function logo(filename: string): Picture {
+		return allLogos[`/src/lib/assets/home/sponsors/${filename}`].default;
+	}
+
+	type LogoItem = {
+		img: Picture;
+		alt: string;
+		href?: string;
+	};
+
+	const sponsors: LogoItem[] = [
+		{ img: logo('xdisc-logo.png'), alt: 'XDisc', href: 'https://xddisc.com' },
+		{ img: logo('delaymaster-logo.jpg'), alt: 'Delay Master', href: 'https://www.delaymaster.de/' },
+		{
+			img: logo('fds-logo.avif'),
+			alt: 'Fresh Disc Sports',
+			href: 'https://www.freshultimate.com/home-eng'
+		},
+		{ img: logo('alpresso-logo.webp'), alt: 'Alpresso', href: 'https://alpresso.de' },
+		{ img: logo('ron-logo.png'), alt: 'Ron', href: 'https://www.flickr.com/photos/ronk-foto/' },
+		{ img: logo('fine-logo.png'), alt: 'Fine Print', href: 'https://www.fine-print.de/' }
+	];
+
+	const organisers: LogoItem[] = [
+		{ img: logo('wfdf-logo.png'), alt: 'WFDF', href: 'https://wfdf.sport/' },
+		{ img: logo('fpa-logo.png'), alt: 'FPA', href: 'https://www.freestyledisc.org/' },
+		{ img: logo('dfv-logo.jpg'), alt: 'DFV', href: 'https://www.frisbeesportverband.de/' },
+		{ img: logo('flby-logo.png'), alt: 'FLBY', href: 'https:///www.frisbeesportverband.bayern/' },
+		{
+			img: logo('so-logo.webp'),
+			alt: 'Sportschule Oberhaching',
+			href: 'https://sportschule-oberhaching.de/'
+		},
+		{ img: logo('sfb-logo.png'), alt: 'SFB', href: 'https://www.sfb-muenchen.de/' },
+		{ img: logo('dg-muc-logo.png'), alt: 'Disc Golf München', href: 'https://dgmuc.de/' },
+	];
 </script>
 
 <section class="container-custom">
@@ -24,11 +55,15 @@
 				das Frisbee Festival München und die internationale Community unterstützen.
 			</p>
 			<div class="mt-8 flex flex-wrap gap-8">
-				<enhanced:img src={wfdfLogo} alt="WFDF" class="h-12 w-auto object-contain" />
-				<enhanced:img src={fpaLogo} alt="FPA" class="h-12 w-auto object-contain" />
-				<enhanced:img src={dfvLogo} alt="DFV" class="h-12 w-auto object-contain" />
-				<enhanced:img src={flbyLogo} alt="FLBY" class="h-12 w-auto object-contain" />
-				<enhanced:img src={alpressoLogo} alt="Alpresso" class="h-12 w-auto object-contain" />
+				{#each sponsors as { img, alt, href } (alt)}
+					<a {href} target="_blank" rel="noopener noreferrer" aria-label={alt}>
+						{#if img}
+							<enhanced:img src={img} {alt} class="h-12 w-auto object-contain" />
+						{:else}
+							{alt}
+						{/if}
+					</a>
+				{/each}
 			</div>
 		</div>
 		<div>
@@ -39,12 +74,17 @@
 				Oberhaching zum Zentrum der Frisbee-Welt zu machen.
 			</p>
 			<div class="mt-8 flex flex-wrap items-center gap-8">
-				<enhanced:img src={dgMucLogo} alt="Disc Golf München" class="h-12 w-auto object-contain" />
-				<enhanced:img src={soLogo} alt="Sportschule Oberhaching" class="h-12 w-auto object-contain" />
-				<enhanced:img src={djkLogo} alt="DJK" class="h-12 w-auto object-contain" />
-				<enhanced:img src={hieberLogo} alt="Hieber" class="h-12 w-auto object-contain" />
-				<enhanced:img src={sfbLogo} alt="SFB" class="h-12 w-auto object-contain" />
-				<enhanced:img src={xdiscLogo} alt="XDisc" class="h-12 w-auto object-contain" />
+				{#each organisers as { img, alt, href } (alt)}
+					{#if img}
+						{#if href}
+							<a {href} target="_blank" rel="noopener noreferrer" aria-label={alt}>
+								<enhanced:img src={img} {alt} class="h-12 w-auto object-contain" />
+							</a>
+						{:else}
+							<enhanced:img src={img} {alt} class="h-12 w-auto object-contain" />
+						{/if}
+					{/if}
+				{/each}
 			</div>
 		</div>
 	</div>

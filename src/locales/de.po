@@ -28,7 +28,6 @@ msgid "Frisbee Festival München"
 msgstr "Frisbee Festival München"
 
 #: src/lib/components/home/Sponsors.svelte
-#: src/lib/components/home/Sponsors.svelte
 #: src/lib/components/home/Venue.svelte
 #: src/lib/components/home/Venue.svelte
 msgid "Sportschule Oberhaching"
@@ -94,12 +93,8 @@ msgstr "Disc Golf"
 msgid "Double Disc Court"
 msgstr "Double Disc Court"
 
-#: src/lib/components/disciplines/DisciplineBadge.svelte
-#: src/lib/components/layout/AppSidebar.svelte
-#: src/lib/components/layout/Navigation.svelte
 #: src/lib/components/schedule/ScheduleLegend.svelte
 #: src/lib/data/schedules/ultimate.ts
-#: src/routes/[[locale=lang]]/sportarten/+page.svelte
 msgid "Ultimate"
 msgstr "Ultimate"
 
@@ -127,10 +122,8 @@ msgstr "Präzision und Power in einem Golfspiel mit der Frisbee."
 msgid "Ein schnelles Spiel mit zwei Teams und zwei Scheiben."
 msgstr "Ein schnelles Spiel mit zwei Teams und zwei Scheiben."
 
-#: src/lib/components/layout/Navigation.svelte
-#: src/lib/components/layout/Navigation.svelte
-msgid "Teamwork und Strategie in einem intensiven Frisbee-Mannschaftssport."
-msgstr "Teamwork und Strategie in einem intensiven Frisbee-Mannschaftssport."
+#~ msgid "Teamwork und Strategie in einem intensiven Frisbee-Mannschaftssport."
+#~ msgstr "Teamwork und Strategie in einem intensiven Frisbee-Mannschaftssport."
 
 #: src/lib/components/layout/AppSidebar.svelte
 #: src/lib/components/layout/Navigation.svelte
@@ -181,7 +174,6 @@ msgid "Sei Teil des Festivals"
 msgstr "Sei Teil des Festivals"
 
 #: src/routes/[[locale=lang]]/(disciplines)/double-disc-court/+page.svelte
-#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
 msgid "Community"
 msgstr "Community"
 
@@ -197,12 +189,7 @@ msgstr "Turnier"
 msgid "Workshop"
 msgstr "Workshop"
 
-#: src/lib/components/disciplines/DisciplineBadge.svelte
-#: src/lib/components/layout/AppSidebar.svelte
-#: src/lib/components/layout/Navigation.svelte
 #: src/lib/components/schedule/ScheduleLegend.svelte
-#: src/routes/[[locale=lang]]/(disciplines)/wheelchair-ultimate/+page.svelte
-#: src/routes/[[locale=lang]]/sportarten/+page.svelte
 msgid "Rollstuhl Ultimate"
 msgstr "Rollstuhl Ultimate"
 
@@ -270,6 +257,7 @@ msgid "SPORTSCHULE OBERHACHING"
 msgstr "SPORTSCHULE OBERHACHING"
 
 #: src/lib/components/home/Venue.svelte
+#: src/lib/components/home/Venue.svelte
 msgid "9:00 – 19:00 Uhr"
 msgstr "9:00 – 19:00 Uhr"
 
@@ -277,6 +265,7 @@ msgstr "9:00 – 19:00 Uhr"
 msgid "Sportschule Oberhaching, 82041 Oberhaching"
 msgstr "Sportschule Oberhaching, 82041 Oberhaching"
 
+#: src/lib/components/home/Venue.svelte
 #: src/lib/components/home/Venue.svelte
 msgid "Mehrere Spielfelder, Zuschauerbereich, Verpflegung, Parkplatz"
 msgstr "Mehrere Spielfelder, Zuschauerbereich, Verpflegung, Parkplatz"
@@ -384,11 +373,15 @@ msgstr "Häufige Fragen"
 msgid "Die wohl fairste Teamsportart der Welt"
 msgstr "Die wohl fairste Teamsportart der Welt"
 
+#: src/lib/components/disciplines/DisciplineBadge.svelte
+#: src/lib/components/layout/AppSidebar.svelte
+#: src/lib/components/layout/Navigation.svelte
 #: src/routes/[[locale=lang]]/(disciplines)/ultimate/+page.svelte
 #: src/routes/[[locale=lang]]/(disciplines)/ultimate/+page.svelte
 #: src/routes/[[locale=lang]]/(disciplines)/ultimate/+page.svelte
 #: src/routes/[[locale=lang]]/(disciplines)/ultimate/+page.svelte
 #: src/routes/[[locale=lang]]/(disciplines)/ultimate/+page.svelte
+#: src/routes/[[locale=lang]]/sportarten/+page.svelte
 msgid "Ultimate Frisbee"
 msgstr "Ultimate Frisbee"
 
@@ -408,6 +401,7 @@ msgid "Willkommen zum"
 msgstr "Willkommen zum"
 
 #: src/lib/components/home/Hero.svelte
+#: src/lib/components/home/Venue.svelte
 #: src/lib/components/home/Venue.svelte
 msgid "1. - 2. August 2026"
 msgstr "1. - 2. August 2026"
@@ -707,17 +701,16 @@ msgstr ""
 "Internationale Verbände und lokale Partner vereinen ihre Kräfte, um die Sportschule\n"
 "Oberhaching zum Zentrum der Frisbee-Welt zu machen."
 
-#: src/routes/[[locale=lang]]/mitmachen/+page.svelte
-msgid ""
-"Zuschauen ist gut, Selberwerfen ist besser. Wir bieten euch die Chance, die Faszination Frisbee\n"
-"direkt auszuprobieren. In unseren Workshops zeigen euch erfahrene Spieler:innen die Kniffe der\n"
-"verschiedenen Disziplinen – völlig egal, wie viel Erfahrung ihr mitbringt. Sucht euch unten euren\n"
-"Slot aus und werdet Teil des Festivals!"
-msgstr ""
-"Zuschauen ist gut, Selberwerfen ist besser. Wir bieten euch die Chance, die Faszination Frisbee\n"
-"direkt auszuprobieren. In unseren Workshops zeigen euch erfahrene Spieler:innen die Kniffe der\n"
-"verschiedenen Disziplinen – völlig egal, wie viel Erfahrung ihr mitbringt. Sucht euch unten euren\n"
-"Slot aus und werdet Teil des Festivals!"
+#~ msgid ""
+#~ "Zuschauen ist gut, Selberwerfen ist besser. Wir bieten euch die Chance, die Faszination Frisbee\n"
+#~ "direkt auszuprobieren. In unseren Workshops zeigen euch erfahrene Spieler:innen die Kniffe der\n"
+#~ "verschiedenen Disziplinen – völlig egal, wie viel Erfahrung ihr mitbringt. Sucht euch unten euren\n"
+#~ "Slot aus und werdet Teil des Festivals!"
+#~ msgstr ""
+#~ "Zuschauen ist gut, Selberwerfen ist besser. Wir bieten euch die Chance, die Faszination Frisbee\n"
+#~ "direkt auszuprobieren. In unseren Workshops zeigen euch erfahrene Spieler:innen die Kniffe der\n"
+#~ "verschiedenen Disziplinen – völlig egal, wie viel Erfahrung ihr mitbringt. Sucht euch unten euren\n"
+#~ "Slot aus und werdet Teil des Festivals!"
 
 #: src/routes/[[locale=lang]]/programm/+page.svelte
 msgid ""
@@ -885,7 +878,6 @@ msgstr ""
 "Stelle steht."
 
 #: src/lib/components/home/Sponsors.svelte
-#: src/lib/components/home/Sponsors.svelte
 msgid "Alpresso"
 msgstr "Alpresso"
 
@@ -940,16 +932,12 @@ msgid "Das vollständige Programm des Frisbee Festivals München: alle Events, W
 msgstr "Das vollständige Programm des Frisbee Festivals München: alle Events, Wettkämpfe und Workshops am 1.–2. August 2026 in der Sportschule Oberhaching – filterbar nach Sportart."
 
 #: src/lib/components/home/Sponsors.svelte
-#: src/lib/components/home/Sponsors.svelte
 msgid "Disc Golf München"
 msgstr "Disc Golf München"
 
-#: src/lib/components/home/Sponsors.svelte
-#: src/lib/components/home/Sponsors.svelte
-msgid "Hieber"
-msgstr "Hieber"
+#~ msgid "Hieber"
+#~ msgstr "Hieber"
 
-#: src/lib/components/home/Sponsors.svelte
 #: src/lib/components/home/Sponsors.svelte
 msgid "XDisc"
 msgstr "XDisc"
@@ -1189,9 +1177,8 @@ msgstr ""
 "packende Erfahrung, die Menschen zusammenbringt und zeigt, dass sportlicher Erfolg vor allem\n"
 "von Übersicht, Geschick und Teamarbeit abhängt."
 
-#: src/routes/[[locale=lang]]/(disciplines)/wheelchair-ultimate/+page.svelte
-msgid "Was ist Rollstuhl Ultimate?"
-msgstr "Was ist Rollstuhl Ultimate?"
+#~ msgid "Was ist Rollstuhl Ultimate?"
+#~ msgstr "Was ist Rollstuhl Ultimate?"
 
 #: src/routes/[[locale=lang]]/(disciplines)/wheelchair-ultimate/+page.svelte
 msgid ""
@@ -1245,43 +1232,15 @@ msgstr "Erlebe den Perspektivwechsel hautnah"
 #~ "Nimm Platz, schnapp dir die Scheibe und werde Teil unserer Gemeinschaft!"
 
 #. placeholder {0}: discipline.image
-#. placeholder {0}: image
-#. placeholder {0}: dgMucLogo
 #. placeholder {0}: wfdfLogo
-#. placeholder {0}: fpaLogo
-#. placeholder {0}: wfdfLogo
-#. placeholder {0}: fpaLogo
-#. placeholder {0}: dfvLogo
-#. placeholder {0}: flbyLogo
-#. placeholder {0}: alpressoLogo
-#. placeholder {0}: dgMucLogo
-#. placeholder {0}: soLogo
-#. placeholder {0}: wfdfLogo
-#. placeholder {0}: fpaLogo
-#. placeholder {0}: dfvLogo
-#. placeholder {0}: flbyLogo
-#. placeholder {0}: alpressoLogo
-#. placeholder {0}: dgMucLogo
-#. placeholder {0}: soLogo
-#. placeholder {0}: djkLogo
-#. placeholder {0}: hieberLogo
-#. placeholder {0}: sfbLogo
-#. placeholder {0}: xdiscLogo
+#. placeholder {0}: img
+#. placeholder {0}: img
+#. placeholder {0}: img
 #: src/lib/components/home/Disciplines.svelte
 #: src/lib/components/home/Hero.svelte
 #: src/lib/components/home/Sponsors.svelte
 #: src/lib/components/home/Sponsors.svelte
 #: src/lib/components/home/Sponsors.svelte
-#: src/lib/components/home/Sponsors.svelte
-#: src/lib/components/home/Sponsors.svelte
-#: src/lib/components/home/Sponsors.svelte
-#: src/lib/components/home/Sponsors.svelte
-#: src/lib/components/home/Sponsors.svelte
-#: src/lib/components/home/Sponsors.svelte
-#: src/lib/components/home/Sponsors.svelte
-#: src/lib/components/home/Sponsors.svelte
-#: src/lib/components/home/Venue.svelte
-#: src/routes/[[locale=lang]]/sportarten/+page.svelte
 msgid "{0} was not enhanced. Cannot determine dimensions."
 msgstr "{0} was not enhanced. Cannot determine dimensions."
 
@@ -1368,23 +1327,22 @@ msgstr ""
 msgid "Was unterscheidet Sport für Alle vom Breitensport?"
 msgstr "Was unterscheidet Sport für Alle vom Breitensport?"
 
-#: src/routes/[[locale=lang]]/faq/+page.svelte
-msgid ""
-"Breitensport sagt gewöhnlich: “Kommt alle, wenn ihr könnt.” Sport für Alle hingegen\n"
-"betrachtet, welche Zielgruppen besondere Schwierigkeiten haben, am Breitensport\n"
-"teilzunehmen. Dabei handelt es sich häufig um Kinder und Jugendliche, um Frauen, um sich\n"
-"nicht-binär identifizierende Personen, um Menschen mit Behinderungen oder um ätere Menschen\n"
-"oder um Menschen, die aufgrund unterschiedlicher Merkmale diskriminiert werden. Sport für\n"
-"Alle macht sich zur Aufgabe, Angebote für gesellschaftlich benachteiligte Personen zu\n"
-"schaffen, um ihnen die Teilnahme an Sport und körperlicher Aktivität zu ermöglichen."
-msgstr ""
-"Breitensport sagt gewöhnlich: “Kommt alle, wenn ihr könnt.” Sport für Alle hingegen\n"
-"betrachtet, welche Zielgruppen besondere Schwierigkeiten haben, am Breitensport\n"
-"teilzunehmen. Dabei handelt es sich häufig um Kinder und Jugendliche, um Frauen, um sich\n"
-"nicht-binär identifizierende Personen, um Menschen mit Behinderungen oder um ätere Menschen\n"
-"oder um Menschen, die aufgrund unterschiedlicher Merkmale diskriminiert werden. Sport für\n"
-"Alle macht sich zur Aufgabe, Angebote für gesellschaftlich benachteiligte Personen zu\n"
-"schaffen, um ihnen die Teilnahme an Sport und körperlicher Aktivität zu ermöglichen."
+#~ msgid ""
+#~ "Breitensport sagt gewöhnlich: “Kommt alle, wenn ihr könnt.” Sport für Alle hingegen\n"
+#~ "betrachtet, welche Zielgruppen besondere Schwierigkeiten haben, am Breitensport\n"
+#~ "teilzunehmen. Dabei handelt es sich häufig um Kinder und Jugendliche, um Frauen, um sich\n"
+#~ "nicht-binär identifizierende Personen, um Menschen mit Behinderungen oder um ätere Menschen\n"
+#~ "oder um Menschen, die aufgrund unterschiedlicher Merkmale diskriminiert werden. Sport für\n"
+#~ "Alle macht sich zur Aufgabe, Angebote für gesellschaftlich benachteiligte Personen zu\n"
+#~ "schaffen, um ihnen die Teilnahme an Sport und körperlicher Aktivität zu ermöglichen."
+#~ msgstr ""
+#~ "Breitensport sagt gewöhnlich: “Kommt alle, wenn ihr könnt.” Sport für Alle hingegen\n"
+#~ "betrachtet, welche Zielgruppen besondere Schwierigkeiten haben, am Breitensport\n"
+#~ "teilzunehmen. Dabei handelt es sich häufig um Kinder und Jugendliche, um Frauen, um sich\n"
+#~ "nicht-binär identifizierende Personen, um Menschen mit Behinderungen oder um ätere Menschen\n"
+#~ "oder um Menschen, die aufgrund unterschiedlicher Merkmale diskriminiert werden. Sport für\n"
+#~ "Alle macht sich zur Aufgabe, Angebote für gesellschaftlich benachteiligte Personen zu\n"
+#~ "schaffen, um ihnen die Teilnahme an Sport und körperlicher Aktivität zu ermöglichen."
 
 #: src/routes/[[locale=lang]]/faq/+page.svelte
 msgid "Wofür steht die Auszeichnung des Frisbee Festivals als Sport für Alle-Event?"
@@ -1832,3 +1790,213 @@ msgstr "Lerne die Grundlagen des Rollstuhl Ultimate, einschließlich Wurftechnik
 #: src/lib/data/schedules/wheelchair-ultimate.ts
 msgid "Nach dem Rollstuhl Ultimate Workshop können alle TeilnehmerInnen das Gelernte in einem offenen Spiel anwenden. Alle sind willkommen, egal ob mit oder ohne Beeinträchtigungen."
 msgstr "Nach dem Rollstuhl Ultimate Workshop können alle TeilnehmerInnen das Gelernte in einem offenen Spiel anwenden. Alle sind willkommen, egal ob mit oder ohne Beeinträchtigungen."
+
+#: src/lib/components/disciplines/DisciplineBadge.svelte
+#: src/lib/components/layout/AppSidebar.svelte
+#: src/lib/components/layout/Navigation.svelte
+#: src/routes/[[locale=lang]]/(disciplines)/wheelchair-ultimate/+page.svelte
+#: src/routes/[[locale=lang]]/sportarten/+page.svelte
+msgid "Rollstuhl Ultimate Frisbee"
+msgstr "Rollstuhl Ultimate Frisbee"
+
+#: src/routes/[[locale=lang]]/(disciplines)/wheelchair-ultimate/+page.svelte
+msgid "Was ist Rollstuhl Ultimate Frisbee?"
+msgstr "Was ist Rollstuhl Ultimate Frisbee?"
+
+#~ msgid "Body Roll"
+#~ msgstr "Body Roll"
+
+#~ msgid "Teamwork"
+#~ msgstr "Teamwork"
+
+#~ msgid "Catch"
+#~ msgstr "Catch"
+
+#~ msgid "Inklusion und Action vereint in einem spannenden Rollstuhl-Frisbee-Spiel."
+#~ msgstr "Inklusion und Action vereint in einem spannenden Rollstuhl-Frisbee-Spiel."
+
+#: src/lib/components/layout/Navigation.svelte
+msgid "Inklusion und Action vereint in einem spannenden Spiel."
+msgstr "Inklusion und Action vereint in einem spannenden Spiel."
+
+#: src/lib/components/layout/Navigation.svelte
+msgid "Teamwork und Strategie in einem intensiven Mannschaftssport."
+msgstr "Teamwork und Strategie in einem intensiven Mannschaftssport."
+
+#~ msgid "Sportschule Oberhaching, <0/>82041 Oberhaching"
+#~ msgstr "Sportschule Oberhaching, <0/>82041 Oberhaching"
+
+#: src/lib/components/home/Venue.svelte
+msgid "Sportschule Oberhaching <0/>82041 Oberhaching"
+msgstr "Sportschule Oberhaching <0/>82041 Oberhaching"
+
+#: src/lib/components/home/Sponsors.svelte
+msgid "Fresh Disc Sports"
+msgstr "Fresh Disc Sports"
+
+#~ msgid "XDisc Website"
+#~ msgstr "XDisc Website"
+
+#: src/lib/components/home/Sponsors.svelte
+msgid "Delay Master"
+msgstr "Delay Master"
+
+#~ msgid "// eslint-disable-next-line svelte/no-navigation-without-resolve <0>{0} was not enhanced. Cannot determine dimensions.</0>"
+#~ msgstr "// eslint-disable-next-line svelte/no-navigation-without-resolve <0>{0} was not enhanced. Cannot determine dimensions.</0>"
+
+#~ msgid ""
+#~ "/* eslint-disable svelte/no-navigation-without-resolve */ <0>Starke PartnerschaftenDank an unsere SponsorenGemeinsam bringen wir die Scheibe zum Fliegen! Ein großes Dankeschön an unsere Partner, die\n"
+#~ "das Frisbee Festival München und die internationale Community unterstützen.// eslint-disable-next-line svelte/no-navigation-without-resolve <0>{0} was not enhanced. Cannot determine dimensions.</0>Das Team hinter dem EventDie OrganisatorenInternationale Verbände und lokale Partner vereinen ihre Kräfte, um die Sportschule\n"
+#~ "Oberhaching zum Zentrum der Frisbee-Welt zu machen.{0} was not enhanced. Cannot determine dimensions.{0} was not enhanced. Cannot determine dimensions.</0>"
+#~ msgstr ""
+#~ "/* eslint-disable svelte/no-navigation-without-resolve */ <0>Starke PartnerschaftenDank an unsere SponsorenGemeinsam bringen wir die Scheibe zum Fliegen! Ein großes Dankeschön an unsere Partner, die\n"
+#~ "das Frisbee Festival München und die internationale Community unterstützen.// eslint-disable-next-line svelte/no-navigation-without-resolve <0>{0} was not enhanced. Cannot determine dimensions.</0>Das Team hinter dem EventDie OrganisatorenInternationale Verbände und lokale Partner vereinen ihre Kräfte, um die Sportschule\n"
+#~ "Oberhaching zum Zentrum der Frisbee-Welt zu machen.{0} was not enhanced. Cannot determine dimensions.{0} was not enhanced. Cannot determine dimensions.</0>"
+
+#~ msgid ""
+#~ "/* eslint-disable svelte/no-navigation-without-resolve */ <0>Starke PartnerschaftenDank an unsere SponsorenGemeinsam bringen wir die Scheibe zum Fliegen! Ein großes Dankeschön an unsere Partner, die\n"
+#~ "das Frisbee Festival München und die internationale Community unterstützen.{0} was not enhanced. Cannot determine dimensions.Das Team hinter dem EventDie OrganisatorenInternationale Verbände und lokale Partner vereinen ihre Kräfte, um die Sportschule\n"
+#~ "Oberhaching zum Zentrum der Frisbee-Welt zu machen.{0} was not enhanced. Cannot determine dimensions.{0} was not enhanced. Cannot determine dimensions.</0>"
+#~ msgstr ""
+#~ "/* eslint-disable svelte/no-navigation-without-resolve */ <0>Starke PartnerschaftenDank an unsere SponsorenGemeinsam bringen wir die Scheibe zum Fliegen! Ein großes Dankeschön an unsere Partner, die\n"
+#~ "das Frisbee Festival München und die internationale Community unterstützen.{0} was not enhanced. Cannot determine dimensions.Das Team hinter dem EventDie OrganisatorenInternationale Verbände und lokale Partner vereinen ihre Kräfte, um die Sportschule\n"
+#~ "Oberhaching zum Zentrum der Frisbee-Welt zu machen.{0} was not enhanced. Cannot determine dimensions.{0} was not enhanced. Cannot determine dimensions.</0>"
+
+#~ msgid ""
+#~ "/* eslint-disable svelte/no-navigation-without-resolve */ /* eslint-disable svelte/no-navigation-without-resolve */ <0>Starke PartnerschaftenDank an unsere SponsorenGemeinsam bringen wir die Scheibe zum Fliegen! Ein großes Dankeschön an unsere Partner, die\n"
+#~ "das Frisbee Festival München und die internationale Community unterstützen.{0} was not enhanced. Cannot determine dimensions.Das Team hinter dem EventDie OrganisatorenInternationale Verbände und lokale Partner vereinen ihre Kräfte, um die Sportschule\n"
+#~ "Oberhaching zum Zentrum der Frisbee-Welt zu machen.{0} was not enhanced. Cannot determine dimensions.{0} was not enhanced. Cannot determine dimensions.</0>"
+#~ msgstr ""
+#~ "/* eslint-disable svelte/no-navigation-without-resolve */ /* eslint-disable svelte/no-navigation-without-resolve */ <0>Starke PartnerschaftenDank an unsere SponsorenGemeinsam bringen wir die Scheibe zum Fliegen! Ein großes Dankeschön an unsere Partner, die\n"
+#~ "das Frisbee Festival München und die internationale Community unterstützen.{0} was not enhanced. Cannot determine dimensions.Das Team hinter dem EventDie OrganisatorenInternationale Verbände und lokale Partner vereinen ihre Kräfte, um die Sportschule\n"
+#~ "Oberhaching zum Zentrum der Frisbee-Welt zu machen.{0} was not enhanced. Cannot determine dimensions.{0} was not enhanced. Cannot determine dimensions.</0>"
+
+#~ msgid ""
+#~ "/* eslint-disable svelte/no-navigation-without-resolve */ /* eslint-disable\n"
+#~ "svelte/no-navigation-without-resolve */ <0>Starke PartnerschaftenDank an unsere SponsorenGemeinsam bringen wir die Scheibe zum Fliegen! Ein großes Dankeschön an unsere Partner, die\n"
+#~ "das Frisbee Festival München und die internationale Community unterstützen.{0} was not enhanced. Cannot determine dimensions.Das Team hinter dem EventDie OrganisatorenInternationale Verbände und lokale Partner vereinen ihre Kräfte, um die Sportschule\n"
+#~ "Oberhaching zum Zentrum der Frisbee-Welt zu machen.{0} was not enhanced. Cannot determine dimensions.{0} was not enhanced. Cannot determine dimensions.</0>"
+#~ msgstr ""
+#~ "/* eslint-disable svelte/no-navigation-without-resolve */ /* eslint-disable\n"
+#~ "svelte/no-navigation-without-resolve */ <0>Starke PartnerschaftenDank an unsere SponsorenGemeinsam bringen wir die Scheibe zum Fliegen! Ein großes Dankeschön an unsere Partner, die\n"
+#~ "das Frisbee Festival München und die internationale Community unterstützen.{0} was not enhanced. Cannot determine dimensions.Das Team hinter dem EventDie OrganisatorenInternationale Verbände und lokale Partner vereinen ihre Kräfte, um die Sportschule\n"
+#~ "Oberhaching zum Zentrum der Frisbee-Welt zu machen.{0} was not enhanced. Cannot determine dimensions.{0} was not enhanced. Cannot determine dimensions.</0>"
+
+#: src/lib/components/home/Sponsors.svelte
+msgid "Ron"
+msgstr "Ron"
+
+#~ msgid "Fine"
+#~ msgstr "Fine"
+
+#: src/lib/components/home/Sponsors.svelte
+msgid "Fine Print"
+msgstr "Fine Print"
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid ""
+"Breitensport sagt gewöhnlich: “Kommt alle, wenn ihr könnt.” Sport für Alle hingegen\n"
+"betrachtet, welche Zielgruppen besondere Schwierigkeiten haben, am Breitensport\n"
+"teilzunehmen. Dabei handelt es sich häufig um Kinder und Jugendliche, um Frauen, um sich\n"
+"nicht-binär identifizierende Personen, um Menschen mit Behinderungen oder um ältere Menschen\n"
+"oder um Menschen, die aufgrund unterschiedlicher Merkmale diskriminiert werden. Sport für\n"
+"Alle macht sich zur Aufgabe, Angebote für gesellschaftlich benachteiligte Personen zu\n"
+"schaffen, um ihnen die Teilnahme an Sport und körperlicher Aktivität zu ermöglichen."
+msgstr ""
+"Breitensport sagt gewöhnlich: “Kommt alle, wenn ihr könnt.” Sport für Alle hingegen\n"
+"betrachtet, welche Zielgruppen besondere Schwierigkeiten haben, am Breitensport\n"
+"teilzunehmen. Dabei handelt es sich häufig um Kinder und Jugendliche, um Frauen, um sich\n"
+"nicht-binär identifizierende Personen, um Menschen mit Behinderungen oder um ältere Menschen\n"
+"oder um Menschen, die aufgrund unterschiedlicher Merkmale diskriminiert werden. Sport für\n"
+"Alle macht sich zur Aufgabe, Angebote für gesellschaftlich benachteiligte Personen zu\n"
+"schaffen, um ihnen die Teilnahme an Sport und körperlicher Aktivität zu ermöglichen."
+
+#~ msgid "Tafisa"
+#~ msgstr "Tafisa"
+
+#~ msgid "The Association For International Sport for All"
+#~ msgstr "The Association For International Sport for All"
+
+#~ msgid "The Association For International Sport for All - TAFISA"
+#~ msgstr "The Association For International Sport for All - TAFISA"
+
+#~ msgid "Das Frisbee Festival München ist stolz darauf, Teil der TAFISA World Sport for All Games 2026 zu sein."
+#~ msgstr "Das Frisbee Festival München ist stolz darauf, Teil der TAFISA World Sport for All Games 2026 zu sein."
+
+#~ msgid "Das Frisbee Festival München ist stolz darauf, ein lizensiertes"
+#~ msgstr "Das Frisbee Festival München ist stolz darauf, ein lizensiertes"
+
+#~ msgid "Das Frisbee Festival München ist stolz darauf, ein lizensiertes Event der TAFISA (The Association For International Sport for All) zu sein. TAFISA ist eine"
+#~ msgstr "Das Frisbee Festival München ist stolz darauf, ein lizensiertes Event der TAFISA (The Association For International Sport for All) zu sein. TAFISA ist eine"
+
+#~ msgid "Das Frisbee Festival München ist stolz darauf, ein lizensiertes Event der TAFISA zu sein. TAFISA ist eine"
+#~ msgstr "Das Frisbee Festival München ist stolz darauf, ein lizensiertes Event der TAFISA zu sein. TAFISA ist eine"
+
+#~ msgid "Das Frisbee Festival München ist stolz darauf, ein lizensiertes Event der TAFISA zu sein."
+#~ msgstr "Das Frisbee Festival München ist stolz darauf, ein lizensiertes Event der TAFISA zu sein."
+
+#~ msgid "TAFISA Logo"
+#~ msgstr "TAFISA Logo"
+
+#: src/routes/[[locale=lang]]/mitmachen/+page.svelte
+msgid ""
+"Zuschauen ist gut, Selberwerfen ist besser. Wir bieten euch die Chance, die Faszination\n"
+"Frisbee direkt auszuprobieren. In unseren Workshops zeigen euch erfahrene Spieler:innen die\n"
+"Kniffe der verschiedenen Disziplinen – völlig egal, wie viel Erfahrung ihr mitbringt. Sucht\n"
+"euch unten euren Slot aus und werdet Teil des Festivals!"
+msgstr ""
+"Zuschauen ist gut, Selberwerfen ist besser. Wir bieten euch die Chance, die Faszination\n"
+"Frisbee direkt auszuprobieren. In unseren Workshops zeigen euch erfahrene Spieler:innen die\n"
+"Kniffe der verschiedenen Disziplinen – völlig egal, wie viel Erfahrung ihr mitbringt. Sucht\n"
+"euch unten euren Slot aus und werdet Teil des Festivals!"
+
+#~ msgid "Das Frisbee Festival München ist stolz darauf, ein lizensiertes Event der TAFISA zu sein. Mehr Infos zu Sport"
+#~ msgstr "Das Frisbee Festival München ist stolz darauf, ein lizensiertes Event der TAFISA zu sein. Mehr Infos zu Sport"
+
+#~ msgid "Das Frisbee Festival München ist stolz darauf, ein lizensiertes Event der TAFISA zu sein. Mehr Infos zu \"Sport für alle\" auf der <0>FAQ Seite</0>"
+#~ msgstr "Das Frisbee Festival München ist stolz darauf, ein lizensiertes Event der TAFISA zu sein. Mehr Infos zu \"Sport für alle\" auf der <0>FAQ Seite</0>"
+
+#: src/routes/[[locale=lang]]/mitmachen/+page.svelte
+msgid ""
+"Das Frisbee Festival München ist stolz darauf, ein lizensiertes Event der TAFISA zu sein. Mehr\n"
+"Infos zu \"Sport für alle\" auf der <0>FAQ Seite</0>"
+msgstr ""
+"Das Frisbee Festival München ist stolz darauf, ein lizensiertes Event der TAFISA zu sein. Mehr\n"
+"Infos zu \"Sport für alle\" auf der <0>FAQ Seite</0>"
+
+#~ msgid "TAFISA - The Association For International Sport for All"
+#~ msgstr "TAFISA - The Association For International Sport for All"
+
+#~ msgid "TAFISA The Association For International Sport for All"
+#~ msgstr "TAFISA The Association For International Sport for All"
+
+#~ msgid "The Association For International Sport for All ()"
+#~ msgstr "The Association For International Sport for All ()"
+
+#: src/routes/[[locale=lang]]/mitmachen/+page.svelte
+msgid "The Association For International Sport for All (TAFISA)"
+msgstr "The Association For International Sport for All (TAFISA)"
+
+#: src/lib/components/dev/BreakpointIndicator.svelte
+msgid "xs"
+msgstr "xs"
+
+#: src/lib/components/dev/BreakpointIndicator.svelte
+msgid "sm"
+msgstr "sm"
+
+#: src/lib/components/dev/BreakpointIndicator.svelte
+msgid "md"
+msgstr "md"
+
+#: src/lib/components/dev/BreakpointIndicator.svelte
+msgid "lg"
+msgstr "lg"
+
+#: src/lib/components/dev/BreakpointIndicator.svelte
+msgid "xl"
+msgstr "xl"
+
+#: src/lib/components/dev/BreakpointIndicator.svelte
+msgid "2xl"
+msgstr "2xl"

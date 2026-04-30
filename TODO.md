@@ -1,1 +1,0 @@
-- create svelte:head tag on all pages and add data

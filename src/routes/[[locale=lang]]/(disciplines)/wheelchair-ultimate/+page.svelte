@@ -43,7 +43,7 @@
 			<Badge class="mb-4" variant="outline">Inklusion und Action</Badge>
 			<div class="flex gap-2">
 				<Accessibility size="38" class="mb-4 text-wheelchair-ultimate" />
-				<h1 class="uppercase">Rollstuhl Ultimate</h1>
+				<h1 class="uppercase">Rollstuhl Ultimate Frisbee</h1>
 			</div>
 			<p>
 				Inklusion in Aktion: Dieser Sport trennt nicht – er verbindet. Rollstuhl Ultimate zeigt, wie
@@ -51,7 +51,7 @@
 				packende Erfahrung, die Menschen zusammenbringt und zeigt, dass sportlicher Erfolg vor allem
 				von Übersicht, Geschick und Teamarbeit abhängt.
 			</p>
-			<h5>Was ist Rollstuhl Ultimate?</h5>
+			<h5>Was ist Rollstuhl Ultimate Frisbee?</h5>
 			<p>
 				Rollstuhl Ultimate ist eine adaptierte Version des klassischen Ultimate Frisbee. Die
 				Kernwerte bleiben dabei identisch: Kontaktloses Spiel, Eigenverantwortung bei der

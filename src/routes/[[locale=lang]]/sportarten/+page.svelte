@@ -53,9 +53,9 @@
 	{@render card('Freestyle Frisbee', '/[[locale=lang]]/(disciplines)/freestyle', freestyleImage)}
 	{@render card('Disc Golf', '/[[locale=lang]]/(disciplines)/disc-golf', discGolfImage)}
 	{@render card('Double Disc Court', '/[[locale=lang]]/(disciplines)/double-disc-court', ddcImage)}
-	{@render card('Ultimate', '/[[locale=lang]]/(disciplines)/ultimate', ultimateImage)}
+	{@render card('Ultimate Frisbee', '/[[locale=lang]]/(disciplines)/ultimate', ultimateImage)}
 	{@render card(
-		'Rollstuhl Ultimate',
+		'Rollstuhl Ultimate Frisbee',
 		'/[[locale=lang]]/(disciplines)/wheelchair-ultimate',
 		wheelchairUltimateImage
 	)}
