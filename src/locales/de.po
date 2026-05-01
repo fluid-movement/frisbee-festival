@@ -93,7 +93,6 @@ msgstr "Disc Golf"
 msgid "Double Disc Court"
 msgstr "Double Disc Court"
 
-#: src/lib/components/schedule/ScheduleLegend.svelte
 #: src/lib/data/schedules/ultimate.ts
 msgid "Ultimate"
 msgstr "Ultimate"
@@ -189,9 +188,8 @@ msgstr "Turnier"
 msgid "Workshop"
 msgstr "Workshop"
 
-#: src/lib/components/schedule/ScheduleLegend.svelte
-msgid "Rollstuhl Ultimate"
-msgstr "Rollstuhl Ultimate"
+#~ msgid "Rollstuhl Ultimate"
+#~ msgstr "Rollstuhl Ultimate"
 
 #: src/routes/[[locale=lang]]/(disciplines)/wheelchair-ultimate/+page.svelte
 msgid "Inklusion und Action"
@@ -376,6 +374,7 @@ msgstr "Die wohl fairste Teamsportart der Welt"
 #: src/lib/components/disciplines/DisciplineBadge.svelte
 #: src/lib/components/layout/AppSidebar.svelte
 #: src/lib/components/layout/Navigation.svelte
+#: src/lib/components/schedule/ScheduleLegend.svelte
 #: src/routes/[[locale=lang]]/(disciplines)/ultimate/+page.svelte
 #: src/routes/[[locale=lang]]/(disciplines)/ultimate/+page.svelte
 #: src/routes/[[locale=lang]]/(disciplines)/ultimate/+page.svelte
@@ -1232,7 +1231,10 @@ msgstr "Erlebe den Perspektivwechsel hautnah"
 #~ "Nimm Platz, schnapp dir die Scheibe und werde Teil unserer Gemeinschaft!"
 
 #. placeholder {0}: discipline.image
-#. placeholder {0}: wfdfLogo
+#. placeholder {0}: discipline.image
+#. placeholder {0}: heroPerson
+#. placeholder {0}: img
+#. placeholder {0}: img
 #. placeholder {0}: img
 #. placeholder {0}: img
 #. placeholder {0}: img
@@ -1241,6 +1243,7 @@ msgstr "Erlebe den Perspektivwechsel hautnah"
 #: src/lib/components/home/Sponsors.svelte
 #: src/lib/components/home/Sponsors.svelte
 #: src/lib/components/home/Sponsors.svelte
+#: src/lib/components/home/Venue.svelte
 msgid "{0} was not enhanced. Cannot determine dimensions."
 msgstr "{0} was not enhanced. Cannot determine dimensions."
 
@@ -1794,6 +1797,7 @@ msgstr "Nach dem Rollstuhl Ultimate Workshop können alle TeilnehmerInnen das Ge
 #: src/lib/components/disciplines/DisciplineBadge.svelte
 #: src/lib/components/layout/AppSidebar.svelte
 #: src/lib/components/layout/Navigation.svelte
+#: src/lib/components/schedule/ScheduleLegend.svelte
 #: src/routes/[[locale=lang]]/(disciplines)/wheelchair-ultimate/+page.svelte
 #: src/routes/[[locale=lang]]/sportarten/+page.svelte
 msgid "Rollstuhl Ultimate Frisbee"

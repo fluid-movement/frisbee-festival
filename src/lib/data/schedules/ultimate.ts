@@ -1,4 +1,5 @@
 import type { DisciplineSchedule } from '../types';
+import workshopImage from '$lib/assets/ultimate/workshop.jpg';
 
 /**
  * Ultimate discipline schedule
@@ -13,14 +14,14 @@ export const getUltimateSchedule = (): DisciplineSchedule => ({
 		Samstag: [],
 		Sonntag: [
 			{
-				time: '9:00 - 9:45',
+				time: '09:00 - 09:45',
 				label: 'Warmup',
 				description:
 					'Treffen auf dem Kunstrasen, dann individuelles Aufwärmen, um bereit für die Spiele zu sein und das Verletzungsrisiko zu mindern.',
 				type: 'tournament'
 			},
 			{
-				time: '9:45 - 10:00',
+				time: '09:45 - 10:00',
 				label: 'Teamzuweisung',
 				description:
 					'Die angemeldeten SpielerInnen werden vom Veranstalter in Teams eingeteilt. Die Teammitglieder lernen sich kennen und definieren Spielstrategien für Offense und Defense',
@@ -67,7 +68,9 @@ export const getUltimateSchedule = (): DisciplineSchedule => ({
 				label: 'Workshop Ultimate Frisbee',
 				description:
 					'Parallel zu den ersten Finalspielen auf SF Süd findet auf dem SF Nord ein Mitmachangebot statt: ein Workshop für alle Interessierten an Ultimate Frisbee. Ihr braucht nur einigermaßen sportliche Kleidung und Turnschuhe.',
-				type: 'workshop'
+        type: 'workshop',
+        id: 'ultimate-workshop',
+        image: workshopImage
 			},
 			{
 				time: '13:00 - 13:25',

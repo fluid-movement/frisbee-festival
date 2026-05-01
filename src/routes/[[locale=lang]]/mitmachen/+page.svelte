@@ -70,7 +70,7 @@
 </svelte:head>
 
 {#snippet workshopCard(w: WorkshopEntry)}
-	<div id={w.id} class="flex flex-col overflow-hidden rounded-xl border border-muted-foreground">
+	<div id={w.id} class="flex flex-col overflow-hidden rounded-xl bg-muted-foreground/10">
 		{#if w.image}
 			<img src={w.image} alt={w.title} class="h-48 w-full object-cover" />
 		{/if}
