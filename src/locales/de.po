@@ -1231,7 +1231,6 @@ msgstr "Erlebe den Perspektivwechsel hautnah"
 #~ "Nimm Platz, schnapp dir die Scheibe und werde Teil unserer Gemeinschaft!"
 
 #. placeholder {0}: discipline.image
-#. placeholder {0}: discipline.image
 #. placeholder {0}: heroPerson
 #. placeholder {0}: img
 #. placeholder {0}: img
