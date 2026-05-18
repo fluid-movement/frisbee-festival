@@ -52,14 +52,13 @@
 		</p>
 		<h5>Zwei Quadrate, zwei Scheiben, kein Pardon</h5>
 		<p>
-			Das Spielfeld besteht aus zwei Quadraten mit 13 m Seitenlänge, die in einem Abstand von 17 m
-			zueinander liegen. Ziel ist es, die eigene Spielfeldhälfte zu verteidigen und die Gegner durch
-			geschickte Würfe unter Druck zu setzen. Damit es nicht langweilig wird, befinden sich immer
-			zwei Scheiben gleichzeitig im Spiel. Diese werden bei jedem Punkt simultan angeworfen – und
-			dann geht es blitzschnell hin und her. Einen Punkt erzielt man, wenn die Scheibe im
-			gegnerischen Feld liegen bleibt oder der Gegner ins „Aus“ wirft. Die Krönung ist das
-			sogenannte „Double“: Berührt das gegnerische Team beide Scheiben gleichzeitig, wandern sofort
-			zwei Punkte auf das eigene Konto.
+			Das Spielfeld besteht aus zwei Quadraten. Ziel ist es, die eigene Spielfeldhälfte zu
+			verteidigen und die Gegner durch geschickte Würfe unter Druck zu setzen. Damit es nicht
+			langweilig wird, befinden sich immer zwei Scheiben gleichzeitig im Spiel. Diese werden bei
+			jedem Punkt simultan angeworfen – und dann geht es blitzschnell hin und her. Einen Punkt
+			erzielt man, wenn die Scheibe im gegnerischen Feld liegen bleibt oder der Gegner ins „Aus“
+			wirft. Die Krönung ist das sogenannte „Double“: Berührt das gegnerische Team beide Scheiben
+			gleichzeitig, wandern sofort zwei Punkte auf das eigene Konto.
 		</p>
 	</article>
 	<enhanced:img
