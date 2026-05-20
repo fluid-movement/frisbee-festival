@@ -15,6 +15,8 @@
 	import { getLocaleForUrl } from '$lib/locale';
 	import { PUBLIC_ORIGIN } from '$env/static/public';
 	import { page } from '$app/state';
+	import image from '$lib/assets/programm/map.jpg?enhanced';
+	import Grid from '$lib/components/layout/Grid.svelte';
 
 	const locale = $derived(getLocaleForUrl());
 
@@ -96,12 +98,15 @@
 </svelte:head>
 
 <h1 class="container-custom mb-12 text-center">Programm</h1>
-<p class="container-custom">
-	Verpasse kein Highlight! Mit unserem dynamischen Zeitplan und der Festival-Karte hast du alle
-	Events fest im Blick. Nutze die Filter, um das Programm nach Sportarten und Kategorien zu
-	sortieren und deinen Besuch perfekt zu planen. Such dir deine Favoriten aus und erlebe ein
-	unvergessliches Frisbee Wochenende!
-</p>
+<Grid>
+  <p class="container-custom">
+  	Verpasse kein Highlight! Mit unserem dynamischen Zeitplan und der Festival-Karte hast du alle
+  	Events fest im Blick. Nutze die Filter, um das Programm nach Sportarten und Kategorien zu
+  	sortieren und deinen Besuch perfekt zu planen. Such dir deine Favoriten aus und erlebe ein
+  	unvergessliches Frisbee Wochenende!
+  </p>
+  <enhanced:img src={image} class="rounded-xl"/>
+</Grid>
 <div class="container-custom">
 	<!-- Discipline filter -->
 	<div class="mb-4 flex flex-wrap gap-2">
