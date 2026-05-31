@@ -65,7 +65,7 @@ export const getDDCSchedule = (): DisciplineSchedule => ({
 					'Die Krönung des Turniers - alle Teilnehmer schauen gespannt zu, wer dieses Jahr das Rennen macht.'
 			},
 			{
-				time: '16:00 - 19:00',
+				time: '16:00 - 17:00',
 				label: 'Freies Spiel',
 				id: 'ddc-freies-spiel',
 				type: 'workshop',
