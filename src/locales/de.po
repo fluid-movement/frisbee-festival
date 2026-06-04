@@ -29,7 +29,6 @@ msgstr "Frisbee Festival München"
 
 #: src/lib/components/home/Sponsors.svelte
 #: src/lib/components/home/Venue.svelte
-#: src/lib/components/home/Venue.svelte
 msgid "Sportschule Oberhaching"
 msgstr "Sportschule Oberhaching"
 
@@ -293,7 +292,6 @@ msgstr "9:00–19:00 Uhr"
 msgid "© 2026 Frisbee Festival München. Alle Rechte vorbehalten."
 msgstr "© 2026 Frisbee Festival München. Alle Rechte vorbehalten."
 
-#: src/lib/components/home/Hero.svelte
 #: src/lib/components/home/Hero.svelte
 msgid "Frisbee player"
 msgstr "Frisbee player"
@@ -1596,30 +1594,6 @@ msgstr ""
 "wirft. Die Krönung ist das sogenannte „Double“: Berührt das gegnerische Team beide Scheiben\n"
 "gleichzeitig, wandern sofort zwei Punkte auf das eigene Konto."
 
-#. placeholder {0}: discipline.image
-#. placeholder {0}: img
-#. placeholder {0}: img
-#. placeholder {0}: img
-#. placeholder {0}: img
-#. placeholder {0}: img
-#. placeholder {0}: image
-#: src/lib/components/home/Disciplines.svelte
-#: src/lib/components/home/Hero.svelte
-#: src/lib/components/home/Sponsors.svelte
-#: src/lib/components/home/Sponsors.svelte
-#: src/lib/components/home/Sponsors.svelte
-#: src/lib/components/home/Venue.svelte
-#: src/routes/[[locale=lang]]/programm/+page.svelte
-msgid "{0} was not enhanced. Cannot determine dimensions."
-msgstr "{0} was not enhanced. Cannot determine dimensions."
-
-#~ msgid ""
-#~ "<0/> <1>Programm</1> Grid <2>Verpasse kein Highlight! Mit unserem dynamischen Zeitplan und der Festival-Karte hast du alle\n"
-#~ "Events fest im Blick. Nutze die Filter, um das Programm nach Sportarten und Kategorien zu\n"
-#~ "sortieren und deinen Besuch perfekt zu planen. Such dir deine Favoriten aus und erlebe ein\n"
-#~ "unvergessliches Frisbee Wochenende!</2> <3/> <4>{0} von {1} Einträgen angezeigt<0/> Filter entfernenMehr <0/></4>"
-#~ msgstr ""
-#~ "<0/> <1>Programm</1> Grid <2>Verpasse kein Highlight! Mit unserem dynamischen Zeitplan und der Festival-Karte hast du alle\n"
-#~ "Events fest im Blick. Nutze die Filter, um das Programm nach Sportarten und Kategorien zu\n"
-#~ "sortieren und deinen Besuch perfekt zu planen. Such dir deine Favoriten aus und erlebe ein\n"
-#~ "unvergessliches Frisbee Wochenende!</2> <3/> <4>{0} von {1} Einträgen angezeigt<0/> Filter entfernenMehr <0/></4>"
+#: src/routes/[[locale=lang]]/(disciplines)/ultimate/+page.svelte
+msgid "Anmeldung zur Bavarian Open hier!"
+msgstr "Anmeldung zur Bavarian Open hier!"

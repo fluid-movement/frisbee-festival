@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Grid from '$lib/components/layout/Grid.svelte';
 	import Badge from '$lib/components/ui/badge/badge.svelte';
+	import Button from '$lib/components/ui/button/button.svelte';
 	import Schedule from '$lib/components/schedule/Schedule.svelte';
 	import { getSchedule } from '$lib/data/schedules';
 	import { getLocaleForUrl } from '$lib/locale';
@@ -98,6 +99,9 @@
 		</p>
 	</div>
 </Grid>
+<div class="container-custom">
+	<Button href="https://www.frisbeesportverband.bayern/events/ultimate-hat-turnier-am-frisbee-festival-in-oberhaching-sonntag-02-08-2026/" target="_blank">Anmeldung zur Bavarian Open hier!</Button>
+</div>
 <Schedule schedule={scheduleData.schedule} />
 
 <div class="container-custom grid gap-4 md:grid-cols-3">
