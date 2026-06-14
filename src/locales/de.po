@@ -192,10 +192,6 @@ msgstr "Inklusion und Action"
 msgid "Teamgeist und Strategie"
 msgstr "Teamgeist und Strategie"
 
-#: src/lib/data/schedules/disc-golf.ts
-msgid "Putting Clinic"
-msgstr "Putting Clinic"
-
 #: src/lib/data/schedules/double-disc-court.ts
 msgid "Freies Spiel"
 msgstr "Freies Spiel"
@@ -1305,10 +1301,6 @@ msgstr "Die Krönung des Turniers - alle Teilnehmer schauen gespannt zu, wer die
 msgid "Nach der Siegerehrung findet nochmal ein Freies Spiel für alle statt. Zum Ausklang könnt Ihr das Spiel auch lernen, wenn Ihr neu dabei seid. Es gibt keine festen Teams, sondern es wird einfach drauf los gespielt."
 msgstr "Nach der Siegerehrung findet nochmal ein Freies Spiel für alle statt. Zum Ausklang könnt Ihr das Spiel auch lernen, wenn Ihr neu dabei seid. Es gibt keine festen Teams, sondern es wird einfach drauf los gespielt."
 
-#: src/lib/data/schedules/disc-golf.ts
-msgid "Weitwurf-Workshop"
-msgstr "Weitwurf-Workshop"
-
 #: src/lib/data/schedules/freestyle.ts
 msgid "Halbfinale Mixed Pairs"
 msgstr "Halbfinale Mixed Pairs"
@@ -1597,3 +1589,45 @@ msgstr ""
 #: src/routes/[[locale=lang]]/(disciplines)/ultimate/+page.svelte
 msgid "Anmeldung zur Bavarian Open hier!"
 msgstr "Anmeldung zur Bavarian Open hier!"
+
+#: src/lib/data/schedules/disc-golf.ts
+#: src/lib/data/schedules/disc-golf.ts
+msgid "Disc Golf für alle – einfach ausprobieren!"
+msgstr "Disc Golf für alle – einfach ausprobieren!"
+
+#: src/lib/data/schedules/disc-golf.ts
+msgid "Auf unserem Putting-Discgolf-Parcours mit sechs abwechslungsreichen Bahnen kannst du die Faszination des Disc Golfs ganz unkompliziert kennenlernen. Unterschiedliche Würfe und kleine Herausforderungen sorgen für Spaß bei Groß und Klein – ganz ohne Vorkenntnisse. Der Parcours ist am Samstag und Sonntag durchgehend geöffnet und kann jederzeit ausprobiert werden. Leihscheibe und Einweisung am Discgolf Turnierbüro."
+msgstr "Auf unserem Putting-Discgolf-Parcours mit sechs abwechslungsreichen Bahnen kannst du die Faszination des Disc Golfs ganz unkompliziert kennenlernen. Unterschiedliche Würfe und kleine Herausforderungen sorgen für Spaß bei Groß und Klein – ganz ohne Vorkenntnisse. Der Parcours ist am Samstag und Sonntag durchgehend geöffnet und kann jederzeit ausprobiert werden. Leihscheibe und Einweisung am Discgolf Turnierbüro."
+
+#: src/lib/data/schedules/disc-golf.ts
+msgid "DiscMatch-Battle"
+msgstr "DiscMatch-Battle"
+
+#: src/lib/data/schedules/disc-golf.ts
+msgid "Zeig wie gut deine Putting Skills sind - im Battle Eins gegen Eins"
+msgstr "Zeig wie gut deine Putting Skills sind - im Battle Eins gegen Eins"
+
+#: src/lib/data/schedules/disc-golf.ts
+msgid "DiscMatch-Battle Finale"
+msgstr "DiscMatch-Battle Finale"
+
+#: src/lib/data/schedules/disc-golf.ts
+msgid "Die besten Putter und Putterinnen treten im Final gegeneinander an"
+msgstr "Die besten Putter und Putterinnen treten im Final gegeneinander an"
+
+#: src/lib/data/schedules/disc-golf.ts
+msgid "Liquid & Maniac"
+msgstr "Liquid & Maniac"
+
+#: src/lib/data/schedules/disc-golf.ts
+msgid "Das DiscMatch Finale wird musikalisch abgeschlossen mit feinstem boarisch Rap aus Regensburg"
+msgstr "Das DiscMatch Finale wird musikalisch abgeschlossen mit feinstem boarisch Rap aus Regensburg"
+
+#: src/lib/data/schedules/disc-golf.ts
+msgid "Auf unserem Putting-Discgolf-Parcours mit sechs abwechslungsreichen Bahnen kannst du die Faszination des Disc Golfs ganz unkompliziert kennenlernen. Unterschiedliche Würfe und kleine Herausforderungen sorgen für Spaß bei Groß und Klein – ganz ohne Vorkenntnisse. Der Parcours ist am Samstag und Sonntag durchgehend geöffnet und kann jederzeit ausprobiert werden."
+msgstr "Auf unserem Putting-Discgolf-Parcours mit sechs abwechslungsreichen Bahnen kannst du die Faszination des Disc Golfs ganz unkompliziert kennenlernen. Unterschiedliche Würfe und kleine Herausforderungen sorgen für Spaß bei Groß und Klein – ganz ohne Vorkenntnisse. Der Parcours ist am Samstag und Sonntag durchgehend geöffnet und kann jederzeit ausprobiert werden."
+
+#. placeholder {0}: image
+#: src/routes/[[locale=lang]]/programm/+page.svelte
+msgid "{0} was not enhanced. Cannot determine dimensions."
+msgstr "{0} was not enhanced. Cannot determine dimensions."

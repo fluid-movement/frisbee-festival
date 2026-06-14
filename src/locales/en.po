@@ -465,10 +465,6 @@ msgstr "Probably the fairest team sport in the world"
 msgid "Disc Golf Kurs"
 msgstr "Disc Golf Course"
 
-#: src/lib/data/schedules/disc-golf.ts
-msgid "Putting Clinic"
-msgstr "Putting Clinic"
-
 #: src/lib/data/schedules/freestyle.ts
 #: src/lib/data/schedules/ultimate.ts
 msgid "Siegerehrung"
@@ -1213,10 +1209,6 @@ msgstr "The crowning moment of the tournament — all participants watch eagerly
 msgid "Nach der Siegerehrung findet nochmal ein Freies Spiel für alle statt. Zum Ausklang könnt Ihr das Spiel auch lernen, wenn Ihr neu dabei seid. Es gibt keine festen Teams, sondern es wird einfach drauf los gespielt."
 msgstr "After the award ceremony there will be another free play session for everyone. As a final wind-down you can also learn the game if you are new to it. There are no fixed teams — just jump in and play."
 
-#: src/lib/data/schedules/disc-golf.ts
-msgid "Weitwurf-Workshop"
-msgstr "Long-distance throw workshop"
-
 #: src/lib/data/schedules/freestyle.ts
 msgid "Halbfinale Mixed Pairs"
 msgstr "Mixed Pairs Semifinal"
@@ -1485,3 +1477,45 @@ msgstr "The playing field consists of two squares. The goal is to defend your ow
 #: src/routes/[[locale=lang]]/(disciplines)/ultimate/+page.svelte
 msgid "Anmeldung zur Bavarian Open hier!"
 msgstr "Register for the Bavarian Open here!"
+
+#: src/lib/data/schedules/disc-golf.ts
+#: src/lib/data/schedules/disc-golf.ts
+msgid "Disc Golf für alle – einfach ausprobieren!"
+msgstr "Disc Golf for everyone – just give it a try!"
+
+#: src/lib/data/schedules/disc-golf.ts
+msgid "Auf unserem Putting-Discgolf-Parcours mit sechs abwechslungsreichen Bahnen kannst du die Faszination des Disc Golfs ganz unkompliziert kennenlernen. Unterschiedliche Würfe und kleine Herausforderungen sorgen für Spaß bei Groß und Klein – ganz ohne Vorkenntnisse. Der Parcours ist am Samstag und Sonntag durchgehend geöffnet und kann jederzeit ausprobiert werden. Leihscheibe und Einweisung am Discgolf Turnierbüro."
+msgstr "On our putting disc golf course with six varied holes, you can discover the fascination of disc golf in a relaxed and easy way. Different throws and small challenges make it fun for young and old – no prior experience needed. The course is open throughout the day on Saturday and Sunday and can be tried at any time. Rental discs and a brief introduction are available at the disc golf tournament office."
+
+#: src/lib/data/schedules/disc-golf.ts
+msgid "DiscMatch-Battle"
+msgstr "DiscMatch Battle"
+
+#: src/lib/data/schedules/disc-golf.ts
+msgid "Zeig wie gut deine Putting Skills sind - im Battle Eins gegen Eins"
+msgstr "Show off your putting skills – in a one-on-one battle"
+
+#: src/lib/data/schedules/disc-golf.ts
+msgid "DiscMatch-Battle Finale"
+msgstr "DiscMatch Battle Final"
+
+#: src/lib/data/schedules/disc-golf.ts
+msgid "Die besten Putter und Putterinnen treten im Final gegeneinander an"
+msgstr "The best putters compete against each other in the final"
+
+#: src/lib/data/schedules/disc-golf.ts
+msgid "Liquid & Maniac"
+msgstr "Liquid & Maniac"
+
+#: src/lib/data/schedules/disc-golf.ts
+msgid "Das DiscMatch Finale wird musikalisch abgeschlossen mit feinstem boarisch Rap aus Regensburg"
+msgstr "The DiscMatch Final wraps up with a musical highlight – the finest Bavarian rap from Regensburg"
+
+#: src/lib/data/schedules/disc-golf.ts
+msgid "Auf unserem Putting-Discgolf-Parcours mit sechs abwechslungsreichen Bahnen kannst du die Faszination des Disc Golfs ganz unkompliziert kennenlernen. Unterschiedliche Würfe und kleine Herausforderungen sorgen für Spaß bei Groß und Klein – ganz ohne Vorkenntnisse. Der Parcours ist am Samstag und Sonntag durchgehend geöffnet und kann jederzeit ausprobiert werden."
+msgstr "On our putting disc golf course with six varied holes, you can discover the fascination of disc golf in a relaxed and easy way. Different throws and small challenges make it fun for young and old – no prior experience needed. The course is open throughout the day on Saturday and Sunday and can be tried at any time."
+
+#. placeholder {0}: image
+#: src/routes/[[locale=lang]]/programm/+page.svelte
+msgid "{0} was not enhanced. Cannot determine dimensions."
+msgstr ""
