@@ -1627,7 +1627,18 @@ msgstr "Das DiscMatch Finale wird musikalisch abgeschlossen mit feinstem boarisc
 msgid "Auf unserem Putting-Discgolf-Parcours mit sechs abwechslungsreichen Bahnen kannst du die Faszination des Disc Golfs ganz unkompliziert kennenlernen. Unterschiedliche Würfe und kleine Herausforderungen sorgen für Spaß bei Groß und Klein – ganz ohne Vorkenntnisse. Der Parcours ist am Samstag und Sonntag durchgehend geöffnet und kann jederzeit ausprobiert werden."
 msgstr "Auf unserem Putting-Discgolf-Parcours mit sechs abwechslungsreichen Bahnen kannst du die Faszination des Disc Golfs ganz unkompliziert kennenlernen. Unterschiedliche Würfe und kleine Herausforderungen sorgen für Spaß bei Groß und Klein – ganz ohne Vorkenntnisse. Der Parcours ist am Samstag und Sonntag durchgehend geöffnet und kann jederzeit ausprobiert werden."
 
-#. placeholder {0}: image
-#: src/routes/[[locale=lang]]/programm/+page.svelte
-msgid "{0} was not enhanced. Cannot determine dimensions."
-msgstr "{0} was not enhanced. Cannot determine dimensions."
+#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
+msgid "Lou Sumrall"
+msgstr "Lou Sumrall"
+
+#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
+msgid "Jessie und Harry S."
+msgstr "Jessie und Harry S."
+
+#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
+msgid "Unsere Event page ist <0>hier</0>"
+msgstr "Unsere Event page ist <0>hier</0>"
+
+#: src/lib/components/home/Sponsors.svelte
+msgid "Witte & Wattendorff"
+msgstr "Witte & Wattendorff"

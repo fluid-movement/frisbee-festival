@@ -116,5 +116,8 @@
 		<li>Paul Kenny</li>
 		<li>Larry Imperiale</li>
 		<li>Waldemar “Wowa” Wagner</li>
+		<li>Lou Sumrall</li>
+		<li>Jessie und Harry S.</li>
 	</ul>
+	<p class="mt-8"> Unsere Event page ist <a class="underline" href="https://events.freestyledisc.org/events/01k5gshk7wpt8bjhevq5h9xt0b" target="_blank">hier</a></p>
 </section>
