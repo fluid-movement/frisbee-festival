@@ -29,6 +29,7 @@ msgstr "Frisbee Festival München"
 
 #: src/lib/components/home/Sponsors.svelte
 #: src/lib/components/home/Venue.svelte
+#: src/lib/components/home/Venue.svelte
 msgid "Sportschule Oberhaching"
 msgstr "Sportschule Oberhaching"
 
@@ -288,6 +289,7 @@ msgstr "9:00–19:00 Uhr"
 msgid "© 2026 Frisbee Festival München. Alle Rechte vorbehalten."
 msgstr "© 2026 Frisbee Festival München. Alle Rechte vorbehalten."
 
+#: src/lib/components/home/Hero.svelte
 #: src/lib/components/home/Hero.svelte
 msgid "Frisbee player"
 msgstr "Frisbee player"
@@ -1642,3 +1644,24 @@ msgstr "Unsere Event page ist <0>hier</0>"
 #: src/lib/components/home/Sponsors.svelte
 msgid "Witte & Wattendorff"
 msgstr "Witte & Wattendorff"
+
+#. placeholder {0}: discipline.image
+#. placeholder {0}: img
+#. placeholder {0}: img
+#. placeholder {0}: img
+#. placeholder {0}: img
+#. placeholder {0}: img
+#. placeholder {0}: img
+#. placeholder {0}: img
+#: src/lib/components/home/Disciplines.svelte
+#: src/lib/components/home/Hero.svelte
+#: src/lib/components/home/Sponsors.svelte
+#: src/lib/components/home/Sponsors.svelte
+#: src/lib/components/home/Sponsors.svelte
+#: src/lib/components/home/Venue.svelte
+msgid "{0} was not enhanced. Cannot determine dimensions."
+msgstr "{0} was not enhanced. Cannot determine dimensions."
+
+#: src/lib/components/home/Sponsors.svelte
+msgid "World of Discs"
+msgstr "World of Discs"

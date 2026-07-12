@@ -189,6 +189,7 @@ msgid "Inklusion in Aktion. Dieser Sport trennt nicht – er verbindet. Wheelcha
 msgstr "Inclusion in action. This sport doesn't divide – it connects. Wheelchair Ultimate shows how creative, inclusive and fair sport can be."
 
 #: src/lib/components/home/Hero.svelte
+#: src/lib/components/home/Hero.svelte
 msgid "Frisbee player"
 msgstr "Frisbee player"
 
@@ -225,6 +226,7 @@ msgid "Disziplinen und Turniere"
 msgstr "Disciplines and Tournaments"
 
 #: src/lib/components/home/Sponsors.svelte
+#: src/lib/components/home/Venue.svelte
 #: src/lib/components/home/Venue.svelte
 msgid "Sportschule Oberhaching"
 msgstr "Sportschule Oberhaching"
@@ -1529,4 +1531,25 @@ msgstr ""
 
 #: src/lib/components/home/Sponsors.svelte
 msgid "Witte & Wattendorff"
+msgstr ""
+
+#. placeholder {0}: discipline.image
+#. placeholder {0}: img
+#. placeholder {0}: img
+#. placeholder {0}: img
+#. placeholder {0}: img
+#. placeholder {0}: img
+#. placeholder {0}: img
+#. placeholder {0}: img
+#: src/lib/components/home/Disciplines.svelte
+#: src/lib/components/home/Hero.svelte
+#: src/lib/components/home/Sponsors.svelte
+#: src/lib/components/home/Sponsors.svelte
+#: src/lib/components/home/Sponsors.svelte
+#: src/lib/components/home/Venue.svelte
+msgid "{0} was not enhanced. Cannot determine dimensions."
+msgstr ""
+
+#: src/lib/components/home/Sponsors.svelte
+msgid "World of Discs"
 msgstr ""

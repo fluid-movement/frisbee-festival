@@ -29,7 +29,7 @@
 		{ img: logo('ron-logo.png'), alt: 'Ron', href: 'https://www.flickr.com/photos/ronk-foto/' },
 		{ img: logo('fine-logo.png'), alt: 'Fine Print', href: 'https://www.fine-print.de/' },
 		{ img: logo('witte-wattendorff.png'), alt: 'Witte & Wattendorff', href: 'https://www.witte-wattendorff.de/' },
-		{ img: logo('wod.png'), alt: 'World of Discs', href: 'https://wod.rocks/' }
+		{ img: logo('wod-logo.png'), alt: 'World of Discs', href: 'https://wod.rocks/' }
 	];
 
 	const organisers: LogoItem[] = [
