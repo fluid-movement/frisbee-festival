@@ -30,7 +30,7 @@ export const getDiscGolfSchedule = (): DisciplineSchedule => ({
 			},
 			{
 				time: '11:00 - 16:30',
-				label: 'DiscMatch-Battle',
+				label: 'DiscMatch-Battle by WOD',
 				type: 'workshop',
 				description: 'Zeig wie gut deine Putting Skills sind - im Battle Eins gegen Eins',
 				id: 'disc-match-battle',
@@ -38,7 +38,7 @@ export const getDiscGolfSchedule = (): DisciplineSchedule => ({
 			},
 			{
 				time: '17:00 - 17:30',
-				label: 'DiscMatch-Battle Finale',
+				label: 'DiscMatch-Battle Finale by WOD',
 				type: 'workshop',
 				description: 'Die besten Putter und Putterinnen treten im Final gegeneinander an',
 				id: 'disc-match-final',
