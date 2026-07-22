@@ -10,7 +10,7 @@ import gameImage from '$lib/assets/wheelchair-ultimate/wheelchair-ultimate.jpg';
 export const getWheelchairUltimateSchedule = (): DisciplineSchedule => ({
 	discipline: 'wheelchair-ultimate',
 	name: 'Wheelchair Ultimate',
-	defaultPlace: 'Feld A',
+	defaultPlace: 'Halle 1',
 	schedule: {
 		Samstag: [
 			{
@@ -39,6 +39,16 @@ export const getWheelchairUltimateSchedule = (): DisciplineSchedule => ({
 				image: gameImage
 			}
 		],
-		Sonntag: []
+		Sonntag: [
+			{
+				time: '09:00 - 13:00',
+				label: 'Offenes Spiel für alle',
+				description:
+					'Auch am Sonntag laden wir alle Angereisten zum Rollstuhl Ultimate ein: In einem offenen Spiel für alle könnt ihr die Sportart ausprobieren und das Gelernte anwenden. Alle sind willkommen, egal ob mit oder ohne Beeinträchtigungen.',
+				type: 'workshop',
+				id: 'wheelchair-open-play-sunday',
+				image: gameImage
+			}
+		]
 	}
 });

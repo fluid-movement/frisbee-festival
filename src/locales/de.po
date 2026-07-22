@@ -29,7 +29,6 @@ msgstr "Frisbee Festival München"
 
 #: src/lib/components/home/Sponsors.svelte
 #: src/lib/components/home/Venue.svelte
-#: src/lib/components/home/Venue.svelte
 msgid "Sportschule Oberhaching"
 msgstr "Sportschule Oberhaching"
 
@@ -290,7 +289,6 @@ msgid "© 2026 Frisbee Festival München. Alle Rechte vorbehalten."
 msgstr "© 2026 Frisbee Festival München. Alle Rechte vorbehalten."
 
 #: src/lib/components/home/Hero.svelte
-#: src/lib/components/home/Hero.svelte
 msgid "Frisbee player"
 msgstr "Frisbee player"
 
@@ -509,6 +507,7 @@ msgid "Workshop für alle"
 msgstr "Workshop für alle"
 
 #: src/lib/data/schedules/wheelchair-ultimate.ts
+#: src/lib/data/schedules/wheelchair-ultimate.ts
 msgid "Offenes Spiel für alle"
 msgstr "Offenes Spiel für alle"
 
@@ -535,7 +534,6 @@ msgid "Disc Golf Kurs"
 msgstr "Disc Golf Kurs"
 
 #: src/lib/data/schedules/ultimate.ts
-#: src/lib/data/schedules/wheelchair-ultimate.ts
 msgid "Feld A"
 msgstr "Feld A"
 
@@ -1033,17 +1031,16 @@ msgstr ""
 msgid "Anfahrt mit dem Auto"
 msgstr "Anfahrt mit dem Auto"
 
-#: src/routes/[[locale=lang]]/faq/+page.svelte
-msgid ""
-"Für alle, die mit dem PKW anreisen, bietet die nahegelegene Autobahn A8 (München – Salzburg)\n"
-"eine unkomplizierte und schnelle Verbindung. Einfach auf der A995/E54 bis Ausfahrt\n"
-"Oberhaching und dann der Beschilderung „Sportschule Oberhaching“ folgen. Parkmöglichkeiten\n"
-"stehen auf dem Gelände der Sportschule kostenlos zur Verfügung."
-msgstr ""
-"Für alle, die mit dem PKW anreisen, bietet die nahegelegene Autobahn A8 (München – Salzburg)\n"
-"eine unkomplizierte und schnelle Verbindung. Einfach auf der A995/E54 bis Ausfahrt\n"
-"Oberhaching und dann der Beschilderung „Sportschule Oberhaching“ folgen. Parkmöglichkeiten\n"
-"stehen auf dem Gelände der Sportschule kostenlos zur Verfügung."
+#~ msgid ""
+#~ "Für alle, die mit dem PKW anreisen, bietet die nahegelegene Autobahn A8 (München – Salzburg)\n"
+#~ "eine unkomplizierte und schnelle Verbindung. Einfach auf der A995/E54 bis Ausfahrt\n"
+#~ "Oberhaching und dann der Beschilderung „Sportschule Oberhaching“ folgen. Parkmöglichkeiten\n"
+#~ "stehen auf dem Gelände der Sportschule kostenlos zur Verfügung."
+#~ msgstr ""
+#~ "Für alle, die mit dem PKW anreisen, bietet die nahegelegene Autobahn A8 (München – Salzburg)\n"
+#~ "eine unkomplizierte und schnelle Verbindung. Einfach auf der A995/E54 bis Ausfahrt\n"
+#~ "Oberhaching und dann der Beschilderung „Sportschule Oberhaching“ folgen. Parkmöglichkeiten\n"
+#~ "stehen auf dem Gelände der Sportschule kostenlos zur Verfügung."
 
 #: src/routes/[[locale=lang]]/faq/+page.svelte
 msgid "Hier der Link zu Google Maps"
@@ -1601,17 +1598,15 @@ msgstr "Disc Golf für alle – einfach ausprobieren!"
 msgid "Auf unserem Putting-Discgolf-Parcours mit sechs abwechslungsreichen Bahnen kannst du die Faszination des Disc Golfs ganz unkompliziert kennenlernen. Unterschiedliche Würfe und kleine Herausforderungen sorgen für Spaß bei Groß und Klein – ganz ohne Vorkenntnisse. Der Parcours ist am Samstag und Sonntag durchgehend geöffnet und kann jederzeit ausprobiert werden. Leihscheibe und Einweisung am Discgolf Turnierbüro."
 msgstr "Auf unserem Putting-Discgolf-Parcours mit sechs abwechslungsreichen Bahnen kannst du die Faszination des Disc Golfs ganz unkompliziert kennenlernen. Unterschiedliche Würfe und kleine Herausforderungen sorgen für Spaß bei Groß und Klein – ganz ohne Vorkenntnisse. Der Parcours ist am Samstag und Sonntag durchgehend geöffnet und kann jederzeit ausprobiert werden. Leihscheibe und Einweisung am Discgolf Turnierbüro."
 
-#: src/lib/data/schedules/disc-golf.ts
-msgid "DiscMatch-Battle"
-msgstr "DiscMatch-Battle"
+#~ msgid "DiscMatch-Battle"
+#~ msgstr "DiscMatch-Battle"
 
 #: src/lib/data/schedules/disc-golf.ts
 msgid "Zeig wie gut deine Putting Skills sind - im Battle Eins gegen Eins"
 msgstr "Zeig wie gut deine Putting Skills sind - im Battle Eins gegen Eins"
 
-#: src/lib/data/schedules/disc-golf.ts
-msgid "DiscMatch-Battle Finale"
-msgstr "DiscMatch-Battle Finale"
+#~ msgid "DiscMatch-Battle Finale"
+#~ msgstr "DiscMatch-Battle Finale"
 
 #: src/lib/data/schedules/disc-golf.ts
 msgid "Die besten Putter und Putterinnen treten im Final gegeneinander an"
@@ -1645,23 +1640,47 @@ msgstr "Unsere Event page ist <0>hier</0>"
 msgid "Witte & Wattendorff"
 msgstr "Witte & Wattendorff"
 
-#. placeholder {0}: discipline.image
-#. placeholder {0}: img
-#. placeholder {0}: img
-#. placeholder {0}: img
-#. placeholder {0}: img
-#. placeholder {0}: img
-#. placeholder {0}: img
-#. placeholder {0}: img
-#: src/lib/components/home/Disciplines.svelte
-#: src/lib/components/home/Hero.svelte
-#: src/lib/components/home/Sponsors.svelte
-#: src/lib/components/home/Sponsors.svelte
-#: src/lib/components/home/Sponsors.svelte
-#: src/lib/components/home/Venue.svelte
-msgid "{0} was not enhanced. Cannot determine dimensions."
-msgstr "{0} was not enhanced. Cannot determine dimensions."
+#~ msgid "{0} was not enhanced. Cannot determine dimensions."
+#~ msgstr "{0} was not enhanced. Cannot determine dimensions."
 
 #: src/lib/components/home/Sponsors.svelte
 msgid "World of Discs"
 msgstr "World of Discs"
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid ""
+"<0>Bitte beachtet:</0> Die Parkkapazitäten am Veranstaltungsort sind begrenzt und voraussichtlich\n"
+"sehr schnell ausgelastet. Wir bitten euch daher, nach Möglichkeit mit öffentlichen\n"
+"Verkehrsmitteln oder dem Fahrrad anzureisen."
+msgstr ""
+"<0>Bitte beachtet:</0> Die Parkkapazitäten am Veranstaltungsort sind begrenzt und voraussichtlich\n"
+"sehr schnell ausgelastet. Wir bitten euch daher, nach Möglichkeit mit öffentlichen\n"
+"Verkehrsmitteln oder dem Fahrrad anzureisen."
+
+#: src/routes/[[locale=lang]]/faq/+page.svelte
+msgid ""
+"Für alle, die mit dem PKW anreisen, bietet die nahegelegene Autobahn A8 (München – Salzburg)\n"
+"eine unkomplizierte und schnelle Verbindung. Einfach auf der A995/E54 bis Ausfahrt\n"
+"Oberhaching und dann der Beschilderung „Sportschule Oberhaching“ folgen. Parkmöglichkeiten\n"
+"stehen auf dem Gelände der Sportschule kostenlos, jedoch nur in begrenzter Zahl zur Verfügung. Weitere Besucher müssten auf umliegende Parkmöglichkeiten ausweichen."
+msgstr ""
+"Für alle, die mit dem PKW anreisen, bietet die nahegelegene Autobahn A8 (München – Salzburg)\n"
+"eine unkomplizierte und schnelle Verbindung. Einfach auf der A995/E54 bis Ausfahrt\n"
+"Oberhaching und dann der Beschilderung „Sportschule Oberhaching“ folgen. Parkmöglichkeiten\n"
+"stehen auf dem Gelände der Sportschule kostenlos, jedoch nur in begrenzter Zahl zur Verfügung. Weitere Besucher müssten auf umliegende Parkmöglichkeiten ausweichen."
+
+#: src/lib/data/schedules/wheelchair-ultimate.ts
+msgid "Halle 1"
+msgstr "Halle 1"
+
+#: src/lib/data/schedules/wheelchair-ultimate.ts
+msgid "Auch am Sonntag laden wir alle Angereisten zum Rollstuhl Ultimate ein: In einem offenen Spiel für alle könnt ihr die Sportart ausprobieren und das Gelernte anwenden. Alle sind willkommen, egal ob mit oder ohne Beeinträchtigungen."
+msgstr "Auch am Sonntag laden wir alle Angereisten zum Rollstuhl Ultimate ein: In einem offenen Spiel für alle könnt ihr die Sportart ausprobieren und das Gelernte anwenden. Alle sind willkommen, egal ob mit oder ohne Beeinträchtigungen."
+
+#: src/lib/data/schedules/disc-golf.ts
+msgid "DiscMatch-Battle by WOD"
+msgstr "DiscMatch-Battle by WOD"
+
+#: src/lib/data/schedules/disc-golf.ts
+msgid "DiscMatch-Battle Finale by WOD"
+msgstr "DiscMatch-Battle Finale by WOD"

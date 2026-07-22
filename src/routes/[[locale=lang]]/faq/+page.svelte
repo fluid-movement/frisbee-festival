@@ -33,6 +33,11 @@
 				Die Sportschule Oberhaching liegt verkehrsgünstig im Süden Münchens und ist sowohl mit
 				öffentlichen Verkehrsmitteln als auch mit dem Auto einfach zu erreichen.
 			</p>
+			<p class="mt-4 rounded-xl bg-muted p-4">
+				<b>Bitte beachtet:</b> Die Parkkapazitäten am Veranstaltungsort sind begrenzt und voraussichtlich
+				sehr schnell ausgelastet. Wir bitten euch daher, nach Möglichkeit mit öffentlichen
+				Verkehrsmitteln oder dem Fahrrad anzureisen.
+			</p>
 			<b> Anfahrt mit der S-Bahn </b>
 			<p>
 				Dank der direkten Anbindung an die S-Bahn-Linie S3 Richtung Deisenhofen oder Holzkirchen
@@ -44,7 +49,7 @@
 				Für alle, die mit dem PKW anreisen, bietet die nahegelegene Autobahn A8 (München – Salzburg)
 				eine unkomplizierte und schnelle Verbindung. Einfach auf der A995/E54 bis Ausfahrt
 				Oberhaching und dann der Beschilderung „Sportschule Oberhaching“ folgen. Parkmöglichkeiten
-				stehen auf dem Gelände der Sportschule kostenlos zur Verfügung.
+				stehen auf dem Gelände der Sportschule kostenlos, jedoch nur in begrenzter Zahl zur Verfügung. Weitere Besucher müssten auf umliegende Parkmöglichkeiten ausweichen.
 			</p>
 			<a
 				class="underline"
