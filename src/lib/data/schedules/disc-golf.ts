@@ -29,23 +29,35 @@ export const getDiscGolfSchedule = (): DisciplineSchedule => ({
 				image: throwImage
 			},
 			{
-				time: '11:00 - 16:30',
-				label: 'DiscMatch-Battle by WOD',
+        time: '10:00 - 12:00',
+        place: 'Sponsors & Food Trucks Area',
+				label: '1. WOD | DiscMatch Meisterschaft',
 				type: 'workshop',
-				description: 'Zeig wie gut deine Putting Skills sind - im Battle Eins gegen Eins',
+				description: 'Taucht ein, in die Welt einer neuen Frisbeesport-Disziplin! DiscMatch ist ein Frisbee Duell, das Treffsicherheit mit Geschwindigkeit vereint. Triff Deine Würfe vor Deinem Gegenspieler und werde 1. WOD | DiscMatch Champion 🏆Hauptpreis: Eine Nacht für zwei Personen in der Bierhimmel-Suite des 1. Bier- und Wohlfühlhotels Gut Riedelsbach.',
+				id: 'disc-match-battle',
+				image: discGolfPuttImage
+			},
+			{
+        time: '13:00 - 15:00',
+        place: 'Sponsors & Food Trucks Area',
+				label: '1. WOD | DiscMatch Meisterschaft',
+				type: 'workshop',
+				description: 'Taucht ein, in die Welt einer neuen Frisbeesport-Disziplin! DiscMatch ist ein Frisbee Duell, das Treffsicherheit mit Geschwindigkeit vereint. Triff Deine Würfe vor Deinem Gegenspieler und werde 1. WOD | DiscMatch Champion 🏆Hauptpreis: Eine Nacht für zwei Personen in der Bierhimmel-Suite des 1. Bier- und Wohlfühlhotels Gut Riedelsbach.',
 				id: 'disc-match-battle',
 				image: discGolfPuttImage
 			},
 			{
 				time: '17:00 - 17:30',
-				label: 'DiscMatch-Battle Finale by WOD',
+        place: 'Sponsors & Food Trucks Area',
+				label: '1. WOD | DiscMatch Meisterschaft - Finale ',
 				type: 'workshop',
-				description: 'Die besten Putter und Putterinnen treten im Final gegeneinander an',
+				description: 'Die besten Putter und Putterinnen treten im Final gegeneinander an.Hauptpreis: Eine Nacht für zwei Personen in der Bierhimmel-Suite des 1. Bier- und Wohlfühlhotels Gut Riedelsbach. Gleich nach der Siegerehrung geht es mit dem Bayerischen Rapper Duo Liquid & Maniac ins Live Konzert. Seid dabei und feiert mit!',
 				id: 'disc-match-final',
 				image: discGolfPuttImage
 			},
 			{
 				time: '17:30 - 18:30',
+        place: 'Sponsors & Food Trucks Area',
 				label: 'Liquid & Maniac',
 				type: 'exhibition',
 				description:
