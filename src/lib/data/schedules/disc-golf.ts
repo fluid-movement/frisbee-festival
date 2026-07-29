@@ -34,7 +34,7 @@ export const getDiscGolfSchedule = (): DisciplineSchedule => ({
 				label: '1. WOD | DiscMatch Meisterschaft',
 				type: 'workshop',
 				description: 'Taucht ein, in die Welt einer neuen Frisbeesport-Disziplin! DiscMatch ist ein Frisbee Duell, das Treffsicherheit mit Geschwindigkeit vereint. Triff Deine Würfe vor Deinem Gegenspieler und werde 1. WOD | DiscMatch Champion 🏆Hauptpreis: Eine Nacht für zwei Personen in der Bierhimmel-Suite des 1. Bier- und Wohlfühlhotels Gut Riedelsbach.',
-				id: 'disc-match-battle',
+				id: 'disc-match-battle-1',
 				image: discGolfPuttImage
 			},
 			{
@@ -43,7 +43,7 @@ export const getDiscGolfSchedule = (): DisciplineSchedule => ({
 				label: '1. WOD | DiscMatch Meisterschaft',
 				type: 'workshop',
 				description: 'Taucht ein, in die Welt einer neuen Frisbeesport-Disziplin! DiscMatch ist ein Frisbee Duell, das Treffsicherheit mit Geschwindigkeit vereint. Triff Deine Würfe vor Deinem Gegenspieler und werde 1. WOD | DiscMatch Champion 🏆Hauptpreis: Eine Nacht für zwei Personen in der Bierhimmel-Suite des 1. Bier- und Wohlfühlhotels Gut Riedelsbach.',
-				id: 'disc-match-battle',
+				id: 'disc-match-battle-2',
 				image: discGolfPuttImage
 			},
 			{
