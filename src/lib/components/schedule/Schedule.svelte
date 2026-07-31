@@ -40,7 +40,7 @@
 					<li class="col-span-full grid grid-cols-subgrid">
 						<h5 class="col-start-2 uppercase">{dayNames[day] ?? day}</h5>
 					</li>
-					{#each events as event (event.time)}
+					{#each events as event (event.time + event.label)}
 						<li
 							class="col-span-full mb-1 grid grid-cols-subgrid border-b border-solid pb-1 last:border-none"
 						>
@@ -48,6 +48,11 @@
 								{event.time}
 							</div>
 							<div class="flex flex-col gap-1">
+								{#if event.place}
+									<span class="text-xs font-semibold tracking-wide text-orange-500 uppercase"
+										>{event.place}</span
+									>
+								{/if}
 								<strong class={event.type === 'workshop' ? 'text-primary' : ''}>
 									{event.label}
 								</strong>

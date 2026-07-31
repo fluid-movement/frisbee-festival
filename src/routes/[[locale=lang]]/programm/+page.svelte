@@ -157,7 +157,7 @@
 			<div>
 				<h3 class="uppercase">{dayNames[day] ?? day}</h3>
 				<ul>
-					{#each events as event (event.time + event.discipline)}
+					{#each events as event (event.time + event.discipline + event.label)}
 						<li class="grid grid-cols-[auto_1fr] items-center gap-x-4 border-b py-2">
 							<span class="text-sm text-muted-foreground">{event.time}</span>
 							<span class="text-xs font-semibold tracking-wide text-orange-500 uppercase"
