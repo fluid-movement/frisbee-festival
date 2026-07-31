@@ -1,1 +1,0 @@
-import{_ as t}from"./DGKG725i.js";import{r as e}from"./BVhooNva.js";const s={js:{de:()=>t(()=>import("./BhZ8ECJ7.js"),[],import.meta.url),en:()=>t(()=>import("./iolaoDh0.js"),[],import.meta.url)}},a=(o,r)=>s[o][r](),_=["js"],i="js",d=e(i,a,_);export{d as g};
