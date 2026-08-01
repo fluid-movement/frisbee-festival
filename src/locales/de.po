@@ -498,9 +498,8 @@ msgstr "<0/> Filter entfernen"
 msgid "Semifinale 1 & 2"
 msgstr "Semifinale 1 & 2"
 
-#: src/lib/data/schedules/ultimate.ts
-msgid "Teamzuweisung"
-msgstr "Teamzuweisung"
+#~ msgid "Teamzuweisung"
+#~ msgstr "Teamzuweisung"
 
 #: src/lib/data/schedules/wheelchair-ultimate.ts
 msgid "Workshop für alle"
@@ -533,9 +532,8 @@ msgstr "Dank an unsere Sponsoren"
 msgid "Disc Golf Kurs"
 msgstr "Disc Golf Kurs"
 
-#: src/lib/data/schedules/ultimate.ts
-msgid "Feld A"
-msgstr "Feld A"
+#~ msgid "Feld A"
+#~ msgstr "Feld A"
 
 #: src/lib/components/home/Disciplines.svelte
 msgid "Freestyle Frisbee Weltmeisterschaften"
@@ -1352,57 +1350,44 @@ msgstr "Die feierliche Siegerehrung bildet den krönenden Abschluss des Festival
 msgid "Treffen auf dem Kunstrasen, dann individuelles Aufwärmen, um bereit für die Spiele zu sein und das Verletzungsrisiko zu mindern."
 msgstr "Treffen auf dem Kunstrasen, dann individuelles Aufwärmen, um bereit für die Spiele zu sein und das Verletzungsrisiko zu mindern."
 
-#: src/lib/data/schedules/ultimate.ts
-msgid "Die angemeldeten SpielerInnen werden vom Veranstalter in Teams eingeteilt. Die Teammitglieder lernen sich kennen und definieren Spielstrategien für Offense und Defense"
-msgstr "Die angemeldeten SpielerInnen werden vom Veranstalter in Teams eingeteilt. Die Teammitglieder lernen sich kennen und definieren Spielstrategien für Offense und Defense"
+#~ msgid "Die angemeldeten SpielerInnen werden vom Veranstalter in Teams eingeteilt. Die Teammitglieder lernen sich kennen und definieren Spielstrategien für Offense und Defense"
+#~ msgstr "Die angemeldeten SpielerInnen werden vom Veranstalter in Teams eingeteilt. Die Teammitglieder lernen sich kennen und definieren Spielstrategien für Offense und Defense"
 
-#: src/lib/data/schedules/ultimate.ts
-msgid "Gruppe A: 1-3 + 2-4"
-msgstr "Gruppe A: 1-3 + 2-4"
+#~ msgid "Gruppe A: 1-3 + 2-4"
+#~ msgstr "Gruppe A: 1-3 + 2-4"
 
-#: src/lib/data/schedules/ultimate.ts
-msgid "Gruppe A: Spielfeld Süd - Team 1 vs 3 /  Spielfeld Nord - Team 2 vs 4"
-msgstr "Gruppe A: Spielfeld Süd - Team 1 vs 3 /  Spielfeld Nord - Team 2 vs 4"
+#~ msgid "Gruppe A: Spielfeld Süd - Team 1 vs 3 /  Spielfeld Nord - Team 2 vs 4"
+#~ msgstr "Gruppe A: Spielfeld Süd - Team 1 vs 3 /  Spielfeld Nord - Team 2 vs 4"
 
-#: src/lib/data/schedules/ultimate.ts
-msgid "Gruppe B: 4-7 + 5-8"
-msgstr "Gruppe B: 4-7 + 5-8"
+#~ msgid "Gruppe B: 4-7 + 5-8"
+#~ msgstr "Gruppe B: 4-7 + 5-8"
 
-#: src/lib/data/schedules/ultimate.ts
-msgid "Gruppe B: Spielfeld Süd - Team 4 vs 7 /  Spielfeld Nord - Team 5 vs 8"
-msgstr "Gruppe B: Spielfeld Süd - Team 4 vs 7 /  Spielfeld Nord - Team 5 vs 8"
+#~ msgid "Gruppe B: Spielfeld Süd - Team 4 vs 7 /  Spielfeld Nord - Team 5 vs 8"
+#~ msgstr "Gruppe B: Spielfeld Süd - Team 4 vs 7 /  Spielfeld Nord - Team 5 vs 8"
 
-#: src/lib/data/schedules/ultimate.ts
-msgid "Gruppe A: 3-2 + 4-1"
-msgstr "Gruppe A: 3-2 + 4-1"
+#~ msgid "Gruppe A: 3-2 + 4-1"
+#~ msgstr "Gruppe A: 3-2 + 4-1"
 
-#: src/lib/data/schedules/ultimate.ts
-msgid "Gruppe A: SF Süd - Team 3 vs 2 /  Spielfeld Nord - Team 4 vs 1"
-msgstr "Gruppe A: SF Süd - Team 3 vs 2 /  Spielfeld Nord - Team 4 vs 1"
+#~ msgid "Gruppe A: SF Süd - Team 3 vs 2 /  Spielfeld Nord - Team 4 vs 1"
+#~ msgstr "Gruppe A: SF Süd - Team 3 vs 2 /  Spielfeld Nord - Team 4 vs 1"
 
-#: src/lib/data/schedules/ultimate.ts
-msgid "Gruppe B: 7-6 + 8-5"
-msgstr "Gruppe B: 7-6 + 8-5"
+#~ msgid "Gruppe B: 7-6 + 8-5"
+#~ msgstr "Gruppe B: 7-6 + 8-5"
 
-#: src/lib/data/schedules/ultimate.ts
-msgid "Gruppe B: SF Süd - Team 7 vs 6 /  Spielfeld Nord - Team 8 vs 5"
-msgstr "Gruppe B: SF Süd - Team 7 vs 6 /  Spielfeld Nord - Team 8 vs 5"
+#~ msgid "Gruppe B: SF Süd - Team 7 vs 6 /  Spielfeld Nord - Team 8 vs 5"
+#~ msgstr "Gruppe B: SF Süd - Team 7 vs 6 /  Spielfeld Nord - Team 8 vs 5"
 
-#: src/lib/data/schedules/ultimate.ts
-msgid "Gruppe A: 1-2 + 3-4"
-msgstr "Gruppe A: 1-2 + 3-4"
+#~ msgid "Gruppe A: 1-2 + 3-4"
+#~ msgstr "Gruppe A: 1-2 + 3-4"
 
-#: src/lib/data/schedules/ultimate.ts
-msgid "Gruppe A: SF Süd - Team 1 vs 2 /  Spielfeld Nord - Team 3 vs 4"
-msgstr "Gruppe A: SF Süd - Team 1 vs 2 /  Spielfeld Nord - Team 3 vs 4"
+#~ msgid "Gruppe A: SF Süd - Team 1 vs 2 /  Spielfeld Nord - Team 3 vs 4"
+#~ msgstr "Gruppe A: SF Süd - Team 1 vs 2 /  Spielfeld Nord - Team 3 vs 4"
 
-#: src/lib/data/schedules/ultimate.ts
-msgid "Gruppe B: 5-6 + 7-8"
-msgstr "Gruppe B: 5-6 + 7-8"
+#~ msgid "Gruppe B: 5-6 + 7-8"
+#~ msgstr "Gruppe B: 5-6 + 7-8"
 
-#: src/lib/data/schedules/ultimate.ts
-msgid "Gruppe B: SF Süd - Team 5 vs 6 /  Spielfeld Nord - Team 7 vs 8"
-msgstr "Gruppe B: SF Süd - Team 5 vs 6 /  Spielfeld Nord - Team 7 vs 8"
+#~ msgid "Gruppe B: SF Süd - Team 5 vs 6 /  Spielfeld Nord - Team 7 vs 8"
+#~ msgstr "Gruppe B: SF Süd - Team 5 vs 6 /  Spielfeld Nord - Team 7 vs 8"
 
 #: src/lib/data/schedules/ultimate.ts
 msgid "Workshop Ultimate Frisbee"
@@ -1412,37 +1397,32 @@ msgstr "Workshop Ultimate Frisbee"
 msgid "Parallel zu den ersten Finalspielen auf SF Süd findet auf dem SF Nord ein Mitmachangebot statt: ein Workshop für alle Interessierten an Ultimate Frisbee. Ihr braucht nur einigermaßen sportliche Kleidung und Turnschuhe."
 msgstr "Parallel zu den ersten Finalspielen auf SF Süd findet auf dem SF Nord ein Mitmachangebot statt: ein Workshop für alle Interessierten an Ultimate Frisbee. Ihr braucht nur einigermaßen sportliche Kleidung und Turnschuhe."
 
-#: src/lib/data/schedules/ultimate.ts
-msgid "Spiel um Platz 7"
-msgstr "Spiel um Platz 7"
+#~ msgid "Spiel um Platz 7"
+#~ msgstr "Spiel um Platz 7"
 
-#: src/lib/data/schedules/ultimate.ts
-msgid "SF Süd: Finalspiel um Platz 7"
-msgstr "SF Süd: Finalspiel um Platz 7"
+#~ msgid "SF Süd: Finalspiel um Platz 7"
+#~ msgstr "SF Süd: Finalspiel um Platz 7"
 
 #: src/lib/data/schedules/ultimate.ts
 msgid "Spiel um Platz 5"
 msgstr "Spiel um Platz 5"
 
-#: src/lib/data/schedules/ultimate.ts
-msgid "SF Süd: Finalspiel um Platz 5"
-msgstr "SF Süd: Finalspiel um Platz 5"
+#~ msgid "SF Süd: Finalspiel um Platz 5"
+#~ msgstr "SF Süd: Finalspiel um Platz 5"
 
 #: src/lib/data/schedules/ultimate.ts
 msgid "Spiel um Platz 3"
 msgstr "Spiel um Platz 3"
 
-#: src/lib/data/schedules/ultimate.ts
-msgid "SF Süd: Finalspiel um Platz 3"
-msgstr "SF Süd: Finalspiel um Platz 3"
+#~ msgid "SF Süd: Finalspiel um Platz 3"
+#~ msgstr "SF Süd: Finalspiel um Platz 3"
 
 #: src/lib/data/schedules/ultimate.ts
 msgid "Finale - Spiel um Platz 1"
 msgstr "Finale - Spiel um Platz 1"
 
-#: src/lib/data/schedules/ultimate.ts
-msgid "Der krönende Abschluss des Ultimate-Turniers: das Finale der beiden Gruppensieger findet auf Feld Süd des Kunstrasens vor hoffentlich vielen Zuschauern statt."
-msgstr "Der krönende Abschluss des Ultimate-Turniers: das Finale der beiden Gruppensieger findet auf Feld Süd des Kunstrasens vor hoffentlich vielen Zuschauern statt."
+#~ msgid "Der krönende Abschluss des Ultimate-Turniers: das Finale der beiden Gruppensieger findet auf Feld Süd des Kunstrasens vor hoffentlich vielen Zuschauern statt."
+#~ msgstr "Der krönende Abschluss des Ultimate-Turniers: das Finale der beiden Gruppensieger findet auf Feld Süd des Kunstrasens vor hoffentlich vielen Zuschauern statt."
 
 #: src/lib/data/schedules/wheelchair-ultimate.ts
 msgid "Showgame"
@@ -1497,9 +1477,8 @@ msgstr "Delay Master"
 msgid "Ron"
 msgstr "Ron"
 
-#: src/lib/components/home/Sponsors.svelte
-msgid "Fine Print"
-msgstr "Fine Print"
+#~ msgid "Fine Print"
+#~ msgstr "Fine Print"
 
 #: src/routes/[[locale=lang]]/faq/+page.svelte
 msgid ""
@@ -1601,16 +1580,14 @@ msgstr "Auf unserem Putting-Discgolf-Parcours mit sechs abwechslungsreichen Bahn
 #~ msgid "DiscMatch-Battle"
 #~ msgstr "DiscMatch-Battle"
 
-#: src/lib/data/schedules/disc-golf.ts
-msgid "Zeig wie gut deine Putting Skills sind - im Battle Eins gegen Eins"
-msgstr "Zeig wie gut deine Putting Skills sind - im Battle Eins gegen Eins"
+#~ msgid "Zeig wie gut deine Putting Skills sind - im Battle Eins gegen Eins"
+#~ msgstr "Zeig wie gut deine Putting Skills sind - im Battle Eins gegen Eins"
 
 #~ msgid "DiscMatch-Battle Finale"
 #~ msgstr "DiscMatch-Battle Finale"
 
-#: src/lib/data/schedules/disc-golf.ts
-msgid "Die besten Putter und Putterinnen treten im Final gegeneinander an"
-msgstr "Die besten Putter und Putterinnen treten im Final gegeneinander an"
+#~ msgid "Die besten Putter und Putterinnen treten im Final gegeneinander an"
+#~ msgstr "Die besten Putter und Putterinnen treten im Final gegeneinander an"
 
 #: src/lib/data/schedules/disc-golf.ts
 msgid "Liquid & Maniac"
@@ -1628,9 +1605,8 @@ msgstr "Auf unserem Putting-Discgolf-Parcours mit sechs abwechslungsreichen Bahn
 msgid "Lou Sumrall"
 msgstr "Lou Sumrall"
 
-#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
-msgid "Jessie und Harry S."
-msgstr "Jessie und Harry S."
+#~ msgid "Jessie und Harry S."
+#~ msgstr "Jessie und Harry S."
 
 #: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
 msgid "Unsere Event page ist <0>hier</0>"
@@ -1669,6 +1645,7 @@ msgstr ""
 "Oberhaching und dann der Beschilderung „Sportschule Oberhaching“ folgen. Parkmöglichkeiten\n"
 "stehen auf dem Gelände der Sportschule kostenlos, jedoch nur in begrenzter Zahl zur Verfügung. Weitere Besucher müssten auf umliegende Parkmöglichkeiten ausweichen."
 
+#: src/lib/data/schedules/freestyle.ts
 #: src/lib/data/schedules/wheelchair-ultimate.ts
 msgid "Halle 1"
 msgstr "Halle 1"
@@ -1677,10 +1654,194 @@ msgstr "Halle 1"
 msgid "Auch am Sonntag laden wir alle Angereisten zum Rollstuhl Ultimate ein: In einem offenen Spiel für alle könnt ihr die Sportart ausprobieren und das Gelernte anwenden. Alle sind willkommen, egal ob mit oder ohne Beeinträchtigungen."
 msgstr "Auch am Sonntag laden wir alle Angereisten zum Rollstuhl Ultimate ein: In einem offenen Spiel für alle könnt ihr die Sportart ausprobieren und das Gelernte anwenden. Alle sind willkommen, egal ob mit oder ohne Beeinträchtigungen."
 
-#: src/lib/data/schedules/disc-golf.ts
-msgid "DiscMatch-Battle by WOD"
-msgstr "DiscMatch-Battle by WOD"
+#~ msgid "DiscMatch-Battle by WOD"
+#~ msgstr "DiscMatch-Battle by WOD"
+
+#~ msgid "DiscMatch-Battle Finale by WOD"
+#~ msgstr "DiscMatch-Battle Finale by WOD"
+
+#: src/lib/components/home/Sponsors.svelte
+msgid "Fine Designs"
+msgstr "Fine Designs"
+
+#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
+msgid "Jessie & Harry S."
+msgstr "Jessie & Harry S."
+
+#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
+msgid "Cécile Rouyer"
+msgstr "Cécile Rouyer"
+
+#: src/routes/[[locale=lang]]/(disciplines)/freestyle/+page.svelte
+msgid "Raphaël Legrand"
+msgstr "Raphaël Legrand"
 
 #: src/lib/data/schedules/disc-golf.ts
-msgid "DiscMatch-Battle Finale by WOD"
-msgstr "DiscMatch-Battle Finale by WOD"
+#: src/lib/data/schedules/disc-golf.ts
+#: src/lib/data/schedules/disc-golf.ts
+#: src/lib/data/schedules/disc-golf.ts
+msgid "Sponsors & Food Trucks Area"
+msgstr "Sponsors & Food Trucks Area"
+
+#: src/lib/data/schedules/disc-golf.ts
+#: src/lib/data/schedules/disc-golf.ts
+msgid "Taucht ein, in die Welt einer neuen Frisbeesport-Disziplin! DiscMatch ist ein Frisbee Duell, das Treffsicherheit mit Geschwindigkeit vereint. Triff Deine Würfe vor Deinem Gegenspieler und werde 1. WOD | DiscMatch Champion 🏆Hauptpreis: Eine Nacht für zwei Personen in der Bierhimmel-Suite des 1. Bier- und Wohlfühlhotels Gut Riedelsbach."
+msgstr "Taucht ein, in die Welt einer neuen Frisbeesport-Disziplin! DiscMatch ist ein Frisbee Duell, das Treffsicherheit mit Geschwindigkeit vereint. Triff Deine Würfe vor Deinem Gegenspieler und werde 1. WOD | DiscMatch Champion 🏆Hauptpreis: Eine Nacht für zwei Personen in der Bierhimmel-Suite des 1. Bier- und Wohlfühlhotels Gut Riedelsbach."
+
+#: src/lib/data/schedules/disc-golf.ts
+msgid "Die besten Putter und Putterinnen treten im Final gegeneinander an.Hauptpreis: Eine Nacht für zwei Personen in der Bierhimmel-Suite des 1. Bier- und Wohlfühlhotels Gut Riedelsbach. Gleich nach der Siegerehrung geht es mit dem Bayerischen Rapper Duo Liquid & Maniac ins Live Konzert. Seid dabei und feiert mit!"
+msgstr "Die besten Putter und Putterinnen treten im Final gegeneinander an.Hauptpreis: Eine Nacht für zwei Personen in der Bierhimmel-Suite des 1. Bier- und Wohlfühlhotels Gut Riedelsbach. Gleich nach der Siegerehrung geht es mit dem Bayerischen Rapper Duo Liquid & Maniac ins Live Konzert. Seid dabei und feiert mit!"
+
+#~ msgid "Lech Layouts – Isar Insides + Main Markers – Wörthsee Wings"
+#~ msgstr "Lech Layouts – Isar Insides + Main Markers – Wörthsee Wings"
+
+#~ msgid "Feld Süd: Lech Layouts – Isar Insides / Feld Nord: Main Markers – Wörthsee Wings"
+#~ msgstr "Feld Süd: Lech Layouts – Isar Insides / Feld Nord: Main Markers – Wörthsee Wings"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Chiemsee Cutters – Donau Discs"
+msgstr "Chiemsee Cutters – Donau Discs"
+
+#~ msgid "Feld Süd: Chiemsee Cutters – Donau Discs"
+#~ msgstr "Feld Süd: Chiemsee Cutters – Donau Discs"
+
+#~ msgid "Lech Layouts – Chiemsee Cutters + Isar Insides – Donau Discs"
+#~ msgstr "Lech Layouts – Chiemsee Cutters + Isar Insides – Donau Discs"
+
+#~ msgid "Feld Süd: Lech Layouts – Chiemsee Cutters / Feld Nord: Isar Insides – Donau Discs"
+#~ msgstr "Feld Süd: Lech Layouts – Chiemsee Cutters / Feld Nord: Isar Insides – Donau Discs"
+
+#~ msgid "Isar Insides – Wörthsee Wings + Lech Layouts – Main Markers"
+#~ msgstr "Isar Insides – Wörthsee Wings + Lech Layouts – Main Markers"
+
+#~ msgid "Feld Süd: Isar Insides – Wörthsee Wings / Feld Nord: Lech Layouts – Main Markers"
+#~ msgstr "Feld Süd: Isar Insides – Wörthsee Wings / Feld Nord: Lech Layouts – Main Markers"
+
+#~ msgid "Chiemsee Cutters – Main Markers + Donau Discs – Wörthsee Wings"
+#~ msgstr "Chiemsee Cutters – Main Markers + Donau Discs – Wörthsee Wings"
+
+#~ msgid "Feld Süd: Chiemsee Cutters – Main Markers / Feld Nord: Donau Discs – Wörthsee Wings"
+#~ msgstr "Feld Süd: Chiemsee Cutters – Main Markers / Feld Nord: Donau Discs – Wörthsee Wings"
+
+#~ msgid "Lech Layouts – Donau Discs + Isar Insides – Chiemsee Cutters"
+#~ msgstr "Lech Layouts – Donau Discs + Isar Insides – Chiemsee Cutters"
+
+#~ msgid "Feld Süd: Lech Layouts – Donau Discs / Feld Nord: Isar Insides – Chiemsee Cutters"
+#~ msgstr "Feld Süd: Lech Layouts – Donau Discs / Feld Nord: Isar Insides – Chiemsee Cutters"
+
+#~ msgid "Isar Insides – Main Markers + Lech Layouts – Wörthsee Wings"
+#~ msgstr "Isar Insides – Main Markers + Lech Layouts – Wörthsee Wings"
+
+#~ msgid "Feld Süd: Isar Insides – Main Markers / Feld Nord: Lech Layouts – Wörthsee Wings"
+#~ msgstr "Feld Süd: Isar Insides – Main Markers / Feld Nord: Lech Layouts – Wörthsee Wings"
+
+#~ msgid "Chiemsee Cutters – Wörthsee Wings + Donau Discs – Main Markers"
+#~ msgstr "Chiemsee Cutters – Wörthsee Wings + Donau Discs – Main Markers"
+
+#~ msgid "Feld Süd: Chiemsee Cutters – Wörthsee Wings / Feld Nord: Donau Discs – Main Markers"
+#~ msgstr "Feld Süd: Chiemsee Cutters – Wörthsee Wings / Feld Nord: Donau Discs – Main Markers"
+
+#~ msgid "Spiel um Platz 5 + Spiel um Platz 3"
+#~ msgstr "Spiel um Platz 5 + Spiel um Platz 3"
+
+#~ msgid "Feld Süd: 6. gegen 5. der Gruppenphase / Feld Nord: 4. gegen 3. der Gruppenphase"
+#~ msgstr "Feld Süd: 6. gegen 5. der Gruppenphase / Feld Nord: 4. gegen 3. der Gruppenphase"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Der krönende Abschluss des Ultimate-Turniers: das Finale der beiden Erstplatzierten der Gruppenphase findet auf Feld Süd des Kunstrasens vor hoffentlich vielen Zuschauern statt."
+msgstr "Der krönende Abschluss des Ultimate-Turniers: das Finale der beiden Erstplatzierten der Gruppenphase findet auf Feld Süd des Kunstrasens vor hoffentlich vielen Zuschauern statt."
+
+#: src/lib/data/schedules/ultimate.ts
+#: src/lib/data/schedules/ultimate.ts
+#: src/lib/data/schedules/ultimate.ts
+#: src/lib/data/schedules/ultimate.ts
+#: src/lib/data/schedules/ultimate.ts
+#: src/lib/data/schedules/ultimate.ts
+#: src/lib/data/schedules/ultimate.ts
+#: src/lib/data/schedules/ultimate.ts
+#: src/lib/data/schedules/ultimate.ts
+#: src/lib/data/schedules/ultimate.ts
+#: src/lib/data/schedules/ultimate.ts
+#: src/lib/data/schedules/ultimate.ts
+#: src/lib/data/schedules/ultimate.ts
+msgid "Feld Süd"
+msgstr "Feld Süd"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Lech Layouts – Isar Insides"
+msgstr "Lech Layouts – Isar Insides"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Main Markers – Wörthsee Wings"
+msgstr "Main Markers – Wörthsee Wings"
+
+#: src/lib/data/schedules/ultimate.ts
+#: src/lib/data/schedules/ultimate.ts
+#: src/lib/data/schedules/ultimate.ts
+#: src/lib/data/schedules/ultimate.ts
+#: src/lib/data/schedules/ultimate.ts
+#: src/lib/data/schedules/ultimate.ts
+#: src/lib/data/schedules/ultimate.ts
+#: src/lib/data/schedules/ultimate.ts
+msgid "Feld Nord"
+msgstr "Feld Nord"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Lech Layouts – Chiemsee Cutters"
+msgstr "Lech Layouts – Chiemsee Cutters"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Isar Insides – Donau Discs"
+msgstr "Isar Insides – Donau Discs"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Isar Insides – Wörthsee Wings"
+msgstr "Isar Insides – Wörthsee Wings"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Lech Layouts – Main Markers"
+msgstr "Lech Layouts – Main Markers"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Chiemsee Cutters – Main Markers"
+msgstr "Chiemsee Cutters – Main Markers"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Donau Discs – Wörthsee Wings"
+msgstr "Donau Discs – Wörthsee Wings"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Lech Layouts – Donau Discs"
+msgstr "Lech Layouts – Donau Discs"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Isar Insides – Chiemsee Cutters"
+msgstr "Isar Insides – Chiemsee Cutters"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Isar Insides – Main Markers"
+msgstr "Isar Insides – Main Markers"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Lech Layouts – Wörthsee Wings"
+msgstr "Lech Layouts – Wörthsee Wings"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Chiemsee Cutters – Wörthsee Wings"
+msgstr "Chiemsee Cutters – Wörthsee Wings"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Donau Discs – Main Markers"
+msgstr "Donau Discs – Main Markers"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Platz 6 gegen Platz 5 der Gruppenphase"
+msgstr "Platz 6 gegen Platz 5 der Gruppenphase"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Platz 4 gegen Platz 3 der Gruppenphase"
+msgstr "Platz 4 gegen Platz 3 der Gruppenphase"
+
+#: src/lib/data/schedules/ultimate.ts
+msgid "Kunstrasen"
+msgstr "Kunstrasen"

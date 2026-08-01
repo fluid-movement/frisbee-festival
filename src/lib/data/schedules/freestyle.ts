@@ -31,7 +31,8 @@ export const getFreestyleSchedule = (): DisciplineSchedule => ({
 			},
 			{
 				time: '14:00 - 16:30',
-				label: 'Halbfinale Open Coop',
+        label: 'Halbfinale Open Coop',
+        place: 'Halle 1',
 				description:
 					'Beim Halbfinale der Open Coop Kategorie demonstrieren Dreierteams ihr blindes Verständnis und ihre Geschicklichkeit an der Scheibe um ins Finale am Sonntag einzuziehen.',
 				type: 'tournament'

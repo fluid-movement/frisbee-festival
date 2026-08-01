@@ -92,7 +92,7 @@ export const getUltimateSchedule = (): DisciplineSchedule => ({
 				label: 'Workshop Ultimate Frisbee',
 				description:
 					'Parallel zu den ersten Finalspielen auf SF Süd findet auf dem SF Nord ein Mitmachangebot statt: ein Workshop für alle Interessierten an Ultimate Frisbee. Ihr braucht nur einigermaßen sportliche Kleidung und Turnschuhe.',
-				place: 'Feld Nord',
+				place: 'Kunstrasen',
 				type: 'workshop',
 				id: 'ultimate-workshop',
 				image: workshopImage
