@@ -80,6 +80,18 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://frisbee-festival-munich.de/"/>
   </url>
   <url>
+    <loc>https://frisbee-festival-munich.de/ergebnisse</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://frisbee-festival-munich.de/ergebnisse"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://frisbee-festival-munich.de/en/ergebnisse"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://frisbee-festival-munich.de/ergebnisse"/>
+  </url>
+  <url>
+    <loc>https://frisbee-festival-munich.de/en/ergebnisse</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://frisbee-festival-munich.de/ergebnisse"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://frisbee-festival-munich.de/en/ergebnisse"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://frisbee-festival-munich.de/ergebnisse"/>
+  </url>
+  <url>
     <loc>https://frisbee-festival-munich.de/faq</loc>
     <xhtml:link rel="alternate" hreflang="de" href="https://frisbee-festival-munich.de/faq"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://frisbee-festival-munich.de/en/faq"/>
