@@ -3,6 +3,7 @@
 	import CalendarIcon from '@lucide/svelte/icons/calendar';
 	import HouseIcon from '@lucide/svelte/icons/house';
 	import AwardIcon from '@lucide/svelte/icons/award';
+	import TrophyIcon from '@lucide/svelte/icons/trophy';
 	import DiscIcon from '@lucide/svelte/icons/disc';
 	import MessageCircleQuestionMarkIcon from '@lucide/svelte/icons/message-circle-question-mark';
 	import * as Sidebar from '$lib/components/ui/sidebar/index.js';
@@ -47,6 +48,21 @@
 								>
 									<CalendarIcon />
 									<span>Zuschauen</span>
+								</a>
+							{/snippet}
+						</Sidebar.MenuButton>
+					</Sidebar.MenuItem>
+
+					<!-- Ergebnisse -->
+					<Sidebar.MenuItem>
+						<Sidebar.MenuButton onclick={sidebar.toggle} isActive={currentPath === '/ergebnisse'}>
+							{#snippet child({ props })}
+								<a
+									href={resolve('/[[locale=lang]]/ergebnisse', { locale: getLocaleForUrl() })}
+									{...props}
+								>
+									<TrophyIcon />
+									<span>Ergebnisse</span>
 								</a>
 							{/snippet}
 						</Sidebar.MenuButton>

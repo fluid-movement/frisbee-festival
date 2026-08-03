@@ -26,6 +26,9 @@
 					<FooterLink href="/[[locale=lang]]/programm">Programm</FooterLink>
 				</li>
 				<li>
+					<FooterLink href="/[[locale=lang]]/ergebnisse">Ergebnisse</FooterLink>
+				</li>
+				<li>
 					<FooterLink href="/[[locale=lang]]/mitmachen">Mitmachen</FooterLink>
 				</li>
 				<li>
@@ -48,7 +51,7 @@
 				</li>
 				<li class="flex items-center gap-2">
 					<MapPin class="h-4 w-4 shrink-0" />
-					<span>Sportschule Oberhaching<br />Im Loh 2<br/>82041 Oberhaching</span>
+					<span>Sportschule Oberhaching<br />Im Loh 2<br />82041 Oberhaching</span>
 				</li>
 			</ul>
 		</div>

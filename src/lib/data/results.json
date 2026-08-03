@@ -1,0 +1,137 @@
+{
+	"disciplines": [
+		{
+			"discipline": "freestyle",
+			"divisions": [
+				{
+					"id": "freestyle-coop",
+					"division": "coop",
+					"photo": "freestyle-coop.jpg",
+					"podium": [
+						"Riccardo Montanari / Fabio Nizzo / Marco Prati",
+						"Tom Leitner / Anka Radwanska / Fabian Dinklage",
+						"Tymek Wrotek / Mateusz Gajewski / Oliver Peters"
+					]
+				},
+				{
+					"id": "freestyle-women",
+					"division": "women",
+					"photo": "freestyle-women.jpg",
+					"podium": [
+						"Benedicte Audet / Lisa Hunrichs",
+						"Cindy St. Mary / Bianca Strunz Kostel",
+						"Gaja Karolczak / Asia Szukalska"
+					]
+				},
+				{
+					"id": "freestyle-mixed",
+					"division": "mixed",
+					"photo": "freestyle-mixed.jpg",
+					"podium": [
+						"Benedicte Audet / Mehrdad Hosseinian",
+						"Marco Prati / Ilka Simon",
+						"Reto Zimmerman / Sara Zimmerman"
+					]
+				},
+				{
+					"id": "freestyle-open",
+					"division": "open",
+					"photo": "freestyle-open.jpg",
+					"podium": [
+						"Fabian Dinklage / William Ho",
+						"Marco Prati / Fabio Nizzo",
+						"Daniel O'Neill / Mehrdad Hosseinian"
+					]
+				}
+			]
+		},
+		{
+			"discipline": "double-disc-court",
+			"divisions": [
+				{
+					"id": "ddc-open",
+					"division": "open",
+					"podium": [
+						"Marc Pestotnik (Berlin) & Marc Blumentritt (Braunschweig)",
+						"Mark Püttmann (Bielefeld) & Jan Müller (Bielefeld)",
+						"Niclas Biste (Taufkirchen) & Ingo Heidenfelder (Taufkirchen)",
+						"Udo Kern (Taufkirchen) & Thomas Kern (Marburg)",
+						"Utz Spätz (Berlin) & Lars Senska (Bielefeld)",
+						"Florin Heering (Taufkirchen) & Nico Huene (Taufkirchen)",
+						"Ingo Herking (Münster) & Gerrit Warnking (Münster)",
+						"Volker Kaufmann (Freiburg) & Raphael Vogler (Freiburg)",
+						"Martin Höser (Hamburg) & Jana Gehlken (Hamburg)",
+						"Amrei Zinne (Bielefeld) & Lina Johannsen (Münster)",
+						"Erik Weidenbach (Taufkirchen) & Peter Wattendorff (Münster)"
+					]
+				}
+			]
+		},
+		{
+			"discipline": "disc-golf",
+			"divisions": [
+				{
+					"id": "disc-golf-junior-18",
+					"division": "junior-18",
+					"podium": ["Valentin Reitemann", "Konstantin Kastl", "Rahul Ramadas"]
+				},
+				{
+					"id": "disc-golf-open",
+					"division": "open",
+					"podium": [
+						"Florian Lingenhel",
+						"Herbert Grünsteidl",
+						{
+							"name": "Jakob Ettlinger",
+							"place": 3
+						},
+						{
+							"name": "Alexander Jahr",
+							"place": 3
+						}
+					]
+				},
+				{
+					"id": "disc-golf-women",
+					"division": "women",
+					"podium": ["Julia Hauch", "Katrin Ellmaier", "Lilia Lamberger"]
+				},
+				{
+					"id": "disc-golf-women-master-40",
+					"division": "women-master-40",
+					"podium": ["Birgit Lingenhel", "Katja Kölbl"]
+				},
+				{
+					"id": "disc-golf-women-master-50",
+					"division": "women-master-50",
+					"podium": [
+						{
+							"name": "Sonja Reinhart",
+							"playoff": true
+						},
+						{
+							"name": "Margit Epple",
+							"playoff": true
+						},
+						"Susanne Coldewey"
+					]
+				},
+				{
+					"id": "disc-golf-master-40",
+					"division": "master-40",
+					"podium": ["Werner Riebesel", "Alexander Froese", "Stephan Kessler"]
+				},
+				{
+					"id": "disc-golf-master-50",
+					"division": "master-50",
+					"podium": ["Henning von Bandemer", "Jürgen Reichelt", "Marcus Winkler"]
+				},
+				{
+					"id": "disc-golf-master-60",
+					"division": "master-60",
+					"podium": ["Willi Terbeck", "Rudolf Haag", "Harald Kucera"]
+				}
+			]
+		}
+	]
+}

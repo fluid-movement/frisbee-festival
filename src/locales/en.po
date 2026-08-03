@@ -224,6 +224,7 @@ msgstr "Welcome to"
 #: src/routes/[[locale=lang]]/(disciplines)/ultimate/+page.svelte
 #: src/routes/[[locale=lang]]/(disciplines)/wheelchair-ultimate/+page.svelte
 #: src/routes/[[locale=lang]]/+page.svelte
+#: src/routes/[[locale=lang]]/ergebnisse/+page.svelte
 #: src/routes/[[locale=lang]]/faq/+page.svelte
 #: src/routes/[[locale=lang]]/mitmachen/+page.svelte
 #: src/routes/[[locale=lang]]/programm/+page.svelte
@@ -398,6 +399,7 @@ msgstr "Toggle Sidebar"
 msgid "{0} von {1} Einträgen angezeigt"
 msgstr "{0} of {1} entries shown"
 
+#: src/routes/[[locale=lang]]/ergebnisse/+page.svelte
 #: src/routes/[[locale=lang]]/programm/+page.svelte
 msgid "<0/> Filter entfernen"
 msgstr "<0/> Clear filters"
@@ -1778,3 +1780,103 @@ msgstr "4th vs 3rd of the group phase"
 #: src/lib/data/schedules/ultimate.ts
 msgid "Kunstrasen"
 msgstr "Artificial Turf"
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "Das Festival ist vorbei – hier sind die Ergebnisse."
+msgstr "The event is over – here are the results."
+
+#: src/routes/[[locale=lang]]/+page.svelte
+msgid "<0/> Zu den Ergebnissen <1/>"
+msgstr "<0/> See the results <1/>"
+
+#: src/lib/components/layout/AppSidebar.svelte
+#: src/lib/components/layout/Footer.svelte
+#: src/lib/components/layout/Navigation.svelte
+#: src/routes/[[locale=lang]]/ergebnisse/+page.svelte
+msgid "Ergebnisse"
+msgstr "Results"
+
+#: src/lib/components/results/PodiumCard.svelte
+msgid "Open"
+msgstr "Open"
+
+#: src/lib/components/results/PodiumCard.svelte
+msgid "Damen"
+msgstr "Women"
+
+#: src/lib/components/results/PodiumCard.svelte
+msgid "Mixed"
+msgstr "Mixed"
+
+#: src/lib/components/results/PodiumCard.svelte
+msgid "Coop"
+msgstr "Coop"
+
+#: src/lib/components/results/PodiumCard.svelte
+msgid "Junioren 18"
+msgstr "Juniors 18"
+
+#: src/lib/components/results/PodiumCard.svelte
+msgid "Master 40"
+msgstr "Master 40"
+
+#: src/lib/components/results/PodiumCard.svelte
+msgid "Master 50"
+msgstr "Master 50"
+
+#: src/lib/components/results/PodiumCard.svelte
+msgid "Master 60"
+msgstr "Master 60"
+
+#: src/lib/components/results/PodiumCard.svelte
+msgid "Damen Master 40"
+msgstr "Women Master 40"
+
+#: src/lib/components/results/PodiumCard.svelte
+msgid "Damen Master 50"
+msgstr "Women Master 50"
+
+#: src/lib/components/results/PodiumCard.svelte
+msgid "(geteilt)"
+msgstr "(shared)"
+
+#: src/lib/components/results/PodiumCard.svelte
+msgid "(nach Stechen)"
+msgstr "(after playoff)"
+
+#. placeholder {0}: disciplineName
+#. placeholder {1}: divisionLabel
+#: src/lib/components/results/PodiumCard.svelte
+msgid "Siegerehrung {0} {1}"
+msgstr "Award ceremony {0} {1}"
+
+#: src/routes/[[locale=lang]]/ergebnisse/+page.svelte
+#: src/routes/[[locale=lang]]/ergebnisse/+page.svelte
+msgid "Ergebnisse | Frisbee Festival München"
+msgstr "Results | Frisbee Festival Munich"
+
+#: src/routes/[[locale=lang]]/ergebnisse/+page.svelte
+#: src/routes/[[locale=lang]]/ergebnisse/+page.svelte
+msgid "Alle Ergebnisse des Frisbee Festivals München: die Podestplätze aller Sportarten und Divisionen vom 1.–2. August 2026 in der Sportschule Oberhaching."
+msgstr "All results of the Frisbee Festival Munich: the podiums of every sport and division from 1–2 August 2026 at the Sportschule Oberhaching."
+
+#: src/routes/[[locale=lang]]/ergebnisse/+page.svelte
+msgid ""
+"Das Festival ist vorbei – und was für ein Wochenende! Hier findest du die Podestplätze aller\n"
+"Sportarten und Divisionen. Vielen Dank an alle Teilnehmenden, Helferinnen und Helfer und\n"
+"Zuschauer, die dieses Wochenende unvergesslich gemacht haben. Nutze die Filter, um direkt zu\n"
+"deiner Sportart zu springen."
+msgstr ""
+"The festival is over – and what a weekend it was! Here you'll find the podiums of every\n"
+"sport and division. A huge thank you to all players, volunteers and spectators who made this\n"
+"weekend unforgettable. Use the filters to jump straight to your sport."
+
+#. placeholder {0}: totalVisible
+#. placeholder {1}: totalAll
+#: src/routes/[[locale=lang]]/ergebnisse/+page.svelte
+msgid "{0} von {1} Divisionen angezeigt"
+msgstr "Showing {0} of {1} divisions"
+
+#: src/routes/[[locale=lang]]/ergebnisse/+page.svelte
+msgid "Für diese Auswahl liegen keine Ergebnisse vor."
+msgstr "No results available for this selection."

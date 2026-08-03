@@ -76,6 +76,19 @@
 			<NavigationMenu.Link>
 				{#snippet child()}
 					<a
+						href={resolve('/[[locale=lang]]/ergebnisse', { locale: getLocaleForUrl() })}
+						class={linkClass}
+					>
+						Ergebnisse
+					</a>
+				{/snippet}
+			</NavigationMenu.Link>
+		</NavigationMenu.Item>
+
+		<NavigationMenu.Item>
+			<NavigationMenu.Link>
+				{#snippet child()}
+					<a
 						href={resolve('/[[locale=lang]]/mitmachen', { locale: getLocaleForUrl() })}
 						class={linkClass}
 					>
