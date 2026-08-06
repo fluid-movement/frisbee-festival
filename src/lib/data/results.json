@@ -1,6 +1,23 @@
 {
 	"disciplines": [
 		{
+			"discipline": "ultimate",
+			"divisions": [
+				{
+					"id": "ultimate-mixed",
+					"division": "mixed",
+					"podium": [
+						"Chiemsee Cutters",
+						"Main Markers",
+						"Isar Insides",
+						"Donau Discs",
+						"Wörthsee Wings",
+						"Lech Layouts"
+					]
+				}
+			]
+		},
+		{
 			"discipline": "freestyle",
 			"divisions": [
 				{
